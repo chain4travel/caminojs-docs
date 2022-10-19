@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM-ValidationTx](api_platformvm_validationtx.md)
+[camino](../README.md) › [API-PlatformVM-ValidationTx](api_platformvm_validationtx.md)
 
 # Module: API-PlatformVM-ValidationTx
 
@@ -21,4 +21,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/validationtx.ts:23](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/validationtx.ts#L23)*
+*Defined in [src/apis/platformvm/validationtx.ts:23](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/validationtx.ts#L23)*

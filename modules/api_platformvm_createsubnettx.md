@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM-CreateSubnetTx](api_platformvm_createsubnettx.md)
+[camino](../README.md) › [API-PlatformVM-CreateSubnetTx](api_platformvm_createsubnettx.md)
 
 # Module: API-PlatformVM-CreateSubnetTx
 

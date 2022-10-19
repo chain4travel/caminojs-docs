@@ -1,10 +1,10 @@
-[avalanche](../README.md) › [src/utils](../modules/src_utils.md) › [AvalancheError](src_utils.avalancheerror.md)
+[camino](../README.md) › [src/utils](../modules/src_utils.md) › [CaminoError](src_utils.caminoerror.md)
 
 # Class: AvalancheError
 
 ## Hierarchy
 
-* [Error](src_utils.avalancheerror.md#static-error)
+* [Error](src_utils.caminoerror.md#static-error)
 
   ↳ **AvalancheError**
 
@@ -102,27 +102,27 @@
 
 ### Constructors
 
-* [constructor](src_utils.avalancheerror.md#constructor)
+* [constructor](src_utils.caminoerror.md#constructor)
 
 ### Properties
 
-* [errorCode](src_utils.avalancheerror.md#errorcode)
-* [message](src_utils.avalancheerror.md#message)
-* [name](src_utils.avalancheerror.md#name)
-* [stack](src_utils.avalancheerror.md#optional-stack)
-* [Error](src_utils.avalancheerror.md#static-error)
+* [errorCode](src_utils.caminoerror.md#errorcode)
+* [message](src_utils.caminoerror.md#message)
+* [name](src_utils.caminoerror.md#name)
+* [stack](src_utils.caminoerror.md#optional-stack)
+* [Error](src_utils.caminoerror.md#static-error)
 
 ### Methods
 
-* [getCode](src_utils.avalancheerror.md#getcode)
+* [getCode](src_utils.caminoerror.md#getcode)
 
 ## Constructors
 
 ###  constructor
 
-\+ **new AvalancheError**(`m`: string, `code`: string): *[AvalancheError](src_utils.avalancheerror.md)*
+\+ **new AvalancheError**(`m`: string, `code`: string): *[CaminoError](src_utils.caminoerror.md)*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L48)*
 
 **Parameters:**
 
@@ -131,7 +131,7 @@ Name | Type |
 `m` | string |
 `code` | string |
 
-**Returns:** *[AvalancheError](src_utils.avalancheerror.md)*
+**Returns:** *[CaminoError](src_utils.caminoerror.md)*
 
 ## Properties
 
@@ -139,7 +139,7 @@ Name | Type |
 
 • **errorCode**: *string*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L48)*
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 • **message**: *string*
 
-*Inherited from [AvalancheError](src_utils.avalancheerror.md).[message](src_utils.avalancheerror.md#message)*
+*Inherited from [CaminoError](src_utils.caminoerror.md).[message](src_utils.caminoerror.md#message)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1029
 
@@ -157,7 +157,7 @@ ___
 
 • **name**: *string*
 
-*Inherited from [AvalancheError](src_utils.avalancheerror.md).[name](src_utils.avalancheerror.md#name)*
+*Inherited from [CaminoError](src_utils.caminoerror.md).[name](src_utils.caminoerror.md#name)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1028
 
@@ -167,7 +167,7 @@ ___
 
 • **stack**? : *string*
 
-*Inherited from [AvalancheError](src_utils.avalancheerror.md).[stack](src_utils.avalancheerror.md#optional-stack)*
+*Inherited from [CaminoError](src_utils.caminoerror.md).[stack](src_utils.caminoerror.md#optional-stack)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1030
 
@@ -185,6 +185,6 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:1039
 
 ▸ **getCode**(): *string*
 
-*Defined in [src/utils/errors.ts:55](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/errors.ts#L55)*
+*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L55)*
 
 **Returns:** *string*

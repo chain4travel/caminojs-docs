@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [Level](admin_interfaces.level.md)
+[camino](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [Level](admin_interfaces.level.md)
 
 # Interface: Level
 
@@ -19,7 +19,7 @@
 
 • **displayLevel**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:26](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L26)*
+*Defined in [src/apis/admin/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L26)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **logLevel**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:25](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L25)*
+*Defined in [src/apis/admin/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L25)*

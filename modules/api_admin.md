@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-Admin](api_admin.md)
+[camino](../README.md) › [API-Admin](api_admin.md)
 
 # Module: API-Admin
 

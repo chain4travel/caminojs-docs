@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM-Constants](api_platformvm_constants.md)
+[camino](../README.md) › [API-PlatformVM-Constants](api_platformvm_constants.md)
 
 # Module: API-PlatformVM-Constants
 

@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-AVM-Constants](api_avm_constants.md)
+[camino](../README.md) › [API-AVM-Constants](api_avm_constants.md)
 
 # Module: API-AVM-Constants
 

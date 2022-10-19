@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM-Credentials](api_platformvm_credentials.md)
+[camino](../README.md) › [API-PlatformVM-Credentials](api_platformvm_credentials.md)
 
 # Module: API-PlatformVM-Credentials
 
@@ -18,7 +18,7 @@
 
 ▸ **SelectCredentialClass**(`credid`: number, ...`args`: any[]): *[Credential](../classes/common_signature.credential.md)*
 
-*Defined in [src/apis/platformvm/credentials.ts:17](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/credentials.ts#L17)*
+*Defined in [src/apis/platformvm/credentials.ts:17](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/credentials.ts#L17)*
 
 Takes a buffer representing the credential and returns the proper [Credential](../classes/common_signature.credential.md) instance.
 

@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetContainerRangeParams](index_interfaces.getcontainerrangeparams.md)
+[camino](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetContainerRangeParams](index_interfaces.getcontainerrangeparams.md)
 
 # Interface: GetContainerRangeParams
 
@@ -24,7 +24,7 @@
 
 *Inherited from [BaseIndexParams](index_interfaces.baseindexparams.md).[encoding](index_interfaces.baseindexparams.md#encoding)*
 
-*Defined in [src/apis/index/interfaces.ts:7](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L7)*
+*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/interfaces.ts#L7)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **numToFetch**: *number*
 
-*Defined in [src/apis/index/interfaces.ts:40](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L40)*
+*Defined in [src/apis/index/interfaces.ts:40](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/interfaces.ts#L40)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 • **startIndex**: *number*
 
-*Defined in [src/apis/index/interfaces.ts:39](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L39)*
+*Defined in [src/apis/index/interfaces.ts:39](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/interfaces.ts#L39)*

@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [UptimeResponse](info_interfaces.uptimeresponse.md)
+[camino](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [UptimeResponse](info_interfaces.uptimeresponse.md)
 
 # Interface: UptimeResponse
 
@@ -19,7 +19,7 @@
 
 • **rewardingStakePercentage**: *string*
 
-*Defined in [src/apis/info/interfaces.ts:35](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/info/interfaces.ts#L35)*
+*Defined in [src/apis/info/interfaces.ts:35](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/info/interfaces.ts#L35)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **weightedAveragePercentage**: *string*
 
-*Defined in [src/apis/info/interfaces.ts:36](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/info/interfaces.ts#L36)*
+*Defined in [src/apis/info/interfaces.ts:36](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/info/interfaces.ts#L36)*

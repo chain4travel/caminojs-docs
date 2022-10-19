@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-JRPCAPI](common_jrpcapi.md)
+[camino](../README.md) › [Common-JRPCAPI](common_jrpcapi.md)
 
 # Module: Common-JRPCAPI
 

@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM-BaseTx](api_platformvm_basetx.md)
+[camino](../README.md) › [API-PlatformVM-BaseTx](api_platformvm_basetx.md)
 
 # Module: API-PlatformVM-BaseTx
 

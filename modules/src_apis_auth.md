@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [src/apis/auth](src_apis_auth.md)
+[camino](../README.md) › [src/apis/auth](src_apis_auth.md)
 
 # Module: src/apis/auth
 

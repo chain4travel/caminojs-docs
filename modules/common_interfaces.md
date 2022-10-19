@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-Interfaces](common_interfaces.md)
+[camino](../README.md) › [Common-Interfaces](common_interfaces.md)
 
 # Module: Common-Interfaces
 

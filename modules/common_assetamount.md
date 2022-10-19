@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-AssetAmount](common_assetamount.md)
+[camino](../README.md) › [Common-AssetAmount](common_assetamount.md)
 
 # Module: Common-AssetAmount
 

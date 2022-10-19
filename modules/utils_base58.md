@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Utils-Base58](utils_base58.md)
+[camino](../README.md) › [Utils-Base58](utils_base58.md)
 
 # Module: Utils-Base58
 

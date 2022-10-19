@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-Auth](api_auth.md)
+[camino](../README.md) › [API-Auth](api_auth.md)
 
 # Module: API-Auth
 

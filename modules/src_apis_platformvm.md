@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [src/apis/platformvm](src_apis_platformvm.md)
+[camino](../README.md) › [src/apis/platformvm](src_apis_platformvm.md)
 
 # Module: src/apis/platformvm
 

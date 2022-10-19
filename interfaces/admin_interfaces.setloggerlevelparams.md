@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelParams](admin_interfaces.setloggerlevelparams.md)
+[camino](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelParams](admin_interfaces.setloggerlevelparams.md)
 
 # Interface: SetLoggerLevelParams
 
@@ -20,7 +20,7 @@
 
 • **displayLevel**? : *string*
 
-*Defined in [src/apis/admin/interfaces.ts:52](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L52)*
+*Defined in [src/apis/admin/interfaces.ts:52](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L52)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **logLevel**? : *string*
 
-*Defined in [src/apis/admin/interfaces.ts:51](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L51)*
+*Defined in [src/apis/admin/interfaces.ts:51](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L51)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **loggerName**? : *string*
 
-*Defined in [src/apis/admin/interfaces.ts:50](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L50)*
+*Defined in [src/apis/admin/interfaces.ts:50](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L50)*

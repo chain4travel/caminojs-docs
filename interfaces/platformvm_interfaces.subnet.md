@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Subnet](platformvm_interfaces.subnet.md)
+[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Subnet](platformvm_interfaces.subnet.md)
 
 # Interface: Subnet
 
@@ -20,7 +20,7 @@
 
 • **controlKeys**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:163](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L163)*
+*Defined in [src/apis/platformvm/interfaces.ts:163](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L163)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **ids**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:162](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L162)*
+*Defined in [src/apis/platformvm/interfaces.ts:162](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L162)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **threshold**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:164](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L164)*
+*Defined in [src/apis/platformvm/interfaces.ts:164](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L164)*

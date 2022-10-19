@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [src/apis/keystore](src_apis_keystore.md)
+[camino](../README.md) › [src/apis/keystore](src_apis_keystore.md)
 
 # Module: src/apis/keystore
 

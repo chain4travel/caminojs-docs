@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Utils-Constants](../modules/utils_constants.md) › [Networks](utils_constants.networks.md)
+[camino](../README.md) › [Utils-Constants](../modules/utils_constants.md) › [Networks](utils_constants.networks.md)
 
 # Interface: Networks
 

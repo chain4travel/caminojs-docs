@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-AVM-ImportTx](api_avm_importtx.md)
+[camino](../README.md) › [API-AVM-ImportTx](api_avm_importtx.md)
 
 # Module: API-AVM-ImportTx
 
@@ -20,7 +20,7 @@
 
 • **buffer**: *[SerializedType](utils_serialization.md#serializedtype)* = "Buffer"
 
-*Defined in [src/apis/avm/importtx.ts:32](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/importtx.ts#L32)*
+*Defined in [src/apis/avm/importtx.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/importtx.ts#L32)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **cb58**: *[SerializedType](utils_serialization.md#serializedtype)* = "cb58"
 
-*Defined in [src/apis/avm/importtx.ts:31](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/importtx.ts#L31)*
+*Defined in [src/apis/avm/importtx.ts:31](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/importtx.ts#L31)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/avm/importtx.ts:30](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/importtx.ts#L30)*
+*Defined in [src/apis/avm/importtx.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/importtx.ts#L30)*

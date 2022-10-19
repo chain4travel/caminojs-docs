@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-AVM-Vertex](api_avm_vertex.md)
+[camino](../README.md) › [API-AVM-Vertex](api_avm_vertex.md)
 
 # Module: API-AVM-Vertex
 

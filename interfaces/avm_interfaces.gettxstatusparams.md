@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetTxStatusParams](avm_interfaces.gettxstatusparams.md)
+[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetTxStatusParams](avm_interfaces.gettxstatusparams.md)
 
 # Interface: GetTxStatusParams
 
@@ -18,4 +18,4 @@
 
 • **txID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:99](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/interfaces.ts#L99)*
+*Defined in [src/apis/avm/interfaces.ts:99](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L99)*

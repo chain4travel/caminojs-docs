@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [PlatformVM-Interfaces](platformvm_interfaces.md)
+[camino](../README.md) › [PlatformVM-Interfaces](platformvm_interfaces.md)
 
 # Module: PlatformVM-Interfaces
 

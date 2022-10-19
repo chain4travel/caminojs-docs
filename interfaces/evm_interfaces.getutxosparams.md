@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [GetUTXOsParams](evm_interfaces.getutxosparams.md)
+[camino](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [GetUTXOsParams](evm_interfaces.getutxosparams.md)
 
 # Interface: GetUTXOsParams
 
@@ -22,7 +22,7 @@
 
 • **addresses**: *string[] | string*
 
-*Defined in [src/apis/evm/interfaces.ts:31](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L31)*
+*Defined in [src/apis/evm/interfaces.ts:31](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L31)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **encoding**? : *string*
 
-*Defined in [src/apis/evm/interfaces.ts:35](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L35)*
+*Defined in [src/apis/evm/interfaces.ts:35](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L35)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **limit**: *number*
 
-*Defined in [src/apis/evm/interfaces.ts:32](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L32)*
+*Defined in [src/apis/evm/interfaces.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L32)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **sourceChain**? : *string*
 
-*Defined in [src/apis/evm/interfaces.ts:33](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L33)*
+*Defined in [src/apis/evm/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L33)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **startIndex**? : *[Index](common_interfaces.index.md)*
 
-*Defined in [src/apis/evm/interfaces.ts:34](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L34)*
+*Defined in [src/apis/evm/interfaces.ts:34](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L34)*

@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAssetDescriptionParams](avm_interfaces.getassetdescriptionparams.md)
+[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAssetDescriptionParams](avm_interfaces.getassetdescriptionparams.md)
 
 # Interface: GetAssetDescriptionParams
 
@@ -18,4 +18,4 @@
 
 • **assetID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:83](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/interfaces.ts#L83)*
+*Defined in [src/apis/avm/interfaces.ts:83](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L83)*

@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [IssueTxParams](common_interfaces.issuetxparams.md)
+[camino](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [IssueTxParams](common_interfaces.issuetxparams.md)
 
 # Interface: IssueTxParams
 
@@ -19,7 +19,7 @@
 
 • **encoding**: *string*
 
-*Defined in [src/common/interfaces.ts:16](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/interfaces.ts#L16)*
+*Defined in [src/common/interfaces.ts:16](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L16)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **tx**: *string*
 
-*Defined in [src/common/interfaces.ts:15](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/interfaces.ts#L15)*
+*Defined in [src/common/interfaces.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L15)*

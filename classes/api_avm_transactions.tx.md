@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-AVM-Transactions](../modules/api_avm_transactions.md) › [Tx](api_avm_transactions.tx.md)
+[camino](../README.md) › [API-AVM-Transactions](../modules/api_avm_transactions.md) › [Tx](api_avm_transactions.tx.md)
 
 # Class: Tx
 
@@ -46,7 +46,7 @@
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[constructor](common_transactions.standardtx.md#constructor)*
 
-*Defined in [src/common/tx.ts:464](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L464)*
+*Defined in [src/common/tx.ts:464](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L464)*
 
 Class representing a signed transaction.
 
@@ -67,7 +67,7 @@ Name | Type | Default | Description |
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[_codecID](common_nbytes.nbytes.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 *Overrides [StandardTx](common_transactions.standardtx.md).[_typeID](common_transactions.standardtx.md#protected-_typeid)*
 
-*Defined in [src/apis/avm/tx.ts:95](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/tx.ts#L95)*
+*Defined in [src/apis/avm/tx.ts:95](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/tx.ts#L95)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 *Overrides [StandardTx](common_transactions.standardtx.md).[_typeName](common_transactions.standardtx.md#protected-_typename)*
 
-*Defined in [src/apis/avm/tx.ts:94](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/tx.ts#L94)*
+*Defined in [src/apis/avm/tx.ts:94](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/tx.ts#L94)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[credentials](common_transactions.standardtx.md#protected-credentials)*
 
-*Defined in [src/common/tx.ts:393](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L393)*
+*Defined in [src/common/tx.ts:393](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L393)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[unsignedTx](common_transactions.standardtx.md#protected-unsignedtx)*
 
-*Defined in [src/common/tx.ts:392](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L392)*
+*Defined in [src/common/tx.ts:392](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L392)*
 
 ## Methods
 
@@ -117,7 +117,7 @@ ___
 
 *Overrides [StandardParseableOutput](common_output.standardparseableoutput.md).[deserialize](common_output.standardparseableoutput.md#deserialize)*
 
-*Defined in [src/apis/avm/tx.ts:99](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/tx.ts#L99)*
+*Defined in [src/apis/avm/tx.ts:99](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/tx.ts#L99)*
 
 **Parameters:**
 
@@ -136,7 +136,7 @@ ___
 
 *Overrides [StandardTx](common_transactions.standardtx.md).[fromBuffer](common_transactions.standardtx.md#abstract-frombuffer)*
 
-*Defined in [src/apis/avm/tx.ts:121](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/tx.ts#L121)*
+*Defined in [src/apis/avm/tx.ts:121](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/tx.ts#L121)*
 
 Takes a [Buffer](https://github.com/feross/buffer) containing an [Tx](api_avm_transactions.tx.md), parses it, populates the class, and returns the length of the Tx in bytes.
 
@@ -159,7 +159,7 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[fromString](common_transactions.standardtx.md#fromstring)*
 
-*Defined in [src/common/tx.ts:448](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L448)*
+*Defined in [src/common/tx.ts:448](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L448)*
 
 Takes a base-58 string containing an [StandardTx](common_transactions.standardtx.md), parses it, populates the class, and returns the length of the Tx in bytes.
 
@@ -184,7 +184,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[getCodecID](common_nbytes.nbytes.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -198,7 +198,7 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[getCredentials](common_transactions.standardtx.md#getcredentials)*
 
-*Defined in [src/common/tx.ts:398](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L398)*
+*Defined in [src/common/tx.ts:398](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L398)*
 
 Returns the [[Credential[]]]
 
@@ -212,7 +212,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeID](common_nbytes.nbytes.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -226,7 +226,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeName](common_nbytes.nbytes.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -240,7 +240,7 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[getUnsignedTx](common_transactions.standardtx.md#getunsignedtx)*
 
-*Defined in [src/common/tx.ts:405](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L405)*
+*Defined in [src/common/tx.ts:405](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L405)*
 
 Returns the [StandardUnsignedTx](common_transactions.standardunsignedtx.md)
 
@@ -254,7 +254,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[sanitizeObject](common_nbytes.nbytes.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -276,7 +276,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[serialize](utils_serialization.serializable.md#serialize)*
 
-*Defined in [src/common/tx.ts:383](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L383)*
+*Defined in [src/common/tx.ts:383](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L383)*
 
 **Parameters:**
 
@@ -294,7 +294,7 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[toBuffer](common_transactions.standardtx.md#tobuffer)*
 
-*Defined in [src/common/tx.ts:414](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L414)*
+*Defined in [src/common/tx.ts:414](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L414)*
 
 Returns a [Buffer](https://github.com/feross/buffer) representation of the [StandardTx](common_transactions.standardtx.md).
 
@@ -308,7 +308,7 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[toString](common_transactions.standardtx.md#tostring)*
 
-*Defined in [src/common/tx.ts:458](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L458)*
+*Defined in [src/common/tx.ts:458](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L458)*
 
 Returns a cb58 representation of the [StandardTx](common_transactions.standardtx.md).
 
@@ -325,6 +325,6 @@ ___
 
 *Inherited from [StandardTx](common_transactions.standardtx.md).[toStringHex](common_transactions.standardtx.md#tostringhex)*
 
-*Defined in [src/common/tx.ts:462](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L462)*
+*Defined in [src/common/tx.ts:462](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/tx.ts#L462)*
 
 **Returns:** *string*

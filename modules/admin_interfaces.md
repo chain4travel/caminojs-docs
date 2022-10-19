@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Admin-Interfaces](admin_interfaces.md)
+[camino](../README.md) › [Admin-Interfaces](admin_interfaces.md)
 
 # Module: Admin-Interfaces
 

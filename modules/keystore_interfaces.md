@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Keystore-Interfaces](keystore_interfaces.md)
+[camino](../README.md) › [Keystore-Interfaces](keystore_interfaces.md)
 
 # Module: Keystore-Interfaces
 

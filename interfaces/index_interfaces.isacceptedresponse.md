@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [IsAcceptedResponse](index_interfaces.isacceptedresponse.md)
+[camino](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [IsAcceptedResponse](index_interfaces.isacceptedresponse.md)
 
 # Interface: IsAcceptedResponse
 
@@ -18,4 +18,4 @@
 
 • **isAccepted**: *boolean*
 
-*Defined in [src/apis/index/interfaces.ts:44](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L44)*
+*Defined in [src/apis/index/interfaces.ts:44](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/interfaces.ts#L44)*

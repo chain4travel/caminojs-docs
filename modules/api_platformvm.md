@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM](api_platformvm.md)
+[camino](../README.md) › [API-PlatformVM](api_platformvm.md)
 
 # Module: API-PlatformVM
 
@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/api.ts:72](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/api.ts#L72)*
+*Defined in [src/apis/platformvm/api.ts:72](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L72)*

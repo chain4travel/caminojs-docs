@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-Output](common_output.md)
+[camino](../README.md) › [Common-Output](common_output.md)
 
 # Module: Common-Output
 
@@ -24,4 +24,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/output.ts:22](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/output.ts#L22)*
+*Defined in [src/common/output.ts:22](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L22)*

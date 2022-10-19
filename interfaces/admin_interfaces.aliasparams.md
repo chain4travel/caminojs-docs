@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [AliasParams](admin_interfaces.aliasparams.md)
+[camino](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [AliasParams](admin_interfaces.aliasparams.md)
 
 # Interface: AliasParams
 
@@ -19,7 +19,7 @@
 
 • **alias**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:8](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L8)*
+*Defined in [src/apis/admin/interfaces.ts:8](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L8)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **endpoint**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:7](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L7)*
+*Defined in [src/apis/admin/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L7)*

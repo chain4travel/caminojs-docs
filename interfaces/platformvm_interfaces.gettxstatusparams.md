@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetTxStatusParams](platformvm_interfaces.gettxstatusparams.md)
+[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetTxStatusParams](platformvm_interfaces.gettxstatusparams.md)
 
 # Interface: GetTxStatusParams
 
@@ -19,7 +19,7 @@
 
 • **includeReason**? : *boolean | true*
 
-*Defined in [src/apis/platformvm/interfaces.ts:186](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L186)*
+*Defined in [src/apis/platformvm/interfaces.ts:186](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L186)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **txID**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:185](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L185)*
+*Defined in [src/apis/platformvm/interfaces.ts:185](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L185)*

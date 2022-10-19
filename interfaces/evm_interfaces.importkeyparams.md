@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [ImportKeyParams](evm_interfaces.importkeyparams.md)
+[camino](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [ImportKeyParams](evm_interfaces.importkeyparams.md)
 
 # Interface: ImportKeyParams
 
@@ -24,7 +24,7 @@
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[password](common_interfaces.credsinterface.md#password)*
 
-*Defined in [src/common/interfaces.ts:11](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/interfaces.ts#L11)*
+*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L11)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **privateKey**: *string*
 
-*Defined in [src/apis/evm/interfaces.ts:46](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L46)*
+*Defined in [src/apis/evm/interfaces.ts:46](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L46)*
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[username](common_interfaces.credsinterface.md#username)*
 
-*Defined in [src/common/interfaces.ts:10](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/interfaces.ts#L10)*
+*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L10)*

@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM-KeyChain](api_platformvm_keychain.md)
+[camino](../README.md) › [API-PlatformVM-KeyChain](api_platformvm_keychain.md)
 
 # Module: API-PlatformVM-KeyChain
 
@@ -19,4 +19,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/keychain.ts:14](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/keychain.ts#L14)*
+*Defined in [src/apis/platformvm/keychain.ts:14](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/keychain.ts#L14)*

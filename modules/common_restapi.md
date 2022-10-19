@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-RESTAPI](common_restapi.md)
+[camino](../README.md) › [Common-RESTAPI](common_restapi.md)
 
 # Module: Common-RESTAPI
 

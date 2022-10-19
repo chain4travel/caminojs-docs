@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [AVM-Interfaces](avm_interfaces.md)
+[camino](../README.md) › [AVM-Interfaces](avm_interfaces.md)
 
 # Module: AVM-Interfaces
 

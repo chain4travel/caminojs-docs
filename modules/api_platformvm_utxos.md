@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-PlatformVM-UTXOs](api_platformvm_utxos.md)
+[camino](../README.md) › [API-PlatformVM-UTXOs](api_platformvm_utxos.md)
 
 # Module: API-PlatformVM-UTXOs
 
@@ -20,4 +20,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/utxos.ts:56](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/utxos.ts#L56)*
+*Defined in [src/apis/platformvm/utxos.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/utxos.ts#L56)*

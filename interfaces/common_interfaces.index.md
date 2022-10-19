@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [Index](common_interfaces.index.md)
+[camino](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [Index](common_interfaces.index.md)
 
 # Interface: Index
 
@@ -19,7 +19,7 @@
 
 • **address**: *string*
 
-*Defined in [src/common/interfaces.ts:20](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/interfaces.ts#L20)*
+*Defined in [src/common/interfaces.ts:20](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L20)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **utxo**: *string*
 
-*Defined in [src/common/interfaces.ts:21](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/interfaces.ts#L21)*
+*Defined in [src/common/interfaces.ts:21](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L21)*

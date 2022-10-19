@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-EVM-ImportTx](api_evm_importtx.md)
+[camino](../README.md) › [API-EVM-ImportTx](api_evm_importtx.md)
 
 # Module: API-EVM-ImportTx
 
@@ -18,4 +18,4 @@
 
 • **serializer**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/evm/importtx.ts:30](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/importtx.ts#L30)*
+*Defined in [src/apis/evm/importtx.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L30)*

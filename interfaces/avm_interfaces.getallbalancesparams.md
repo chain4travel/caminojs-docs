@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAllBalancesParams](avm_interfaces.getallbalancesparams.md)
+[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAllBalancesParams](avm_interfaces.getallbalancesparams.md)
 
 # Interface: GetAllBalancesParams
 
@@ -18,4 +18,4 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:79](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/interfaces.ts#L79)*
+*Defined in [src/apis/avm/interfaces.ts:79](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L79)*

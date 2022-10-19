@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-Info](api_info.md)
+[camino](../README.md) › [API-Info](api_info.md)
 
 # Module: API-Info
 

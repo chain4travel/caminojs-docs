@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-EVM-KeyChain](api_evm_keychain.md)
+[camino](../README.md) › [API-EVM-KeyChain](api_evm_keychain.md)
 
 # Module: API-EVM-KeyChain
 
@@ -19,4 +19,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/evm/keychain.ts:15](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/keychain.ts#L15)*
+*Defined in [src/apis/evm/keychain.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L15)*

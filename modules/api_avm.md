@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-AVM](api_avm.md)
+[camino](../README.md) › [API-AVM](api_avm.md)
 
 # Module: API-AVM
 
@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/avm/api.ts:73](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/api.ts#L73)*
+*Defined in [src/apis/avm/api.ts:73](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/api.ts#L73)*

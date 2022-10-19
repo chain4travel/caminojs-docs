@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-Inputs](common_inputs.md)
+[camino](../README.md) › [Common-Inputs](common_inputs.md)
 
 # Module: Common-Inputs
 
@@ -21,4 +21,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/input.ts:19](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/input.ts#L19)*
+*Defined in [src/common/input.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L19)*

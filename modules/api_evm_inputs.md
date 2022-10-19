@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-EVM-Inputs](api_evm_inputs.md)
+[camino](../README.md) › [API-EVM-Inputs](api_evm_inputs.md)
 
 # Module: API-EVM-Inputs
 
@@ -21,7 +21,7 @@
 
 ▸ **SelectInputClass**(`inputID`: number, ...`args`: any[]): *[Input](../classes/common_inputs.input.md)*
 
-*Defined in [src/apis/evm/inputs.ts:32](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/inputs.ts#L32)*
+*Defined in [src/apis/evm/inputs.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/inputs.ts#L32)*
 
 Takes a buffer representing the output and returns the proper [Input](../classes/common_inputs.input.md) instance.
 

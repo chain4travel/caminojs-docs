@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Health-Interfaces](../modules/health_interfaces.md) › [HealthResponse](health_interfaces.healthresponse.md)
+[camino](../README.md) › [Health-Interfaces](../modules/health_interfaces.md) › [HealthResponse](health_interfaces.healthresponse.md)
 
 # Interface: HealthResponse
 
@@ -19,7 +19,7 @@
 
 • **checks**: *[Checks](health_interfaces.checks.md)*
 
-*Defined in [src/apis/health/interfaces.ts:24](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/health/interfaces.ts#L24)*
+*Defined in [src/apis/health/interfaces.ts:24](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/interfaces.ts#L24)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **healthy**: *boolean*
 
-*Defined in [src/apis/health/interfaces.ts:25](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/health/interfaces.ts#L25)*
+*Defined in [src/apis/health/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/interfaces.ts#L25)*

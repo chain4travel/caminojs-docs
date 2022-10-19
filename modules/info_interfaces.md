@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Info-Interfaces](info_interfaces.md)
+[camino](../README.md) › [Info-Interfaces](info_interfaces.md)
 
 # Module: Info-Interfaces
 

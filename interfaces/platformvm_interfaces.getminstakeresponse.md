@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMinStakeResponse](platformvm_interfaces.getminstakeresponse.md)
+[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMinStakeResponse](platformvm_interfaces.getminstakeresponse.md)
 
 # Interface: GetMinStakeResponse
 
@@ -19,7 +19,7 @@
 
 • **minDelegatorStake**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:196](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L196)*
+*Defined in [src/apis/platformvm/interfaces.ts:196](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L196)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **minValidatorStake**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:195](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L195)*
+*Defined in [src/apis/platformvm/interfaces.ts:195](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L195)*

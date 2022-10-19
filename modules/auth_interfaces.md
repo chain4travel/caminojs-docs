@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Auth-Interfaces](auth_interfaces.md)
+[camino](../README.md) › [Auth-Interfaces](auth_interfaces.md)
 
 # Module: Auth-Interfaces
 

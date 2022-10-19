@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [API-AVM-InitialStates](api_avm_initialstates.md)
+[camino](../README.md) › [API-AVM-InitialStates](api_avm_initialstates.md)
 
 # Module: API-AVM-InitialStates
 

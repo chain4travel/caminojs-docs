@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [Common-NBytes](common_nbytes.md)
+[camino](../README.md) › [Common-NBytes](common_nbytes.md)
 
 # Module: Common-NBytes
 
@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/nbytes.ts:19](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/nbytes.ts#L19)*
+*Defined in [src/common/nbytes.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/nbytes.ts#L19)*

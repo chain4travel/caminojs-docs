@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [src/apis/socket](src_apis_socket.md)
+[camino](../README.md) › [src/apis/socket](src_apis_socket.md)
 
 # Module: src/apis/socket
 

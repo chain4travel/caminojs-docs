@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [src/apis/info](src_apis_info.md)
+[camino](../README.md) › [src/apis/info](src_apis_info.md)
 
 # Module: src/apis/info
 

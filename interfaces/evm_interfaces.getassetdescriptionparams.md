@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [GetAssetDescriptionParams](evm_interfaces.getassetdescriptionparams.md)
+[camino](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [GetAssetDescriptionParams](evm_interfaces.getassetdescriptionparams.md)
 
 # Interface: GetAssetDescriptionParams
 
@@ -18,4 +18,4 @@
 
 • **assetID**: *Buffer | string*
 
-*Defined in [src/apis/evm/interfaces.ts:10](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L10)*
+*Defined in [src/apis/evm/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L10)*

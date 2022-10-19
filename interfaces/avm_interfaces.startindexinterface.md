@@ -1,4 +1,4 @@
-[avalanche](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [StartIndexInterface](avm_interfaces.startindexinterface.md)
+[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [StartIndexInterface](avm_interfaces.startindexinterface.md)
 
 # Interface: StartIndexInterface
 
@@ -19,7 +19,7 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:103](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/interfaces.ts#L103)*
+*Defined in [src/apis/avm/interfaces.ts:103](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L103)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **utxo**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:104](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/interfaces.ts#L104)*
+*Defined in [src/apis/avm/interfaces.ts:104](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L104)*
