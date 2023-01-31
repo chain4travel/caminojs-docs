@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Operations](api_avm_operations.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Operations](api_avm_operations.md)
 
 # Module: API-AVM-Operations
 

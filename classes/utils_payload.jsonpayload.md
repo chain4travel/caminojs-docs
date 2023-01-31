@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Payload](../modules/utils_payload.md) › [JSONPayload](utils_payload.jsonpayload.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Payload](../modules/utils_payload.md) › [JSONPayload](utils_payload.jsonpayload.md)
 
 # Class: JSONPayload
 

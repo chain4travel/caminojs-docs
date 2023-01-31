@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportAVAXParams](platformvm_interfaces.importavaxparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportAVAXParams](platformvm_interfaces.importavaxparams.md)
 
 # Interface: ImportAVAXParams
 

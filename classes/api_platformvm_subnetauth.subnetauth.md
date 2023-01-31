@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-SubnetAuth](../modules/api_platformvm_subnetauth.md) › [SubnetAuth](api_platformvm_subnetauth.subnetauth.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-SubnetAuth](../modules/api_platformvm_subnetauth.md) › [SubnetAuth](api_platformvm_subnetauth.subnetauth.md)
 
 # Class: SubnetAuth
 

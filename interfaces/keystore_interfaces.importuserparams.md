@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Keystore-Interfaces](../modules/keystore_interfaces.md) › [ImportUserParams](keystore_interfaces.importuserparams.md)
+[@c4tplatform/caminojs](../api.md) › [Keystore-Interfaces](../modules/keystore_interfaces.md) › [ImportUserParams](keystore_interfaces.importuserparams.md)
 
 # Interface: ImportUserParams
 

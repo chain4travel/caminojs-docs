@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelResponse](admin_interfaces.setloggerlevelresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelResponse](admin_interfaces.setloggerlevelresponse.md)
 
 # Interface: SetLoggerLevelResponse
 

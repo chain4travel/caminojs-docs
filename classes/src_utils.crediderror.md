@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [CredIdError](src_utils.crediderror.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [CredIdError](src_utils.crediderror.md)
 
 # Class: CredIdError
 

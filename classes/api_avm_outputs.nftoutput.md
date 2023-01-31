@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Outputs](../modules/api_avm_outputs.md) › [NFTOutput](api_avm_outputs.nftoutput.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Outputs](../modules/api_avm_outputs.md) › [NFTOutput](api_avm_outputs.nftoutput.md)
 
 # Class: NFTOutput
 

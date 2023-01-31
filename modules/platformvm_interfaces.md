@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](platformvm_interfaces.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](platformvm_interfaces.md)
 
 # Module: PlatformVM-Interfaces
 

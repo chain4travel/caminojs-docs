@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-KeyChain](common_keychain.md)
+[@c4tplatform/caminojs](../api.md) › [Common-KeyChain](common_keychain.md)
 
 # Module: Common-KeyChain
 

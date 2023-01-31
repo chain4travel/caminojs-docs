@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetIsAcceptedParams](index_interfaces.getisacceptedparams.md)
+[@c4tplatform/caminojs](../api.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetIsAcceptedParams](index_interfaces.getisacceptedparams.md)
 
 # Interface: GetIsAcceptedParams
 

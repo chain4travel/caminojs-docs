@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-UTXOs](../modules/common_utxos.md) › [StandardUTXO](common_utxos.standardutxo.md)
+[@c4tplatform/caminojs](../api.md) › [Common-UTXOs](../modules/common_utxos.md) › [StandardUTXO](common_utxos.standardutxo.md)
 
 # Class: StandardUTXO
 

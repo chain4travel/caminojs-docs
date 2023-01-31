@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Credentials](../modules/api_platformvm_credentials.md) › [SECPCredential](api_platformvm_credentials.secpcredential.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Credentials](../modules/api_platformvm_credentials.md) › [SECPCredential](api_platformvm_credentials.secpcredential.md)
 
 # Class: SECPCredential
 

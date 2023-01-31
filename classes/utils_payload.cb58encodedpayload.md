@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Payload](../modules/utils_payload.md) › [cb58EncodedPayload](utils_payload.cb58encodedpayload.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Payload](../modules/utils_payload.md) › [cb58EncodedPayload](utils_payload.cb58encodedpayload.md)
 
 # Class: cb58EncodedPayload
 

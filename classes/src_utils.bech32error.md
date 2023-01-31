@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [Bech32Error](src_utils.bech32error.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [Bech32Error](src_utils.bech32error.md)
 
 # Class: Bech32Error
 

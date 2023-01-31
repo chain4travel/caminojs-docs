@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [InvalidEntropy](src_utils.invalidentropy.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [InvalidEntropy](src_utils.invalidentropy.md)
 
 # Class: InvalidEntropy
 

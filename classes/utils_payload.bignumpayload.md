@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Payload](../modules/utils_payload.md) › [BIGNUMPayload](utils_payload.bignumpayload.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Payload](../modules/utils_payload.md) › [BIGNUMPayload](utils_payload.bignumpayload.md)
 
 # Class: BIGNUMPayload
 

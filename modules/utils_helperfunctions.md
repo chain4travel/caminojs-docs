@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-HelperFunctions](utils_helperfunctions.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-HelperFunctions](utils_helperfunctions.md)
 
 # Module: Utils-HelperFunctions
 

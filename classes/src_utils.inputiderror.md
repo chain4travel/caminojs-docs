@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [InputIdError](src_utils.inputiderror.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [InputIdError](src_utils.inputiderror.md)
 
 # Class: InputIdError
 

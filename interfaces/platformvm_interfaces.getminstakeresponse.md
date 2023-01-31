@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMinStakeResponse](platformvm_interfaces.getminstakeresponse.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMinStakeResponse](platformvm_interfaces.getminstakeresponse.md)
 
 # Interface: GetMinStakeResponse
 

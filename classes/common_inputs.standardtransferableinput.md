@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Inputs](../modules/common_inputs.md) › [StandardTransferableInput](common_inputs.standardtransferableinput.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Inputs](../modules/common_inputs.md) › [StandardTransferableInput](common_inputs.standardtransferableinput.md)
 
 # Class: StandardTransferableInput
 

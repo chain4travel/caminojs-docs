@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [CredsInterface](common_interfaces.credsinterface.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Interfaces](../modules/common_interfaces.md) › [CredsInterface](common_interfaces.credsinterface.md)
 
 # Interface: CredsInterface
 

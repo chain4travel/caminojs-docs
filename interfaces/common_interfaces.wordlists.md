@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [WordLists](common_interfaces.wordlists.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Interfaces](../modules/common_interfaces.md) › [WordLists](common_interfaces.wordlists.md)
 
 # Interface: WordLists
 

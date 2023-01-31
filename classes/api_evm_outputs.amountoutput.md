@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-EVM-Outputs](../modules/api_evm_outputs.md) › [AmountOutput](api_evm_outputs.amountoutput.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-Outputs](../modules/api_evm_outputs.md) › [AmountOutput](api_evm_outputs.amountoutput.md)
 
 # Class: AmountOutput
 

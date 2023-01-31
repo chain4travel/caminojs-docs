@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [ChangePasswordInterface](auth_interfaces.changepasswordinterface.md)
+[@c4tplatform/caminojs](../api.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [ChangePasswordInterface](auth_interfaces.changepasswordinterface.md)
 
 # Interface: ChangePasswordInterface
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Operations](../modules/api_avm_operations.md) › [SECPMintOperation](api_avm_operations.secpmintoperation.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Operations](../modules/api_avm_operations.md) › [SECPMintOperation](api_avm_operations.secpmintoperation.md)
 
 # Class: SECPMintOperation
 

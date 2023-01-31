@@ -1,4 +1,4 @@
-[camino](../README.md) › [CaminoCore](caminocore.md)
+[camino](../api.md) › [CaminoCore](caminocore.md)
 
 # Module: CaminoCore
 

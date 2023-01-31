@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [AddressIndexError](src_utils.addressindexerror.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [AddressIndexError](src_utils.addressindexerror.md)
 
 # Class: AddressIndexError
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Payload](../modules/utils_payload.md) › [EMAILPayload](utils_payload.emailpayload.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Payload](../modules/utils_payload.md) › [EMAILPayload](utils_payload.emailpayload.md)
 
 # Class: EMAILPayload
 

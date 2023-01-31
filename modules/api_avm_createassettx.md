@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-CreateAssetTx](api_avm_createassettx.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-CreateAssetTx](api_avm_createassettx.md)
 
 # Module: API-AVM-CreateAssetTx
 

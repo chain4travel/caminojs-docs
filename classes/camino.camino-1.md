@@ -1,4 +1,4 @@
-[camino](../README.md) › [Camino](../modules/camino.md) › [Avalanche](camino.camino-1.md)
+[camino](../api.md) › [Camino](../modules/camino.md) › [Avalanche](camino.camino-1.md)
 
 # Class: Avalanche
 

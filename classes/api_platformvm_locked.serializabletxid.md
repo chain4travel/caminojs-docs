@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Locked](../modules/api_platformvm_locked.md) › [SerializableTxID](api_platformvm_locked.serializabletxid.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Locked](../modules/api_platformvm_locked.md) › [SerializableTxID](api_platformvm_locked.serializabletxid.md)
 
 # Class: SerializableTxID
 

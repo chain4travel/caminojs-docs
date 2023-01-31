@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Transactions](../modules/api_platformvm_transactions.md) › [Tx](api_platformvm_transactions.tx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Transactions](../modules/api_platformvm_transactions.md) › [Tx](api_platformvm_transactions.tx.md)
 
 # Class: Tx
 

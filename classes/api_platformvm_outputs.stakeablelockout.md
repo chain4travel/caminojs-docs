@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Outputs](../modules/api_platformvm_outputs.md) › [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Outputs](../modules/api_platformvm_outputs.md) › [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md)
 
 # Class: StakeableLockOut
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateAddressParams](platformvm_interfaces.createaddressparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateAddressParams](platformvm_interfaces.createaddressparams.md)
 
 # Interface: CreateAddressParams
 

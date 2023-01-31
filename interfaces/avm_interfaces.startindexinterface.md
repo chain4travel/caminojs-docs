@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [StartIndexInterface](avm_interfaces.startindexinterface.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [StartIndexInterface](avm_interfaces.startindexinterface.md)
 
 # Interface: StartIndexInterface
 

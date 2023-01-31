@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Constants](../modules/api_platformvm_constants.md) › [PlatformVMConstants](api_platformvm_constants.platformvmconstants.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Constants](../modules/api_platformvm_constants.md) › [PlatformVMConstants](api_platformvm_constants.platformvmconstants.md)
 
 # Class: PlatformVMConstants
 

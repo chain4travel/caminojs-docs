@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/common](src_common.md)
+[@c4tplatform/caminojs](../api.md) › [src/common](src_common.md)
 
 # Module: src/common
 

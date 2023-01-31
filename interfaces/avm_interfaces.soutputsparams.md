@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SOutputsParams](avm_interfaces.soutputsparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SOutputsParams](avm_interfaces.soutputsparams.md)
 
 # Interface: SOutputsParams
 

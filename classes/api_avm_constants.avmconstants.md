@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Constants](../modules/api_avm_constants.md) › [AVMConstants](api_avm_constants.avmconstants.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Constants](../modules/api_avm_constants.md) › [AVMConstants](api_avm_constants.avmconstants.md)
 
 # Class: AVMConstants
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [UTXOResponse](common_interfaces.utxoresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Interfaces](../modules/common_interfaces.md) › [UTXOResponse](common_interfaces.utxoresponse.md)
 
 # Interface: UTXOResponse
 

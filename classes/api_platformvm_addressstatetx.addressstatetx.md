@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-AddressStateTx](../modules/api_platformvm_addressstatetx.md) › [AddressStateTx](api_platformvm_addressstatetx.addressstatetx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-AddressStateTx](../modules/api_platformvm_addressstatetx.md) › [AddressStateTx](api_platformvm_addressstatetx.addressstatetx.md)
 
 # Class: AddressStateTx
 

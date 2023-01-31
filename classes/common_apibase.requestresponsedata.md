@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-APIBase](../modules/common_apibase.md) › [RequestResponseData](common_apibase.requestresponsedata.md)
+[@c4tplatform/caminojs](../api.md) › [Common-APIBase](../modules/common_apibase.md) › [RequestResponseData](common_apibase.requestresponsedata.md)
 
 # Class: RequestResponseData
 

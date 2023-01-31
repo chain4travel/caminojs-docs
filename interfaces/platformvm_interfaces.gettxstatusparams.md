@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetTxStatusParams](platformvm_interfaces.gettxstatusparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetTxStatusParams](platformvm_interfaces.gettxstatusparams.md)
 
 # Interface: GetTxStatusParams
 

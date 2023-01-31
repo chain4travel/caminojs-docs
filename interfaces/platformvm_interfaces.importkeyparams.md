@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportKeyParams](platformvm_interfaces.importkeyparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportKeyParams](platformvm_interfaces.importkeyparams.md)
 
 # Interface: ImportKeyParams
 

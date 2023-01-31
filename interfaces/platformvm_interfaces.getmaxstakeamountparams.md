@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMaxStakeAmountParams](platformvm_interfaces.getmaxstakeamountparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMaxStakeAmountParams](platformvm_interfaces.getmaxstakeamountparams.md)
 
 # Interface: GetMaxStakeAmountParams
 

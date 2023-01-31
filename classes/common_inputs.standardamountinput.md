@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Inputs](../modules/common_inputs.md) › [StandardAmountInput](common_inputs.standardamountinput.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Inputs](../modules/common_inputs.md) › [StandardAmountInput](common_inputs.standardamountinput.md)
 
 # Class: StandardAmountInput
 

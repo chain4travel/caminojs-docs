@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Locked](../modules/api_platformvm_locked.md) › [LockedIDs](api_platformvm_locked.lockedids.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Locked](../modules/api_platformvm_locked.md) › [LockedIDs](api_platformvm_locked.lockedids.md)
 
 # Class: LockedIDs
 

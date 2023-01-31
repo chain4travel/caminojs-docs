@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-AssetAmount](../modules/common_assetamount.md) › [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md)
+[@c4tplatform/caminojs](../api.md) › [Common-AssetAmount](../modules/common_assetamount.md) › [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md)
 
 # Class: StandardAssetAmountDestination ‹**TO, TI**›
 

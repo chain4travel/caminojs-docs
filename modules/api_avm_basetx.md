@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-BaseTx](api_avm_basetx.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-BaseTx](api_avm_basetx.md)
 
 # Module: API-AVM-BaseTx
 

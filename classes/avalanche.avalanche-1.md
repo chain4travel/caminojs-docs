@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Avalanche](../modules/avalanche.md) › [Avalanche](avalanche.avalanche-1.md)
+[@c4tplatform/caminojs](../api.md) › [Avalanche](../modules/avalanche.md) › [Avalanche](avalanche.avalanche-1.md)
 
 # Class: Avalanche
 

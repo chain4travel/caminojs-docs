@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Base58](../modules/utils_base58.md) › [Base58](utils_base58.base58.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Base58](../modules/utils_base58.md) › [Base58](utils_base58.base58.md)
 
 # Class: Base58
 

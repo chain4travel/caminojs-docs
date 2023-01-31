@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-KeyChain](../modules/api_platformvm_keychain.md) › [KeyPair](api_platformvm_keychain.keypair.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-KeyChain](../modules/api_platformvm_keychain.md) › [KeyPair](api_platformvm_keychain.keypair.md)
 
 # Class: KeyPair
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Health-Interfaces](../modules/health_interfaces.md) › [Checks](health_interfaces.checks.md)
+[@c4tplatform/caminojs](../api.md) › [Health-Interfaces](../modules/health_interfaces.md) › [Checks](health_interfaces.checks.md)
 
 # Interface: Checks
 

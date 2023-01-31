@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [AvalancheCore](../modules/avalanchecore.md) › [AvalancheCore](avalanchecore.avalanchecore-1.md)
+[@c4tplatform/caminojs](../api.md) › [AvalancheCore](../modules/avalanchecore.md) › [AvalancheCore](avalanchecore.avalanchecore-1.md)
 
 # Class: AvalancheCore
 

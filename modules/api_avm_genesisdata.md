@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-GenesisData](api_avm_genesisdata.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-GenesisData](api_avm_genesisdata.md)
 
 # Module: API-AVM-GenesisData
 

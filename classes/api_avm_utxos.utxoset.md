@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-UTXOs](../modules/api_avm_utxos.md) › [UTXOSet](api_avm_utxos.utxoset.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-UTXOs](../modules/api_avm_utxos.md) › [UTXOSet](api_avm_utxos.utxoset.md)
 
 # Class: UTXOSet
 

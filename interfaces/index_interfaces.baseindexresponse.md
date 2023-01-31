@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [BaseIndexResponse](index_interfaces.baseindexresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Index-Interfaces](../modules/index_interfaces.md) › [BaseIndexResponse](index_interfaces.baseindexresponse.md)
 
 # Interface: BaseIndexResponse
 

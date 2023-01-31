@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-KeyChain](../modules/common_keychain.md) › [StandardKeyPair](common_keychain.standardkeypair.md)
+[@c4tplatform/caminojs](../api.md) › [Common-KeyChain](../modules/common_keychain.md) › [StandardKeyPair](common_keychain.standardkeypair.md)
 
 # Class: StandardKeyPair
 

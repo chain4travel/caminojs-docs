@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [LoggerLevels](admin_interfaces.loggerlevels.md)
+[@c4tplatform/caminojs](../api.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [LoggerLevels](admin_interfaces.loggerlevels.md)
 
 # Interface: LoggerLevels
 

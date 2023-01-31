@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-RegisterNodeTx](../modules/api_platformvm_registernodetx.md) › [RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-RegisterNodeTx](../modules/api_platformvm_registernodetx.md) › [RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md)
 
 # Class: RegisterNodeTx
 

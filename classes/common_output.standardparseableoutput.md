@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Output](../modules/common_output.md) › [StandardParseableOutput](common_output.standardparseableoutput.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Output](../modules/common_output.md) › [StandardParseableOutput](common_output.standardparseableoutput.md)
 
 # Class: StandardParseableOutput
 

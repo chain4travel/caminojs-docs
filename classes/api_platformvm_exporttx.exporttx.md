@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-ExportTx](../modules/api_platformvm_exporttx.md) › [ExportTx](api_platformvm_exporttx.exporttx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-ExportTx](../modules/api_platformvm_exporttx.md) › [ExportTx](api_platformvm_exporttx.exporttx.md)
 
 # Class: ExportTx
 

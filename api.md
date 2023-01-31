@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](README.md)
+[@c4tplatform/caminojs](api.md)
 
 # @c4tplatform/caminojs
 

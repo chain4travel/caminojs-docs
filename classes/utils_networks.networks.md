@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Networks](../modules/utils_networks.md) › [Networks](utils_networks.networks.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Networks](../modules/utils_networks.md) › [Networks](utils_networks.networks.md)
 
 # Class: Networks
 

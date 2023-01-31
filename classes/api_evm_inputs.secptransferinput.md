@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-EVM-Inputs](../modules/api_evm_inputs.md) › [SECPTransferInput](api_evm_inputs.secptransferinput.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-Inputs](../modules/api_evm_inputs.md) › [SECPTransferInput](api_evm_inputs.secptransferinput.md)
 
 # Class: SECPTransferInput
 

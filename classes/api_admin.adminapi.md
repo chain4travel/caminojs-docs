@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-Admin](../modules/api_admin.md) › [AdminAPI](api_admin.adminapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Admin](../modules/api_admin.md) › [AdminAPI](api_admin.adminapi.md)
 
 # Class: AdminAPI
 

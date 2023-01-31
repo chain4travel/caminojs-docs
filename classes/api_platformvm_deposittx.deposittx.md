@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-DepositTx](../modules/api_platformvm_deposittx.md) › [DepositTx](api_platformvm_deposittx.deposittx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-DepositTx](../modules/api_platformvm_deposittx.md) › [DepositTx](api_platformvm_deposittx.deposittx.md)
 
 # Class: DepositTx
 

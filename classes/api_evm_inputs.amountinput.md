@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-EVM-Inputs](../modules/api_evm_inputs.md) › [AmountInput](api_evm_inputs.amountinput.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-Inputs](../modules/api_evm_inputs.md) › [AmountInput](api_evm_inputs.amountinput.md)
 
 # Class: AmountInput
 

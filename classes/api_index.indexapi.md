@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-Index](../modules/api_index.md) › [IndexAPI](api_index.indexapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Index](../modules/api_index.md) › [IndexAPI](api_index.indexapi.md)
 
 # Class: IndexAPI
 

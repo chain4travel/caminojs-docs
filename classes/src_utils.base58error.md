@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [Base58Error](src_utils.base58error.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [Base58Error](src_utils.base58error.md)
 
 # Class: Base58Error
 

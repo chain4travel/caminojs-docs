@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [CodecIdError](src_utils.codeciderror.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [CodecIdError](src_utils.codeciderror.md)
 
 # Class: CodecIdError
 

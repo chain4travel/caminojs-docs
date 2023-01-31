@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-EVM-Credentials](../modules/api_evm_credentials.md) › [SECPCredential](api_evm_credentials.secpcredential.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-Credentials](../modules/api_evm_credentials.md) › [SECPCredential](api_evm_credentials.secpcredential.md)
 
 # Class: SECPCredential
 

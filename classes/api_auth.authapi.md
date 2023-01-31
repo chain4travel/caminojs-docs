@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-Auth](../modules/api_auth.md) › [AuthAPI](api_auth.authapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Auth](../modules/api_auth.md) › [AuthAPI](api_auth.authapi.md)
 
 # Class: AuthAPI
 

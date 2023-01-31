@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Transactions](../modules/common_transactions.md) › [StandardTx](common_transactions.standardtx.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Transactions](../modules/common_transactions.md) › [StandardTx](common_transactions.standardtx.md)
 
 # Class: StandardTx ‹**KPClass, KCClass, SUBTx**›
 

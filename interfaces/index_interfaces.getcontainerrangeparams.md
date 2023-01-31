@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetContainerRangeParams](index_interfaces.getcontainerrangeparams.md)
+[@c4tplatform/caminojs](../api.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetContainerRangeParams](index_interfaces.getcontainerrangeparams.md)
 
 # Interface: GetContainerRangeParams
 

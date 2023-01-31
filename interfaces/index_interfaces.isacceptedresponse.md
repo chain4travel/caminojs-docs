@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [IsAcceptedResponse](index_interfaces.isacceptedresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Index-Interfaces](../modules/index_interfaces.md) › [IsAcceptedResponse](index_interfaces.isacceptedresponse.md)
 
 # Interface: IsAcceptedResponse
 

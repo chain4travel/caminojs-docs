@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SendResponse](avm_interfaces.sendresponse.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SendResponse](avm_interfaces.sendresponse.md)
 
 # Interface: SendResponse
 

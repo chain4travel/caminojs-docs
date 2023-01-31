@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Payload](../modules/utils_payload.md) › [SVGPayload](utils_payload.svgpayload.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Payload](../modules/utils_payload.md) › [SVGPayload](utils_payload.svgpayload.md)
 
 # Class: SVGPayload
 

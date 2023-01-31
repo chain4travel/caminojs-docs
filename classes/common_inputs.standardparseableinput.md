@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Inputs](../modules/common_inputs.md) › [StandardParseableInput](common_inputs.standardparseableinput.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Inputs](../modules/common_inputs.md) › [StandardParseableInput](common_inputs.standardparseableinput.md)
 
 # Class: StandardParseableInput
 

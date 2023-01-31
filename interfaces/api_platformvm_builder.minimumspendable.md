@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Builder](../modules/api_platformvm_builder.md) › [MinimumSpendable](api_platformvm_builder.minimumspendable.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Builder](../modules/api_platformvm_builder.md) › [MinimumSpendable](api_platformvm_builder.minimumspendable.md)
 
 # Interface: MinimumSpendable
 

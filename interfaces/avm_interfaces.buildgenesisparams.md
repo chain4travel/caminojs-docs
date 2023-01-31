@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [BuildGenesisParams](avm_interfaces.buildgenesisparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [BuildGenesisParams](avm_interfaces.buildgenesisparams.md)
 
 # Interface: BuildGenesisParams
 

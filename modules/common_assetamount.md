@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-AssetAmount](common_assetamount.md)
+[@c4tplatform/caminojs](../api.md) › [Common-AssetAmount](common_assetamount.md)
 
 # Module: Common-AssetAmount
 

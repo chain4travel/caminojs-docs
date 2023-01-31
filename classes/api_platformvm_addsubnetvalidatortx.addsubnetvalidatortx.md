@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-AddSubnetValidatorTx](../modules/api_platformvm_addsubnetvalidatortx.md) › [AddSubnetValidatorTx](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-AddSubnetValidatorTx](../modules/api_platformvm_addsubnetvalidatortx.md) › [AddSubnetValidatorTx](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md)
 
 # Class: AddSubnetValidatorTx
 

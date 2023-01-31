@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Spender](../modules/api_platformvm_spender.md) › [Spender](api_platformvm_spender.spender.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Spender](../modules/api_platformvm_spender.md) › [Spender](api_platformvm_spender.spender.md)
 
 # Class: Spender
 

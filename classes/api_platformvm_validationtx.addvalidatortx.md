@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-ValidationTx](../modules/api_platformvm_validationtx.md) › [AddValidatorTx](api_platformvm_validationtx.addvalidatortx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-ValidationTx](../modules/api_platformvm_validationtx.md) › [AddValidatorTx](api_platformvm_validationtx.addvalidatortx.md)
 
 # Class: AddValidatorTx
 

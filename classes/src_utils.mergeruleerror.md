@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [MergeRuleError](src_utils.mergeruleerror.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [MergeRuleError](src_utils.mergeruleerror.md)
 
 # Class: MergeRuleError
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Outputs](../modules/api_avm_outputs.md) › [TransferableOutput](api_avm_outputs.transferableoutput.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Outputs](../modules/api_avm_outputs.md) › [TransferableOutput](api_avm_outputs.transferableoutput.md)
 
 # Class: TransferableOutput
 

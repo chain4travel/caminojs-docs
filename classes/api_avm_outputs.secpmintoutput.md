@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Outputs](../modules/api_avm_outputs.md) › [SECPMintOutput](api_avm_outputs.secpmintoutput.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Outputs](../modules/api_avm_outputs.md) › [SECPMintOutput](api_avm_outputs.secpmintoutput.md)
 
 # Class: SECPMintOutput
 

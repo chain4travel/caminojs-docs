@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ExportKeyParams](platformvm_interfaces.exportkeyparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ExportKeyParams](platformvm_interfaces.exportkeyparams.md)
 
 # Interface: ExportKeyParams
 

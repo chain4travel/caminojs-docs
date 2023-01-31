@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM](api_platformvm.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM](api_platformvm.md)
 
 # Module: API-PlatformVM
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-HDNode](../modules/utils_hdnode.md) › [HDNode](utils_hdnode.hdnode.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-HDNode](../modules/utils_hdnode.md) › [HDNode](utils_hdnode.hdnode.md)
 
 # Class: HDNode
 

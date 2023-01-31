@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [IssueTxParams](common_interfaces.issuetxparams.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Interfaces](../modules/common_interfaces.md) › [IssueTxParams](common_interfaces.issuetxparams.md)
 
 # Interface: IssueTxParams
 

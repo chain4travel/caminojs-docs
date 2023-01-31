@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Signature](../modules/common_signature.md) › [SigIdx](common_signature.sigidx.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Signature](../modules/common_signature.md) › [SigIdx](common_signature.sigidx.md)
 
 # Class: SigIdx
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Payload](../modules/utils_payload.md) › [B58STRPayload](utils_payload.b58strpayload.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Payload](../modules/utils_payload.md) › [B58STRPayload](utils_payload.b58strpayload.md)
 
 # Class: B58STRPayload
 

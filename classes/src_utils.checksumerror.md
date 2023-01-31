@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [ChecksumError](src_utils.checksumerror.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [ChecksumError](src_utils.checksumerror.md)
 
 # Class: ChecksumError
 

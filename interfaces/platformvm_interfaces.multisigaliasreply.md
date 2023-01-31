@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [MultisigAliasReply](platformvm_interfaces.multisigaliasreply.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [MultisigAliasReply](platformvm_interfaces.multisigaliasreply.md)
 
 # Interface: MultisigAliasReply
 

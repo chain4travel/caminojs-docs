@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateBlockchainParams](platformvm_interfaces.createblockchainparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateBlockchainParams](platformvm_interfaces.createblockchainparams.md)
 
 # Interface: CreateBlockchainParams
 

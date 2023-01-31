@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-KeyChain](api_avm_keychain.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-KeyChain](api_avm_keychain.md)
 
 # Module: API-AVM-KeyChain
 

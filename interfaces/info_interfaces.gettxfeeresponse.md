@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [GetTxFeeResponse](info_interfaces.gettxfeeresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Info-Interfaces](../modules/info_interfaces.md) › [GetTxFeeResponse](info_interfaces.gettxfeeresponse.md)
 
 # Interface: GetTxFeeResponse
 

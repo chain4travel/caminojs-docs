@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-ExportTx](api_avm_exporttx.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-ExportTx](api_avm_exporttx.md)
 
 # Module: API-AVM-ExportTx
 

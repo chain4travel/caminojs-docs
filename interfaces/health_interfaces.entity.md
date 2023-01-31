@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Health-Interfaces](../modules/health_interfaces.md) › [Entity](health_interfaces.entity.md)
+[@c4tplatform/caminojs](../api.md) › [Health-Interfaces](../modules/health_interfaces.md) › [Entity](health_interfaces.entity.md)
 
 # Interface: Entity
 

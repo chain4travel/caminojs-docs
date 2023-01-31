@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-InitialStates](api_avm_initialstates.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-InitialStates](api_avm_initialstates.md)
 
 # Module: API-AVM-InitialStates
 

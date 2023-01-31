@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-Metrics](../modules/api_metrics.md) › [MetricsAPI](api_metrics.metricsapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Metrics](../modules/api_metrics.md) › [MetricsAPI](api_metrics.metricsapi.md)
 
 # Class: MetricsAPI
 

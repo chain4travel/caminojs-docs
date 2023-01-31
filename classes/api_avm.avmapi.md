@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM](../modules/api_avm.md) › [AVMAPI](api_avm.avmapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM](../modules/api_avm.md) › [AVMAPI](api_avm.avmapi.md)
 
 # Class: AVMAPI
 

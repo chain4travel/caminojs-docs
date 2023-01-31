@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAllBalancesParams](avm_interfaces.getallbalancesparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAllBalancesParams](avm_interfaces.getallbalancesparams.md)
 
 # Interface: GetAllBalancesParams
 

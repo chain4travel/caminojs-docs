@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Mnemonic](../modules/utils_mnemonic.md) › [Mnemonic](utils_mnemonic.mnemonic.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Mnemonic](../modules/utils_mnemonic.md) › [Mnemonic](utils_mnemonic.mnemonic.md)
 
 # Class: Mnemonic
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Networks](../modules/utils_networks.md) › [X](utils_networks.x.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Networks](../modules/utils_networks.md) › [X](utils_networks.x.md)
 
 # Interface: X
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-SECP256k1KeyChain](common_secp256k1keychain.md)
+[@c4tplatform/caminojs](../api.md) › [Common-SECP256k1KeyChain](common_secp256k1keychain.md)
 
 # Module: Common-SECP256k1KeyChain
 

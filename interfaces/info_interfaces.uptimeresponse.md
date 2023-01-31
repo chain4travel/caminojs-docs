@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [UptimeResponse](info_interfaces.uptimeresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Info-Interfaces](../modules/info_interfaces.md) › [UptimeResponse](info_interfaces.uptimeresponse.md)
 
 # Interface: UptimeResponse
 

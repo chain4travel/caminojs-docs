@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ListAddressesParams](platformvm_interfaces.listaddressesparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ListAddressesParams](platformvm_interfaces.listaddressesparams.md)
 
 # Interface: ListAddressesParams
 

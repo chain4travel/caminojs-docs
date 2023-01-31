@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-Keystore](../modules/api_keystore.md) › [KeystoreAPI](api_keystore.keystoreapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Keystore](../modules/api_keystore.md) › [KeystoreAPI](api_keystore.keystoreapi.md)
 
 # Class: KeystoreAPI
 

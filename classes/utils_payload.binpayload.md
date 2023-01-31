@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Payload](../modules/utils_payload.md) › [BINPayload](utils_payload.binpayload.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Payload](../modules/utils_payload.md) › [BINPayload](utils_payload.binpayload.md)
 
 # Class: BINPayload
 

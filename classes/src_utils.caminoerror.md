@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/utils](../modules/src_utils.md) › [CaminoError](src_utils.caminoerror.md)
+[camino](../api.md) › [src/utils](../modules/src_utils.md) › [CaminoError](src_utils.caminoerror.md)
 
 # Class: AvalancheError
 

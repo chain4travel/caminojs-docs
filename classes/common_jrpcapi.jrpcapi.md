@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-JRPCAPI](../modules/common_jrpcapi.md) › [JRPCAPI](common_jrpcapi.jrpcapi.md)
+[@c4tplatform/caminojs](../api.md) › [Common-JRPCAPI](../modules/common_jrpcapi.md) › [JRPCAPI](common_jrpcapi.jrpcapi.md)
 
 # Class: JRPCAPI
 

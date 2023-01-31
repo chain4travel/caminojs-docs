@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [NewTokenInterface](auth_interfaces.newtokeninterface.md)
+[@c4tplatform/caminojs](../api.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [NewTokenInterface](auth_interfaces.newtokeninterface.md)
 
 # Interface: NewTokenInterface
 

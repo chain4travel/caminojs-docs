@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-Health](../modules/api_health.md) › [HealthAPI](api_health.healthapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Health](../modules/api_health.md) › [HealthAPI](api_health.healthapi.md)
 
 # Class: HealthAPI
 

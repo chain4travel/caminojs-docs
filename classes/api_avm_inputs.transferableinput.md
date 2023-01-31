@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Inputs](../modules/api_avm_inputs.md) › [TransferableInput](api_avm_inputs.transferableinput.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Inputs](../modules/api_avm_inputs.md) › [TransferableInput](api_avm_inputs.transferableinput.md)
 
 # Class: TransferableInput
 

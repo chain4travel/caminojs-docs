@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Signature](common_signature.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Signature](common_signature.md)
 
 # Module: Common-Signature
 

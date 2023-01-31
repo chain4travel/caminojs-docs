@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/apis/health](src_apis_health.md)
+[@c4tplatform/caminojs](../api.md) › [src/apis/health](src_apis_health.md)
 
 # Module: src/apis/health
 

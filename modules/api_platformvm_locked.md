@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Locked](api_platformvm_locked.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Locked](api_platformvm_locked.md)
 
 # Module: API-PlatformVM-Locked
 

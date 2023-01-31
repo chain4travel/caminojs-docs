@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Transactions](../modules/common_transactions.md) › [StandardUnsignedTx](common_transactions.standardunsignedtx.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Transactions](../modules/common_transactions.md) › [StandardUnsignedTx](common_transactions.standardunsignedtx.md)
 
 # Class: StandardUnsignedTx ‹**KPClass, KCClass, SBTx**›
 

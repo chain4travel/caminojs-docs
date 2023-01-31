@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Signature](../modules/common_signature.md) › [Credential](common_signature.credential.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Signature](../modules/common_signature.md) › [Credential](common_signature.credential.md)
 
 # Class: Credential
 

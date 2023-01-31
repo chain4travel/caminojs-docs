@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Inputs](../modules/common_inputs.md) › [Input](common_inputs.input.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Inputs](../modules/common_inputs.md) › [Input](common_inputs.input.md)
 
 # Class: Input
 

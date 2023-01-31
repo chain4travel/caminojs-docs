@@ -1,4 +1,4 @@
-[camino](../README.md) › [Camino](camino.md)
+[camino](../api.md) › [Camino](camino.md)
 
 # Module: Camino
 

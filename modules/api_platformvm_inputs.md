@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Inputs](api_platformvm_inputs.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Inputs](api_platformvm_inputs.md)
 
 # Module: API-PlatformVM-Inputs
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Blockchain](platformvm_interfaces.blockchain.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Blockchain](platformvm_interfaces.blockchain.md)
 
 # Interface: Blockchain
 

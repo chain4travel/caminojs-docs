@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-UTXOs](api_avm_utxos.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-UTXOs](api_avm_utxos.md)
 
 # Module: API-AVM-UTXOs
 

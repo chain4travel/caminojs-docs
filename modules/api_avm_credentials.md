@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-Credentials](api_avm_credentials.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Credentials](api_avm_credentials.md)
 
 # Module: API-AVM-Credentials
 

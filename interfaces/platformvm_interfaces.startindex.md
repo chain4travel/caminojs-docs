@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [StartIndex](platformvm_interfaces.startindex.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [StartIndex](platformvm_interfaces.startindex.md)
 
 # Interface: StartIndex
 

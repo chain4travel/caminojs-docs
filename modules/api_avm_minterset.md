@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-MinterSet](api_avm_minterset.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-MinterSet](api_avm_minterset.md)
 
 # Module: API-AVM-MinterSet
 

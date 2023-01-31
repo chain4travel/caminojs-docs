@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [GetAtomicTxStatusParams](evm_interfaces.getatomictxstatusparams.md)
+[@c4tplatform/caminojs](../api.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [GetAtomicTxStatusParams](evm_interfaces.getatomictxstatusparams.md)
 
 # Interface: GetAtomicTxStatusParams
 

@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetUTXOsResponse](platformvm_interfaces.getutxosresponse.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetUTXOsResponse](platformvm_interfaces.getutxosresponse.md)
 
 # Interface: GetUTXOsResponse
 

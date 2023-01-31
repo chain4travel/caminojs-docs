@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetStakeParams](platformvm_interfaces.getstakeparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetStakeParams](platformvm_interfaces.getstakeparams.md)
 
 # Interface: GetStakeParams
 

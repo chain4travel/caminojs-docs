@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-EVM-Outputs](../modules/api_evm_outputs.md) › [SECPTransferOutput](api_evm_outputs.secptransferoutput.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-Outputs](../modules/api_evm_outputs.md) › [SECPTransferOutput](api_evm_outputs.secptransferoutput.md)
 
 # Class: SECPTransferOutput
 

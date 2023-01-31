@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [RevokeTokenInterface](auth_interfaces.revoketokeninterface.md)
+[@c4tplatform/caminojs](../api.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [RevokeTokenInterface](auth_interfaces.revoketokeninterface.md)
 
 # Interface: RevokeTokenInterface
 

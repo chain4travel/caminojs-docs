@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [SpendParams](platformvm_interfaces.spendparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [SpendParams](platformvm_interfaces.spendparams.md)
 
 # Interface: SpendParams
 

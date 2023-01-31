@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Output](../modules/common_output.md) › [StandardTransferableOutput](common_output.standardtransferableoutput.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Output](../modules/common_output.md) › [StandardTransferableOutput](common_output.standardtransferableoutput.md)
 
 # Class: StandardTransferableOutput
 

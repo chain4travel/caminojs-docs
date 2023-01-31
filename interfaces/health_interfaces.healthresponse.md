@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Health-Interfaces](../modules/health_interfaces.md) › [HealthResponse](health_interfaces.healthresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Health-Interfaces](../modules/health_interfaces.md) › [HealthResponse](health_interfaces.healthresponse.md)
 
 # Interface: HealthResponse
 

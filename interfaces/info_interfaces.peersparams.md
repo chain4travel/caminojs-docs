@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [PeersParams](info_interfaces.peersparams.md)
+[@c4tplatform/caminojs](../api.md) › [Info-Interfaces](../modules/info_interfaces.md) › [PeersParams](info_interfaces.peersparams.md)
 
 # Interface: PeersParams
 

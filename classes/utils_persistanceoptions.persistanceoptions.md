@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-PersistanceOptions](../modules/utils_persistanceoptions.md) › [PersistanceOptions](utils_persistanceoptions.persistanceoptions.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-PersistanceOptions](../modules/utils_persistanceoptions.md) › [PersistanceOptions](utils_persistanceoptions.persistanceoptions.md)
 
 # Class: PersistanceOptions
 

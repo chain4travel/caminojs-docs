@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [GetBlockchainIDParams](info_interfaces.getblockchainidparams.md)
+[@c4tplatform/caminojs](../api.md) › [Info-Interfaces](../modules/info_interfaces.md) › [GetBlockchainIDParams](info_interfaces.getblockchainidparams.md)
 
 # Interface: GetBlockchainIDParams
 

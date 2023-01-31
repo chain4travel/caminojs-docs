@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [ExportKeyParams](evm_interfaces.exportkeyparams.md)
+[@c4tplatform/caminojs](../api.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [ExportKeyParams](evm_interfaces.exportkeyparams.md)
 
 # Interface: ExportKeyParams
 

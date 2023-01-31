@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-AVM-GenesisAsset](../modules/api_avm_genesisasset.md) › [GenesisAsset](api_avm_genesisasset.genesisasset.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-GenesisAsset](../modules/api_avm_genesisasset.md) › [GenesisAsset](api_avm_genesisasset.genesisasset.md)
 
 # Class: GenesisAsset
 

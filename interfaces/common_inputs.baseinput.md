@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Inputs](../modules/common_inputs.md) › [BaseInput](common_inputs.baseinput.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Inputs](../modules/common_inputs.md) › [BaseInput](common_inputs.baseinput.md)
 
 # Interface: BaseInput
 

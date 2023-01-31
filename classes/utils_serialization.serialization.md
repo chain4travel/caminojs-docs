@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Utils-Serialization](../modules/utils_serialization.md) › [Serialization](utils_serialization.serialization.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Serialization](../modules/utils_serialization.md) › [Serialization](utils_serialization.serialization.md)
 
 # Class: Serialization
 

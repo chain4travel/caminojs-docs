@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-APIBase](../modules/common_apibase.md) › [APIBase](common_apibase.apibase.md)
+[@c4tplatform/caminojs](../api.md) › [Common-APIBase](../modules/common_apibase.md) › [APIBase](common_apibase.apibase.md)
 
 # Class: APIBase
 

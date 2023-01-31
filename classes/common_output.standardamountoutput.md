@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Output](../modules/common_output.md) › [StandardAmountOutput](common_output.standardamountoutput.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Output](../modules/common_output.md) › [StandardAmountOutput](common_output.standardamountoutput.md)
 
 # Class: StandardAmountOutput
 

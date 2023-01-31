@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Outputs](../modules/api_platformvm_outputs.md) › [LockedOut](api_platformvm_outputs.lockedout.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Outputs](../modules/api_platformvm_outputs.md) › [LockedOut](api_platformvm_outputs.lockedout.md)
 
 # Class: LockedOut
 

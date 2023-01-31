@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-NBytes](common_nbytes.md)
+[@c4tplatform/caminojs](../api.md) › [Common-NBytes](common_nbytes.md)
 
 # Module: Common-NBytes
 

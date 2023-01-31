@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-EVM-UTXOs](../modules/api_evm_utxos.md) › [AssetAmountDestination](api_evm_utxos.assetamountdestination.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-UTXOs](../modules/api_evm_utxos.md) › [AssetAmountDestination](api_evm_utxos.assetamountdestination.md)
 
 # Class: AssetAmountDestination
 

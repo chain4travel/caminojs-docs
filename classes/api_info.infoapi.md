@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-Info](../modules/api_info.md) › [InfoAPI](api_info.infoapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Info](../modules/api_info.md) › [InfoAPI](api_info.infoapi.md)
 
 # Class: InfoAPI
 

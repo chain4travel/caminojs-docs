@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [src/apis/info](src_apis_info.md)
+[@c4tplatform/caminojs](../api.md) › [src/apis/info](src_apis_info.md)
 
 # Module: src/apis/info
 

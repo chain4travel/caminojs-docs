@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetValidatorsAtParams](platformvm_interfaces.getvalidatorsatparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetValidatorsAtParams](platformvm_interfaces.getvalidatorsatparams.md)
 
 # Interface: GetValidatorsAtParams
 

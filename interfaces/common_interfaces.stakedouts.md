@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [StakedOuts](common_interfaces.stakedouts.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Interfaces](../modules/common_interfaces.md) › [StakedOuts](common_interfaces.stakedouts.md)
 
 # Interface: StakedOuts
 

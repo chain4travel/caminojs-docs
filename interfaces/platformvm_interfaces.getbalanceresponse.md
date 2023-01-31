@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetBalanceResponse](platformvm_interfaces.getbalanceresponse.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetBalanceResponse](platformvm_interfaces.getbalanceresponse.md)
 
 # Interface: GetBalanceResponse
 

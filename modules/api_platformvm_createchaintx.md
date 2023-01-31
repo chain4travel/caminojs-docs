@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-CreateChainTx](api_platformvm_createchaintx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-CreateChainTx](api_platformvm_createchaintx.md)
 
 # Module: API-PlatformVM-CreateChainTx
 

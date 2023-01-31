@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-ValidationTx](../modules/api_platformvm_validationtx.md) › [WeightedValidatorTx](api_platformvm_validationtx.weightedvalidatortx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-ValidationTx](../modules/api_platformvm_validationtx.md) › [WeightedValidatorTx](api_platformvm_validationtx.weightedvalidatortx.md)
 
 # Class: WeightedValidatorTx
 

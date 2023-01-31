@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelParams](admin_interfaces.setloggerlevelparams.md)
+[@c4tplatform/caminojs](../api.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelParams](admin_interfaces.setloggerlevelparams.md)
 
 # Interface: SetLoggerLevelParams
 

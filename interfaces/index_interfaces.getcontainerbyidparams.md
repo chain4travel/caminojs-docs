@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetContainerByIDParams](index_interfaces.getcontainerbyidparams.md)
+[@c4tplatform/caminojs](../api.md) › [Index-Interfaces](../modules/index_interfaces.md) › [GetContainerByIDParams](index_interfaces.getcontainerbyidparams.md)
 
 # Interface: GetContainerByIDParams
 

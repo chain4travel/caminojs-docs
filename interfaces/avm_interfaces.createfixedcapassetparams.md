@@ -1,4 +1,4 @@
-[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [CreateFixedCapAssetParams](avm_interfaces.createfixedcapassetparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [CreateFixedCapAssetParams](avm_interfaces.createfixedcapassetparams.md)
 
 # Interface: CreateFixedCapAssetParams
 
