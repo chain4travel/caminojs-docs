@@ -5,7 +5,7 @@
 Class for interacting with a node's AdminAPI.
 
 **`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called.
-Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
+Instead, use the [Camino.addAPI](camino.camino-1.md#addapi) function to register this interface with Camino.
 
 ## Hierarchy
 
@@ -49,20 +49,20 @@ Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to
 
 ###  constructor
 
-\+ **new AdminAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string): *[AdminAPI](api_admin.adminapi.md)*
+\+ **new AdminAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string): *[AdminAPI](api_admin.adminapi.md)*
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
 *Defined in [src/apis/admin/api.ts:215](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/api.ts#L215)*
 
-This class should not be instantiated directly. Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi)
+This class should not be instantiated directly. Instead use the [Camino.addAPI](camino.camino-1.md#addapi)
 method.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class |
 `baseURL` | string | "/ext/admin" | Defaults to the string "/ext/admin" as the path to rpc's baseURL  |
 
 **Returns:** *[AdminAPI](api_admin.adminapi.md)*
@@ -81,7 +81,7 @@ ___
 
 ### `Protected` core
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 

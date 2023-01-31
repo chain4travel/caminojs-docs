@@ -52,7 +52,7 @@
 
 ###  constructor
 
-\+ **new JRPCAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string, `jrpcVersion`: string): *[JRPCAPI](common_jrpcapi.jrpcapi.md)*
+\+ **new JRPCAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string, `jrpcVersion`: string): *[JRPCAPI](common_jrpcapi.jrpcapi.md)*
 
 *Overrides [APIBase](common_apibase.apibase.md).[constructor](common_apibase.apibase.md#constructor)*
 
@@ -62,7 +62,7 @@
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | Reference to the Avalanche instance using this endpoint |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | Reference to the Camino instance using this endpoint |
 `baseURL` | string | - | Path of the APIs baseURL - ex: "/ext/bc/avm" |
 `jrpcVersion` | string | "2.0" | The jrpc version to use, default "2.0".  |
 
@@ -82,7 +82,7 @@ ___
 
 ### `Protected` core
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 

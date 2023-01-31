@@ -2,7 +2,7 @@
 
 # Class: SECP256k1KeyChain ‹**SECPKPClass**›
 
-Class for representing a key chain in Avalanche.
+Class for representing a key chain in Camino.
 
 **`typeparam`** Class extending [StandardKeyPair](common_keychain.standardkeypair.md) which is used as the key in [SECP256k1KeyChain](common_secp256k1keychain.secp256k1keychain.md)
 

@@ -2,7 +2,7 @@
 
 # Class: StandardKeyPair
 
-Class for representing a private and public keypair in Avalanche.
+Class for representing a private and public keypair in Camino.
 All APIs that need key pairs should extend on this class.
 
 ## Hierarchy

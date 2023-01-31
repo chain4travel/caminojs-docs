@@ -2,7 +2,7 @@
 
 # Class: KeyChain
 
-Class for representing a key chain in Avalanche.
+Class for representing a key chain in Camino.
 
 **`typeparam`** Class extending [KeyPair](api_platformvm_keychain.keypair.md) which is used as the key in [KeyChain](api_platformvm_keychain.keychain.md)
 

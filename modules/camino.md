@@ -1,4 +1,4 @@
-[camino](../api.md) › [Camino](camino.md)
+[@c4tplatform/caminojs](../api.md) › [Camino](camino.md)
 
 # Module: Camino
 

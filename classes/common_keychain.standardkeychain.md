@@ -2,7 +2,7 @@
 
 # Class: StandardKeyChain ‹**KPClass**›
 
-Class for representing a key chain in Avalanche.
+Class for representing a key chain in Camino.
 All endpoints that need key chains should extend on this class.
 
 ## Type parameters

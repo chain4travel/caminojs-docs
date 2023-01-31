@@ -11,7 +11,7 @@
 * [AVAXSTAKECAP](src_utils.md#avaxstakecap)
 * [AddressError](src_utils.md#addresserror)
 * [AddressIndexError](src_utils.md#addressindexerror)
-* [AvalancheError](src_utils.md#avalancheerror)
+* [CaminoError](src_utils.md#caminoerror)
 * [B58STRPayload](src_utils.md#b58strpayload)
 * [B64STRPayload](src_utils.md#b64strpayload)
 * [BIGNUMPayload](src_utils.md#bignumpayload)
@@ -143,7 +143,7 @@
 
 * [AddressError](../classes/src_utils.addresserror.md)
 * [AddressIndexError](../classes/src_utils.addressindexerror.md)
-* [AvalancheError](../classes/src_utils.avalancheerror.md)
+* [CaminoError](../classes/src_utils.caminoerror.md)
 * [Base58Error](../classes/src_utils.base58error.md)
 * [Bech32Error](../classes/src_utils.bech32error.md)
 * [BufferSizeError](../classes/src_utils.buffersizeerror.md)
@@ -279,9 +279,9 @@ ___
 
 ___
 
-###  AvalancheError
+###  CaminoError
 
-• **AvalancheError**:
+• **CaminoError**:
 
 ___
 

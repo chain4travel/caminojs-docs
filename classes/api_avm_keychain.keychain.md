@@ -2,7 +2,7 @@
 
 # Class: KeyChain
 
-Class for representing a key chain in Avalanche.
+Class for representing a key chain in Camino.
 
 **`typeparam`** Class extending [SECP256k1KeyChain](common_secp256k1keychain.secp256k1keychain.md) which is used as the key in [KeyChain](api_avm_keychain.keychain.md)
 

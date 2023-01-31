@@ -451,7 +451,7 @@ ___
 
 ###  getMinimumSpendable
 
-▸ **getMinimumSpendable**(`aad`: [AssetAmountDestination](api_evm_utxos.assetamountdestination.md), `asOf`: BN, `locktime`: BN, `threshold`: number): *[Error](src_utils.avalancheerror.md#static-error)*
+▸ **getMinimumSpendable**(`aad`: [AssetAmountDestination](api_evm_utxos.assetamountdestination.md), `asOf`: BN, `locktime`: BN, `threshold`: number): *[Error](src_utils.caminoerror.md#static-error)*
 
 *Defined in [src/apis/evm/utxos.ts:212](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/utxos.ts#L212)*
 
@@ -464,7 +464,7 @@ Name | Type | Default |
 `locktime` | BN | new BN(0) |
 `threshold` | number | 1 |
 
-**Returns:** *[Error](src_utils.avalancheerror.md#static-error)*
+**Returns:** *[Error](src_utils.caminoerror.md#static-error)*
 
 ___
 

@@ -4,7 +4,7 @@
 
 Class for interacting with a node's IndexAPI.
 
-**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
+**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Camino.addAPI](camino.camino-1.md#addapi) function to register this interface with Camino.
 
 ## Hierarchy
 
@@ -44,19 +44,19 @@ Class for interacting with a node's IndexAPI.
 
 ###  constructor
 
-\+ **new IndexAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string): *[IndexAPI](api_index.indexapi.md)*
+\+ **new IndexAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string): *[IndexAPI](api_index.indexapi.md)*
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
 *Defined in [src/apis/index/api.ts:214](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/index/api.ts#L214)*
 
-This class should not be instantiated directly. Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) method.
+This class should not be instantiated directly. Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class |
 `baseURL` | string | "/ext/index/X/tx" | Defaults to the string "/ext/index/X/tx" as the path to rpc's baseURL  |
 
 **Returns:** *[IndexAPI](api_index.indexapi.md)*
@@ -75,7 +75,7 @@ ___
 
 ### `Protected` core
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 

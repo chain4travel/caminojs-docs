@@ -1,19 +1,19 @@
-[camino](../api.md) › [Camino](../modules/camino.md) › [Avalanche](camino.camino-1.md)
+[@c4tplatform/caminojs](../api.md) › [Camino](../modules/camino.md) › [Camino](camino.camino-1.md)
 
-# Class: Avalanche
+# Class: Camino
 
 CaminoJS is middleware for interacting with Camino node RPC APIs.
 
 Example usage:
 ```js
-const avalanche: Avalanche = new Avalanche("127.0.0.1", 9650, "https")
+const camino: Camino = new Camino("127.0.0.1", 9650, "https")
 ```
 
 ## Hierarchy
 
 * [CaminoCore](caminocore.caminocore-1.md)
 
-  ↳ **Avalanche**
+  ↳ **Camino**
 
 ## Index
 
@@ -28,8 +28,8 @@ const avalanche: Avalanche = new Avalanche("127.0.0.1", 9650, "https")
 * [baseEndpoint](camino.camino-1.md#protected-baseendpoint)
 * [headers](camino.camino-1.md#protected-headers)
 * [host](camino.camino-1.md#protected-host)
-* [hrp](camino.camino-1.md#protected-hrp)
 * [ip](camino.camino-1.md#protected-ip)
+* [network](camino.camino-1.md#protected-network)
 * [networkID](camino.camino-1.md#protected-networkid)
 * [port](camino.camino-1.md#protected-port)
 * [protocol](camino.camino-1.md#protected-protocol)
@@ -52,54 +52,55 @@ const avalanche: Avalanche = new Avalanche("127.0.0.1", 9650, "https")
 * [addAPI](camino.camino-1.md#addapi)
 * [api](camino.camino-1.md#api)
 * [delete](camino.camino-1.md#delete)
+* [fetchNetworkSettings](camino.camino-1.md#fetchnetworksettings)
 * [get](camino.camino-1.md#get)
 * [getBaseEndpoint](camino.camino-1.md#getbaseendpoint)
 * [getHRP](camino.camino-1.md#gethrp)
 * [getHeaders](camino.camino-1.md#getheaders)
 * [getHost](camino.camino-1.md#gethost)
 * [getIP](camino.camino-1.md#getip)
+* [getNetwork](camino.camino-1.md#getnetwork)
 * [getNetworkID](camino.camino-1.md#getnetworkid)
 * [getPort](camino.camino-1.md#getport)
+* [getPrimaryAssetAlias](camino.camino-1.md#getprimaryassetalias)
 * [getProtocol](camino.camino-1.md#getprotocol)
 * [getRequestConfig](camino.camino-1.md#getrequestconfig)
 * [getURL](camino.camino-1.md#geturl)
 * [patch](camino.camino-1.md#patch)
 * [post](camino.camino-1.md#post)
 * [put](camino.camino-1.md#put)
+* [refreshAPI](camino.camino-1.md#protected-refreshapi)
 * [removeAllHeaders](camino.camino-1.md#removeallheaders)
 * [removeAllRequestConfigs](camino.camino-1.md#removeallrequestconfigs)
 * [removeHeader](camino.camino-1.md#removeheader)
 * [removeRequestConfig](camino.camino-1.md#removerequestconfig)
-* [setAddress](camino.camino-1.md#setaddress)
 * [setAuthToken](camino.camino-1.md#setauthtoken)
-* [setHRP](camino.camino-1.md#sethrp)
 * [setHeader](camino.camino-1.md#setheader)
-* [setNetworkID](camino.camino-1.md#setnetworkid)
+* [setNetwork](camino.camino-1.md#setnetwork)
 * [setRequestConfig](camino.camino-1.md#setrequestconfig)
 
 ## Constructors
 
 ###  constructor
 
-\+ **new Avalanche**(`host?`: string, `port?`: number, `protocol`: string, `networkID`: number, `XChainID`: string, `CChainID`: string, `hrp`: string, `skipinit`: boolean): *[Camino](camino.camino-1.md)*
+\+ **new Camino**(`host`: string, `port`: number, `protocol`: string, `networkID`: number, `XChainID`: string, `CChainID`: string, `skipinit`: boolean): *[Camino](camino.camino-1.md)*
 
 *Overrides [CaminoCore](caminocore.caminocore-1.md).[constructor](caminocore.caminocore-1.md#constructor)*
 
-*Defined in [src/index.ts:88](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L88)*
+*Defined in [src/index.ts:99](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L99)*
 
-Creates a new Avalanche instance. Sets the address and port of the main Avalanche Client.
+Creates a new Camino instance. Sets the address and port of the main Camino Client.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`host?` | string | - | The hostname to resolve to reach the Avalanche Client RPC APIs |
-`port?` | number | - | The port to resolve to reach the Avalanche Client RPC APIs |
-`protocol` | string | "http" | The protocol string to use before a "://" in a request, ex: "http", "https", "git", "ws", etc. Defaults to http |
-`networkID` | number | DefaultNetworkID | Sets the NetworkID of the class. Default [DefaultNetworkID](../modules/utils_constants.md#const-defaultnetworkid) |
+`host` | string | - | The hostname to resolve to reach the Camino Client RPC APIs |
+`port` | number | - | The port to resolve to reach the Camino Client RPC APIs |
+`protocol` | string | - | The protocol string to use before a "://" in a request, ex: "http", "https", "git", "ws", etc. Defaults to http |
+`networkID` | number | undefined | Sets the NetworkID of the class. Default [DefaultNetworkID](../modules/utils_constants.md#const-defaultnetworkid) |
 `XChainID` | string | undefined | Sets the blockchainID for the AVM. Will try to auto-detect, otherwise default "2eNy1mUFdmaxXNj1eQHUe7Np4gju9sJsEtWQ4MX3ToiNKuADed" |
 `CChainID` | string | undefined | Sets the blockchainID for the EVM. Will try to auto-detect, otherwise default "2CA6j5zYzasynPsFeNoqWkmTCt3VScMvXUZHbfDJ8k3oGzAPtU" |
-`hrp` | string | undefined | The human-readable part of the bech32 addresses |
 `skipinit` | boolean | false | Skips creating the APIs. Defaults to false  |
 
 **Returns:** *[Camino](camino.camino-1.md)*
@@ -112,7 +113,7 @@ Name | Type | Default | Description |
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[apis](caminocore.caminocore-1.md#protected-apis)*
 
-*Defined in [src/avalanche.ts:38](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L38)*
+*Defined in [src/camino.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L38)*
 
 #### Type declaration:
 
@@ -126,7 +127,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[auth](caminocore.caminocore-1.md#protected-auth)*
 
-*Defined in [src/avalanche.ts:35](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L35)*
+*Defined in [src/camino.ts:35](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L35)*
 
 ___
 
@@ -136,7 +137,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[baseEndpoint](caminocore.caminocore-1.md#protected-baseendpoint)*
 
-*Defined in [src/avalanche.ts:33](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L33)*
+*Defined in [src/camino.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L33)*
 
 ___
 
@@ -146,7 +147,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[headers](caminocore.caminocore-1.md#protected-headers)*
 
-*Defined in [src/avalanche.ts:36](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L36)*
+*Defined in [src/camino.ts:36](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L36)*
 
 #### Type declaration:
 
@@ -160,17 +161,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[host](caminocore.caminocore-1.md#protected-host)*
 
-*Defined in [src/avalanche.ts:31](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L31)*
-
-___
-
-### `Protected` hrp
-
-• **hrp**: *string* = ""
-
-*Inherited from [CaminoCore](caminocore.caminocore-1.md).[hrp](caminocore.caminocore-1.md#protected-hrp)*
-
-*Defined in [src/avalanche.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L28)*
+*Defined in [src/camino.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L31)*
 
 ___
 
@@ -180,7 +171,17 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[ip](caminocore.caminocore-1.md#protected-ip)*
 
-*Defined in [src/avalanche.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L30)*
+*Defined in [src/camino.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L30)*
+
+___
+
+### `Protected` network
+
+• **network**: *[Network](../interfaces/utils_networks.network.md)* = undefined
+
+*Inherited from [CaminoCore](caminocore.caminocore-1.md).[network](caminocore.caminocore-1.md#protected-network)*
+
+*Defined in [src/camino.ts:39](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L39)*
 
 ___
 
@@ -190,7 +191,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[networkID](caminocore.caminocore-1.md#protected-networkid)*
 
-*Defined in [src/avalanche.ts:27](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L27)*
+*Defined in [src/camino.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L28)*
 
 ___
 
@@ -200,7 +201,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[port](caminocore.caminocore-1.md#protected-port)*
 
-*Defined in [src/avalanche.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L32)*
+*Defined in [src/camino.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L32)*
 
 ___
 
@@ -210,7 +211,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[protocol](caminocore.caminocore-1.md#protected-protocol)*
 
-*Defined in [src/avalanche.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L29)*
+*Defined in [src/camino.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L29)*
 
 ___
 
@@ -220,7 +221,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[requestConfig](caminocore.caminocore-1.md#protected-requestconfig)*
 
-*Defined in [src/avalanche.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L37)*
+*Defined in [src/camino.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L37)*
 
 ___
 
@@ -230,7 +231,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[url](caminocore.caminocore-1.md#protected-url)*
 
-*Defined in [src/avalanche.ts:34](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L34)*
+*Defined in [src/camino.ts:34](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L34)*
 
 ## Methods
 
@@ -238,7 +239,7 @@ ___
 
 ▸ **Admin**(): *[AdminAPI](api_admin.adminapi.md)‹›*
 
-*Defined in [src/index.ts:42](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L42)*
+*Defined in [src/index.ts:53](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L53)*
 
 Returns a reference to the Admin RPC.
 
@@ -250,7 +251,7 @@ ___
 
 ▸ **Auth**(): *[AuthAPI](api_auth.authapi.md)‹›*
 
-*Defined in [src/index.ts:47](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L47)*
+*Defined in [src/index.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L58)*
 
 Returns a reference to the Auth RPC.
 
@@ -262,7 +263,7 @@ ___
 
 ▸ **CChain**(): *[EVMAPI](api_evm.evmapi.md)‹›*
 
-*Defined in [src/index.ts:52](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L52)*
+*Defined in [src/index.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L63)*
 
 Returns a reference to the EVMAPI RPC pointed at the C-Chain.
 
@@ -274,7 +275,7 @@ ___
 
 ▸ **Health**(): *[HealthAPI](api_health.healthapi.md)‹›*
 
-*Defined in [src/index.ts:62](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L62)*
+*Defined in [src/index.ts:73](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L73)*
 
 Returns a reference to the Health RPC for a node.
 
@@ -286,7 +287,7 @@ ___
 
 ▸ **Index**(): *[IndexAPI](api_index.indexapi.md)‹›*
 
-*Defined in [src/index.ts:67](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L67)*
+*Defined in [src/index.ts:78](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L78)*
 
 Returns a reference to the Index RPC for a node.
 
@@ -298,7 +299,7 @@ ___
 
 ▸ **Info**(): *[InfoAPI](api_info.infoapi.md)‹›*
 
-*Defined in [src/index.ts:72](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L72)*
+*Defined in [src/index.ts:83](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L83)*
 
 Returns a reference to the Info RPC for a node.
 
@@ -310,7 +311,7 @@ ___
 
 ▸ **Metrics**(): *[MetricsAPI](api_metrics.metricsapi.md)‹›*
 
-*Defined in [src/index.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L77)*
+*Defined in [src/index.ts:88](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L88)*
 
 Returns a reference to the Metrics RPC.
 
@@ -322,7 +323,7 @@ ___
 
 ▸ **NodeKeys**(): *[KeystoreAPI](api_keystore.keystoreapi.md)‹›*
 
-*Defined in [src/index.ts:83](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L83)*
+*Defined in [src/index.ts:94](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L94)*
 
 Returns a reference to the Keystore RPC for a node. We label it "NodeKeys" to reduce
 confusion about what it's accessing.
@@ -335,7 +336,7 @@ ___
 
 ▸ **PChain**(): *[PlatformVMAPI](api_platformvm.platformvmapi.md)‹›*
 
-*Defined in [src/index.ts:88](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L88)*
+*Defined in [src/index.ts:99](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L99)*
 
 Returns a reference to the PlatformVM RPC pointed at the P-Chain.
 
@@ -347,7 +348,7 @@ ___
 
 ▸ **XChain**(): *[AVMAPI](api_avm.avmapi.md)‹›*
 
-*Defined in [src/index.ts:57](https://github.com/chain4travel/caminojs/blob/ca67b81/src/index.ts#L57)*
+*Defined in [src/index.ts:68](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L68)*
 
 Returns a reference to the AVM RPC pointed at the X-Chain.
 
@@ -361,7 +362,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[_setHeaders](caminocore.caminocore-1.md#protected-_setheaders)*
 
-*Defined in [src/avalanche.ts:227](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L227)*
+*Defined in [src/camino.ts:227](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L227)*
 
 **Parameters:**
 
@@ -379,18 +380,18 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[addAPI](caminocore.caminocore-1.md#addapi)*
 
-*Defined in [src/avalanche.ts:259](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L259)*
+*Defined in [src/camino.ts:266](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L266)*
 
 Adds an API to the middleware. The API resolves to a registered blockchain's RPC.
 
 In TypeScript:
 ```js
-avalanche.addAPI<MyVMClass>("mychain", MyVMClass, "/ext/bc/mychain")
+camino.addAPI<MyVMClass>("mychain", MyVMClass, "/ext/bc/mychain")
 ```
 
 In Javascript:
 ```js
-avalanche.addAPI("mychain", MyVMClass, "/ext/bc/mychain")
+camino.addAPI("mychain", MyVMClass, "/ext/bc/mychain")
 ```
 
 **Type parameters:**
@@ -418,7 +419,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[api](caminocore.caminocore-1.md#api)*
 
-*Defined in [src/avalanche.ts:281](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L281)*
+*Defined in [src/camino.ts:288](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L288)*
 
 Retrieves a reference to an API by its apiName label.
 
@@ -442,7 +443,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[delete](caminocore.caminocore-1.md#delete)*
 
-*Defined in [src/avalanche.ts:366](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L366)*
+*Defined in [src/camino.ts:373](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L373)*
 
 Makes a DELETE call to an API.
 
@@ -461,13 +462,23 @@ A promise for [RequestResponseData](common_apibase.requestresponsedata.md)
 
 ___
 
+###  fetchNetworkSettings
+
+▸ **fetchNetworkSettings**(): *Promise‹boolean›*
+
+*Defined in [src/index.ts:157](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L157)*
+
+**Returns:** *Promise‹boolean›*
+
+___
+
 ###  get
 
 ▸ **get**(`baseurl`: string, `getdata`: object, `headers`: object, `axiosConfig`: AxiosRequestConfig): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[get](caminocore.caminocore-1.md#get)*
 
-*Defined in [src/avalanche.ts:340](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L340)*
+*Defined in [src/camino.ts:347](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L347)*
 
 Makes a GET call to an API.
 
@@ -492,9 +503,9 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getBaseEndpoint](caminocore.caminocore-1.md#getbaseendpoint)*
 
-*Defined in [src/avalanche.ts:112](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L112)*
+*Defined in [src/camino.ts:129](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L129)*
 
-Returns the base endpoint for the Avalanche node.
+Returns the base endpoint for the Camino node.
 
 **Returns:** *string*
 
@@ -506,7 +517,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getHRP](caminocore.caminocore-1.md#gethrp)*
 
-*Defined in [src/avalanche.ts:147](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L147)*
+*Defined in [src/camino.ts:156](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L156)*
 
 Returns the Human-Readable-Part of the network associated with this key.
 
@@ -522,7 +533,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getHeaders](caminocore.caminocore-1.md#getheaders)*
 
-*Defined in [src/avalanche.ts:122](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L122)*
+*Defined in [src/camino.ts:139](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L139)*
 
 Returns the custom headers
 
@@ -536,9 +547,9 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getHost](caminocore.caminocore-1.md#gethost)*
 
-*Defined in [src/avalanche.ts:97](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L97)*
+*Defined in [src/camino.ts:114](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L114)*
 
-Returns the host for the Avalanche node.
+Returns the host for the Camino node.
 
 **Returns:** *string*
 
@@ -550,11 +561,25 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getIP](caminocore.caminocore-1.md#getip)*
 
-*Defined in [src/avalanche.ts:102](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L102)*
+*Defined in [src/camino.ts:119](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L119)*
 
-Returns the IP for the Avalanche node.
+Returns the IP for the Camino node.
 
 **Returns:** *string*
+
+___
+
+###  getNetwork
+
+▸ **getNetwork**(): *[Network](../interfaces/utils_networks.network.md)*
+
+*Inherited from [CaminoCore](caminocore.caminocore-1.md).[getNetwork](caminocore.caminocore-1.md#getnetwork)*
+
+*Defined in [src/camino.ts:104](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L104)*
+
+Returns the network configuration.
+
+**Returns:** *[Network](../interfaces/utils_networks.network.md)*
 
 ___
 
@@ -564,7 +589,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getNetworkID](caminocore.caminocore-1.md#getnetworkid)*
 
-*Defined in [src/avalanche.ts:132](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L132)*
+*Defined in [src/camino.ts:149](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L149)*
 
 Returns the networkID
 
@@ -578,11 +603,25 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getPort](caminocore.caminocore-1.md#getport)*
 
-*Defined in [src/avalanche.ts:107](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L107)*
+*Defined in [src/camino.ts:124](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L124)*
 
-Returns the port for the Avalanche node.
+Returns the port for the Camino node.
 
 **Returns:** *number*
+
+___
+
+###  getPrimaryAssetAlias
+
+▸ **getPrimaryAssetAlias**(): *string*
+
+*Inherited from [CaminoCore](caminocore.caminocore-1.md).[getPrimaryAssetAlias](caminocore.caminocore-1.md#getprimaryassetalias)*
+
+*Defined in [src/camino.ts:243](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L243)*
+
+Returns the primary asset alias.
+
+**Returns:** *string*
 
 ___
 
@@ -592,7 +631,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getProtocol](caminocore.caminocore-1.md#getprotocol)*
 
-*Defined in [src/avalanche.ts:92](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L92)*
+*Defined in [src/camino.ts:109](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L109)*
 
 Returns the protocol such as "http", "https", "git", "ws", etc.
 
@@ -606,7 +645,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getRequestConfig](caminocore.caminocore-1.md#getrequestconfig)*
 
-*Defined in [src/avalanche.ts:127](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L127)*
+*Defined in [src/camino.ts:144](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L144)*
 
 Returns the custom request config
 
@@ -620,9 +659,9 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[getURL](caminocore.caminocore-1.md#geturl)*
 
-*Defined in [src/avalanche.ts:117](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L117)*
+*Defined in [src/camino.ts:134](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L134)*
 
-Returns the URL of the Avalanche node (ip + port)
+Returns the URL of the Camino node (ip + port)
 
 **Returns:** *string*
 
@@ -634,7 +673,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[patch](caminocore.caminocore-1.md#patch)*
 
-*Defined in [src/avalanche.ts:450](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L450)*
+*Defined in [src/camino.ts:457](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L457)*
 
 Makes a PATCH call to an API.
 
@@ -660,7 +699,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[post](caminocore.caminocore-1.md#post)*
 
-*Defined in [src/avalanche.ts:393](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L393)*
+*Defined in [src/camino.ts:400](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L400)*
 
 Makes a POST call to an API.
 
@@ -686,7 +725,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[put](caminocore.caminocore-1.md#put)*
 
-*Defined in [src/avalanche.ts:421](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L421)*
+*Defined in [src/camino.ts:428](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L428)*
 
 Makes a PUT call to an API.
 
@@ -706,13 +745,23 @@ A promise for [RequestResponseData](common_apibase.requestresponsedata.md)
 
 ___
 
+### `Protected` refreshAPI
+
+▸ **refreshAPI**(): *boolean*
+
+*Defined in [src/index.ts:234](https://github.com/chain4travel/caminojs/blob/8077d740/src/index.ts#L234)*
+
+**Returns:** *boolean*
+
+___
+
 ###  removeAllHeaders
 
 ▸ **removeAllHeaders**(): *void*
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[removeAllHeaders](caminocore.caminocore-1.md#removeallheaders)*
 
-*Defined in [src/avalanche.ts:180](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L180)*
+*Defined in [src/camino.ts:180](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L180)*
 
 Removes all headers.
 
@@ -726,7 +775,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[removeAllRequestConfigs](caminocore.caminocore-1.md#removeallrequestconfigs)*
 
-*Defined in [src/avalanche.ts:210](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L210)*
+*Defined in [src/camino.ts:210](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L210)*
 
 Removes all request configs.
 
@@ -740,7 +789,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[removeHeader](caminocore.caminocore-1.md#removeheader)*
 
-*Defined in [src/avalanche.ts:173](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L173)*
+*Defined in [src/camino.ts:173](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L173)*
 
 Removes a previously added custom header.
 
@@ -760,7 +809,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[removeRequestConfig](caminocore.caminocore-1.md#removerequestconfig)*
 
-*Defined in [src/avalanche.ts:203](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L203)*
+*Defined in [src/camino.ts:203](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L203)*
 
 Removes a previously added request config.
 
@@ -774,36 +823,13 @@ Name | Type | Description |
 
 ___
 
-###  setAddress
-
-▸ **setAddress**(`host`: string, `port`: number, `protocol`: string, `baseEndpoint`: string): *void*
-
-*Inherited from [CaminoCore](caminocore.caminocore-1.md).[setAddress](caminocore.caminocore-1.md#setaddress)*
-
-*Defined in [src/avalanche.ts:52](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L52)*
-
-Sets the address and port of the main Avalanche Client.
-
-**Parameters:**
-
-Name | Type | Default | Description |
------- | ------ | ------ | ------ |
-`host` | string | - | The hostname to resolve to reach the Avalanche Client RPC APIs. |
-`port` | number | - | The port to resolve to reach the Avalanche Client RPC APIs. |
-`protocol` | string | "http" | The protocol string to use before a "://" in a request, ex: "http", "https", etc. Defaults to http |
-`baseEndpoint` | string | "" | the base endpoint to reach the Avalanche Client RPC APIs, ex: "/rpc". Defaults to "/" The following special characters are removed from host and protocol &#,@+()$~%'":*?{} also less than and greater than signs  |
-
-**Returns:** *void*
-
-___
-
 ###  setAuthToken
 
 ▸ **setAuthToken**(`auth`: string): *void*
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[setAuthToken](caminocore.caminocore-1.md#setauthtoken)*
 
-*Defined in [src/avalanche.ts:223](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L223)*
+*Defined in [src/camino.ts:223](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L223)*
 
 Sets the temporary auth token used for communicating with the node.
 
@@ -817,33 +843,13 @@ Name | Type | Description |
 
 ___
 
-###  setHRP
-
-▸ **setHRP**(`hrp`: string): *void*
-
-*Inherited from [CaminoCore](caminocore.caminocore-1.md).[setHRP](caminocore.caminocore-1.md#sethrp)*
-
-*Defined in [src/avalanche.ts:154](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L154)*
-
-Sets the the Human-Readable-Part of the network associated with this key.
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`hrp` | string | String for the Human-Readable-Part of Bech32 addresses  |
-
-**Returns:** *void*
-
-___
-
 ###  setHeader
 
 ▸ **setHeader**(`key`: string, `value`: string): *void*
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[setHeader](caminocore.caminocore-1.md#setheader)*
 
-*Defined in [src/avalanche.ts:164](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L164)*
+*Defined in [src/camino.ts:164](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L164)*
 
 Adds a new custom header to be included with all requests.
 
@@ -858,21 +864,25 @@ Name | Type | Description |
 
 ___
 
-###  setNetworkID
+###  setNetwork
 
-▸ **setNetworkID**(`netID`: number): *void*
+▸ **setNetwork**(`host`: string, `port`: number, `protocol`: string, `networkID`: number, `baseEndpoint`: string): *void*
 
-*Inherited from [CaminoCore](caminocore.caminocore-1.md).[setNetworkID](caminocore.caminocore-1.md#setnetworkid)*
+*Inherited from [CaminoCore](caminocore.caminocore-1.md).[setNetwork](caminocore.caminocore-1.md#setnetwork)*
 
-*Defined in [src/avalanche.ts:137](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L137)*
+*Defined in [src/camino.ts:53](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L53)*
 
-Sets the networkID
+Sets the address and port of the main Camino Client.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`netID` | number |
+Name | Type | Default | Description |
+------ | ------ | ------ | ------ |
+`host` | string | - | The hostname to resolve to reach the Camino Client RPC APIs. |
+`port` | number | - | The port to resolve to reach the Camino Client RPC APIs. |
+`protocol` | string | - | The protocol string to use before a "://" in a request, ex: "http", "https", etc. Defaults to http |
+`networkID` | number | - | - |
+`baseEndpoint` | string | "" | the base endpoint to reach the Camino Client RPC APIs, ex: "/rpc". Defaults to "/" The following special characters are removed from host and protocol &#,@+()$~%'":*?{} also less than and greater than signs  |
 
 **Returns:** *void*
 
@@ -884,7 +894,7 @@ ___
 
 *Inherited from [CaminoCore](caminocore.caminocore-1.md).[setRequestConfig](caminocore.caminocore-1.md#setrequestconfig)*
 
-*Defined in [src/avalanche.ts:194](https://github.com/chain4travel/caminojs/blob/ca67b81/src/avalanche.ts#L194)*
+*Defined in [src/camino.ts:194](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L194)*
 
 Adds a new custom config value to be included with all requests.
 

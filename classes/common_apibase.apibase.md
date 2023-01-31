@@ -34,7 +34,7 @@ Abstract class defining a generic endpoint that all endpoints must implement (ex
 
 ###  constructor
 
-\+ **new APIBase**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string): *[APIBase](common_apibase.apibase.md)*
+\+ **new APIBase**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string): *[APIBase](common_apibase.apibase.md)*
 
 *Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L58)*
 
@@ -42,7 +42,7 @@ Abstract class defining a generic endpoint that all endpoints must implement (ex
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | Reference to the Avalanche instance using this baseURL |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | Reference to the Camino instance using this baseURL |
 `baseURL` | string | Path to the baseURL  |
 
 **Returns:** *[APIBase](common_apibase.apibase.md)*
@@ -59,7 +59,7 @@ ___
 
 ### `Protected` core
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
 
 *Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L28)*
 

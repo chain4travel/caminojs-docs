@@ -1,12 +1,12 @@
-[camino](../api.md) › [src/utils](../modules/src_utils.md) › [CaminoError](src_utils.caminoerror.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [CaminoError](src_utils.caminoerror.md)
 
-# Class: AvalancheError
+# Class: CaminoError
 
 ## Hierarchy
 
 * [Error](src_utils.caminoerror.md#static-error)
 
-  ↳ **AvalancheError**
+  ↳ **CaminoError**
 
   ↳ [AddressError](src_utils.addresserror.md)
 
@@ -120,9 +120,9 @@
 
 ###  constructor
 
-\+ **new AvalancheError**(`m`: string, `code`: string): *[CaminoError](src_utils.caminoerror.md)*
+\+ **new CaminoError**(`m`: string, `code`: string): *[CaminoError](src_utils.caminoerror.md)*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L48)*
 
 **Parameters:**
 
@@ -139,7 +139,7 @@ Name | Type |
 
 • **errorCode**: *string*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L48)*
 
 ___
 
@@ -185,6 +185,6 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:1039
 
 ▸ **getCode**(): *string*
 
-*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L55)*
+*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L55)*
 
 **Returns:** *string*

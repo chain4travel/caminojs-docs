@@ -43,7 +43,7 @@
 
 ###  constructor
 
-\+ **new RESTAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string, `contentType`: string, `acceptType`: string): *[RESTAPI](common_restapi.restapi.md)*
+\+ **new RESTAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string, `contentType`: string, `acceptType`: string): *[RESTAPI](common_restapi.restapi.md)*
 
 *Overrides [APIBase](common_apibase.apibase.md).[constructor](common_apibase.apibase.md#constructor)*
 
@@ -53,7 +53,7 @@
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | Reference to the Avalanche instance using this endpoint |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | Reference to the Camino instance using this endpoint |
 `baseURL` | string | - | Path of the APIs baseURL - ex: "/ext/bc/avm" |
 `contentType` | string | "application/json;charset=UTF-8" | Optional Determines the type of the entity attached to the incoming request |
 `acceptType` | string | undefined | Optional Determines the type of representation which is desired on the client side  |
@@ -90,7 +90,7 @@ ___
 
 ### `Protected` core
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 

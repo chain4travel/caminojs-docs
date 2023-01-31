@@ -414,7 +414,7 @@ ___
 
 ###  getMinimumSpendable
 
-▸ **getMinimumSpendable**(`aad`: [AssetAmountDestination](api_platformvm_utxos.assetamountdestination.md), `asOf`: BN, `lockTime`: BN, `lockMode`: [LockMode](../modules/api_platformvm_builder.md#lockmode)): *Promise‹[Error](src_utils.avalancheerror.md#static-error)›*
+▸ **getMinimumSpendable**(`aad`: [AssetAmountDestination](api_platformvm_utxos.assetamountdestination.md), `asOf`: BN, `lockTime`: BN, `lockMode`: [LockMode](../modules/api_platformvm_builder.md#lockmode)): *Promise‹[Error](src_utils.caminoerror.md#static-error)›*
 
 *Defined in [src/apis/platformvm/utxos.ts:243](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/utxos.ts#L243)*
 
@@ -427,7 +427,7 @@ Name | Type | Default |
 `lockTime` | BN | zeroBN |
 `lockMode` | [LockMode](../modules/api_platformvm_builder.md#lockmode) | "Unlocked" |
 
-**Returns:** *Promise‹[Error](src_utils.avalancheerror.md#static-error)›*
+**Returns:** *Promise‹[Error](src_utils.caminoerror.md#static-error)›*
 
 ___
 

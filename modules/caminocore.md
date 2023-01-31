@@ -1,4 +1,4 @@
-[camino](../api.md) › [CaminoCore](caminocore.md)
+[@c4tplatform/caminojs](../api.md) › [CaminoCore](caminocore.md)
 
 # Module: CaminoCore
 

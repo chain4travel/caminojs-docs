@@ -4,7 +4,7 @@
 
 Class for interacting with a node's EVMAPI
 
-**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
+**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Camino.addAPI](camino.camino-1.md#addapi) function to register this interface with Camino.
 
 ## Hierarchy
 
@@ -68,20 +68,20 @@ Class for interacting with a node's EVMAPI
 
 ###  constructor
 
-\+ **new EVMAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string, `blockchainID`: string): *[EVMAPI](api_evm.evmapi.md)*
+\+ **new EVMAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string, `blockchainID`: string): *[EVMAPI](api_evm.evmapi.md)*
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
 *Defined in [src/apis/evm/api.ts:814](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/api.ts#L814)*
 
 This class should not be instantiated directly.
-Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) method.
+Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class |
 `baseURL` | string | "/ext/bc/C/avax" | Defaults to the string "/ext/bc/C/avax" as the path to blockchain's baseURL |
 `blockchainID` | string | "" | The Blockchain's ID. Defaults to an empty string: ""  |
 
@@ -125,7 +125,7 @@ ___
 
 ### `Protected` core
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
@@ -273,7 +273,7 @@ ___
 
 *Defined in [src/apis/evm/api.ts:286](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/api.ts#L286)*
 
-Send ANT (Avalanche Native Token) assets including AVAX from the C-Chain to an account on the X-Chain.
+Send ANT (Camino Native Token) assets including AVAX from the C-Chain to an account on the X-Chain.
 
 After calling this method, you must call the X-Chain’s import method to complete the transfer.
 
@@ -596,7 +596,7 @@ ___
 
 *Defined in [src/apis/evm/api.ts:414](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/api.ts#L414)*
 
-Send ANT (Avalanche Native Token) assets including AVAX from an account on the X-Chain to an address on the C-Chain. This transaction
+Send ANT (Camino Native Token) assets including AVAX from an account on the X-Chain to an address on the C-Chain. This transaction
 must be signed with the key of the account that the asset is sent from and which pays
 the transaction fee.
 

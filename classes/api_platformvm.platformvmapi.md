@@ -4,7 +4,7 @@
 
 Class for interacting with a node's PlatformVMAPI
 
-**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
+**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Camino.addAPI](camino.camino-1.md#addapi) function to register this interface with Camino.
 
 ## Hierarchy
 
@@ -112,20 +112,20 @@ Class for interacting with a node's PlatformVMAPI
 
 ###  constructor
 
-\+ **new PlatformVMAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string): *[PlatformVMAPI](api_platformvm.platformvmapi.md)*
+\+ **new PlatformVMAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string): *[PlatformVMAPI](api_platformvm.platformvmapi.md)*
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
 *Defined in [src/apis/platformvm/api.ts:2232](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2232)*
 
 This class should not be instantiated directly.
-Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) method.
+Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class |
 `baseURL` | string | "/ext/bc/P" | Defaults to the string "/ext/P" as the path to blockchain's baseURL  |
 
 **Returns:** *[PlatformVMAPI](api_platformvm.platformvmapi.md)*
@@ -168,7 +168,7 @@ ___
 
 ### `Protected` core
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
@@ -1174,7 +1174,7 @@ ___
 
 *Defined in [src/apis/platformvm/api.ts:129](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L129)*
 
-Gets the current network, fetched via avalanche.fetchNetworkSettings.
+Gets the current network, fetched via camino.fetchNetworkSettings.
 
 **Returns:** *[Network](../interfaces/utils_networks.network.md)*
 

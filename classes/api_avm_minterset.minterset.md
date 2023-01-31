@@ -2,7 +2,7 @@
 
 # Class: MinterSet
 
-Class for representing a threshold and set of minting addresses in Avalanche.
+Class for representing a threshold and set of minting addresses in Camino.
 
 **`typeparam`** including a threshold and array of addresses
 
