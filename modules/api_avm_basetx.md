@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-AVM-BaseTx](api_avm_basetx.md)
+[@c4tplatform/caminojs](../README.md) › [API-AVM-BaseTx](api_avm_basetx.md)
 
 # Module: API-AVM-BaseTx
 
@@ -21,7 +21,7 @@
 
 • **buffer**: *[SerializedType](utils_serialization.md#serializedtype)* = "Buffer"
 
-*Defined in [src/apis/avm/basetx.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/basetx.ts#L29)*
+*Defined in [src/apis/avm/basetx.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/basetx.ts#L29)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **decimalString**: *[SerializedType](utils_serialization.md#serializedtype)* = "decimalString"
 
-*Defined in [src/apis/avm/basetx.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/basetx.ts#L28)*
+*Defined in [src/apis/avm/basetx.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/basetx.ts#L28)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **display**: *[SerializedEncoding](utils_serialization.md#serializedencoding)* = "display"
 
-*Defined in [src/apis/avm/basetx.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/basetx.ts#L30)*
+*Defined in [src/apis/avm/basetx.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/basetx.ts#L30)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/avm/basetx.ts:27](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/basetx.ts#L27)*
+*Defined in [src/apis/avm/basetx.ts:27](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/basetx.ts#L27)*

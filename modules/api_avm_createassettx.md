@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-AVM-CreateAssetTx](api_avm_createassettx.md)
+[@c4tplatform/caminojs](../README.md) › [API-AVM-CreateAssetTx](api_avm_createassettx.md)
 
 # Module: API-AVM-CreateAssetTx
 
@@ -21,7 +21,7 @@
 
 • **buffer**: *[SerializedType](utils_serialization.md#serializedtype)* = "Buffer"
 
-*Defined in [src/apis/avm/createassettx.ts:27](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/createassettx.ts#L27)*
+*Defined in [src/apis/avm/createassettx.ts:27](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/createassettx.ts#L27)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **decimalString**: *[SerializedType](utils_serialization.md#serializedtype)* = "decimalString"
 
-*Defined in [src/apis/avm/createassettx.ts:26](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/createassettx.ts#L26)*
+*Defined in [src/apis/avm/createassettx.ts:26](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/createassettx.ts#L26)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/avm/createassettx.ts:24](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/createassettx.ts#L24)*
+*Defined in [src/apis/avm/createassettx.ts:24](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/createassettx.ts#L24)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **utf8**: *[SerializedType](utils_serialization.md#serializedtype)* = "utf8"
 
-*Defined in [src/apis/avm/createassettx.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/createassettx.ts#L25)*
+*Defined in [src/apis/avm/createassettx.ts:25](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/createassettx.ts#L25)*

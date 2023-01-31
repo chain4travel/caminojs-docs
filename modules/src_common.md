@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/common](src_common.md)
+[@c4tplatform/caminojs](../README.md) › [src/common](src_common.md)
 
 # Module: src/common
 
@@ -10,7 +10,11 @@
 * [Address](src_common.md#address)
 * [Asset](src_common.md#asset)
 * [AssetAmount](src_common.md#assetamount)
+* [BaseInput](src_common.md#baseinput)
+* [BaseInputComparator](src_common.md#baseinputcomparator)
 * [BaseNFTOutput](src_common.md#basenftoutput)
+* [BaseOutput](src_common.md#baseoutput)
+* [BaseOutputComparator](src_common.md#baseoutputcomparator)
 * [Credential](src_common.md#credential)
 * [CredsInterface](src_common.md#credsinterface)
 * [EVMStandardBaseTx](src_common.md#evmstandardbasetx)
@@ -74,9 +78,33 @@ ___
 
 ___
 
+###  BaseInput
+
+• **BaseInput**:
+
+___
+
+###  BaseInputComparator
+
+• **BaseInputComparator**:
+
+___
+
 ###  BaseNFTOutput
 
 • **BaseNFTOutput**:
+
+___
+
+###  BaseOutput
+
+• **BaseOutput**:
+
+___
+
+###  BaseOutputComparator
+
+• **BaseOutputComparator**:
 
 ___
 

@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportKeyParams](platformvm_interfaces.importkeyparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportKeyParams](platformvm_interfaces.importkeyparams.md)
 
 # Interface: ImportKeyParams
 
@@ -20,7 +20,7 @@
 
 • **password**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:104](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L104)*
+*Defined in [src/apis/platformvm/interfaces.ts:127](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L127)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **privateKey**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:105](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L105)*
+*Defined in [src/apis/platformvm/interfaces.ts:128](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L128)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:103](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L103)*
+*Defined in [src/apis/platformvm/interfaces.ts:126](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L126)*

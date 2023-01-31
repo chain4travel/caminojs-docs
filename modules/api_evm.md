@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-EVM](api_evm.md)
+[@c4tplatform/caminojs](../README.md) › [API-EVM](api_evm.md)
 
 # Module: API-EVM
 
@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/evm/api.ts:50](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L50)*
+*Defined in [src/apis/evm/api.ts:49](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/api.ts#L49)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/apis/platformvm](src_apis_platformvm.md)
+[@c4tplatform/caminojs](../README.md) › [src/apis/platformvm](src_apis_platformvm.md)
 
 # Module: src/apis/platformvm
 
@@ -11,11 +11,13 @@
 * [AddSubnetValidatorTx](src_apis_platformvm.md#addsubnetvalidatortx)
 * [AddValidatorParams](src_apis_platformvm.md#addvalidatorparams)
 * [AddValidatorTx](src_apis_platformvm.md#addvalidatortx)
+* [AddressParams](src_apis_platformvm.md#addressparams)
 * [AmountInput](src_apis_platformvm.md#amountinput)
 * [AmountOutput](src_apis_platformvm.md#amountoutput)
 * [AssetAmountDestination](src_apis_platformvm.md#assetamountdestination)
 * [BaseTx](src_apis_platformvm.md#basetx)
 * [Blockchain](src_apis_platformvm.md#blockchain)
+* [CaminoAddValidatorTx](src_apis_platformvm.md#caminoaddvalidatortx)
 * [CreateAddressParams](src_apis_platformvm.md#createaddressparams)
 * [CreateBlockchainParams](src_apis_platformvm.md#createblockchainparams)
 * [CreateChainTx](src_apis_platformvm.md#createchaintx)
@@ -26,6 +28,7 @@
 * [ExportKeyParams](src_apis_platformvm.md#exportkeyparams)
 * [ExportTx](src_apis_platformvm.md#exporttx)
 * [GetBalanceResponse](src_apis_platformvm.md#getbalanceresponse)
+* [GetConfigurationResponse](src_apis_platformvm.md#getconfigurationresponse)
 * [GetCurrentValidatorsParams](src_apis_platformvm.md#getcurrentvalidatorsparams)
 * [GetMaxStakeAmountParams](src_apis_platformvm.md#getmaxstakeamountparams)
 * [GetMinStakeResponse](src_apis_platformvm.md#getminstakeresponse)
@@ -46,10 +49,15 @@
 * [KeyChain](src_apis_platformvm.md#keychain)
 * [KeyPair](src_apis_platformvm.md#keypair)
 * [ListAddressesParams](src_apis_platformvm.md#listaddressesparams)
+* [LockedIn](src_apis_platformvm.md#lockedin)
+* [LockedOut](src_apis_platformvm.md#lockedout)
+* [MultisigAliasReply](src_apis_platformvm.md#multisigaliasreply)
+* [Owner](src_apis_platformvm.md#owner)
 * [ParseableInput](src_apis_platformvm.md#parseableinput)
 * [ParseableOutput](src_apis_platformvm.md#parseableoutput)
 * [PlatformVMAPI](src_apis_platformvm.md#platformvmapi)
 * [PlatformVMConstants](src_apis_platformvm.md#platformvmconstants)
+* [RegisterNodeTx](src_apis_platformvm.md#registernodetx)
 * [SECPCredential](src_apis_platformvm.md#secpcredential)
 * [SECPOwnerOutput](src_apis_platformvm.md#secpowneroutput)
 * [SECPTransferInput](src_apis_platformvm.md#secptransferinput)
@@ -59,6 +67,8 @@
 * [SelectInputClass](src_apis_platformvm.md#selectinputclass)
 * [SelectOutputClass](src_apis_platformvm.md#selectoutputclass)
 * [SelectTxClass](src_apis_platformvm.md#selecttxclass)
+* [SpendParams](src_apis_platformvm.md#spendparams)
+* [SpendReply](src_apis_platformvm.md#spendreply)
 * [StakeableLockIn](src_apis_platformvm.md#stakeablelockin)
 * [StakeableLockOut](src_apis_platformvm.md#stakeablelockout)
 * [StartIndex](src_apis_platformvm.md#startindex)
@@ -105,6 +115,12 @@ ___
 
 ___
 
+###  AddressParams
+
+• **AddressParams**:
+
+___
+
 ###  AmountInput
 
 • **AmountInput**:
@@ -132,6 +148,12 @@ ___
 ###  Blockchain
 
 • **Blockchain**:
+
+___
+
+###  CaminoAddValidatorTx
+
+• **CaminoAddValidatorTx**:
 
 ___
 
@@ -192,6 +214,12 @@ ___
 ###  GetBalanceResponse
 
 • **GetBalanceResponse**:
+
+___
+
+###  GetConfigurationResponse
+
+• **GetConfigurationResponse**:
 
 ___
 
@@ -315,6 +343,30 @@ ___
 
 ___
 
+###  LockedIn
+
+• **LockedIn**:
+
+___
+
+###  LockedOut
+
+• **LockedOut**:
+
+___
+
+###  MultisigAliasReply
+
+• **MultisigAliasReply**:
+
+___
+
+###  Owner
+
+• **Owner**:
+
+___
+
 ###  ParseableInput
 
 • **ParseableInput**:
@@ -336,6 +388,12 @@ ___
 ###  PlatformVMConstants
 
 • **PlatformVMConstants**:
+
+___
+
+###  RegisterNodeTx
+
+• **RegisterNodeTx**:
 
 ___
 
@@ -390,6 +448,18 @@ ___
 ###  SelectTxClass
 
 • **SelectTxClass**:
+
+___
+
+###  SpendParams
+
+• **SpendParams**:
+
+___
+
+###  SpendReply
+
+• **SpendReply**:
 
 ___
 

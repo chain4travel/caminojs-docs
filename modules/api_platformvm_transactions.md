@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-Transactions](api_platformvm_transactions.md)
+[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Transactions](api_platformvm_transactions.md)
 
 # Module: API-PlatformVM-Transactions
 
@@ -19,7 +19,7 @@
 
 ▸ **SelectTxClass**(`txtype`: number, ...`args`: any[]): *[BaseTx](../classes/api_platformvm_basetx.basetx.md)*
 
-*Defined in [src/apis/platformvm/tx.ts:33](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/tx.ts#L33)*
+*Defined in [src/apis/platformvm/tx.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/tx.ts#L38)*
 
 Takes a buffer representing the output and returns the proper [BaseTx](../classes/api_avm_basetx.basetx.md) instance.
 

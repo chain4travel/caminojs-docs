@@ -1,10 +1,10 @@
-[camino](../README.md) › [API-PlatformVM](../modules/api_platformvm.md) › [PlatformVMAPI](api_platformvm.platformvmapi.md)
+[@c4tplatform/caminojs](../README.md) › [API-PlatformVM](../modules/api_platformvm.md) › [PlatformVMAPI](api_platformvm.platformvmapi.md)
 
 # Class: PlatformVMAPI
 
 Class for interacting with a node's PlatformVMAPI
 
-**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Camino.addAPI](camino.camino-1.md#addapi) function to register this interface with Avalanche.
+**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
 
 ## Hierarchy
 
@@ -35,6 +35,7 @@ Class for interacting with a node's PlatformVMAPI
 
 ### Methods
 
+* [_getBuilder](api_platformvm.platformvmapi.md#_getbuilder)
 * [addDelegator](api_platformvm.platformvmapi.md#adddelegator)
 * [addSubnetValidator](api_platformvm.platformvmapi.md#addsubnetvalidator)
 * [addValidator](api_platformvm.platformvmapi.md#addvalidator)
@@ -42,10 +43,13 @@ Class for interacting with a node's PlatformVMAPI
 * [buildAddDelegatorTx](api_platformvm.platformvmapi.md#buildadddelegatortx)
 * [buildAddSubnetValidatorTx](api_platformvm.platformvmapi.md#buildaddsubnetvalidatortx)
 * [buildAddValidatorTx](api_platformvm.platformvmapi.md#buildaddvalidatortx)
+* [buildAddressStateTx](api_platformvm.platformvmapi.md#buildaddressstatetx)
 * [buildCreateChainTx](api_platformvm.platformvmapi.md#buildcreatechaintx)
 * [buildCreateSubnetTx](api_platformvm.platformvmapi.md#buildcreatesubnettx)
+* [buildDepositTx](api_platformvm.platformvmapi.md#builddeposittx)
 * [buildExportTx](api_platformvm.platformvmapi.md#buildexporttx)
 * [buildImportTx](api_platformvm.platformvmapi.md#buildimporttx)
+* [buildRegisterNodeTx](api_platformvm.platformvmapi.md#buildregisternodetx)
 * [callMethod](api_platformvm.platformvmapi.md#callmethod)
 * [checkGooseEgg](api_platformvm.platformvmapi.md#checkgooseegg)
 * [createAddress](api_platformvm.platformvmapi.md#createaddress)
@@ -54,12 +58,14 @@ Class for interacting with a node's PlatformVMAPI
 * [exportAVAX](api_platformvm.platformvmapi.md#exportavax)
 * [exportKey](api_platformvm.platformvmapi.md#exportkey)
 * [getAVAXAssetID](api_platformvm.platformvmapi.md#getavaxassetid)
+* [getAddressStates](api_platformvm.platformvmapi.md#getaddressstates)
 * [getBalance](api_platformvm.platformvmapi.md#getbalance)
 * [getBaseURL](api_platformvm.platformvmapi.md#getbaseurl)
 * [getBlockchainAlias](api_platformvm.platformvmapi.md#getblockchainalias)
 * [getBlockchainID](api_platformvm.platformvmapi.md#getblockchainid)
 * [getBlockchainStatus](api_platformvm.platformvmapi.md#getblockchainstatus)
 * [getBlockchains](api_platformvm.platformvmapi.md#getblockchains)
+* [getConfiguration](api_platformvm.platformvmapi.md#getconfiguration)
 * [getCreateChainTxFee](api_platformvm.platformvmapi.md#getcreatechaintxfee)
 * [getCreateSubnetTxFee](api_platformvm.platformvmapi.md#getcreatesubnettxfee)
 * [getCreationTxFee](api_platformvm.platformvmapi.md#getcreationtxfee)
@@ -71,6 +77,8 @@ Class for interacting with a node's PlatformVMAPI
 * [getHeight](api_platformvm.platformvmapi.md#getheight)
 * [getMaxStakeAmount](api_platformvm.platformvmapi.md#getmaxstakeamount)
 * [getMinStake](api_platformvm.platformvmapi.md#getminstake)
+* [getMultisigAlias](api_platformvm.platformvmapi.md#getmultisigalias)
+* [getNetwork](api_platformvm.platformvmapi.md#getnetwork)
 * [getPendingValidators](api_platformvm.platformvmapi.md#getpendingvalidators)
 * [getRPCID](api_platformvm.platformvmapi.md#getrpcid)
 * [getRewardUTXOs](api_platformvm.platformvmapi.md#getrewardutxos)
@@ -90,14 +98,13 @@ Class for interacting with a node's PlatformVMAPI
 * [keyChain](api_platformvm.platformvmapi.md#keychain)
 * [listAddresses](api_platformvm.platformvmapi.md#listaddresses)
 * [parseAddress](api_platformvm.platformvmapi.md#parseaddress)
-* [refreshBlockchainID](api_platformvm.platformvmapi.md#refreshblockchainid)
 * [sampleValidators](api_platformvm.platformvmapi.md#samplevalidators)
 * [setAVAXAssetID](api_platformvm.platformvmapi.md#setavaxassetid)
 * [setBaseURL](api_platformvm.platformvmapi.md#setbaseurl)
-* [setBlockchainAlias](api_platformvm.platformvmapi.md#setblockchainalias)
 * [setCreationTxFee](api_platformvm.platformvmapi.md#setcreationtxfee)
 * [setMinStake](api_platformvm.platformvmapi.md#setminstake)
 * [setTxFee](api_platformvm.platformvmapi.md#settxfee)
+* [spend](api_platformvm.platformvmapi.md#spend)
 * [validatedBy](api_platformvm.platformvmapi.md#validatedby)
 * [validates](api_platformvm.platformvmapi.md#validates)
 
@@ -105,20 +112,20 @@ Class for interacting with a node's PlatformVMAPI
 
 ###  constructor
 
-\+ **new PlatformVMAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string): *[PlatformVMAPI](api_platformvm.platformvmapi.md)*
+\+ **new PlatformVMAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string): *[PlatformVMAPI](api_platformvm.platformvmapi.md)*
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
-*Defined in [src/apis/platformvm/api.ts:1960](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1960)*
+*Defined in [src/apis/platformvm/api.ts:2232](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2232)*
 
 This class should not be instantiated directly.
-Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
+Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) method.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Avalanche class |
+`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
 `baseURL` | string | "/ext/bc/P" | Defaults to the string "/ext/P" as the path to blockchain's baseURL  |
 
 **Returns:** *[PlatformVMAPI](api_platformvm.platformvmapi.md)*
@@ -129,7 +136,7 @@ Name | Type | Default | Description |
 
 • **AVAXAssetID**: *Buffer* = undefined
 
-*Defined in [src/apis/platformvm/api.ts:91](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L91)*
+*Defined in [src/apis/platformvm/api.ts:105](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L105)*
 
 ___
 
@@ -139,7 +146,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[baseURL](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L29)*
+*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L29)*
 
 ___
 
@@ -147,25 +154,25 @@ ___
 
 • **blockchainAlias**: *string* = undefined
 
-*Defined in [src/apis/platformvm/api.ts:89](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L89)*
+*Defined in [src/apis/platformvm/api.ts:103](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L103)*
 
 ___
 
 ### `Protected` blockchainID
 
-• **blockchainID**: *string* = PlatformChainID
+• **blockchainID**: *string* = ""
 
-*Defined in [src/apis/platformvm/api.ts:87](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L87)*
+*Defined in [src/apis/platformvm/api.ts:101](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L101)*
 
 ___
 
 ### `Protected` core
 
-• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
+• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L28)*
+*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L28)*
 
 ___
 
@@ -173,7 +180,7 @@ ___
 
 • **creationTxFee**: *BN* = undefined
 
-*Defined in [src/apis/platformvm/api.ts:95](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L95)*
+*Defined in [src/apis/platformvm/api.ts:109](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L109)*
 
 ___
 
@@ -183,7 +190,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[db](common_apibase.apibase.md#protected-db)*
 
-*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L30)*
+*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L30)*
 
 ___
 
@@ -191,9 +198,9 @@ ___
 
 • **jrpcVersion**: *string* = "2.0"
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[jrpcVersion](common_jrpcapi.jrpcapi.md#protected-jrpcversion)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[jrpcVersion](api_evm.evmapi.md#protected-jrpcversion)*
 
-*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L12)*
+*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L13)*
 
 ___
 
@@ -201,7 +208,7 @@ ___
 
 • **minDelegatorStake**: *BN* = undefined
 
-*Defined in [src/apis/platformvm/api.ts:99](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L99)*
+*Defined in [src/apis/platformvm/api.ts:113](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L113)*
 
 ___
 
@@ -209,7 +216,7 @@ ___
 
 • **minValidatorStake**: *BN* = undefined
 
-*Defined in [src/apis/platformvm/api.ts:97](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L97)*
+*Defined in [src/apis/platformvm/api.ts:111](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L111)*
 
 ___
 
@@ -217,9 +224,9 @@ ___
 
 • **rpcID**: *number* = 1
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[rpcID](common_jrpcapi.jrpcapi.md#protected-rpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[rpcID](api_evm.evmapi.md#protected-rpcid)*
 
-*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L13)*
+*Defined in [src/common/jrpcapi.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L14)*
 
 ___
 
@@ -227,15 +234,31 @@ ___
 
 • **txFee**: *BN* = undefined
 
-*Defined in [src/apis/platformvm/api.ts:93](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L93)*
+*Defined in [src/apis/platformvm/api.ts:107](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L107)*
 
 ## Methods
+
+###  _getBuilder
+
+▸ **_getBuilder**(`utxoSet`: [UTXOSet](api_platformvm_utxos.utxoset.md)): *[Builder](api_platformvm_builder.builder.md)*
+
+*Defined in [src/apis/platformvm/api.ts:2369](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2369)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`utxoSet` | [UTXOSet](api_platformvm_utxos.utxoset.md) |
+
+**Returns:** *[Builder](api_platformvm_builder.builder.md)*
+
+___
 
 ###  addDelegator
 
 ▸ **addDelegator**(`username`: string, `password`: string, `nodeID`: string, `startTime`: Date, `endTime`: Date, `stakeAmount`: BN, `rewardAddress`: string): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:720](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L720)*
+*Defined in [src/apis/platformvm/api.ts:696](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L696)*
 
 Add a delegator to the Primary Network.
 
@@ -261,7 +284,7 @@ ___
 
 ▸ **addSubnetValidator**(`username`: string, `password`: string, `nodeID`: string, `subnetID`: Buffer | string, `startTime`: Date, `endTime`: Date, `weight`: number): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:676](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L676)*
+*Defined in [src/apis/platformvm/api.ts:652](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L652)*
 
 Add a validator to a Subnet other than the Primary Network. The validator must validate the Primary Network for the entire duration they validate this Subnet.
 
@@ -287,7 +310,7 @@ ___
 
 ▸ **addValidator**(`username`: string, `password`: string, `nodeID`: string, `startTime`: Date, `endTime`: Date, `stakeAmount`: BN, `rewardAddress`: string, `delegationFeeRate`: BN): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:634](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L634)*
+*Defined in [src/apis/platformvm/api.ts:610](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L610)*
 
 Add a validator to the Primary Network.
 
@@ -314,7 +337,7 @@ ___
 
 ▸ **addressFromBuffer**(`address`: Buffer): *string*
 
-*Defined in [src/apis/platformvm/api.ts:182](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L182)*
+*Defined in [src/apis/platformvm/api.ts:156](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L156)*
 
 **Parameters:**
 
@@ -328,9 +351,9 @@ ___
 
 ###  buildAddDelegatorTx
 
-▸ **buildAddDelegatorTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `nodeID`: string, `startTime`: BN, `endTime`: BN, `stakeAmount`: BN, `rewardAddresses`: string[], `rewardLocktime`: BN, `rewardThreshold`: number, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+▸ **buildAddDelegatorTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `nodeID`: string, `startTime`: BN, `endTime`: BN, `stakeAmount`: BN, `rewardAddresses`: string[], `rewardLocktime`: BN, `rewardThreshold`: number, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `toThreshold`: number, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1591](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1591)*
+*Defined in [src/apis/platformvm/api.ts:1612](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1612)*
 
 Helper function which creates an unsigned [AddDelegatorTx](api_platformvm_validationtx.adddelegatortx.md). For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually and import the [AddDelegatorTx](api_platformvm_validationtx.adddelegatortx.md) class directly.
@@ -348,10 +371,12 @@ Name | Type | Default | Description |
 `endTime` | BN | - | The Unix time when the validator stops validating the Primary Network (and staked AVAX is returned). |
 `stakeAmount` | BN | - | The amount being delegated as a [BN](https://github.com/indutny/bn.js/) |
 `rewardAddresses` | string[] | - | The addresses which will recieve the rewards from the delegated stake. |
-`rewardLocktime` | BN | new BN(0) | Optional. The locktime field created in the resulting reward outputs |
+`rewardLocktime` | BN | ZeroBN | Optional. The locktime field created in the resulting reward outputs |
 `rewardThreshold` | number | 1 | Opional. The number of signatures required to spend the funds in the resultant reward UTXO. Default 1. |
 `memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
-`asOf` | BN | UnixNow() | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/)  |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`toThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
 
 **Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
@@ -361,9 +386,9 @@ ___
 
 ###  buildAddSubnetValidatorTx
 
-▸ **buildAddSubnetValidatorTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `nodeID`: string, `startTime`: BN, `endTime`: BN, `weight`: BN, `subnetID`: string, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `subnetAuthCredentials`: [][]): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+▸ **buildAddSubnetValidatorTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `nodeID`: string, `startTime`: BN, `endTime`: BN, `weight`: BN, `subnetID`: string, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `subnetAuthCredentials`: [][], `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1511](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1511)*
+*Defined in [src/apis/platformvm/api.ts:1526](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1526)*
 
 Helper function which creates an unsigned [AddSubnetValidatorTx](../modules/src_apis_platformvm.md#addsubnetvalidatortx). For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually and import the [AddSubnetValidatorTx](../modules/src_apis_platformvm.md#addsubnetvalidatortx) class directly.
@@ -381,8 +406,9 @@ Name | Type | Default | Description |
 `weight` | BN | - | The amount of weight for this subnet validator. |
 `subnetID` | string | - | - |
 `memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
-`asOf` | BN | UnixNow() | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
-`subnetAuthCredentials` | [][] | [] | Optional. An array of index and address to sign for each SubnetAuth.  |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`subnetAuthCredentials` | [][] | [] | Optional. An array of index and address to sign for each SubnetAuth. |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
 
 **Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
@@ -392,9 +418,9 @@ ___
 
 ###  buildAddValidatorTx
 
-▸ **buildAddValidatorTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `nodeID`: string, `startTime`: BN, `endTime`: BN, `stakeAmount`: BN, `rewardAddresses`: string[], `delegationFee`: number, `rewardLocktime`: BN, `rewardThreshold`: number, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+▸ **buildAddValidatorTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `nodeID`: string, `startTime`: BN, `endTime`: BN, `stakeAmount`: BN, `rewardAddresses`: string[], `delegationFee`: number, `rewardLocktime`: BN, `rewardThreshold`: number, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `toThreshold`: number, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1693](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1693)*
+*Defined in [src/apis/platformvm/api.ts:1728](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1728)*
 
 Helper function which creates an unsigned [AddValidatorTx](api_platformvm_validationtx.addvalidatortx.md). For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually and import the [AddValidatorTx](api_platformvm_validationtx.addvalidatortx.md) class directly.
@@ -413,10 +439,12 @@ Name | Type | Default | Description |
 `stakeAmount` | BN | - | The amount being delegated as a [BN](https://github.com/indutny/bn.js/) |
 `rewardAddresses` | string[] | - | The addresses which will recieve the rewards from the delegated stake. |
 `delegationFee` | number | - | A number for the percentage of reward to be given to the validator when someone delegates to them. Must be between 0 and 100. |
-`rewardLocktime` | BN | new BN(0) | Optional. The locktime field created in the resulting reward outputs |
+`rewardLocktime` | BN | ZeroBN | Optional. The locktime field created in the resulting reward outputs |
 `rewardThreshold` | number | 1 | Opional. The number of signatures required to spend the funds in the resultant reward UTXO. Default 1. |
 `memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
-`asOf` | BN | UnixNow() | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/)  |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`toThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
 
 **Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
@@ -424,11 +452,39 @@ An unsigned transaction created from the passed in parameters.
 
 ___
 
+###  buildAddressStateTx
+
+▸ **buildAddressStateTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `address`: string | Buffer, `state`: number, `remove`: boolean, `memo`: Buffer, `asOf`: BN, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+
+*Defined in [src/apis/platformvm/api.ts:1991](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1991)*
+
+Build an unsigned [AddressStateTx](api_platformvm_addressstatetx.addressstatetx.md).
+
+**Parameters:**
+
+Name | Type | Default | Description |
+------ | ------ | ------ | ------ |
+`utxoset` | [UTXOSet](api_platformvm_utxos.utxoset.md) | - | A set of UTXOs that the transaction is built on |
+`fromAddresses` | string[] | - | The addresses being used to send the funds from the UTXOs [Buffer](https://github.com/feross/buffer) |
+`changeAddresses` | string[] | - | The addresses that can spend the change remaining from the spent UTXOs. |
+`address` | string &#124; Buffer | - | The address to alter state. |
+`state` | number | - | The state to set or remove on the given address |
+`remove` | boolean | false | Optional. Flag if state should be applied or removed |
+`memo` | Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
+
+**Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+
+An unsigned AddressStateTx created from the passed in parameters.
+
+___
+
 ###  buildCreateChainTx
 
-▸ **buildCreateChainTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `subnetID`: string | Buffer, `chainName`: string, `vmID`: string, `fxIDs`: string[], `genesisData`: string | [GenesisData](api_avm_genesisdata.genesisdata.md), `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `subnetAuthCredentials`: [][]): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+▸ **buildCreateChainTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `subnetID`: string | Buffer, `chainName`: string, `vmID`: string, `fxIDs`: string[], `genesisData`: string | [GenesisData](api_avm_genesisdata.genesisdata.md), `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `subnetAuthCredentials`: [][], `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1867](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1867)*
+*Defined in [src/apis/platformvm/api.ts:1915](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1915)*
 
 Build an unsigned [CreateChainTx](api_platformvm_createchaintx.createchaintx.md).
 
@@ -445,8 +501,9 @@ Name | Type | Default | Description |
 `fxIDs` | string[] | undefined | Optional IDs of the feature extensions running on the new chain |
 `genesisData` | string &#124; [GenesisData](api_avm_genesisdata.genesisdata.md) | undefined | Optional Byte representation of genesis state of the new chain |
 `memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
-`asOf` | BN | UnixNow() | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
-`subnetAuthCredentials` | [][] | [] | Optional. An array of index and address to sign for each SubnetAuth.  |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`subnetAuthCredentials` | [][] | [] | Optional. An array of index and address to sign for each SubnetAuth. |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
 
 **Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
@@ -456,9 +513,9 @@ ___
 
 ###  buildCreateSubnetTx
 
-▸ **buildCreateSubnetTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `subnetOwnerAddresses`: string[], `subnetOwnerThreshold`: number, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+▸ **buildCreateSubnetTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `subnetOwnerAddresses`: string[], `subnetOwnerThreshold`: number, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1799](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1799)*
+*Defined in [src/apis/platformvm/api.ts:1841](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1841)*
 
 Class representing an unsigned [CreateSubnetTx](api_platformvm_createsubnettx.createsubnettx.md) transaction.
 
@@ -472,7 +529,36 @@ Name | Type | Default | Description |
 `subnetOwnerAddresses` | string[] | - | An array of addresses for owners of the new subnet |
 `subnetOwnerThreshold` | number | - | A number indicating the amount of signatures required to add validators to a subnet |
 `memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
-`asOf` | BN | UnixNow() | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/)  |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
+
+**Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+
+An unsigned transaction created from the passed in parameters.
+
+___
+
+###  buildDepositTx
+
+▸ **buildDepositTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `depositOfferID`: string | Buffer, `depositDuration`: number | Buffer, `rewardsOwner`: [OutputOwners](common_output.outputowners.md), `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+
+*Defined in [src/apis/platformvm/api.ts:2142](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2142)*
+
+Build an unsigned [DepositTx](api_platformvm_deposittx.deposittx.md).
+
+**Parameters:**
+
+Name | Type | Default | Description |
+------ | ------ | ------ | ------ |
+`utxoset` | [UTXOSet](api_platformvm_utxos.utxoset.md) | - | A set of UTXOs that the transaction is built on |
+`fromAddresses` | string[] | - | The addresses being used to send the funds from the UTXOs [Buffer](https://github.com/feross/buffer) |
+`changeAddresses` | string[] | undefined | The addresses that can spend the change remaining from the spent UTXOs. |
+`depositOfferID` | string &#124; Buffer | - | ID of the deposit offer. |
+`depositDuration` | number &#124; Buffer | - | Duration of the deposit |
+`rewardsOwner` | [OutputOwners](common_output.outputowners.md) | undefined | Optional The owners of the reward. If omitted, all inputs must have the same owner |
+`memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
 
 **Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
@@ -482,9 +568,9 @@ ___
 
 ###  buildExportTx
 
-▸ **buildExportTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `amount`: BN, `destinationChain`: Buffer | string, `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `threshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+▸ **buildExportTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `amount`: BN, `destinationChain`: Buffer | string, `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `toThreshold`: number, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1405](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1405)*
+*Defined in [src/apis/platformvm/api.ts:1419](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1419)*
 
 Helper function which creates an unsigned Export Tx. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -500,9 +586,10 @@ Name | Type | Default | Description |
 `fromAddresses` | string[] | - | The addresses being used to send the funds from the UTXOs provided |
 `changeAddresses` | string[] | undefined | The addresses that can spend the change remaining from the spent UTXOs |
 `memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
-`asOf` | BN | UnixNow() | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
-`locktime` | BN | new BN(0) | Optional. The locktime field created in the resulting outputs |
-`threshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO  |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`locktime` | BN | ZeroBN | Optional. The locktime field created in the resulting outputs |
+`toThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
 
 **Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
@@ -512,9 +599,9 @@ ___
 
 ###  buildImportTx
 
-▸ **buildImportTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `ownerAddresses`: string[], `sourceChain`: Buffer | string, `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `threshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+▸ **buildImportTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `ownerAddresses`: string[], `sourceChain`: Buffer | string, `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `toThreshold`: number, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1313](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1313)*
+*Defined in [src/apis/platformvm/api.ts:1322](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1322)*
 
 Helper function which creates an unsigned Import Tx. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -533,9 +620,10 @@ Name | Type | Default | Description |
 `fromAddresses` | string[] | - | The addresses being used to send the funds from the UTXOs provided |
 `changeAddresses` | string[] | undefined | The addresses that can spend the change remaining from the spent UTXOs |
 `memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
-`asOf` | BN | UnixNow() | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
-`locktime` | BN | new BN(0) | Optional. The locktime field created in the resulting outputs |
-`threshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO  |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`locktime` | BN | ZeroBN | Optional. The locktime field created in the resulting outputs |
+`toThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
 
 **Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
 
@@ -543,13 +631,42 @@ An unsigned transaction ([UnsignedTx](api_evm_transactions.unsignedtx.md)) which
 
 ___
 
+###  buildRegisterNodeTx
+
+▸ **buildRegisterNodeTx**(`utxoset`: [UTXOSet](api_platformvm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `oldNodeID`: string | Buffer, `newNodeID`: string | Buffer, `address`: string | Buffer, `consortiumMemberAuthCredentials`: [][], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `changeThreshold`: number): *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+
+*Defined in [src/apis/platformvm/api.ts:2062](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2062)*
+
+Build an unsigned [RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md).
+
+**Parameters:**
+
+Name | Type | Default | Description |
+------ | ------ | ------ | ------ |
+`utxoset` | [UTXOSet](api_platformvm_utxos.utxoset.md) | - | A set of UTXOs that the transaction is built on |
+`fromAddresses` | string[] | - | The addresses being used to send the funds from the UTXOs [Buffer](https://github.com/feross/buffer) |
+`changeAddresses` | string[] | undefined | The addresses that can spend the change remaining from the spent UTXOs |
+`oldNodeID` | string &#124; Buffer | undefined | Optional. ID of the existing NodeID to replace or remove. |
+`newNodeID` | string &#124; Buffer | undefined | Optional. ID of the newNodID to register address. |
+`address` | string &#124; Buffer | undefined | The consortiumMemberAddress, single or multi-sig. |
+`consortiumMemberAuthCredentials` | [][] | [] | An array of index and address to sign for each SubnetAuth. |
+`memo` | [PayloadBase](utils_payload.payloadbase.md) &#124; Buffer | undefined | Optional contains arbitrary bytes, up to 256 bytes |
+`asOf` | BN | ZeroBN | Optional. The timestamp to verify the transaction against as a [BN](https://github.com/indutny/bn.js/) |
+`changeThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant change UTXO  |
+
+**Returns:** *Promise‹[UnsignedTx](api_platformvm_transactions.unsignedtx.md)›*
+
+An unsigned transaction created from the passed in parameters.
+
+___
+
 ###  callMethod
 
 ▸ **callMethod**(`method`: string, `params?`: object[] | object, `baseURL?`: string, `headers?`: object): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[callMethod](common_jrpcapi.jrpcapi.md#callmethod)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[callMethod](api_evm.evmapi.md#callmethod)*
 
-*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L15)*
+*Defined in [src/common/jrpcapi.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L16)*
 
 **Parameters:**
 
@@ -568,7 +685,7 @@ ___
 
 ▸ **checkGooseEgg**(`utx`: [UnsignedTx](api_platformvm_transactions.unsignedtx.md), `outTotal`: BN): *Promise‹boolean›*
 
-*Defined in [src/apis/platformvm/api.ts:343](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L343)*
+*Defined in [src/apis/platformvm/api.ts:308](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L308)*
 
 Helper function which determines if a tx is a goose egg transaction.
 
@@ -580,7 +697,7 @@ A "Goose Egg Transaction" is when the fee far exceeds a reasonable amount
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `utx` | [UnsignedTx](api_platformvm_transactions.unsignedtx.md) | - | An UnsignedTx  |
-`outTotal` | BN | new BN(0) | - |
+`outTotal` | BN | ZeroBN | - |
 
 **Returns:** *Promise‹boolean›*
 
@@ -592,7 +709,7 @@ ___
 
 ▸ **createAddress**(`username`: string, `password`: string): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:464](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L464)*
+*Defined in [src/apis/platformvm/api.ts:429](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L429)*
 
 Create an address in the node's keystore.
 
@@ -613,7 +730,7 @@ ___
 
 ▸ **createBlockchain**(`username`: string, `password`: string, `subnetID`: Buffer | string, `vmID`: string, `fxIDs`: number[], `name`: string, `genesis`: string): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:384](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L384)*
+*Defined in [src/apis/platformvm/api.ts:349](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L349)*
 
 Creates a new blockchain.
 
@@ -639,7 +756,7 @@ ___
 
 ▸ **createSubnet**(`username`: string, `password`: string, `controlKeys`: string[], `threshold`: number): *Promise‹string | [ErrorResponseObject](../interfaces/src_utils.errorresponseobject.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:757](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L757)*
+*Defined in [src/apis/platformvm/api.ts:733](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L733)*
 
 Create an unsigned transaction to create a new Subnet. The unsigned transaction must be
 signed with the key of the account paying the transaction fee. The Subnet’s ID is the ID of the transaction that creates it (ie the response from issueTx when issuing the signed transaction).
@@ -663,7 +780,7 @@ ___
 
 ▸ **exportAVAX**(`username`: string, `password`: string, `amount`: BN, `to`: string): *Promise‹string | [ErrorResponseObject](../interfaces/src_utils.errorresponseobject.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:847](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L847)*
+*Defined in [src/apis/platformvm/api.ts:823](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L823)*
 
 Send AVAX from an account on the P-Chain to an address on the X-Chain. This transaction
 must be signed with the key of the account that the AVAX is sent from and which pays the
@@ -690,7 +807,7 @@ ___
 
 ▸ **exportKey**(`username`: string, `password`: string, `address`: string): *Promise‹string | [ErrorResponseObject](../interfaces/src_utils.errorresponseobject.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1120](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1120)*
+*Defined in [src/apis/platformvm/api.ts:1096](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1096)*
 
 Exports the private key for an address.
 
@@ -712,7 +829,7 @@ ___
 
 ▸ **getAVAXAssetID**(`refresh`: boolean): *Promise‹Buffer›*
 
-*Defined in [src/apis/platformvm/api.ts:202](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L202)*
+*Defined in [src/apis/platformvm/api.ts:176](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L176)*
 
 Fetches the AVAX AssetID and returns it in a Promise.
 
@@ -728,19 +845,42 @@ The the provided string representing the AVAX AssetID
 
 ___
 
+###  getAddressStates
+
+▸ **getAddressStates**(`address`: string): *Promise‹BN›*
+
+*Defined in [src/apis/platformvm/api.ts:1274](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1274)*
+
+getAddressStates() returns an 64 bit bitmask of states applied to address
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`address` | string |
+
+**Returns:** *Promise‹BN›*
+
+A big number representing the states applied to given address
+
+___
+
 ###  getBalance
 
-▸ **getBalance**(`address`: string): *Promise‹[GetBalanceResponse](../interfaces/platformvm_interfaces.getbalanceresponse.md)›*
+▸ **getBalance**(`params`: object): *Promise‹[GetBalanceResponse](../interfaces/platformvm_interfaces.getbalanceresponse.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:486](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L486)*
+*Defined in [src/apis/platformvm/api.ts:451](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L451)*
 
 Gets the balance of a particular asset.
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`address` | string | The address to pull the asset balance from  |
+▪ **params**: *object*
+
+Name | Type |
+------ | ------ |
+`address?` | string |
+`addresses?` | string[] |
 
 **Returns:** *Promise‹[GetBalanceResponse](../interfaces/platformvm_interfaces.getbalanceresponse.md)›*
 
@@ -754,7 +894,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L53)*
+*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L53)*
 
 Returns the baseURL's path.
 
@@ -766,7 +906,7 @@ ___
 
 ▸ **getBlockchainAlias**(): *string*
 
-*Defined in [src/apis/platformvm/api.ts:106](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L106)*
+*Defined in [src/apis/platformvm/api.ts:120](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L120)*
 
 Gets the alias for the blockchainID if it exists, otherwise returns `undefined`.
 
@@ -780,7 +920,7 @@ ___
 
 ▸ **getBlockchainID**(): *string*
 
-*Defined in [src/apis/platformvm/api.ts:141](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L141)*
+*Defined in [src/apis/platformvm/api.ts:138](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L138)*
 
 Gets the blockchainID and returns it.
 
@@ -794,7 +934,7 @@ ___
 
 ▸ **getBlockchainStatus**(`blockchainID`: string): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:420](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L420)*
+*Defined in [src/apis/platformvm/api.ts:385](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L385)*
 
 Gets the status of a blockchain.
 
@@ -814,7 +954,7 @@ ___
 
 ▸ **getBlockchains**(): *Promise‹[Blockchain](../interfaces/platformvm_interfaces.blockchain.md)[]›*
 
-*Defined in [src/apis/platformvm/api.ts:826](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L826)*
+*Defined in [src/apis/platformvm/api.ts:802](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L802)*
 
 Get all the blockchains that exist (excluding the P-Chain).
 
@@ -824,11 +964,25 @@ Promise for an array of objects containing fields "id", "subnetID", and "vmID".
 
 ___
 
+###  getConfiguration
+
+▸ **getConfiguration**(): *Promise‹[GetConfigurationResponse](../interfaces/platformvm_interfaces.getconfigurationresponse.md)›*
+
+*Defined in [src/apis/platformvm/api.ts:2282](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2282)*
+
+Get blockchains configuration (genesis)
+
+**Returns:** *Promise‹[GetConfigurationResponse](../interfaces/platformvm_interfaces.getconfigurationresponse.md)›*
+
+Promise for an GetConfigurationResponse
+
+___
+
 ###  getCreateChainTxFee
 
 ▸ **getCreateChainTxFee**(): *BN*
 
-*Defined in [src/apis/platformvm/api.ts:265](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L265)*
+*Defined in [src/apis/platformvm/api.ts:234](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L234)*
 
 Gets the CreateChainTx fee.
 
@@ -842,7 +996,7 @@ ___
 
 ▸ **getCreateSubnetTxFee**(): *BN*
 
-*Defined in [src/apis/platformvm/api.ts:252](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L252)*
+*Defined in [src/apis/platformvm/api.ts:225](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L225)*
 
 Gets the CreateSubnetTx fee.
 
@@ -856,7 +1010,7 @@ ___
 
 ▸ **getCreationTxFee**(): *BN*
 
-*Defined in [src/apis/platformvm/api.ts:296](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L296)*
+*Defined in [src/apis/platformvm/api.ts:261](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L261)*
 
 Gets the creation fee for this chain.
 
@@ -870,7 +1024,7 @@ ___
 
 ▸ **getCurrentSupply**(): *Promise‹BN›*
 
-*Defined in [src/apis/platformvm/api.ts:941](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L941)*
+*Defined in [src/apis/platformvm/api.ts:917](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L917)*
 
 Returns an upper bound on the amount of tokens that exist. Not monotonically increasing because this number can go down if a staker"s reward is denied.
 
@@ -882,7 +1036,7 @@ ___
 
 ▸ **getCurrentValidators**(`subnetID`: Buffer | string, `nodeIDs`: string[]): *Promise‹object›*
 
-*Defined in [src/apis/platformvm/api.ts:536](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L536)*
+*Defined in [src/apis/platformvm/api.ts:512](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L512)*
 
 Lists the set of current validators.
 
@@ -905,7 +1059,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L58)*
+*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L58)*
 
 Returns the baseURL's database.
 
@@ -917,7 +1071,7 @@ ___
 
 ▸ **getDefaultCreationTxFee**(): *BN*
 
-*Defined in [src/apis/platformvm/api.ts:285](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L285)*
+*Defined in [src/apis/platformvm/api.ts:252](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L252)*
 
 Gets the default creation fee for this chain.
 
@@ -931,7 +1085,7 @@ ___
 
 ▸ **getDefaultTxFee**(): *BN*
 
-*Defined in [src/apis/platformvm/api.ts:229](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L229)*
+*Defined in [src/apis/platformvm/api.ts:204](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L204)*
 
 Gets the default tx fee for this chain.
 
@@ -945,7 +1099,7 @@ ___
 
 ▸ **getHeight**(): *Promise‹BN›*
 
-*Defined in [src/apis/platformvm/api.ts:951](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L951)*
+*Defined in [src/apis/platformvm/api.ts:927](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L927)*
 
 Returns the height of the platform chain.
 
@@ -957,7 +1111,7 @@ ___
 
 ▸ **getMaxStakeAmount**(`subnetID`: string | Buffer, `nodeID`: string, `startTime`: BN, `endTime`: BN): *Promise‹BN›*
 
-*Defined in [src/apis/platformvm/api.ts:1008](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1008)*
+*Defined in [src/apis/platformvm/api.ts:984](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L984)*
 
 getMaxStakeAmount() returns the maximum amount of nAVAX staking to the named node during the time period.
 
@@ -980,7 +1134,7 @@ ___
 
 ▸ **getMinStake**(`refresh`: boolean): *Promise‹[GetMinStakeResponse](../interfaces/platformvm_interfaces.getminstakeresponse.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:963](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L963)*
+*Defined in [src/apis/platformvm/api.ts:939](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L939)*
 
 Gets the minimum staking amount.
 
@@ -994,11 +1148,45 @@ Name | Type | Default | Description |
 
 ___
 
+###  getMultisigAlias
+
+▸ **getMultisigAlias**(`address`: string): *Promise‹[MultisigAliasReply](../interfaces/platformvm_interfaces.multisigaliasreply.md)›*
+
+*Defined in [src/apis/platformvm/api.ts:1290](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1290)*
+
+getMultisigAlias() returns a MultisigAliasReply
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`address` | string |
+
+**Returns:** *Promise‹[MultisigAliasReply](../interfaces/platformvm_interfaces.multisigaliasreply.md)›*
+
+A MultiSigAlias
+
+___
+
+###  getNetwork
+
+▸ **getNetwork**(): *[Network](../interfaces/utils_networks.network.md)*
+
+*Defined in [src/apis/platformvm/api.ts:129](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L129)*
+
+Gets the current network, fetched via avalanche.fetchNetworkSettings.
+
+**Returns:** *[Network](../interfaces/utils_networks.network.md)*
+
+The current Network
+
+___
+
 ###  getPendingValidators
 
 ▸ **getPendingValidators**(`subnetID`: Buffer | string, `nodeIDs`: string[]): *Promise‹object›*
 
-*Defined in [src/apis/platformvm/api.ts:566](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L566)*
+*Defined in [src/apis/platformvm/api.ts:542](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L542)*
 
 Lists the set of pending validators.
 
@@ -1019,9 +1207,9 @@ ___
 
 ▸ **getRPCID**(): *number*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[getRPCID](common_jrpcapi.jrpcapi.md#getrpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[getRPCID](api_evm.evmapi.md#getrpcid)*
 
-*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L77)*
+*Defined in [src/common/jrpcapi.ts:79](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L79)*
 
 Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
 request ID that will be sent.
@@ -1034,7 +1222,7 @@ ___
 
 ▸ **getRewardUTXOs**(`txID`: string, `encoding?`: string): *Promise‹[GetRewardUTXOsResponse](../interfaces/platformvm_interfaces.getrewardutxosresponse.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1998](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1998)*
+*Defined in [src/apis/platformvm/api.ts:2262](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2262)*
 
 **Parameters:**
 
@@ -1053,7 +1241,7 @@ ___
 
 ▸ **getStake**(`addresses`: string[], `encoding`: string): *Promise‹[GetStakeResponse](../interfaces/platformvm_interfaces.getstakeresponse.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1060](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1060)*
+*Defined in [src/apis/platformvm/api.ts:1036](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1036)*
 
 Gets the total amount staked for an array of addresses.
 
@@ -1072,7 +1260,7 @@ ___
 
 ▸ **getStakingAssetID**(): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:364](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L364)*
+*Defined in [src/apis/platformvm/api.ts:329](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L329)*
 
 Retrieves an assetID for a subnet"s staking assset.
 
@@ -1086,7 +1274,7 @@ ___
 
 ▸ **getSubnets**(`ids`: string[]): *Promise‹[Subnet](../interfaces/platformvm_interfaces.subnet.md)[]›*
 
-*Defined in [src/apis/platformvm/api.ts:1099](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1099)*
+*Defined in [src/apis/platformvm/api.ts:1075](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1075)*
 
 Get all the subnets that exist.
 
@@ -1107,7 +1295,7 @@ ___
 
 ▸ **getTimestamp**(): *Promise‹number›*
 
-*Defined in [src/apis/platformvm/api.ts:1988](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1988)*
+*Defined in [src/apis/platformvm/api.ts:2252](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2252)*
 
 **Returns:** *Promise‹number›*
 
@@ -1119,7 +1307,7 @@ ___
 
 ▸ **getTotalStake**(): *Promise‹BN›*
 
-*Defined in [src/apis/platformvm/api.ts:992](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L992)*
+*Defined in [src/apis/platformvm/api.ts:968](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L968)*
 
 getTotalStake() returns the total amount staked on the Primary Network
 
@@ -1133,7 +1321,7 @@ ___
 
 ▸ **getTx**(`txID`: string, `encoding`: string): *Promise‹string | object›*
 
-*Defined in [src/apis/platformvm/api.ts:1176](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1176)*
+*Defined in [src/apis/platformvm/api.ts:1152](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1152)*
 
 Returns the treansaction data of a provided transaction ID by calling the node's `getTx` method.
 
@@ -1154,7 +1342,7 @@ ___
 
 ▸ **getTxFee**(): *BN*
 
-*Defined in [src/apis/platformvm/api.ts:240](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L240)*
+*Defined in [src/apis/platformvm/api.ts:213](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L213)*
 
 Gets the tx fee for this chain.
 
@@ -1168,7 +1356,7 @@ ___
 
 ▸ **getTxStatus**(`txid`: string, `includeReason`: boolean): *Promise‹string | [GetTxStatusResponse](../interfaces/platformvm_interfaces.gettxstatusresponse.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1201](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1201)*
+*Defined in [src/apis/platformvm/api.ts:1177](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1177)*
 
 Returns the status of a provided transaction ID by calling the node's `getTxStatus` method.
 
@@ -1189,7 +1377,7 @@ ___
 
 ▸ **getUTXOs**(`addresses`: string[] | string, `sourceChain`: string, `limit`: number, `startIndex`: object, `persistOpts`: [PersistanceOptions](utils_persistanceoptions.persistanceoptions.md), `encoding`: string): *Promise‹[GetUTXOsResponse](../interfaces/platformvm_interfaces.getutxosresponse.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1232](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1232)*
+*Defined in [src/apis/platformvm/api.ts:1208](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1208)*
 
 Retrieves the UTXOs related to the addresses provided from the node's `getUTXOs` method.
 
@@ -1237,7 +1425,7 @@ ___
 
 ▸ **getValidatorsAt**(`height`: number, `subnetID?`: string): *Promise‹[GetValidatorsAtResponse](../interfaces/platformvm_interfaces.getvalidatorsatresponse.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:439](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L439)*
+*Defined in [src/apis/platformvm/api.ts:404](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L404)*
 
 Get the validators and their weights of a subnet or the Primary Network at a given P-Chain height.
 
@@ -1258,7 +1446,7 @@ ___
 
 ▸ **importAVAX**(`username`: string, `password`: string, `to`: string, `sourceChain`: string): *Promise‹string | [ErrorResponseObject](../interfaces/src_utils.errorresponseobject.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:883](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L883)*
+*Defined in [src/apis/platformvm/api.ts:859](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L859)*
 
 Send AVAX from an account on the P-Chain to an address on the X-Chain. This transaction
 must be signed with the key of the account that the AVAX is sent from and which pays
@@ -1285,7 +1473,7 @@ ___
 
 ▸ **importKey**(`username`: string, `password`: string, `privateKey`: string): *Promise‹string | [ErrorResponseObject](../interfaces/src_utils.errorresponseobject.md)›*
 
-*Defined in [src/apis/platformvm/api.ts:1148](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1148)*
+*Defined in [src/apis/platformvm/api.ts:1124](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1124)*
 
 Give a user control over an address by providing the private key that controls the address.
 
@@ -1307,7 +1495,7 @@ ___
 
 ▸ **issueTx**(`tx`: string | Buffer | [Tx](api_platformvm_transactions.tx.md)): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:911](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L911)*
+*Defined in [src/apis/platformvm/api.ts:887](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L887)*
 
 Calls the node's issueTx method from the API and returns the resulting transaction ID as a string.
 
@@ -1327,7 +1515,7 @@ ___
 
 ▸ **keyChain**(): *[KeyChain](api_platformvm_keychain.keychain.md)*
 
-*Defined in [src/apis/platformvm/api.ts:317](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L317)*
+*Defined in [src/apis/platformvm/api.ts:282](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L282)*
 
 Gets a reference to the keychain for this class.
 
@@ -1341,7 +1529,7 @@ ___
 
 ▸ **listAddresses**(`username`: string, `password`: string): *Promise‹string[]›*
 
-*Defined in [src/apis/platformvm/api.ts:511](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L511)*
+*Defined in [src/apis/platformvm/api.ts:487](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L487)*
 
 List the addresses controlled by the user.
 
@@ -1362,7 +1550,7 @@ ___
 
 ▸ **parseAddress**(`addr`: string): *Buffer*
 
-*Defined in [src/apis/platformvm/api.ts:171](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L171)*
+*Defined in [src/apis/platformvm/api.ts:145](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L145)*
 
 Takes an address string and returns its [Buffer](https://github.com/feross/buffer) representation if valid.
 
@@ -1378,31 +1566,11 @@ A [Buffer](https://github.com/feross/buffer) for the address if valid, undefined
 
 ___
 
-###  refreshBlockchainID
-
-▸ **refreshBlockchainID**(`blockchainID`: string): *boolean*
-
-*Defined in [src/apis/platformvm/api.ts:150](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L150)*
-
-Refresh blockchainID, and if a blockchainID is passed in, use that.
-
-**Parameters:**
-
-Name | Type | Default |
------- | ------ | ------ |
-`blockchainID` | string | undefined |
-
-**Returns:** *boolean*
-
-The blockchainID
-
-___
-
 ###  sampleValidators
 
 ▸ **sampleValidators**(`sampleSize`: number, `subnetID`: Buffer | string): *Promise‹string[]›*
 
-*Defined in [src/apis/platformvm/api.ts:596](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L596)*
+*Defined in [src/apis/platformvm/api.ts:572](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L572)*
 
 Samples `Size` validators from the current validator set.
 
@@ -1423,7 +1591,7 @@ ___
 
 ▸ **setAVAXAssetID**(`avaxAssetID`: string | Buffer): *void*
 
-*Defined in [src/apis/platformvm/api.ts:217](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L217)*
+*Defined in [src/apis/platformvm/api.ts:192](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L192)*
 
 Overrides the defaults and sets the cache to a specific AVAX AssetID
 
@@ -1445,7 +1613,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[setBaseURL](common_apibase.apibase.md#setbaseurl)*
 
-*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L37)*
+*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L37)*
 
 Sets the path of the APIs baseURL.
 
@@ -1459,29 +1627,11 @@ Name | Type | Description |
 
 ___
 
-###  setBlockchainAlias
-
-▸ **setBlockchainAlias**(`alias`: string): *string*
-
-*Defined in [src/apis/platformvm/api.ts:130](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L130)*
-
-Sets the alias for the blockchainID.
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`alias` | string | The alias for the blockchainID.   |
-
-**Returns:** *string*
-
-___
-
 ###  setCreationTxFee
 
 ▸ **setCreationTxFee**(`fee`: BN): *void*
 
-*Defined in [src/apis/platformvm/api.ts:308](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L308)*
+*Defined in [src/apis/platformvm/api.ts:273](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L273)*
 
 Sets the creation fee for this chain.
 
@@ -1499,7 +1649,7 @@ ___
 
 ▸ **setMinStake**(`minValidatorStake`: BN, `minDelegatorStake`: BN): *void*
 
-*Defined in [src/apis/platformvm/api.ts:1045](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L1045)*
+*Defined in [src/apis/platformvm/api.ts:1021](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L1021)*
 
 Sets the minimum stake cached in this class.
 
@@ -1518,7 +1668,7 @@ ___
 
 ▸ **setTxFee**(`fee`: BN): *void*
 
-*Defined in [src/apis/platformvm/api.ts:276](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L276)*
+*Defined in [src/apis/platformvm/api.ts:243](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L243)*
 
 Sets the tx fee for this chain.
 
@@ -1532,11 +1682,41 @@ Name | Type | Description |
 
 ___
 
+###  spend
+
+▸ **spend**(`from`: string[] | string, `to`: string[], `toThreshold`: number, `toLockTime`: BN, `change`: string[], `changeThreshold`: number, `lockMode`: [LockMode](../modules/api_platformvm_builder.md#lockmode), `amountToLock`: BN, `amountToBurn`: BN, `asOf`: BN, `encoding?`: string): *Promise‹[SpendReply](../interfaces/platformvm_interfaces.spendreply.md)›*
+
+*Defined in [src/apis/platformvm/api.ts:2312](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L2312)*
+
+Get blockchains configuration (genesis)
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`from` | string[] &#124; string |
+`to` | string[] |
+`toThreshold` | number |
+`toLockTime` | BN |
+`change` | string[] |
+`changeThreshold` | number |
+`lockMode` | [LockMode](../modules/api_platformvm_builder.md#lockmode) |
+`amountToLock` | BN |
+`amountToBurn` | BN |
+`asOf` | BN |
+`encoding?` | string |
+
+**Returns:** *Promise‹[SpendReply](../interfaces/platformvm_interfaces.spendreply.md)›*
+
+Promise for an GetConfigurationResponse
+
+___
+
 ###  validatedBy
 
 ▸ **validatedBy**(`blockchainID`: string): *Promise‹string›*
 
-*Defined in [src/apis/platformvm/api.ts:786](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L786)*
+*Defined in [src/apis/platformvm/api.ts:762](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L762)*
 
 Get the Subnet that validates a given blockchain.
 
@@ -1556,7 +1736,7 @@ ___
 
 ▸ **validates**(`subnetID`: Buffer | string): *Promise‹string[]›*
 
-*Defined in [src/apis/platformvm/api.ts:805](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/api.ts#L805)*
+*Defined in [src/apis/platformvm/api.ts:781](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/api.ts#L781)*
 
 Get the IDs of the blockchains a Subnet validates.
 

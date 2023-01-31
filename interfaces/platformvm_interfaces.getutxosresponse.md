@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetUTXOsResponse](platformvm_interfaces.getutxosresponse.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetUTXOsResponse](platformvm_interfaces.getutxosresponse.md)
 
 # Interface: GetUTXOsResponse
 
@@ -20,7 +20,7 @@
 
 • **endIndex**: *[EndIndex](platformvm_interfaces.endindex.md)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:151](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L151)*
+*Defined in [src/apis/platformvm/interfaces.ts:174](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L174)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **numFetched**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:149](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L149)*
+*Defined in [src/apis/platformvm/interfaces.ts:172](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L172)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **utxos**: *[UTXOSet](../classes/api_platformvm_utxos.utxoset.md)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:150](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L150)*
+*Defined in [src/apis/platformvm/interfaces.ts:173](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L173)*

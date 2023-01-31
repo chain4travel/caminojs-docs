@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetPendingValidatorsParams](platformvm_interfaces.getpendingvalidatorsparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetPendingValidatorsParams](platformvm_interfaces.getpendingvalidatorsparams.md)
 
 # Interface: GetPendingValidatorsParams
 
@@ -19,7 +19,7 @@
 
 • **nodeIDs**? : *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:79](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L79)*
+*Defined in [src/apis/platformvm/interfaces.ts:102](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L102)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **subnetID**? : *Buffer | string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:78](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L78)*
+*Defined in [src/apis/platformvm/interfaces.ts:101](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L101)*

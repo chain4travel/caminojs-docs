@@ -1,4 +1,4 @@
-[camino](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [GetChainAliasesParams](admin_interfaces.getchainaliasesparams.md)
+[@c4tplatform/caminojs](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [GetChainAliasesParams](admin_interfaces.getchainaliasesparams.md)
 
 # Interface: GetChainAliasesParams
 
@@ -18,4 +18,4 @@
 
 • **chain**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L17)*
+*Defined in [src/apis/admin/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L17)*

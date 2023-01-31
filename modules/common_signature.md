@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-Signature](common_signature.md)
+[@c4tplatform/caminojs](../README.md) › [Common-Signature](common_signature.md)
 
 # Module: Common-Signature
 
@@ -20,4 +20,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/credentials.ts:18](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/credentials.ts#L18)*
+*Defined in [src/common/credentials.ts:18](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L18)*

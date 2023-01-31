@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](platformvm_interfaces.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](platformvm_interfaces.md)
 
 # Module: PlatformVM-Interfaces
 
@@ -8,6 +8,7 @@
 
 * [AddDelegatorParams](../interfaces/platformvm_interfaces.adddelegatorparams.md)
 * [AddValidatorParams](../interfaces/platformvm_interfaces.addvalidatorparams.md)
+* [AddressParams](../interfaces/platformvm_interfaces.addressparams.md)
 * [Blockchain](../interfaces/platformvm_interfaces.blockchain.md)
 * [CreateAddressParams](../interfaces/platformvm_interfaces.createaddressparams.md)
 * [CreateBlockchainParams](../interfaces/platformvm_interfaces.createblockchainparams.md)
@@ -16,6 +17,7 @@
 * [ExportAVAXParams](../interfaces/platformvm_interfaces.exportavaxparams.md)
 * [ExportKeyParams](../interfaces/platformvm_interfaces.exportkeyparams.md)
 * [GetBalanceResponse](../interfaces/platformvm_interfaces.getbalanceresponse.md)
+* [GetConfigurationResponse](../interfaces/platformvm_interfaces.getconfigurationresponse.md)
 * [GetCurrentValidatorsParams](../interfaces/platformvm_interfaces.getcurrentvalidatorsparams.md)
 * [GetMaxStakeAmountParams](../interfaces/platformvm_interfaces.getmaxstakeamountparams.md)
 * [GetMinStakeResponse](../interfaces/platformvm_interfaces.getminstakeresponse.md)
@@ -33,6 +35,10 @@
 * [ImportAVAXParams](../interfaces/platformvm_interfaces.importavaxparams.md)
 * [ImportKeyParams](../interfaces/platformvm_interfaces.importkeyparams.md)
 * [ListAddressesParams](../interfaces/platformvm_interfaces.listaddressesparams.md)
+* [MultisigAliasReply](../interfaces/platformvm_interfaces.multisigaliasreply.md)
+* [Owner](../interfaces/platformvm_interfaces.owner.md)
 * [SampleValidatorsParams](../interfaces/platformvm_interfaces.samplevalidatorsparams.md)
+* [SpendParams](../interfaces/platformvm_interfaces.spendparams.md)
+* [SpendReply](../interfaces/platformvm_interfaces.spendreply.md)
 * [StartIndex](../interfaces/platformvm_interfaces.startindex.md)
 * [Subnet](../interfaces/platformvm_interfaces.subnet.md)

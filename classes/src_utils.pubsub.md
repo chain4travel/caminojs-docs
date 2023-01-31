@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/utils](../modules/src_utils.md) › [PubSub](src_utils.pubsub.md)
+[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [PubSub](src_utils.pubsub.md)
 
 # Class: PubSub
 
@@ -20,7 +20,7 @@
 
 ▸ **addAddresses**(`addresses`: string[]): *string*
 
-*Defined in [src/utils/pubsub.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/pubsub.ts#L13)*
+*Defined in [src/utils/pubsub.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/pubsub.ts#L13)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **newBloom**(`maxElements`: number, `collisionProb`: number): *string*
 
-*Defined in [src/utils/pubsub.ts:5](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/pubsub.ts#L5)*
+*Defined in [src/utils/pubsub.ts:5](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/pubsub.ts#L5)*
 
 **Parameters:**
 
@@ -53,6 +53,6 @@ ___
 
 ▸ **newSet**(): *string*
 
-*Defined in [src/utils/pubsub.ts:2](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/pubsub.ts#L2)*
+*Defined in [src/utils/pubsub.ts:2](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/pubsub.ts#L2)*
 
 **Returns:** *string*

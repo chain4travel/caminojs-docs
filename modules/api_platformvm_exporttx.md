@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-ExportTx](api_platformvm_exporttx.md)
+[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-ExportTx](api_platformvm_exporttx.md)
 
 # Module: API-PlatformVM-ExportTx
 
@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/exporttx.ts:21](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/exporttx.ts#L21)*
+*Defined in [src/apis/platformvm/exporttx.ts:21](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/exporttx.ts#L21)*

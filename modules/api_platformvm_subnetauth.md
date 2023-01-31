@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-SubnetAuth](api_platformvm_subnetauth.md)
+[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-SubnetAuth](api_platformvm_subnetauth.md)
 
 # Module: API-PlatformVM-SubnetAuth
 

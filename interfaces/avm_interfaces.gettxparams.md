@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetTxParams](avm_interfaces.gettxparams.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetTxParams](avm_interfaces.gettxparams.md)
 
 # Interface: GetTxParams
 
@@ -19,7 +19,7 @@
 
 • **encoding**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:95](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L95)*
+*Defined in [src/apis/avm/interfaces.ts:95](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L95)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **txID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:94](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L94)*
+*Defined in [src/apis/avm/interfaces.ts:94](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L94)*

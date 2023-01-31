@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [CredsInterface](common_interfaces.credsinterface.md)
+[@c4tplatform/caminojs](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [CredsInterface](common_interfaces.credsinterface.md)
 
 # Interface: CredsInterface
 
@@ -49,7 +49,7 @@
 
 • **password**: *string*
 
-*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L11)*
+*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/interfaces.ts#L11)*
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L10)*
+*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/interfaces.ts#L10)*

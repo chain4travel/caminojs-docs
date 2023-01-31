@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetStakeParams](platformvm_interfaces.getstakeparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetStakeParams](platformvm_interfaces.getstakeparams.md)
 
 # Interface: GetStakeParams
 
@@ -19,7 +19,7 @@
 
 • **addresses**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L12)*
+*Defined in [src/apis/platformvm/interfaces.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L16)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **encoding**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L13)*
+*Defined in [src/apis/platformvm/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L17)*

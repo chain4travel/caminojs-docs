@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportAVAXParams](platformvm_interfaces.importavaxparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ImportAVAXParams](platformvm_interfaces.importavaxparams.md)
 
 # Interface: ImportAVAXParams
 
@@ -21,7 +21,7 @@
 
 • **password**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:91](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L91)*
+*Defined in [src/apis/platformvm/interfaces.ts:114](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L114)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **sourceChain**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:92](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L92)*
+*Defined in [src/apis/platformvm/interfaces.ts:115](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L115)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **to**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:93](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L93)*
+*Defined in [src/apis/platformvm/interfaces.ts:116](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L116)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:90](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L90)*
+*Defined in [src/apis/platformvm/interfaces.ts:113](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L113)*

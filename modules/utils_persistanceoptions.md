@@ -1,4 +1,4 @@
-[camino](../README.md) › [Utils-PersistanceOptions](utils_persistanceoptions.md)
+[@c4tplatform/caminojs](../README.md) › [Utils-PersistanceOptions](utils_persistanceoptions.md)
 
 # Module: Utils-PersistanceOptions
 

@@ -1,10 +1,10 @@
-[camino](../README.md) › [API-Metrics](../modules/api_metrics.md) › [MetricsAPI](api_metrics.metricsapi.md)
+[@c4tplatform/caminojs](../README.md) › [API-Metrics](../modules/api_metrics.md) › [MetricsAPI](api_metrics.metricsapi.md)
 
 # Class: MetricsAPI
 
 Class for interacting with a node API that is using the node's MetricsApi.
 
-**`remarks`** This extends the [RESTAPI](common_restapi.restapi.md) class. This class should not be directly called. Instead, use the [Camino.addAPI](camino.camino-1.md#addapi) function to register this interface with Avalanche.
+**`remarks`** This extends the [RESTAPI](common_restapi.restapi.md) class. This class should not be directly called. Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
 
 ## Hierarchy
 
@@ -46,19 +46,19 @@ Class for interacting with a node API that is using the node's MetricsApi.
 
 ###  constructor
 
-\+ **new MetricsAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string): *[MetricsAPI](api_metrics.metricsapi.md)*
+\+ **new MetricsAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string): *[MetricsAPI](api_metrics.metricsapi.md)*
 
 *Overrides [RESTAPI](common_restapi.restapi.md).[constructor](common_restapi.restapi.md#constructor)*
 
-*Defined in [src/apis/metrics/api.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/metrics/api.ts#L32)*
+*Defined in [src/apis/metrics/api.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/metrics/api.ts#L32)*
 
-This class should not be instantiated directly. Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
+This class should not be instantiated directly. Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) method.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Avalanche class |
+`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
 `baseURL` | string | "/ext/metrics" | Defaults to the string "/ext/metrics" as the path to rpc's baseurl  |
 
 **Returns:** *[MetricsAPI](api_metrics.metricsapi.md)*
@@ -71,7 +71,7 @@ Name | Type | Default | Description |
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[acceptType](common_restapi.restapi.md#protected-accepttype)*
 
-*Defined in [src/common/restapi.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L12)*
+*Defined in [src/common/restapi.ts:12](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L12)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[baseURL](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L29)*
+*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L29)*
 
 ___
 
@@ -91,17 +91,17 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[contentType](common_restapi.restapi.md#protected-contenttype)*
 
-*Defined in [src/common/restapi.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L11)*
+*Defined in [src/common/restapi.ts:11](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L11)*
 
 ___
 
 ### `Protected` core
 
-• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
+• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L28)*
+*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L28)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[db](common_apibase.apibase.md#protected-db)*
 
-*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L30)*
+*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L30)*
 
 ## Methods
 
@@ -121,7 +121,7 @@ ___
 
 *Overrides [RESTAPI](common_restapi.restapi.md).[axConf](common_restapi.restapi.md#protected-axconf)*
 
-*Defined in [src/apis/metrics/api.ts:18](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/metrics/api.ts#L18)*
+*Defined in [src/apis/metrics/api.ts:18](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/metrics/api.ts#L18)*
 
 **Returns:** *AxiosRequestConfig*
 
@@ -133,7 +133,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[delete](common_restapi.restapi.md#delete)*
 
-*Defined in [src/common/restapi.ts:110](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L110)*
+*Defined in [src/common/restapi.ts:110](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L110)*
 
 **Parameters:**
 
@@ -155,7 +155,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[get](common_restapi.restapi.md#get)*
 
-*Defined in [src/common/restapi.ts:40](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L40)*
+*Defined in [src/common/restapi.ts:40](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L40)*
 
 **Parameters:**
 
@@ -175,7 +175,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[getAcceptType](common_restapi.restapi.md#getaccepttype)*
 
-*Defined in [src/common/restapi.ts:171](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L171)*
+*Defined in [src/common/restapi.ts:171](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L171)*
 
 Returns what type of representation is desired at the client side
 
@@ -189,7 +189,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L53)*
+*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L53)*
 
 Returns the baseURL's path.
 
@@ -203,7 +203,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[getContentType](common_restapi.restapi.md#getcontenttype)*
 
-*Defined in [src/common/restapi.ts:166](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L166)*
+*Defined in [src/common/restapi.ts:166](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L166)*
 
 Returns the type of the entity attached to the incoming request
 
@@ -217,7 +217,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L58)*
+*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L58)*
 
 Returns the baseURL's database.
 
@@ -229,7 +229,7 @@ ___
 
 ▸ **getMetrics**(): *Promise‹string›*
 
-*Defined in [src/apis/metrics/api.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/metrics/api.ts#L29)*
+*Defined in [src/apis/metrics/api.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/metrics/api.ts#L29)*
 
 **Returns:** *Promise‹string›*
 
@@ -243,7 +243,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[patch](common_restapi.restapi.md#patch)*
 
-*Defined in [src/common/restapi.ts:136](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L136)*
+*Defined in [src/common/restapi.ts:136](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L136)*
 
 **Parameters:**
 
@@ -265,7 +265,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[post](common_restapi.restapi.md#post)*
 
-*Defined in [src/common/restapi.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L56)*
+*Defined in [src/common/restapi.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L56)*
 
 **Parameters:**
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[prepHeaders](common_restapi.restapi.md#protected-prepheaders)*
 
-*Defined in [src/common/restapi.ts:14](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L14)*
+*Defined in [src/common/restapi.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L14)*
 
 **Parameters:**
 
@@ -306,7 +306,7 @@ ___
 
 *Inherited from [RESTAPI](common_restapi.restapi.md).[put](common_restapi.restapi.md#put)*
 
-*Defined in [src/common/restapi.ts:83](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/restapi.ts#L83)*
+*Defined in [src/common/restapi.ts:83](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/restapi.ts#L83)*
 
 **Parameters:**
 
@@ -328,7 +328,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[setBaseURL](common_apibase.apibase.md#setbaseurl)*
 
-*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L37)*
+*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L37)*
 
 Sets the path of the APIs baseURL.
 

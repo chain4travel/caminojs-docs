@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ExportAVAXParams](platformvm_interfaces.exportavaxparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ExportAVAXParams](platformvm_interfaces.exportavaxparams.md)
 
 # Interface: ExportAVAXParams
 
@@ -21,7 +21,7 @@
 
 • **amount**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:85](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L85)*
+*Defined in [src/apis/platformvm/interfaces.ts:108](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L108)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **password**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:84](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L84)*
+*Defined in [src/apis/platformvm/interfaces.ts:107](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L107)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **to**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:86](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L86)*
+*Defined in [src/apis/platformvm/interfaces.ts:109](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L109)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:83](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L83)*
+*Defined in [src/apis/platformvm/interfaces.ts:106](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L106)*

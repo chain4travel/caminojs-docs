@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-Outputs](api_platformvm_outputs.md)
+[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Outputs](api_platformvm_outputs.md)
 
 # Module: API-PlatformVM-Outputs
 
@@ -7,6 +7,7 @@
 ### Classes
 
 * [AmountOutput](../classes/api_platformvm_outputs.amountoutput.md)
+* [LockedOut](../classes/api_platformvm_outputs.lockedout.md)
 * [ParseableOutput](../classes/api_platformvm_outputs.parseableoutput.md)
 * [SECPOwnerOutput](../classes/api_platformvm_outputs.secpowneroutput.md)
 * [SECPTransferOutput](../classes/api_platformvm_outputs.secptransferoutput.md)
@@ -28,7 +29,7 @@
 
 • **bintools**: *[BinTools](../classes/utils_bintools.bintools.md)* = BinTools.getInstance()
 
-*Defined in [src/apis/platformvm/outputs.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L19)*
+*Defined in [src/apis/platformvm/outputs.ts:20](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L20)*
 
 ___
 
@@ -36,15 +37,15 @@ ___
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/outputs.ts:20](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L20)*
+*Defined in [src/apis/platformvm/outputs.ts:21](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L21)*
 
 ## Functions
 
 ### `Const` SelectOutputClass
 
-▸ **SelectOutputClass**(`outputid`: number, ...`args`: any[]): *[Output](../classes/common_output.output.md)*
+▸ **SelectOutputClass**(`outputid`: number, ...`args`: any[]): *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
-*Defined in [src/apis/platformvm/outputs.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L29)*
+*Defined in [src/apis/platformvm/outputs.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L30)*
 
 Takes a buffer representing the output and returns the proper Output instance.
 
@@ -55,6 +56,6 @@ Name | Type | Description |
 `outputid` | number | A number representing the inputID parsed prior to the bytes passed in  |
 `...args` | any[] | - |
 
-**Returns:** *[Output](../classes/common_output.output.md)*
+**Returns:** *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
-An instance of an [Output](../classes/common_output.output.md)-extended class.
+An instance of an [Output](src_common.md#output)-extended class.

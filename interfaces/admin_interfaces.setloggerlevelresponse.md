@@ -1,4 +1,4 @@
-[camino](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelResponse](admin_interfaces.setloggerlevelresponse.md)
+[@c4tplatform/caminojs](../README.md) › [Admin-Interfaces](../modules/admin_interfaces.md) › [SetLoggerLevelResponse](admin_interfaces.setloggerlevelresponse.md)
 
 # Interface: SetLoggerLevelResponse
 
@@ -18,4 +18,4 @@
 
 • **success**: *boolean*
 
-*Defined in [src/apis/admin/interfaces.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/admin/interfaces.ts#L56)*
+*Defined in [src/apis/admin/interfaces.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L56)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-AVM-KeyChain](api_avm_keychain.md)
+[@c4tplatform/caminojs](../README.md) › [API-AVM-KeyChain](api_avm_keychain.md)
 
 # Module: API-AVM-KeyChain
 
@@ -19,4 +19,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/avm/keychain.ts:14](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/keychain.ts#L14)*
+*Defined in [src/apis/avm/keychain.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/keychain.ts#L14)*

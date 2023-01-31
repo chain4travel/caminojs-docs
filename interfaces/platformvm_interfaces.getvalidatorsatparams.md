@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetValidatorsAtParams](platformvm_interfaces.getvalidatorsatparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetValidatorsAtParams](platformvm_interfaces.getvalidatorsatparams.md)
 
 # Interface: GetValidatorsAtParams
 
@@ -19,7 +19,7 @@
 
 • **height**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L33)*
+*Defined in [src/apis/platformvm/interfaces.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L37)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **subnetID**? : *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:34](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L34)*
+*Defined in [src/apis/platformvm/interfaces.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L38)*

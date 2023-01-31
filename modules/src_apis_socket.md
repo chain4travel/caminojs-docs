@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/apis/socket](src_apis_socket.md)
+[@c4tplatform/caminojs](../README.md) › [src/apis/socket](src_apis_socket.md)
 
 # Module: src/apis/socket
 

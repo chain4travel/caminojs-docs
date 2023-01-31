@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-AVM-GenesisData](api_avm_genesisdata.md)
+[@c4tplatform/caminojs](../README.md) › [API-AVM-GenesisData](api_avm_genesisdata.md)
 
 # Module: API-AVM-GenesisData
 
@@ -20,7 +20,7 @@
 
 • **bintools**: *[BinTools](../classes/utils_bintools.bintools.md)* = BinTools.getInstance()
 
-*Defined in [src/apis/avm/genesisdata.ts:20](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/genesisdata.ts#L20)*
+*Defined in [src/apis/avm/genesisdata.ts:20](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/genesisdata.ts#L20)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **buffer**: *[SerializedType](utils_serialization.md#serializedtype)* = "Buffer"
 
-*Defined in [src/apis/avm/genesisdata.ts:22](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/genesisdata.ts#L22)*
+*Defined in [src/apis/avm/genesisdata.ts:22](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/genesisdata.ts#L22)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **decimalString**: *[SerializedType](utils_serialization.md#serializedtype)* = "decimalString"
 
-*Defined in [src/apis/avm/genesisdata.ts:21](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/genesisdata.ts#L21)*
+*Defined in [src/apis/avm/genesisdata.ts:21](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/genesisdata.ts#L21)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [Index-Interfaces](index_interfaces.md)
+[@c4tplatform/caminojs](../README.md) › [Index-Interfaces](index_interfaces.md)
 
 # Module: Index-Interfaces
 

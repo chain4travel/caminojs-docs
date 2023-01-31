@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMaxStakeAmountParams](platformvm_interfaces.getmaxstakeamountparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMaxStakeAmountParams](platformvm_interfaces.getmaxstakeamountparams.md)
 
 # Interface: GetMaxStakeAmountParams
 
@@ -19,9 +19,9 @@
 
 ###  endTime
 
-• **endTime**: *BN*
+• **endTime**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:203](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L203)*
+*Defined in [src/apis/platformvm/interfaces.ts:226](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L226)*
 
 ___
 
@@ -29,15 +29,15 @@ ___
 
 • **nodeID**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:201](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L201)*
+*Defined in [src/apis/platformvm/interfaces.ts:224](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L224)*
 
 ___
 
 ###  startTime
 
-• **startTime**: *BN*
+• **startTime**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:202](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L202)*
+*Defined in [src/apis/platformvm/interfaces.ts:225](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L225)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **subnetID**? : *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:200](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L200)*
+*Defined in [src/apis/platformvm/interfaces.ts:223](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L223)*

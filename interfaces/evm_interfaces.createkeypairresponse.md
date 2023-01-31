@@ -1,4 +1,4 @@
-[camino](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [CreateKeyPairResponse](evm_interfaces.createkeypairresponse.md)
+[@c4tplatform/caminojs](../README.md) › [EVM-Interfaces](../modules/evm_interfaces.md) › [CreateKeyPairResponse](evm_interfaces.createkeypairresponse.md)
 
 # Interface: CreateKeyPairResponse
 
@@ -20,7 +20,7 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/evm/interfaces.ts:54](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L54)*
+*Defined in [src/apis/evm/interfaces.ts:54](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/interfaces.ts#L54)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **privateKey**: *string*
 
-*Defined in [src/apis/evm/interfaces.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L56)*
+*Defined in [src/apis/evm/interfaces.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/interfaces.ts#L56)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **publicKey**: *string*
 
-*Defined in [src/apis/evm/interfaces.ts:55](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/interfaces.ts#L55)*
+*Defined in [src/apis/evm/interfaces.ts:55](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/interfaces.ts#L55)*

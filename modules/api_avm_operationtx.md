@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-AVM-OperationTx](api_avm_operationtx.md)
+[@c4tplatform/caminojs](../README.md) › [API-AVM-OperationTx](api_avm_operationtx.md)
 
 # Module: API-AVM-OperationTx
 

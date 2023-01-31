@@ -1,4 +1,4 @@
-[camino](../README.md) › [Utils-Payload](utils_payload.md)
+[@c4tplatform/caminojs](../README.md) › [Utils-Payload](utils_payload.md)
 
 # Module: Utils-Payload
 
@@ -52,4 +52,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/utils/payload.ts:16](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/payload.ts#L16)*
+*Defined in [src/utils/payload.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/payload.ts#L16)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Subnet](platformvm_interfaces.subnet.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Subnet](platformvm_interfaces.subnet.md)
 
 # Interface: Subnet
 
@@ -20,7 +20,7 @@
 
 • **controlKeys**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:163](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L163)*
+*Defined in [src/apis/platformvm/interfaces.ts:186](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L186)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **ids**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:162](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L162)*
+*Defined in [src/apis/platformvm/interfaces.ts:185](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L185)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **threshold**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:164](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L164)*
+*Defined in [src/apis/platformvm/interfaces.ts:187](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L187)*

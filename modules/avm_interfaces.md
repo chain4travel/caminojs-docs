@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](avm_interfaces.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](avm_interfaces.md)
 
 # Module: AVM-Interfaces
 

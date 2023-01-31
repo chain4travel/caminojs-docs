@@ -1,4 +1,4 @@
-[camino](../README.md) › [Utils-HelperFunctions](utils_helperfunctions.md)
+[@c4tplatform/caminojs](../README.md) › [Utils-HelperFunctions](utils_helperfunctions.md)
 
 # Module: Utils-HelperFunctions
 
@@ -14,7 +14,6 @@
 * [calcBytesCost](utils_helperfunctions.md#calcbytescost)
 * [costExportTx](utils_helperfunctions.md#costexporttx)
 * [costImportTx](utils_helperfunctions.md#costimporttx)
-* [getPreferredHRP](utils_helperfunctions.md#getpreferredhrp)
 * [privateKeyStringToBuffer](utils_helperfunctions.md#privatekeystringtobuffer)
 
 ## Functions
@@ -23,7 +22,7 @@
 
 ▸ **MaxWeightFormula**(`staked`: BN, `cap`: BN): *BN*
 
-*Defined in [src/utils/helperfunctions.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L32)*
+*Defined in [src/utils/helperfunctions.ts:18](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L18)*
 
 **Parameters:**
 
@@ -40,7 +39,7 @@ ___
 
 ▸ **NodeIDStringToBuffer**(`pk`: string): *Buffer*
 
-*Defined in [src/utils/helperfunctions.ts:81](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L81)*
+*Defined in [src/utils/helperfunctions.ts:67](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L67)*
 
 Takes a nodeID string and produces a nodeID [Buffer](https://github.com/feross/buffer).
 
@@ -58,7 +57,7 @@ ___
 
 ▸ **UnixNow**(): *BN*
 
-*Defined in [src/utils/helperfunctions.ts:39](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L39)*
+*Defined in [src/utils/helperfunctions.ts:25](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L25)*
 
 Function providing the current UNIX time using a [BN](https://github.com/indutny/bn.js/).
 
@@ -70,7 +69,7 @@ ___
 
 ▸ **bufferToNodeIDString**(`pk`: Buffer): *string*
 
-*Defined in [src/utils/helperfunctions.ts:72](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L72)*
+*Defined in [src/utils/helperfunctions.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L58)*
 
 Takes a nodeID buffer and produces a nodeID string with prefix.
 
@@ -88,7 +87,7 @@ ___
 
 ▸ **bufferToPrivateKeyString**(`pk`: Buffer): *string*
 
-*Defined in [src/utils/helperfunctions.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L48)*
+*Defined in [src/utils/helperfunctions.ts:34](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L34)*
 
 Takes a private key buffer and produces a private key string with prefix.
 
@@ -104,14 +103,15 @@ ___
 
 ###  calcBytesCost
 
-▸ **calcBytesCost**(`len`: number): *number*
+▸ **calcBytesCost**(`c`: [C](../interfaces/utils_networks.c.md), `len`: number): *number*
 
-*Defined in [src/utils/helperfunctions.ts:102](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L102)*
+*Defined in [src/utils/helperfunctions.ts:88](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L88)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`c` | [C](../interfaces/utils_networks.c.md) |
 `len` | number |
 
 **Returns:** *number*
@@ -120,14 +120,15 @@ ___
 
 ###  costExportTx
 
-▸ **costExportTx**(`tx`: [UnsignedTx](../classes/api_evm_transactions.unsignedtx.md)): *number*
+▸ **costExportTx**(`c`: [C](../interfaces/utils_networks.c.md), `tx`: [UnsignedTx](../classes/api_evm_transactions.unsignedtx.md)): *number*
 
-*Defined in [src/utils/helperfunctions.ts:106](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L106)*
+*Defined in [src/utils/helperfunctions.ts:92](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L92)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`c` | [C](../interfaces/utils_networks.c.md) |
 `tx` | [UnsignedTx](../classes/api_evm_transactions.unsignedtx.md) |
 
 **Returns:** *number*
@@ -136,33 +137,18 @@ ___
 
 ###  costImportTx
 
-▸ **costImportTx**(`tx`: [UnsignedTx](../classes/api_evm_transactions.unsignedtx.md)): *number*
+▸ **costImportTx**(`c`: [C](../interfaces/utils_networks.c.md), `tx`: [UnsignedTx](../classes/api_evm_transactions.unsignedtx.md)): *number*
 
-*Defined in [src/utils/helperfunctions.ts:91](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L91)*
+*Defined in [src/utils/helperfunctions.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L77)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`c` | [C](../interfaces/utils_networks.c.md) |
 `tx` | [UnsignedTx](../classes/api_evm_transactions.unsignedtx.md) |
 
 **Returns:** *number*
-
-___
-
-###  getPreferredHRP
-
-▸ **getPreferredHRP**(`networkID`: number): *string*
-
-*Defined in [src/utils/helperfunctions.ts:23](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L23)*
-
-**Parameters:**
-
-Name | Type | Default |
------- | ------ | ------ |
-`networkID` | number | undefined |
-
-**Returns:** *string*
 
 ___
 
@@ -170,7 +156,7 @@ ___
 
 ▸ **privateKeyStringToBuffer**(`pk`: string): *Buffer*
 
-*Defined in [src/utils/helperfunctions.ts:57](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/helperfunctions.ts#L57)*
+*Defined in [src/utils/helperfunctions.ts:43](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/helperfunctions.ts#L43)*
 
 Takes a private key string and produces a private key [Buffer](https://github.com/feross/buffer).
 

@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [ExportParams](avm_interfaces.exportparams.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [ExportParams](avm_interfaces.exportparams.md)
 
 # Interface: ExportParams
 
@@ -22,9 +22,9 @@
 
 ###  amount
 
-• **amount**: *BN*
+• **amount**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:67](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L67)*
+*Defined in [src/apis/avm/interfaces.ts:67](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L67)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **assetID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:68](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L68)*
+*Defined in [src/apis/avm/interfaces.ts:68](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L68)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[password](common_interfaces.credsinterface.md#password)*
 
-*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L11)*
+*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/interfaces.ts#L11)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **to**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:66](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L66)*
+*Defined in [src/apis/avm/interfaces.ts:66](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L66)*
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[username](common_interfaces.credsinterface.md#username)*
 
-*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L10)*
+*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/interfaces.ts#L10)*

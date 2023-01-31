@@ -1,4 +1,4 @@
-[camino](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [UptimeResponse](info_interfaces.uptimeresponse.md)
+[@c4tplatform/caminojs](../README.md) › [Info-Interfaces](../modules/info_interfaces.md) › [UptimeResponse](info_interfaces.uptimeresponse.md)
 
 # Interface: UptimeResponse
 
@@ -19,7 +19,7 @@
 
 • **rewardingStakePercentage**: *string*
 
-*Defined in [src/apis/info/interfaces.ts:35](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/info/interfaces.ts#L35)*
+*Defined in [src/apis/info/interfaces.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L38)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **weightedAveragePercentage**: *string*
 
-*Defined in [src/apis/info/interfaces.ts:36](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/info/interfaces.ts#L36)*
+*Defined in [src/apis/info/interfaces.ts:39](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L39)*

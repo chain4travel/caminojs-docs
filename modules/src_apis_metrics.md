@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/apis/metrics](src_apis_metrics.md)
+[@c4tplatform/caminojs](../README.md) › [src/apis/metrics](src_apis_metrics.md)
 
 # Module: src/apis/metrics
 

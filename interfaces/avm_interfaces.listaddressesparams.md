@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [ListAddressesParams](avm_interfaces.listaddressesparams.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [ListAddressesParams](avm_interfaces.listaddressesparams.md)
 
 # Interface: ListAddressesParams
 
@@ -23,7 +23,7 @@
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[password](common_interfaces.credsinterface.md#password)*
 
-*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L11)*
+*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/interfaces.ts#L11)*
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[username](common_interfaces.credsinterface.md#username)*
 
-*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L10)*
+*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/interfaces.ts#L10)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAddressTxsResponse](avm_interfaces.getaddresstxsresponse.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAddressTxsResponse](avm_interfaces.getaddresstxsresponse.md)
 
 # Interface: GetAddressTxsResponse
 
@@ -19,7 +19,7 @@
 
 • **cursor**: *number*
 
-*Defined in [src/apis/avm/interfaces.ts:173](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L173)*
+*Defined in [src/apis/avm/interfaces.ts:173](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L173)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **txIDs**: *string[]*
 
-*Defined in [src/apis/avm/interfaces.ts:172](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L172)*
+*Defined in [src/apis/avm/interfaces.ts:172](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L172)*

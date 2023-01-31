@@ -1,4 +1,4 @@
-[camino](../README.md) › [Utils-Mnemonic](utils_mnemonic.md)
+[@c4tplatform/caminojs](../README.md) › [Utils-Mnemonic](utils_mnemonic.md)
 
 # Module: Utils-Mnemonic
 
@@ -19,7 +19,7 @@
 
 • **bip39**: *any* = require("bip39")
 
-*Defined in [src/utils/mnemonic.ts:9](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/mnemonic.ts#L9)*
+*Defined in [src/utils/mnemonic.ts:9](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L9)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **randomBytes**: *any* = require("randombytes")
 
-*Defined in [src/utils/mnemonic.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/mnemonic.ts#L10)*
+*Defined in [src/utils/mnemonic.ts:10](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L10)*

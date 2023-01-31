@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetUTXOsParams](avm_interfaces.getutxosparams.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetUTXOsParams](avm_interfaces.getutxosparams.md)
 
 # Interface: GetUTXOsParams
 
@@ -22,7 +22,7 @@
 
 • **addresses**: *string[] | string*
 
-*Defined in [src/apis/avm/interfaces.ts:108](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L108)*
+*Defined in [src/apis/avm/interfaces.ts:108](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L108)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **encoding**? : *string*
 
-*Defined in [src/apis/avm/interfaces.ts:112](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L112)*
+*Defined in [src/apis/avm/interfaces.ts:112](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L112)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **limit**: *number*
 
-*Defined in [src/apis/avm/interfaces.ts:109](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L109)*
+*Defined in [src/apis/avm/interfaces.ts:109](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L109)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **sourceChain**? : *string*
 
-*Defined in [src/apis/avm/interfaces.ts:110](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L110)*
+*Defined in [src/apis/avm/interfaces.ts:110](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L110)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **startIndex**? : *[StartIndexInterface](avm_interfaces.startindexinterface.md)*
 
-*Defined in [src/apis/avm/interfaces.ts:111](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L111)*
+*Defined in [src/apis/avm/interfaces.ts:111](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L111)*

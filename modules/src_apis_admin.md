@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/apis/admin](src_apis_admin.md)
+[@c4tplatform/caminojs](../README.md) › [src/apis/admin](src_apis_admin.md)
 
 # Module: src/apis/admin
 

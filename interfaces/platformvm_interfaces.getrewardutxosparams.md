@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetRewardUTXOsParams](platformvm_interfaces.getrewardutxosparams.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetRewardUTXOsParams](platformvm_interfaces.getrewardutxosparams.md)
 
 # Interface: GetRewardUTXOsParams
 
@@ -19,7 +19,7 @@
 
 • **encoding**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:23](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L23)*
+*Defined in [src/apis/platformvm/interfaces.ts:27](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L27)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **txID**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:22](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L22)*
+*Defined in [src/apis/platformvm/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L26)*

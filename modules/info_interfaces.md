@@ -1,4 +1,4 @@
-[camino](../README.md) › [Info-Interfaces](info_interfaces.md)
+[@c4tplatform/caminojs](../README.md) › [Info-Interfaces](info_interfaces.md)
 
 # Module: Info-Interfaces
 

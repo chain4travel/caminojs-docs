@@ -1,4 +1,4 @@
-[camino](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [BaseIndexParams](index_interfaces.baseindexparams.md)
+[@c4tplatform/caminojs](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [BaseIndexParams](index_interfaces.baseindexparams.md)
 
 # Interface: BaseIndexParams
 
@@ -32,4 +32,4 @@
 
 • **encoding**: *string*
 
-*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/interfaces.ts#L7)*
+*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/index/interfaces.ts#L7)*

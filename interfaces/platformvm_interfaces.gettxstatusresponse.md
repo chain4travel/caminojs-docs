@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetTxStatusResponse](platformvm_interfaces.gettxstatusresponse.md)
+[@c4tplatform/caminojs](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetTxStatusResponse](platformvm_interfaces.gettxstatusresponse.md)
 
 # Interface: GetTxStatusResponse
 
@@ -19,7 +19,7 @@
 
 • **reason**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:191](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L191)*
+*Defined in [src/apis/platformvm/interfaces.ts:214](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L214)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **status**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:190](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L190)*
+*Defined in [src/apis/platformvm/interfaces.ts:213](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L213)*

@@ -1,10 +1,10 @@
-[camino](../README.md) › [src/utils](../modules/src_utils.md) › [EVMOutputError](src_utils.evmoutputerror.md)
+[@c4tplatform/caminojs](../README.md) › [src/utils](../modules/src_utils.md) › [EVMOutputError](src_utils.evmoutputerror.md)
 
 # Class: EVMOutputError
 
 ## Hierarchy
 
-  ↳ [CaminoError](src_utils.caminoerror.md)
+  ↳ [AvalancheError](src_utils.avalancheerror.md)
 
   ↳ **EVMOutputError**
 
@@ -31,9 +31,9 @@
 
 \+ **new EVMOutputError**(`m`: string): *[EVMOutputError](src_utils.evmoutputerror.md)*
 
-*Overrides [CaminoError](src_utils.caminoerror.md).[constructor](src_utils.caminoerror.md#constructor)*
+*Overrides [AvalancheError](src_utils.avalancheerror.md).[constructor](src_utils.avalancheerror.md#constructor)*
 
-*Defined in [src/utils/errors.ts:207](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L207)*
+*Defined in [src/utils/errors.ts:207](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L207)*
 
 **Parameters:**
 
@@ -49,9 +49,9 @@ Name | Type |
 
 • **errorCode**: *string*
 
-*Inherited from [CaminoError](src_utils.caminoerror.md).[errorCode](src_utils.caminoerror.md#errorcode)*
+*Inherited from [AvalancheError](src_utils.avalancheerror.md).[errorCode](src_utils.avalancheerror.md#errorcode)*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L48)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **message**: *string*
 
-*Inherited from [CaminoError](src_utils.caminoerror.md).[message](src_utils.caminoerror.md#message)*
+*Inherited from [AvalancheError](src_utils.avalancheerror.md).[message](src_utils.avalancheerror.md#message)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1029
 
@@ -69,7 +69,7 @@ ___
 
 • **name**: *string*
 
-*Inherited from [CaminoError](src_utils.caminoerror.md).[name](src_utils.caminoerror.md#name)*
+*Inherited from [AvalancheError](src_utils.avalancheerror.md).[name](src_utils.avalancheerror.md#name)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1028
 
@@ -79,7 +79,7 @@ ___
 
 • **stack**? : *string*
 
-*Inherited from [CaminoError](src_utils.caminoerror.md).[stack](src_utils.caminoerror.md#optional-stack)*
+*Inherited from [AvalancheError](src_utils.avalancheerror.md).[stack](src_utils.avalancheerror.md#optional-stack)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1030
 
@@ -89,8 +89,8 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:1030
 
 ▸ **getCode**(): *string*
 
-*Inherited from [CaminoError](src_utils.caminoerror.md).[getCode](src_utils.caminoerror.md#getcode)*
+*Inherited from [AvalancheError](src_utils.avalancheerror.md).[getCode](src_utils.avalancheerror.md#getcode)*
 
-*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L55)*
+*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L55)*
 
 **Returns:** *string*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-Interfaces](common_interfaces.md)
+[@c4tplatform/caminojs](../README.md) › [Common-Interfaces](common_interfaces.md)
 
 # Module: Common-Interfaces
 

@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAllBalancesParams](avm_interfaces.getallbalancesparams.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAllBalancesParams](avm_interfaces.getallbalancesparams.md)
 
 # Interface: GetAllBalancesParams
 
@@ -18,4 +18,4 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:79](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L79)*
+*Defined in [src/apis/avm/interfaces.ts:79](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L79)*

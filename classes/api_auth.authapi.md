@@ -1,10 +1,10 @@
-[camino](../README.md) › [API-Auth](../modules/api_auth.md) › [AuthAPI](api_auth.authapi.md)
+[@c4tplatform/caminojs](../README.md) › [API-Auth](../modules/api_auth.md) › [AuthAPI](api_auth.authapi.md)
 
 # Class: AuthAPI
 
 Class for interacting with a node's AuthAPI.
 
-**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Camino.addAPI](camino.camino-1.md#addapi) function to register this interface with Camino.
+**`remarks`** This extends the [JRPCAPI](../modules/src_common.md#jrpcapi) class. This class should not be directly called. Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
 
 ## Hierarchy
 
@@ -41,20 +41,20 @@ Class for interacting with a node's AuthAPI.
 
 ###  constructor
 
-\+ **new AuthAPI**(`core`: [CaminoCore](caminocore.caminocore-1.md), `baseURL`: string): *[AuthAPI](api_auth.authapi.md)*
+\+ **new AuthAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseURL`: string): *[AuthAPI](api_auth.authapi.md)*
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
-*Defined in [src/apis/auth/api.ts:89](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/auth/api.ts#L89)*
+*Defined in [src/apis/auth/api.ts:89](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/api.ts#L89)*
 
-This class should not be instantiated directly. Instead use the [Camino.addAPI](camino.camino-1.md#addapi)
+This class should not be instantiated directly. Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi)
 method.
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class |
+`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
 `baseURL` | string | "/ext/auth" | Defaults to the string "/ext/auth" as the path to rpc's baseURL  |
 
 **Returns:** *[AuthAPI](api_auth.authapi.md)*
@@ -67,17 +67,17 @@ Name | Type | Default | Description |
 
 *Inherited from [APIBase](common_apibase.apibase.md).[baseURL](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L29)*
+*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L29)*
 
 ___
 
 ### `Protected` core
 
-• **core**: *[CaminoCore](caminocore.caminocore-1.md)*
+• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L28)*
+*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L28)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[db](common_apibase.apibase.md#protected-db)*
 
-*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L30)*
+*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L30)*
 
 ___
 
@@ -95,9 +95,9 @@ ___
 
 • **jrpcVersion**: *string* = "2.0"
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[jrpcVersion](common_jrpcapi.jrpcapi.md#protected-jrpcversion)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[jrpcVersion](api_evm.evmapi.md#protected-jrpcversion)*
 
-*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L12)*
+*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L13)*
 
 ___
 
@@ -105,9 +105,9 @@ ___
 
 • **rpcID**: *number* = 1
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[rpcID](common_jrpcapi.jrpcapi.md#protected-rpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[rpcID](api_evm.evmapi.md#protected-rpcid)*
 
-*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L13)*
+*Defined in [src/common/jrpcapi.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L14)*
 
 ## Methods
 
@@ -115,9 +115,9 @@ ___
 
 ▸ **callMethod**(`method`: string, `params?`: object[] | object, `baseURL?`: string, `headers?`: object): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[callMethod](common_jrpcapi.jrpcapi.md#callmethod)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[callMethod](api_evm.evmapi.md#callmethod)*
 
-*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L15)*
+*Defined in [src/common/jrpcapi.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L16)*
 
 **Parameters:**
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **changePassword**(`oldPassword`: string, `newPassword`: string): *Promise‹boolean›*
 
-*Defined in [src/apis/auth/api.ts:76](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/auth/api.ts#L76)*
+*Defined in [src/apis/auth/api.ts:76](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/api.ts#L76)*
 
 Change this node's authorization token password. **Any authorization tokens created under an old password will become invalid.**
 
@@ -159,7 +159,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L53)*
+*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L53)*
 
 Returns the baseURL's path.
 
@@ -173,7 +173,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L58)*
+*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L58)*
 
 Returns the baseURL's database.
 
@@ -185,9 +185,9 @@ ___
 
 ▸ **getRPCID**(): *number*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[getRPCID](common_jrpcapi.jrpcapi.md#getrpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[getRPCID](api_evm.evmapi.md#getrpcid)*
 
-*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L77)*
+*Defined in [src/common/jrpcapi.ts:79](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L79)*
 
 Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
 request ID that will be sent.
@@ -200,7 +200,7 @@ ___
 
 ▸ **newToken**(`password`: string, `endpoints`: string[]): *Promise‹string | [ErrorResponseObject](../interfaces/src_utils.errorresponseobject.md)›*
 
-*Defined in [src/apis/auth/api.ts:31](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/auth/api.ts#L31)*
+*Defined in [src/apis/auth/api.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/api.ts#L31)*
 
 Creates a new authorization token that grants access to one or more API endpoints.
 
@@ -221,7 +221,7 @@ ___
 
 ▸ **revokeToken**(`password`: string, `token`: string): *Promise‹boolean›*
 
-*Defined in [src/apis/auth/api.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/auth/api.ts#L56)*
+*Defined in [src/apis/auth/api.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/api.ts#L56)*
 
 Revokes an authorization token, removing all of its rights to access endpoints.
 
@@ -244,7 +244,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[setBaseURL](common_apibase.apibase.md#setbaseurl)*
 
-*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L37)*
+*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L37)*
 
 Sets the path of the APIs baseURL.
 

@@ -1,4 +1,4 @@
-[camino](../README.md) › [Keystore-Interfaces](keystore_interfaces.md)
+[@c4tplatform/caminojs](../README.md) › [Keystore-Interfaces](keystore_interfaces.md)
 
 # Module: Keystore-Interfaces
 

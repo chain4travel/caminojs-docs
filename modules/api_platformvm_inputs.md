@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-Inputs](api_platformvm_inputs.md)
+[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-Inputs](api_platformvm_inputs.md)
 
 # Module: API-PlatformVM-Inputs
 
@@ -7,6 +7,7 @@
 ### Classes
 
 * [AmountInput](../classes/api_platformvm_inputs.amountinput.md)
+* [LockedIn](../classes/api_platformvm_inputs.lockedin.md)
 * [ParseableInput](../classes/api_platformvm_inputs.parseableinput.md)
 * [SECPTransferInput](../classes/api_platformvm_inputs.secptransferinput.md)
 * [StakeableLockIn](../classes/api_platformvm_inputs.stakeablelockin.md)
@@ -26,15 +27,15 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/inputs.ts:22](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L22)*
+*Defined in [src/apis/platformvm/inputs.ts:23](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L23)*
 
 ## Functions
 
 ### `Const` SelectInputClass
 
-▸ **SelectInputClass**(`inputid`: number, ...`args`: any[]): *[Input](../classes/common_inputs.input.md)*
+▸ **SelectInputClass**(`inputid`: number, ...`args`: any[]): *[BaseInput](../interfaces/common_inputs.baseinput.md)*
 
-*Defined in [src/apis/platformvm/inputs.ts:31](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L31)*
+*Defined in [src/apis/platformvm/inputs.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L32)*
 
 Takes a buffer representing the output and returns the proper [Input](../classes/common_inputs.input.md) instance.
 
@@ -45,6 +46,6 @@ Name | Type | Description |
 `inputid` | number | A number representing the inputID parsed prior to the bytes passed in  |
 `...args` | any[] | - |
 
-**Returns:** *[Input](../classes/common_inputs.input.md)*
+**Returns:** *[BaseInput](../interfaces/common_inputs.baseinput.md)*
 
 An instance of an [Input](../classes/common_inputs.input.md)-extended class.

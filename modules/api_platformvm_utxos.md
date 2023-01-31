@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-UTXOs](api_platformvm_utxos.md)
+[@c4tplatform/caminojs](../README.md) › [API-PlatformVM-UTXOs](api_platformvm_utxos.md)
 
 # Module: API-PlatformVM-UTXOs
 
@@ -13,6 +13,7 @@
 ### Variables
 
 * [serialization](api_platformvm_utxos.md#const-serialization)
+* [zeroBN](api_platformvm_utxos.md#const-zerobn)
 
 ## Variables
 
@@ -20,4 +21,12 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/utxos.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/utxos.ts#L56)*
+*Defined in [src/apis/platformvm/utxos.ts:43](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/utxos.ts#L43)*
+
+___
+
+### `Const` zeroBN
+
+• **zeroBN**: *BN‹›* = new BN(0)
+
+*Defined in [src/apis/platformvm/utxos.ts:45](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/utxos.ts#L45)*

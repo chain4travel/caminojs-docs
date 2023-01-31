@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [IMinterSet](avm_interfaces.iminterset.md)
+[@c4tplatform/caminojs](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [IMinterSet](avm_interfaces.iminterset.md)
 
 # Interface: IMinterSet
 
@@ -19,7 +19,7 @@
 
 • **minters**: *string[]*
 
-*Defined in [src/apis/avm/interfaces.ts:209](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L209)*
+*Defined in [src/apis/avm/interfaces.ts:209](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L209)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **threshold**: *number*
 
-*Defined in [src/apis/avm/interfaces.ts:208](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L208)*
+*Defined in [src/apis/avm/interfaces.ts:208](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L208)*
