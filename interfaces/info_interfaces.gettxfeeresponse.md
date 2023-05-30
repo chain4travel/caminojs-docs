@@ -22,7 +22,7 @@
 
 • **createAssetTxFee**: *BN*
 
-*Defined in [src/apis/info/interfaces.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L32)*
+*Defined in [src/apis/info/interfaces.ts:32](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L32)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **createBlockchainTxFee**: *BN*
 
-*Defined in [src/apis/info/interfaces.ts:34](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L34)*
+*Defined in [src/apis/info/interfaces.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L34)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **createSubnetTxFee**: *BN*
 
-*Defined in [src/apis/info/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L33)*
+*Defined in [src/apis/info/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L33)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **creationTxFee**: *BN*
 
-*Defined in [src/apis/info/interfaces.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L31)*
+*Defined in [src/apis/info/interfaces.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L31)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **txFee**: *BN*
 
-*Defined in [src/apis/info/interfaces.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L30)*
+*Defined in [src/apis/info/interfaces.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L30)*

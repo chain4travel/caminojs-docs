@@ -18,4 +18,4 @@
 
 • **serializer**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/evm/importtx.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/importtx.ts#L31)*
+*Defined in [src/apis/evm/importtx.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L31)*

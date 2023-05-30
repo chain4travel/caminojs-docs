@@ -122,7 +122,7 @@
 
 \+ **new CaminoError**(`m`: string, `code`: string): *[CaminoError](src_utils.caminoerror.md)*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L48)*
 
 **Parameters:**
 
@@ -139,7 +139,7 @@ Name | Type |
 
 • **errorCode**: *string*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L48)*
 
 ___
 
@@ -185,6 +185,6 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:1039
 
 ▸ **getCode**(): *string*
 
-*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/errors.ts#L55)*
+*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L55)*
 
 **Returns:** *string*

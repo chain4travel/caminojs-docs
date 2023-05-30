@@ -18,4 +18,4 @@
 
 • **loggerLevels**: *[LoggerLevels](admin_interfaces.loggerlevels.md)*
 
-*Defined in [src/apis/admin/interfaces.ts:41](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L41)*
+*Defined in [src/apis/admin/interfaces.ts:41](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/admin/interfaces.ts#L41)*

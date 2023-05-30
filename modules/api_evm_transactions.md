@@ -19,7 +19,7 @@
 
 ▸ **SelectTxClass**(`txTypeID`: number, ...`args`: any[]): *[EVMBaseTx](../classes/api_evm_basetx.evmbasetx.md)*
 
-*Defined in [src/apis/evm/tx.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/tx.ts#L32)*
+*Defined in [src/apis/evm/tx.ts:36](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/tx.ts#L36)*
 
 Takes a buffer representing the output and returns the proper [EVMBaseTx](../classes/api_evm_basetx.evmbasetx.md) instance.
 

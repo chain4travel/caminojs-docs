@@ -19,7 +19,7 @@
 
 • **addresses**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L16)*
+*Defined in [src/apis/platformvm/interfaces.ts:18](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L18)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **encoding**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L17)*
+*Defined in [src/apis/platformvm/interfaces.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L19)*

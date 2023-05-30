@@ -18,4 +18,4 @@
 
 • **constainer**: *[BaseIndexParams](index_interfaces.baseindexparams.md)[]*
 
-*Defined in [src/apis/index/interfaces.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/index/interfaces.ts#L48)*
+*Defined in [src/apis/index/interfaces.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/interfaces.ts#L48)*

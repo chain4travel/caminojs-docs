@@ -19,7 +19,7 @@
 
 • **reason**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:214](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L214)*
+*Defined in [src/apis/platformvm/interfaces.ts:239](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L239)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **status**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:213](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L213)*
+*Defined in [src/apis/platformvm/interfaces.ts:238](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L238)*

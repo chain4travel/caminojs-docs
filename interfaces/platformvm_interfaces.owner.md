@@ -22,15 +22,15 @@
 
 • **addresses**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:232](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L232)*
+*Defined in [src/apis/platformvm/interfaces.ts:308](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L308)*
 
 ___
 
 ###  locktime
 
-• **locktime**: *string*
+• **locktime**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:230](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L230)*
+*Defined in [src/apis/platformvm/interfaces.ts:306](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L306)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **threshold**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:231](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L231)*
+*Defined in [src/apis/platformvm/interfaces.ts:307](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L307)*

@@ -18,4 +18,4 @@
 
 • **assetID**: *Buffer | string*
 
-*Defined in [src/apis/evm/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/interfaces.ts#L10)*
+*Defined in [src/apis/evm/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/interfaces.ts#L10)*

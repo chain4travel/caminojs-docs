@@ -19,6 +19,7 @@
 * [DefaultEVMLocalGenesisAddress](utils_constants.md#const-defaultevmlocalgenesisaddress)
 * [DefaultEVMLocalGenesisPrivateKey](utils_constants.md#const-defaultevmlocalgenesisprivatekey)
 * [DefaultLocalGenesisPrivateKey](utils_constants.md#const-defaultlocalgenesisprivatekey)
+* [DefaultLocalGenesisPrivateKey2](utils_constants.md#const-defaultlocalgenesisprivatekey2)
 * [DefaultNetworkID](utils_constants.md#const-defaultnetworkid)
 * [DefaultPlatformChainID](utils_constants.md#const-defaultplatformchainid)
 * [DummyBlockchainID](utils_constants.md#const-dummyblockchainid)
@@ -49,7 +50,7 @@
 
 Ƭ **MergeRule**: *"intersection" | "differenceSelf" | "differenceNew" | "symDifference" | "union" | "unionMinusNew" | "unionMinusSelf" | "ERROR"*
 
-*Defined in [src/utils/constants.ts:62](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L62)*
+*Defined in [src/utils/constants.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L63)*
 
 Rules used when merging sets
 
@@ -59,7 +60,7 @@ Rules used when merging sets
 
 • **AVAXGWEI**: *BN* = NANOAVAX.clone()
 
-*Defined in [src/utils/constants.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L56)*
+*Defined in [src/utils/constants.ts:57](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L57)*
 
 ___
 
@@ -67,7 +68,7 @@ ___
 
 • **AVAXSTAKECAP**: *BN* = ONEAVAX.mul(new BN(3000000))
 
-*Defined in [src/utils/constants.ts:57](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L57)*
+*Defined in [src/utils/constants.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L58)*
 
 ___
 
@@ -75,7 +76,7 @@ ___
 
 • **CChainAlias**: *string* = "C"
 
-*Defined in [src/utils/constants.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L13)*
+*Defined in [src/utils/constants.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L13)*
 
 ___
 
@@ -83,7 +84,7 @@ ___
 
 • **CChainVMName**: *string* = "evm"
 
-*Defined in [src/utils/constants.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L16)*
+*Defined in [src/utils/constants.ts:16](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L16)*
 
 ___
 
@@ -91,7 +92,7 @@ ___
 
 • **CENTIAVAX**: *BN* = ONEAVAX.div(new BN(100))
 
-*Defined in [src/utils/constants.ts:49](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L49)*
+*Defined in [src/utils/constants.ts:50](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L50)*
 
 ___
 
@@ -99,7 +100,7 @@ ___
 
 • **DECIAVAX**: *BN* = ONEAVAX.div(new BN(10))
 
-*Defined in [src/utils/constants.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L48)*
+*Defined in [src/utils/constants.ts:49](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L49)*
 
 ___
 
@@ -107,7 +108,7 @@ ___
 
 • **DefaultEVMLocalGenesisAddress**: *string* = "0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC"
 
-*Defined in [src/utils/constants.ts:42](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L42)*
+*Defined in [src/utils/constants.ts:43](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L43)*
 
 ___
 
@@ -115,7 +116,7 @@ ___
 
 • **DefaultEVMLocalGenesisPrivateKey**: *string* = "0x56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027"
 
-*Defined in [src/utils/constants.ts:40](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L40)*
+*Defined in [src/utils/constants.ts:41](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L41)*
 
 ___
 
@@ -123,7 +124,15 @@ ___
 
 • **DefaultLocalGenesisPrivateKey**: *string* = "ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN"
 
-*Defined in [src/utils/constants.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L38)*
+*Defined in [src/utils/constants.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L37)*
+
+___
+
+### `Const` DefaultLocalGenesisPrivateKey2
+
+• **DefaultLocalGenesisPrivateKey2**: *string* = "vmRQiZeXEXYMyJhEiqdC2z5JhuDbxL8ix9UVvjgMu2Er1NepE"
+
+*Defined in [src/utils/constants.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L39)*
 
 ___
 
@@ -131,7 +140,7 @@ ___
 
 • **DefaultNetworkID**: *1* = 1
 
-*Defined in [src/utils/constants.ts:8](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L8)*
+*Defined in [src/utils/constants.ts:8](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L8)*
 
 ___
 
@@ -139,7 +148,7 @@ ___
 
 • **DefaultPlatformChainID**: *string* = "11111111111111111111111111111111LpoYY"
 
-*Defined in [src/utils/constants.ts:23](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L23)*
+*Defined in [src/utils/constants.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L23)*
 
 ___
 
@@ -147,7 +156,7 @@ ___
 
 • **DummyBlockchainID**: *"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"* = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 
-*Defined in [src/utils/constants.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L31)*
+*Defined in [src/utils/constants.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L30)*
 
 ___
 
@@ -155,7 +164,7 @@ ___
 
 • **DummyPlatformChainID**: *string* = "11111111111111111111111111111111LpoXX"
 
-*Defined in [src/utils/constants.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L33)*
+*Defined in [src/utils/constants.ts:32](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L32)*
 
 ___
 
@@ -163,7 +172,7 @@ ___
 
 • **GWEI**: *BN* = WEI.mul(new BN(1000000000))
 
-*Defined in [src/utils/constants.ts:55](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L55)*
+*Defined in [src/utils/constants.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L56)*
 
 ___
 
@@ -171,7 +180,7 @@ ___
 
 • **MICROAVAX**: *BN* = ONEAVAX.div(new BN(1000000))
 
-*Defined in [src/utils/constants.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L51)*
+*Defined in [src/utils/constants.ts:52](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L52)*
 
 ___
 
@@ -179,7 +188,7 @@ ___
 
 • **MILLIAVAX**: *BN* = ONEAVAX.div(new BN(1000))
 
-*Defined in [src/utils/constants.ts:50](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L50)*
+*Defined in [src/utils/constants.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L51)*
 
 ___
 
@@ -187,7 +196,7 @@ ___
 
 • **NANOAVAX**: *BN* = ONEAVAX.div(new BN(1000000000))
 
-*Defined in [src/utils/constants.ts:52](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L52)*
+*Defined in [src/utils/constants.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L53)*
 
 ___
 
@@ -195,7 +204,7 @@ ___
 
 • **NodeIDPrefix**: *string* = "NodeID-"
 
-*Defined in [src/utils/constants.ts:11](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L11)*
+*Defined in [src/utils/constants.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L11)*
 
 ___
 
@@ -203,7 +212,7 @@ ___
 
 • **ONEAVAX**: *BN* = new BN(1000000000)
 
-*Defined in [src/utils/constants.ts:47](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L47)*
+*Defined in [src/utils/constants.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L48)*
 
 ___
 
@@ -211,7 +220,7 @@ ___
 
 • **PChainAlias**: *string* = "P"
 
-*Defined in [src/utils/constants.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L14)*
+*Defined in [src/utils/constants.ts:14](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L14)*
 
 ___
 
@@ -219,7 +228,7 @@ ___
 
 • **PChainVMName**: *string* = "platformvm"
 
-*Defined in [src/utils/constants.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L17)*
+*Defined in [src/utils/constants.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L17)*
 
 ___
 
@@ -227,7 +236,7 @@ ___
 
 • **PrivateKeyPrefix**: *string* = "PrivateKey-"
 
-*Defined in [src/utils/constants.ts:10](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L10)*
+*Defined in [src/utils/constants.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L10)*
 
 ___
 
@@ -235,7 +244,7 @@ ___
 
 • **TestAvaxAssetID**: *"2fombhL7aGPwj3KH4bfrmJwW6PVnMobf9Y2fn9GwxiAAJyFDbe"* = "2fombhL7aGPwj3KH4bfrmJwW6PVnMobf9Y2fn9GwxiAAJyFDbe"
 
-*Defined in [src/utils/constants.ts:21](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L21)*
+*Defined in [src/utils/constants.ts:21](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L21)*
 
 ___
 
@@ -243,7 +252,7 @@ ___
 
 • **TestCBlockchainID**: *"2CA6j5zYzasynPsFeNoqWkmTCt3VScMvXUZHbfDJ8k3oGzAPtU"* = "2CA6j5zYzasynPsFeNoqWkmTCt3VScMvXUZHbfDJ8k3oGzAPtU"
 
-*Defined in [src/utils/constants.ts:27](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L27)*
+*Defined in [src/utils/constants.ts:27](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L27)*
 
 ___
 
@@ -251,7 +260,7 @@ ___
 
 • **TestCChainID**: *42112* = 42112
 
-*Defined in [src/utils/constants.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L29)*
+*Defined in [src/utils/constants.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L29)*
 
 ___
 
@@ -259,7 +268,7 @@ ___
 
 • **TestHRP**: *"local"* = "local"
 
-*Defined in [src/utils/constants.ts:19](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L19)*
+*Defined in [src/utils/constants.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L19)*
 
 ___
 
@@ -267,7 +276,7 @@ ___
 
 • **TestNetworkID**: *12345* = 12345
 
-*Defined in [src/utils/constants.ts:20](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L20)*
+*Defined in [src/utils/constants.ts:20](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L20)*
 
 ___
 
@@ -275,7 +284,7 @@ ___
 
 • **TestXBlockchainID**: *"2eNy1mUFdmaxXNj1eQHUe7Np4gju9sJsEtWQ4MX3ToiNKuADed"* = "2eNy1mUFdmaxXNj1eQHUe7Np4gju9sJsEtWQ4MX3ToiNKuADed"
 
-*Defined in [src/utils/constants.ts:25](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L25)*
+*Defined in [src/utils/constants.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L25)*
 
 ___
 
@@ -283,7 +292,7 @@ ___
 
 • **WEI**: *BN* = new BN(1)
 
-*Defined in [src/utils/constants.ts:54](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L54)*
+*Defined in [src/utils/constants.ts:55](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L55)*
 
 ___
 
@@ -291,7 +300,7 @@ ___
 
 • **XChainAlias**: *string* = "X"
 
-*Defined in [src/utils/constants.ts:12](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L12)*
+*Defined in [src/utils/constants.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L12)*
 
 ___
 
@@ -299,7 +308,7 @@ ___
 
 • **XChainVMName**: *string* = "avm"
 
-*Defined in [src/utils/constants.ts:15](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L15)*
+*Defined in [src/utils/constants.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L15)*
 
 ___
 
@@ -307,4 +316,4 @@ ___
 
 • **mnemonic**: *string* = "output tooth keep tooth bracket fox city sustain blood raise install pond stem reject long scene clap gloom purpose mean music piece unknown light"
 
-*Defined in [src/utils/constants.ts:44](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/constants.ts#L44)*
+*Defined in [src/utils/constants.ts:45](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/constants.ts#L45)*

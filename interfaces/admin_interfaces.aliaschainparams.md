@@ -19,7 +19,7 @@
 
 • **alias**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L13)*
+*Defined in [src/apis/admin/interfaces.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/admin/interfaces.ts#L13)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **chain**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L12)*
+*Defined in [src/apis/admin/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/admin/interfaces.ts#L12)*

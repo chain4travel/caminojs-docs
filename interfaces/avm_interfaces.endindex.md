@@ -19,7 +19,7 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:116](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L116)*
+*Defined in [src/apis/avm/interfaces.ts:116](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L116)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **utxo**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:117](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L117)*
+*Defined in [src/apis/avm/interfaces.ts:117](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L117)*

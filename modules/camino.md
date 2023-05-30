@@ -9,7 +9,6 @@
 * [admin](camino.md#admin)
 * [auth](camino.md#auth)
 * [avm](camino.md#avm)
-* [common](camino.md#common)
 * [evm](camino.md#evm)
 * [health](camino.md#health)
 * [index](camino.md#index)
@@ -39,12 +38,6 @@ ___
 ###  avm
 
 • **avm**:
-
-___
-
-###  common
-
-• **common**:
 
 ___
 

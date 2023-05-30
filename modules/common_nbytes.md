@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/nbytes.ts:19](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/nbytes.ts#L19)*
+*Defined in [src/common/nbytes.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/nbytes.ts#L19)*

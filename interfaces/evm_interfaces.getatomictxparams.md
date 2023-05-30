@@ -18,4 +18,4 @@
 
 • **txID**: *string*
 
-*Defined in [src/apis/evm/interfaces.ts:18](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/interfaces.ts#L18)*
+*Defined in [src/apis/evm/interfaces.ts:18](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/interfaces.ts#L18)*

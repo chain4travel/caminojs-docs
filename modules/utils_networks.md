@@ -11,6 +11,7 @@
 ### Interfaces
 
 * [C](../interfaces/utils_networks.c.md)
+* [Chain](../interfaces/utils_networks.chain.md)
 * [Network](../interfaces/utils_networks.network.md)
 * [P](../interfaces/utils_networks.p.md)
 * [X](../interfaces/utils_networks.x.md)
@@ -26,17 +27,23 @@
 
 ### ▪ **AvaxMainNetwork**: *object*
 
-*Defined in [src/utils/networks.ts:128](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L128)*
+*Defined in [src/utils/networks.ts:136](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L136)*
 
 ###  hrp
 
 • **hrp**: *string* = "avax"
 
-*Defined in [src/utils/networks.ts:129](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L129)*
+*Defined in [src/utils/networks.ts:138](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L138)*
+
+###  preDefined
+
+• **preDefined**: *true* = true
+
+*Defined in [src/utils/networks.ts:137](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L137)*
 
 ▪ **C**: *object*
 
-*Defined in [src/utils/networks.ts:160](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L160)*
+*Defined in [src/utils/networks.ts:169](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L169)*
 
 * **alias**: *string* = CChainAlias
 
@@ -60,7 +67,7 @@
 
 ▪ **P**: *object*
 
-*Defined in [src/utils/networks.ts:140](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L140)*
+*Defined in [src/utils/networks.ts:149](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L149)*
 
 * **alias**: *string* = PChainAlias
 
@@ -100,7 +107,7 @@
 
 ▪ **X**: *object*
 
-*Defined in [src/utils/networks.ts:130](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L130)*
+*Defined in [src/utils/networks.ts:139](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L139)*
 
 * **alias**: *string* = XChainAlias
 
@@ -124,17 +131,23 @@ ___
 
 ### ▪ **TestNetwork**: *object*
 
-*Defined in [src/utils/networks.ts:81](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L81)*
+*Defined in [src/utils/networks.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L88)*
 
 ###  hrp
 
 • **hrp**: *string* = TestHRP
 
-*Defined in [src/utils/networks.ts:82](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L82)*
+*Defined in [src/utils/networks.ts:90](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L90)*
+
+###  preDefined
+
+• **preDefined**: *true* = true
+
+*Defined in [src/utils/networks.ts:89](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L89)*
 
 ▪ **C**: *object*
 
-*Defined in [src/utils/networks.ts:113](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L113)*
+*Defined in [src/utils/networks.ts:121](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L121)*
 
 * **alias**: *string* = CChainAlias
 
@@ -158,7 +171,7 @@ ___
 
 ▪ **P**: *object*
 
-*Defined in [src/utils/networks.ts:93](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L93)*
+*Defined in [src/utils/networks.ts:101](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L101)*
 
 * **alias**: *string* = PChainAlias
 
@@ -198,7 +211,7 @@ ___
 
 ▪ **X**: *object*
 
-*Defined in [src/utils/networks.ts:83](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L83)*
+*Defined in [src/utils/networks.ts:91](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L91)*
 
 * **alias**: *string* = XChainAlias
 

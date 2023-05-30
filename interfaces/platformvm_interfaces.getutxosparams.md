@@ -23,7 +23,7 @@
 
 • **addresses**: *string[] | string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:158](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L158)*
+*Defined in [src/apis/platformvm/interfaces.ts:183](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L183)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **encoding**? : *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:163](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L163)*
+*Defined in [src/apis/platformvm/interfaces.ts:188](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L188)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **limit**: *number | 0*
 
-*Defined in [src/apis/platformvm/interfaces.ts:160](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L160)*
+*Defined in [src/apis/platformvm/interfaces.ts:185](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L185)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **persistOpts**? : *[PersistanceOptions](../classes/utils_persistanceoptions.persistanceoptions.md) | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:162](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L162)*
+*Defined in [src/apis/platformvm/interfaces.ts:187](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L187)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **sourceChain**? : *string | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:159](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L159)*
+*Defined in [src/apis/platformvm/interfaces.ts:184](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L184)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **startIndex**? : *[StartIndex](platformvm_interfaces.startindex.md) | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:161](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L161)*
+*Defined in [src/apis/platformvm/interfaces.ts:186](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L186)*

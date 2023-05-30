@@ -19,7 +19,7 @@
 
 • **nodeIDs**? : *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:66](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L66)*
+*Defined in [src/apis/platformvm/interfaces.ts:68](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L68)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **subnetID**? : *Buffer | string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:65](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L65)*
+*Defined in [src/apis/platformvm/interfaces.ts:67](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L67)*

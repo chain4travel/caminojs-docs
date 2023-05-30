@@ -29,7 +29,7 @@
 
 ▸ **clone**(): *this*
 
-*Defined in [src/common/output.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L38)*
+*Defined in [src/common/output.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L38)*
 
 **Returns:** *this*
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **create**(...`args`: any[]): *this*
 
-*Defined in [src/common/output.ts:39](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L39)*
+*Defined in [src/common/output.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L39)*
 
 **Parameters:**
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **deserialize**(`fields`: object, `encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *void*
 
-*Defined in [src/common/output.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L28)*
+*Defined in [src/common/output.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L28)*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **fromBuffer**(`bytes`: Buffer, `offset`: number): *number*
 
-*Defined in [src/common/output.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L29)*
+*Defined in [src/common/output.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L29)*
 
 **Parameters:**
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **getAddresses**(): *Buffer[]*
 
-*Defined in [src/common/output.ts:34](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L34)*
+*Defined in [src/common/output.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L34)*
 
 **Returns:** *Buffer[]*
 
@@ -99,7 +99,7 @@ ___
 
 ▸ **getLocktime**(): *BN*
 
-*Defined in [src/common/output.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L33)*
+*Defined in [src/common/output.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L33)*
 
 **Returns:** *BN*
 
@@ -109,7 +109,7 @@ ___
 
 ▸ **getOutputID**(): *number*
 
-*Defined in [src/common/output.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L37)*
+*Defined in [src/common/output.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L37)*
 
 **Returns:** *number*
 
@@ -119,7 +119,7 @@ ___
 
 ▸ **getThreshold**(): *number*
 
-*Defined in [src/common/output.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L32)*
+*Defined in [src/common/output.ts:32](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L32)*
 
 **Returns:** *number*
 
@@ -129,7 +129,7 @@ ___
 
 ▸ **getTypeID**(): *number*
 
-*Defined in [src/common/output.ts:25](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L25)*
+*Defined in [src/common/output.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L25)*
 
 **Returns:** *number*
 
@@ -139,7 +139,7 @@ ___
 
 ▸ **meetsThreshold**(`addrs`: Buffer[], `asOf`: BN): *boolean*
 
-*Defined in [src/common/output.ts:35](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L35)*
+*Defined in [src/common/output.ts:35](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L35)*
 
 **Parameters:**
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **serialize**(`encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *object*
 
-*Defined in [src/common/output.ts:27](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L27)*
+*Defined in [src/common/output.ts:27](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L27)*
 
 **Parameters:**
 
@@ -172,6 +172,6 @@ ___
 
 ▸ **toBuffer**(): *Buffer*
 
-*Defined in [src/common/output.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L30)*
+*Defined in [src/common/output.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L30)*
 
 **Returns:** *Buffer*

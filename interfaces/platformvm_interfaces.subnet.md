@@ -20,7 +20,7 @@
 
 • **controlKeys**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:186](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L186)*
+*Defined in [src/apis/platformvm/interfaces.ts:211](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L211)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **ids**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:185](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L185)*
+*Defined in [src/apis/platformvm/interfaces.ts:210](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L210)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **threshold**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:187](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L187)*
+*Defined in [src/apis/platformvm/interfaces.ts:212](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L212)*

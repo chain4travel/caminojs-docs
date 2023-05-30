@@ -19,7 +19,7 @@
 
 • **minDelegatorStake**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:219](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L219)*
+*Defined in [src/apis/platformvm/interfaces.ts:244](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L244)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **minValidatorStake**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:218](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L218)*
+*Defined in [src/apis/platformvm/interfaces.ts:243](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L243)*

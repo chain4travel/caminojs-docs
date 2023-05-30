@@ -20,7 +20,7 @@
 
 • **bintools**: *[BinTools](../classes/utils_bintools.bintools.md)* = BinTools.getInstance()
 
-*Defined in [src/apis/platformvm/locked.ts:10](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L10)*
+*Defined in [src/apis/platformvm/locked.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L10)*
 
 ___
 
@@ -28,4 +28,4 @@ ___
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/locked.ts:11](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L11)*
+*Defined in [src/apis/platformvm/locked.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L11)*

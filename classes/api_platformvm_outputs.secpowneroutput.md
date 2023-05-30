@@ -35,6 +35,7 @@ An [Output](../modules/src_common.md#output) class which only specifies an Outpu
 * [getAddress](api_platformvm_outputs.secpowneroutput.md#getaddress)
 * [getAddressIdx](api_platformvm_outputs.secpowneroutput.md#getaddressidx)
 * [getAddresses](api_platformvm_outputs.secpowneroutput.md#getaddresses)
+* [getAddressesLength](api_platformvm_outputs.secpowneroutput.md#getaddresseslength)
 * [getCodecID](api_platformvm_outputs.secpowneroutput.md#getcodecid)
 * [getLocktime](api_platformvm_outputs.secpowneroutput.md#getlocktime)
 * [getOutputID](api_platformvm_outputs.secpowneroutput.md#getoutputid)
@@ -48,6 +49,8 @@ An [Output](../modules/src_common.md#output) class which only specifies an Outpu
 * [serialize](api_platformvm_outputs.secpowneroutput.md#serialize)
 * [toBuffer](api_platformvm_outputs.secpowneroutput.md#tobuffer)
 * [toString](api_platformvm_outputs.secpowneroutput.md#tostring)
+* [fromArray](api_platformvm_outputs.secpowneroutput.md#static-fromarray)
+* [toArray](api_platformvm_outputs.secpowneroutput.md#static-toarray)
 
 ## Constructors
 
@@ -57,7 +60,7 @@ An [Output](../modules/src_common.md#output) class which only specifies an Outpu
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[constructor](common_output.outputowners.md#constructor)*
 
-*Defined in [src/common/output.ts:357](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L357)*
+*Defined in [src/common/output.ts:362](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L362)*
 
 An [Output](../modules/src_common.md#output) class which contains addresses, locktimes, and thresholds.
 
@@ -67,7 +70,7 @@ Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `addresses` | Buffer[] | undefined | An array of [Buffer](https://github.com/feross/buffer)s representing output owner's addresses |
 `locktime` | BN | undefined | A [BN](https://github.com/indutny/bn.js/) representing the locktime |
-`threshold` | number | undefined | A number representing the the threshold number of signers required to sign the transaction  |
+`threshold` | number | undefined | A number representing the threshold number of signers required to sign the transaction  |
 
 **Returns:** *[SECPOwnerOutput](api_platformvm_outputs.secpowneroutput.md)*
 
@@ -79,7 +82,7 @@ Name | Type | Default | Description |
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -89,7 +92,7 @@ ___
 
 *Overrides [Output](common_output.output.md).[_typeID](common_output.output.md#protected-_typeid)*
 
-*Defined in [src/apis/platformvm/outputs.ts:285](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L285)*
+*Defined in [src/apis/platformvm/outputs.ts:285](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L285)*
 
 ___
 
@@ -99,7 +102,7 @@ ___
 
 *Overrides [Output](common_output.output.md).[_typeName](common_output.output.md#protected-_typename)*
 
-*Defined in [src/apis/platformvm/outputs.ts:284](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L284)*
+*Defined in [src/apis/platformvm/outputs.ts:284](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L284)*
 
 ___
 
@@ -109,7 +112,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[addresses](common_output.outputowners.md#protected-addresses)*
 
-*Defined in [src/common/output.ts:198](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L198)*
+*Defined in [src/common/output.ts:198](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L198)*
 
 ___
 
@@ -119,7 +122,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[locktime](common_output.outputowners.md#protected-locktime)*
 
-*Defined in [src/common/output.ts:195](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L195)*
+*Defined in [src/common/output.ts:195](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L195)*
 
 ___
 
@@ -129,7 +132,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[numaddrs](common_output.outputowners.md#protected-numaddrs)*
 
-*Defined in [src/common/output.ts:197](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L197)*
+*Defined in [src/common/output.ts:197](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L197)*
 
 ___
 
@@ -139,7 +142,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[threshold](common_output.outputowners.md#protected-threshold)*
 
-*Defined in [src/common/output.ts:196](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L196)*
+*Defined in [src/common/output.ts:196](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L196)*
 
 ## Methods
 
@@ -149,7 +152,7 @@ ___
 
 *Overrides [Output](common_output.output.md).[clone](common_output.output.md#abstract-clone)*
 
-*Defined in [src/apis/platformvm/outputs.ts:308](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L308)*
+*Defined in [src/apis/platformvm/outputs.ts:308](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L308)*
 
 **Returns:** *this*
 
@@ -161,7 +164,7 @@ ___
 
 *Overrides [Output](common_output.output.md).[create](common_output.output.md#abstract-create)*
 
-*Defined in [src/apis/platformvm/outputs.ts:304](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L304)*
+*Defined in [src/apis/platformvm/outputs.ts:304](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L304)*
 
 **Parameters:**
 
@@ -181,7 +184,7 @@ ___
 
 *Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[deserialize](common_inputs.standardparseableinput.md#deserialize)*
 
-*Defined in [src/common/output.ts:170](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L170)*
+*Defined in [src/common/output.ts:170](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L170)*
 
 **Parameters:**
 
@@ -200,7 +203,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[fromBuffer](common_output.outputowners.md#frombuffer)*
 
-*Defined in [src/common/output.ts:317](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L317)*
+*Defined in [src/common/output.ts:322](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L322)*
 
 Returns a base-58 string representing the [Output](../modules/src_common.md#output).
 
@@ -221,7 +224,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[getAddress](common_output.outputowners.md#getaddress)*
 
-*Defined in [src/common/output.ts:248](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L248)*
+*Defined in [src/common/output.ts:253](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L253)*
 
 Returns the address from the index provided.
 
@@ -243,7 +246,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[getAddressIdx](common_output.outputowners.md#getaddressidx)*
 
-*Defined in [src/common/output.ts:228](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L228)*
+*Defined in [src/common/output.ts:233](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L233)*
 
 Returns the index of the address.
 
@@ -265,11 +268,25 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[getAddresses](common_output.outputowners.md#getaddresses)*
 
-*Defined in [src/common/output.ts:213](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L213)*
+*Defined in [src/common/output.ts:213](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L213)*
 
 Returns an array of [Buffer](https://github.com/feross/buffer)s for the addresses.
 
 **Returns:** *Buffer[]*
+
+___
+
+###  getAddressesLength
+
+▸ **getAddressesLength**(): *number*
+
+*Inherited from [OutputOwners](common_output.outputowners.md).[getAddressesLength](common_output.outputowners.md#getaddresseslength)*
+
+*Defined in [src/common/output.ts:224](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L224)*
+
+Returns an the length of the Addresses array.
+
+**Returns:** *number*
 
 ___
 
@@ -279,7 +296,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -293,7 +310,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[getLocktime](common_output.outputowners.md#getlocktime)*
 
-*Defined in [src/common/output.ts:208](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L208)*
+*Defined in [src/common/output.ts:208](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L208)*
 
 Returns the a [BN](https://github.com/indutny/bn.js/) repersenting the UNIX Timestamp when the lock is made available.
 
@@ -307,7 +324,7 @@ ___
 
 *Overrides [Output](common_output.output.md).[getOutputID](common_output.output.md#abstract-getoutputid)*
 
-*Defined in [src/apis/platformvm/outputs.ts:292](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L292)*
+*Defined in [src/apis/platformvm/outputs.ts:292](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L292)*
 
 Returns the outputID for this output
 
@@ -321,7 +338,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[getSpenders](common_output.outputowners.md#getspenders)*
 
-*Defined in [src/common/output.ts:277](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L277)*
+*Defined in [src/common/output.ts:282](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L282)*
 
 Given an array of addresses and an optional timestamp, select an array of address [Buffer](https://github.com/feross/buffer)s of qualified spenders for the output.
 
@@ -342,7 +359,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[getThreshold](common_output.outputowners.md#getthreshold)*
 
-*Defined in [src/common/output.ts:203](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L203)*
+*Defined in [src/common/output.ts:203](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L203)*
 
 Returns the threshold of signers required to spend this output.
 
@@ -356,7 +373,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -370,7 +387,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -384,7 +401,7 @@ ___
 
 *Overrides [Output](common_output.output.md).[makeTransferable](common_output.output.md#abstract-maketransferable)*
 
-*Defined in [src/apis/platformvm/outputs.ts:300](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L300)*
+*Defined in [src/apis/platformvm/outputs.ts:300](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L300)*
 
 **Parameters:**
 
@@ -402,7 +419,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[meetsThreshold](common_output.outputowners.md#meetsthreshold)*
 
-*Defined in [src/common/output.ts:258](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L258)*
+*Defined in [src/common/output.ts:263](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L263)*
 
 Given an array of address [Buffer](https://github.com/feross/buffer)s and an optional timestamp, returns true if the addresses meet the threshold required to spend the output.
 
@@ -423,7 +440,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -445,7 +462,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[serialize](utils_serialization.serializable.md#serialize)*
 
-*Defined in [src/common/output.ts:147](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L147)*
+*Defined in [src/common/output.ts:147](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L147)*
 
 **Parameters:**
 
@@ -463,7 +480,7 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[toBuffer](common_output.outputowners.md#tobuffer)*
 
-*Defined in [src/common/output.ts:338](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L338)*
+*Defined in [src/common/output.ts:343](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L343)*
 
 Returns the buffer representing the [Output](../modules/src_common.md#output) instance.
 
@@ -477,8 +494,44 @@ ___
 
 *Inherited from [OutputOwners](common_output.outputowners.md).[toString](common_output.outputowners.md#tostring)*
 
-*Defined in [src/common/output.ts:355](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L355)*
+*Defined in [src/common/output.ts:360](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L360)*
 
 Returns a base-58 string representing the [Output](../modules/src_common.md#output).
 
 **Returns:** *string*
+
+___
+
+### `Static` fromArray
+
+▸ **fromArray**(`b`: Buffer): *[OutputOwners](common_output.outputowners.md)[]*
+
+*Inherited from [OutputOwners](common_output.outputowners.md).[fromArray](common_output.outputowners.md#static-fromarray)*
+
+*Defined in [src/common/output.ts:395](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L395)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`b` | Buffer |
+
+**Returns:** *[OutputOwners](common_output.outputowners.md)[]*
+
+___
+
+### `Static` toArray
+
+▸ **toArray**(`o`: [OutputOwners](common_output.outputowners.md)[]): *Buffer*
+
+*Inherited from [OutputOwners](common_output.outputowners.md).[toArray](common_output.outputowners.md#static-toarray)*
+
+*Defined in [src/common/output.ts:407](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L407)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`o` | [OutputOwners](common_output.outputowners.md)[] |
+
+**Returns:** *Buffer*

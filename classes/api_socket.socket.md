@@ -32,7 +32,7 @@
 
 \+ **new Socket**(`url`: string, `options?`: WebSocket.ClientOptions | ClientRequestArgs): *[Socket](api_socket.socket.md)*
 
-*Defined in [src/apis/socket/socket.ts:35](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/socket/socket.ts#L35)*
+*Defined in [src/apis/socket/socket.ts:35](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L35)*
 
 Provides the API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
 
@@ -51,7 +51,7 @@ Name | Type | Description |
 
 • **onclose**: *any*
 
-*Defined in [src/apis/socket/socket.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/socket/socket.ts#L13)*
+*Defined in [src/apis/socket/socket.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L13)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **onerror**: *any*
 
-*Defined in [src/apis/socket/socket.ts:15](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/socket/socket.ts#L15)*
+*Defined in [src/apis/socket/socket.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L15)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **onmessage**: *any*
 
-*Defined in [src/apis/socket/socket.ts:11](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/socket/socket.ts#L11)*
+*Defined in [src/apis/socket/socket.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L11)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **onopen**: *any*
 
-*Defined in [src/apis/socket/socket.ts:9](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/socket/socket.ts#L9)*
+*Defined in [src/apis/socket/socket.ts:9](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L9)*
 
 ## Methods
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **close**(`mcode?`: number, `data?`: string): *void*
 
-*Defined in [src/apis/socket/socket.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/socket/socket.ts#L33)*
+*Defined in [src/apis/socket/socket.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L33)*
 
 Terminates the connection completely
 
@@ -102,7 +102,7 @@ ___
 
 ▸ **send**(`data`: any, `cb?`: any): *void*
 
-*Defined in [src/apis/socket/socket.ts:23](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/socket/socket.ts#L23)*
+*Defined in [src/apis/socket/socket.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L23)*
 
 Send a message to the server
 

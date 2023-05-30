@@ -19,9 +19,9 @@
 
 • **size**: *number | string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L70)*
+*Defined in [src/apis/platformvm/interfaces.ts:76](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L76)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:75](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L75)*
+*Defined in [src/apis/platformvm/interfaces.ts:81](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L81)*
 
 ___
 
@@ -29,6 +29,6 @@ ___
 
 • **subnetID**? : *Buffer | string | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:71](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L71)*
+*Defined in [src/apis/platformvm/interfaces.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L77)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:76](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L76)*
+*Defined in [src/apis/platformvm/interfaces.ts:82](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L82)*

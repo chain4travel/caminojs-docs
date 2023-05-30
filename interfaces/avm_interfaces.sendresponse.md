@@ -19,7 +19,7 @@
 
 • **changeAddr**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:145](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L145)*
+*Defined in [src/apis/avm/interfaces.ts:145](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L145)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **txID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:144](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L144)*
+*Defined in [src/apis/avm/interfaces.ts:144](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L144)*

@@ -19,7 +19,7 @@
 
 • **newPassword**: *string*
 
-*Defined in [src/apis/auth/interfaces.ts:18](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/interfaces.ts#L18)*
+*Defined in [src/apis/auth/interfaces.ts:18](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/auth/interfaces.ts#L18)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **oldPassword**: *string*
 
-*Defined in [src/apis/auth/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/interfaces.ts#L17)*
+*Defined in [src/apis/auth/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/auth/interfaces.ts#L17)*

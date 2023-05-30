@@ -26,7 +26,7 @@
 
 • **alias**: *string*
 
-*Defined in [src/utils/networks.ts:43](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L43)*
+*Defined in [src/utils/networks.ts:43](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L43)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **avaxAssetAlias**: *string*
 
-*Defined in [src/utils/networks.ts:47](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L47)*
+*Defined in [src/utils/networks.ts:47](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L47)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **avaxAssetID**: *string*
 
-*Defined in [src/utils/networks.ts:46](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L46)*
+*Defined in [src/utils/networks.ts:46](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L46)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **blockchainID**: *string*
 
-*Defined in [src/utils/networks.ts:42](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L42)*
+*Defined in [src/utils/networks.ts:42](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L42)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **creationTxFee**: *BN | number*
 
-*Defined in [src/utils/networks.ts:45](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L45)*
+*Defined in [src/utils/networks.ts:45](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L45)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **fee**? : *BN*
 
-*Defined in [src/utils/networks.ts:49](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L49)*
+*Defined in [src/utils/networks.ts:49](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L49)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **mintTxFee**? : *BN | number*
 
-*Defined in [src/utils/networks.ts:50](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L50)*
+*Defined in [src/utils/networks.ts:50](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L50)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **txFee**? : *BN | number*
 
-*Defined in [src/utils/networks.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L48)*
+*Defined in [src/utils/networks.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L48)*
 
 ___
 
@@ -90,4 +90,4 @@ ___
 
 • **vm**: *string*
 
-*Defined in [src/utils/networks.ts:44](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L44)*
+*Defined in [src/utils/networks.ts:44](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L44)*

@@ -17,6 +17,7 @@
 * [encoding](platformvm_interfaces.spendparams.md#optional-encoding)
 * [from](platformvm_interfaces.spendparams.md#from)
 * [lockMode](platformvm_interfaces.spendparams.md#lockmode)
+* [signer](platformvm_interfaces.spendparams.md#signer)
 * [to](platformvm_interfaces.spendparams.md#optional-to)
 
 ## Properties
@@ -25,7 +26,7 @@
 
 • **amountToBurn**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:246](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L246)*
+*Defined in [src/apis/platformvm/interfaces.ts:336](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L336)*
 
 ___
 
@@ -33,7 +34,7 @@ ___
 
 • **amountToLock**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:245](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L245)*
+*Defined in [src/apis/platformvm/interfaces.ts:335](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L335)*
 
 ___
 
@@ -41,15 +42,15 @@ ___
 
 • **asOf**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:247](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L247)*
+*Defined in [src/apis/platformvm/interfaces.ts:337](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L337)*
 
 ___
 
 ### `Optional` change
 
-• **change**? : *[Owner](platformvm_interfaces.owner.md)*
+• **change**? : *[OwnerParam](platformvm_interfaces.ownerparam.md)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:242](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L242)*
+*Defined in [src/apis/platformvm/interfaces.ts:332](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L332)*
 
 ___
 
@@ -57,7 +58,7 @@ ___
 
 • **encoding**? : *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:248](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L248)*
+*Defined in [src/apis/platformvm/interfaces.ts:338](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L338)*
 
 ___
 
@@ -65,7 +66,7 @@ ___
 
 • **from**: *string[] | string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:240](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L240)*
+*Defined in [src/apis/platformvm/interfaces.ts:329](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L329)*
 
 ___
 
@@ -73,12 +74,20 @@ ___
 
 • **lockMode**: *0 | 1 | 2*
 
-*Defined in [src/apis/platformvm/interfaces.ts:244](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L244)*
+*Defined in [src/apis/platformvm/interfaces.ts:334](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L334)*
+
+___
+
+###  signer
+
+• **signer**: *string[] | string*
+
+*Defined in [src/apis/platformvm/interfaces.ts:330](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L330)*
 
 ___
 
 ### `Optional` to
 
-• **to**? : *[Owner](platformvm_interfaces.owner.md)*
+• **to**? : *[OwnerParam](platformvm_interfaces.ownerparam.md)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:241](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L241)*
+*Defined in [src/apis/platformvm/interfaces.ts:331](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L331)*

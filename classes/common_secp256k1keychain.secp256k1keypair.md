@@ -6,7 +6,7 @@ Class for representing a private and public keypair on the Platform Chain.
 
 ## Hierarchy
 
-* [StandardKeyPair](common_keychain.standardkeypair.md)
+  ↳ [StandardKeyPair](common_keychain.standardkeypair.md)
 
   ↳ **SECP256k1KeyPair**
 
@@ -57,7 +57,7 @@ Class for representing a private and public keypair on the Platform Chain.
 
 \+ **new SECP256k1KeyPair**(`hrp`: string, `chainID`: string): *[SECP256k1KeyPair](common_secp256k1keychain.secp256k1keypair.md)*
 
-*Defined in [src/common/secp256k1.ts:253](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L253)*
+*Defined in [src/common/secp256k1.ts:253](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L253)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ Name | Type |
 
 • **chainID**: *string* = ""
 
-*Defined in [src/common/secp256k1.ts:45](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L45)*
+*Defined in [src/common/secp256k1.ts:45](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L45)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **hrp**: *string* = ""
 
-*Defined in [src/common/secp256k1.ts:46](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L46)*
+*Defined in [src/common/secp256k1.ts:46](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L46)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 • **keypair**: *elliptic.ec.KeyPair*
 
-*Defined in [src/common/secp256k1.ts:44](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L44)*
+*Defined in [src/common/secp256k1.ts:44](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L44)*
 
 ___
 
@@ -100,7 +100,9 @@ ___
 
 *Inherited from [StandardKeyPair](common_keychain.standardkeypair.md).[privk](common_keychain.standardkeypair.md#protected-privk)*
 
-*Defined in [src/common/keychain.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/keychain.ts#L14)*
+*Overrides [SignerKeyPair](common_keychain.signerkeypair.md).[privk](common_keychain.signerkeypair.md#protected-privk)*
+
+*Defined in [src/common/keychain.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L31)*
 
 ___
 
@@ -110,7 +112,9 @@ ___
 
 *Inherited from [StandardKeyPair](common_keychain.standardkeypair.md).[pubk](common_keychain.standardkeypair.md#protected-pubk)*
 
-*Defined in [src/common/keychain.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/keychain.ts#L13)*
+*Overrides [SignerKeyPair](common_keychain.signerkeypair.md).[pubk](common_keychain.signerkeypair.md#protected-pubk)*
+
+*Defined in [src/common/keychain.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L30)*
 
 ## Methods
 
@@ -120,7 +124,7 @@ ___
 
 *Inherited from [StandardKeyPair](common_keychain.standardkeypair.md).[clone](common_keychain.standardkeypair.md#abstract-clone)*
 
-*Defined in [src/common/keychain.ts:112](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/keychain.ts#L112)*
+*Defined in [src/common/keychain.ts:120](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L120)*
 
 **Returns:** *this*
 
@@ -132,7 +136,7 @@ ___
 
 *Inherited from [StandardKeyPair](common_keychain.standardkeypair.md).[create](common_keychain.standardkeypair.md#abstract-create)*
 
-*Defined in [src/common/keychain.ts:110](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/keychain.ts#L110)*
+*Defined in [src/common/keychain.ts:118](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L118)*
 
 **Parameters:**
 
@@ -150,7 +154,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[generateKey](common_keychain.standardkeypair.md#abstract-generatekey)*
 
-*Defined in [src/common/secp256k1.ts:68](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L68)*
+*Defined in [src/common/secp256k1.ts:68](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L68)*
 
 Generates a new keypair.
 
@@ -164,7 +168,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[getAddress](common_keychain.standardkeypair.md#abstract-getaddress)*
 
-*Defined in [src/common/secp256k1.ts:112](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L112)*
+*Defined in [src/common/secp256k1.ts:112](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L112)*
 
 Returns the address as a [Buffer](https://github.com/feross/buffer).
 
@@ -180,7 +184,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[getAddressString](common_keychain.standardkeypair.md#abstract-getaddressstring)*
 
-*Defined in [src/common/secp256k1.ts:121](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L121)*
+*Defined in [src/common/secp256k1.ts:121](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L121)*
 
 Returns the address's string representation.
 
@@ -194,7 +198,7 @@ ___
 
 ▸ **getChainID**(): *string*
 
-*Defined in [src/common/secp256k1.ts:224](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L224)*
+*Defined in [src/common/secp256k1.ts:224](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L224)*
 
 Returns the chainID associated with this key.
 
@@ -208,7 +212,7 @@ ___
 
 ▸ **getHRP**(): *string*
 
-*Defined in [src/common/secp256k1.ts:242](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L242)*
+*Defined in [src/common/secp256k1.ts:242](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L242)*
 
 Returns the Human-Readable-Part of the network associated with this key.
 
@@ -224,7 +228,7 @@ ___
 
 *Inherited from [StandardKeyPair](common_keychain.standardkeypair.md).[getPrivateKey](common_keychain.standardkeypair.md#getprivatekey)*
 
-*Defined in [src/common/keychain.ts:69](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/keychain.ts#L69)*
+*Defined in [src/common/keychain.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L77)*
 
 Returns a reference to the private key.
 
@@ -240,7 +244,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[getPrivateKeyString](common_keychain.standardkeypair.md#abstract-getprivatekeystring)*
 
-*Defined in [src/common/secp256k1.ts:160](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L160)*
+*Defined in [src/common/secp256k1.ts:160](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L160)*
 
 Returns a string representation of the private key.
 
@@ -256,7 +260,7 @@ ___
 
 *Inherited from [StandardKeyPair](common_keychain.standardkeypair.md).[getPublicKey](common_keychain.standardkeypair.md#getpublickey)*
 
-*Defined in [src/common/keychain.ts:78](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/keychain.ts#L78)*
+*Defined in [src/common/keychain.ts:86](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L86)*
 
 Returns a reference to the public key.
 
@@ -272,7 +276,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[getPublicKeyString](common_keychain.standardkeypair.md#abstract-getpublickeystring)*
 
-*Defined in [src/common/secp256k1.ts:169](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L169)*
+*Defined in [src/common/secp256k1.ts:169](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L169)*
 
 Returns the public key.
 
@@ -288,7 +292,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[importKey](common_keychain.standardkeypair.md#abstract-importkey)*
 
-*Defined in [src/common/secp256k1.ts:89](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L89)*
+*Defined in [src/common/secp256k1.ts:89](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L89)*
 
 Imports a private key and generates the appropriate public key.
 
@@ -310,7 +314,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[recover](common_keychain.standardkeypair.md#abstract-recover)*
 
-*Defined in [src/common/secp256k1.ts:213](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L213)*
+*Defined in [src/common/secp256k1.ts:213](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L213)*
 
 Recovers the public key of a message signer from a message and its associated signature.
 
@@ -331,7 +335,7 @@ ___
 
 ▸ **setChainID**(`chainID`: string): *void*
 
-*Defined in [src/common/secp256k1.ts:233](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L233)*
+*Defined in [src/common/secp256k1.ts:233](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L233)*
 
 Sets the the chainID associated with this key.
 
@@ -349,7 +353,7 @@ ___
 
 ▸ **setHRP**(`hrp`: string): *void*
 
-*Defined in [src/common/secp256k1.ts:251](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L251)*
+*Defined in [src/common/secp256k1.ts:251](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L251)*
 
 Sets the the Human-Readable-Part of the network associated with this key.
 
@@ -367,9 +371,9 @@ ___
 
 ▸ **sign**(`msg`: Buffer): *Buffer*
 
-*Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[sign](common_keychain.standardkeypair.md#abstract-sign)*
+*Overrides [SignerKeyPair](common_keychain.signerkeypair.md).[sign](common_keychain.signerkeypair.md#abstract-sign)*
 
-*Defined in [src/common/secp256k1.ts:180](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L180)*
+*Defined in [src/common/secp256k1.ts:180](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L180)*
 
 Takes a message, signs it, and returns the signature.
 
@@ -391,7 +395,7 @@ ___
 
 *Overrides [StandardKeyPair](common_keychain.standardkeypair.md).[verify](common_keychain.standardkeypair.md#abstract-verify)*
 
-*Defined in [src/common/secp256k1.ts:200](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L200)*
+*Defined in [src/common/secp256k1.ts:200](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L200)*
 
 Verifies that the private key associated with the provided public key produces the signature associated with the given message.
 
@@ -412,7 +416,7 @@ ___
 
 ▸ **addressFromPublicKey**(`pubk`: Buffer): *Buffer*
 
-*Defined in [src/common/secp256k1.ts:134](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/secp256k1.ts#L134)*
+*Defined in [src/common/secp256k1.ts:134](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L134)*
 
 Returns an address given a public key.
 

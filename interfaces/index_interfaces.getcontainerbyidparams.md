@@ -23,7 +23,7 @@
 
 *Inherited from [BaseIndexParams](index_interfaces.baseindexparams.md).[encoding](index_interfaces.baseindexparams.md#encoding)*
 
-*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/index/interfaces.ts#L7)*
+*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/interfaces.ts#L7)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **id**: *string*
 
-*Defined in [src/apis/index/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/index/interfaces.ts#L33)*
+*Defined in [src/apis/index/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/interfaces.ts#L33)*

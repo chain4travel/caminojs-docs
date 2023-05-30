@@ -18,4 +18,4 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L12)*
+*Defined in [src/apis/platformvm/interfaces.ts:14](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L14)*

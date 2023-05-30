@@ -27,7 +27,7 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/inputs.ts:23](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L23)*
+*Defined in [src/apis/platformvm/inputs.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L23)*
 
 ## Functions
 
@@ -35,7 +35,7 @@
 
 ▸ **SelectInputClass**(`inputid`: number, ...`args`: any[]): *[BaseInput](../interfaces/common_inputs.baseinput.md)*
 
-*Defined in [src/apis/platformvm/inputs.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L32)*
+*Defined in [src/apis/platformvm/inputs.ts:32](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L32)*
 
 Takes a buffer representing the output and returns the proper [Input](../classes/common_inputs.input.md) instance.
 

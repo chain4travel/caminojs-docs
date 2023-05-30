@@ -21,7 +21,7 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/utxos.ts:43](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/utxos.ts#L43)*
+*Defined in [src/apis/platformvm/utxos.ts:44](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/utxos.ts#L44)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **zeroBN**: *BN‹›* = new BN(0)
 
-*Defined in [src/apis/platformvm/utxos.ts:45](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/utxos.ts#L45)*
+*Defined in [src/apis/platformvm/utxos.ts:46](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/utxos.ts#L46)*

@@ -36,6 +36,7 @@ An [Input](common_inputs.input.md) class which specifies an input that is contro
 * [getCredentialID](api_platformvm_inputs.lockedin.md#getcredentialid)
 * [getInput](api_platformvm_inputs.lockedin.md#getinput)
 * [getInputID](api_platformvm_inputs.lockedin.md#getinputid)
+* [getLockedIDs](api_platformvm_inputs.lockedin.md#getlockedids)
 * [getSigIdxs](api_platformvm_inputs.lockedin.md#getsigidxs)
 * [getTypeID](api_platformvm_inputs.lockedin.md#gettypeid)
 * [getTypeName](api_platformvm_inputs.lockedin.md#gettypename)
@@ -52,7 +53,7 @@ An [Input](common_inputs.input.md) class which specifies an input that is contro
 
 *Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[constructor](common_inputs.standardparseableinput.md#constructor)*
 
-*Defined in [src/apis/platformvm/inputs.ts:344](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L344)*
+*Defined in [src/apis/platformvm/inputs.ts:348](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L348)*
 
 An [Input](common_inputs.input.md) class which specifies an input that is controlled by deposit and bond tx.
 
@@ -72,7 +73,7 @@ Name | Type | Default | Description |
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -82,7 +83,7 @@ ___
 
 *Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[_typeID](api_platformvm_inputs.parseableinput.md#protected-_typeid)*
 
-*Defined in [src/apis/platformvm/inputs.ts:279](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L279)*
+*Defined in [src/apis/platformvm/inputs.ts:279](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L279)*
 
 ___
 
@@ -92,7 +93,7 @@ ___
 
 *Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[_typeName](api_platformvm_inputs.parseableinput.md#protected-_typename)*
 
-*Defined in [src/apis/platformvm/inputs.ts:278](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L278)*
+*Defined in [src/apis/platformvm/inputs.ts:278](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L278)*
 
 ___
 
@@ -100,7 +101,7 @@ ___
 
 • **ids**: *[LockedIDs](api_platformvm_locked.lockedids.md)* = new LockedIDs()
 
-*Defined in [src/apis/platformvm/inputs.ts:296](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L296)*
+*Defined in [src/apis/platformvm/inputs.ts:296](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L296)*
 
 ___
 
@@ -110,7 +111,7 @@ ___
 
 *Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[input](common_inputs.standardparseableinput.md#protected-input)*
 
-*Defined in [src/common/input.ts:167](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L167)*
+*Defined in [src/common/input.ts:167](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L167)*
 
 ## Methods
 
@@ -120,7 +121,7 @@ ___
 
 *Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[addSignatureIdx](common_inputs.standardparseableinput.md#addsignatureidx)*
 
-*Defined in [src/common/input.ts:185](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L185)*
+*Defined in [src/common/input.ts:185](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L185)*
 
 **Parameters:**
 
@@ -137,7 +138,7 @@ ___
 
 ▸ **clone**(): *this*
 
-*Defined in [src/apis/platformvm/inputs.ts:302](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L302)*
+*Defined in [src/apis/platformvm/inputs.ts:306](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L306)*
 
 **Returns:** *this*
 
@@ -147,7 +148,7 @@ ___
 
 ▸ **create**(...`args`: any[]): *this*
 
-*Defined in [src/apis/platformvm/inputs.ts:298](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L298)*
+*Defined in [src/apis/platformvm/inputs.ts:302](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L302)*
 
 **Parameters:**
 
@@ -165,7 +166,7 @@ ___
 
 *Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[deserialize](api_platformvm_inputs.parseableinput.md#deserialize)*
 
-*Defined in [src/apis/platformvm/inputs.ts:291](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L291)*
+*Defined in [src/apis/platformvm/inputs.ts:291](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L291)*
 
 **Parameters:**
 
@@ -184,7 +185,7 @@ ___
 
 *Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[fromBuffer](api_platformvm_inputs.parseableinput.md#frombuffer)*
 
-*Defined in [src/apis/platformvm/inputs.ts:312](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L312)*
+*Defined in [src/apis/platformvm/inputs.ts:316](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L316)*
 
 Popuates the instance from a [Buffer](https://github.com/feross/buffer)
 representing the [LockedIn](api_platformvm_inputs.lockedin.md) and returns the size of the input.
@@ -204,7 +205,7 @@ ___
 
 ▸ **getAmount**(): *BN*
 
-*Defined in [src/apis/platformvm/inputs.ts:342](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L342)*
+*Defined in [src/apis/platformvm/inputs.ts:346](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L346)*
 
 Returns the amount from the underlying input
 
@@ -218,7 +219,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -230,7 +231,7 @@ ___
 
 ▸ **getCredentialID**(): *number*
 
-*Defined in [src/apis/platformvm/inputs.ts:337](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L337)*
+*Defined in [src/apis/platformvm/inputs.ts:341](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L341)*
 
 Returns the credentialID for this input
 
@@ -244,7 +245,7 @@ ___
 
 *Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[getInput](common_inputs.standardparseableinput.md#getinput)*
 
-*Defined in [src/common/input.ts:183](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L183)*
+*Defined in [src/common/input.ts:183](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L183)*
 
 **Returns:** *[BaseInput](../interfaces/common_inputs.baseinput.md)*
 
@@ -254,11 +255,21 @@ ___
 
 ▸ **getInputID**(): *number*
 
-*Defined in [src/apis/platformvm/inputs.ts:330](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L330)*
+*Defined in [src/apis/platformvm/inputs.ts:334](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L334)*
 
 Returns the inputID for this input
 
 **Returns:** *number*
+
+___
+
+###  getLockedIDs
+
+▸ **getLockedIDs**(): *[LockedIDs](api_platformvm_locked.lockedids.md)*
+
+*Defined in [src/apis/platformvm/inputs.ts:298](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L298)*
+
+**Returns:** *[LockedIDs](api_platformvm_locked.lockedids.md)*
 
 ___
 
@@ -268,7 +279,7 @@ ___
 
 *Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[getSigIdxs](common_inputs.standardparseableinput.md#getsigidxs)*
 
-*Defined in [src/common/input.ts:189](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L189)*
+*Defined in [src/common/input.ts:189](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L189)*
 
 **Returns:** *[SigIdx](common_signature.sigidx.md)[]*
 
@@ -280,7 +291,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -294,7 +305,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -308,7 +319,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -328,7 +339,7 @@ ___
 
 *Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[serialize](common_inputs.standardparseableinput.md#serialize)*
 
-*Defined in [src/apis/platformvm/inputs.ts:282](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L282)*
+*Defined in [src/apis/platformvm/inputs.ts:282](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L282)*
 
 **Parameters:**
 
@@ -346,7 +357,7 @@ ___
 
 *Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[toBuffer](common_inputs.standardparseableinput.md#tobuffer)*
 
-*Defined in [src/apis/platformvm/inputs.ts:321](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/inputs.ts#L321)*
+*Defined in [src/apis/platformvm/inputs.ts:325](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L325)*
 
 Returns the buffer representing the [LockedIn](api_platformvm_inputs.lockedin.md) instance.
 
@@ -360,7 +371,7 @@ ___
 
 *Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[comparator](common_inputs.standardparseableinput.md#static-comparator)*
 
-*Defined in [src/common/input.ts:172](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L172)*
+*Defined in [src/common/input.ts:172](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L172)*
 
 Returns a function used to sort an array of [StandardParseableInput](common_inputs.standardparseableinput.md)s
 

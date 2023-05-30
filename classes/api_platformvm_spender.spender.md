@@ -26,7 +26,7 @@
 
 \+ **new Spender**(`platformAPI`: [PlatformVMAPI](api_platformvm.platformvmapi.md)): *[Spender](api_platformvm_spender.spender.md)*
 
-*Defined in [src/apis/platformvm/spender.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/spender.ts#L14)*
+*Defined in [src/apis/platformvm/spender.ts:14](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/spender.ts#L14)*
 
 **Parameters:**
 
@@ -42,7 +42,7 @@ Name | Type |
 
 • **platformAPI**: *[PlatformVMAPI](api_platformvm.platformvmapi.md)*
 
-*Defined in [src/apis/platformvm/spender.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/spender.ts#L14)*
+*Defined in [src/apis/platformvm/spender.ts:14](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/spender.ts#L14)*
 
 ## Methods
 
@@ -50,7 +50,7 @@ Name | Type |
 
 ▸ **getMinimumSpendable**(`aad`: [AssetAmountDestination](api_platformvm_utxos.assetamountdestination.md), `asOf`: BN, `lockTime`: BN, `lockMode`: [LockMode](../modules/api_platformvm_builder.md#lockmode)): *Promise‹[Error](src_utils.caminoerror.md#static-error)›*
 
-*Defined in [src/apis/platformvm/spender.ts:20](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/spender.ts#L20)*
+*Defined in [src/apis/platformvm/spender.ts:20](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/spender.ts#L20)*
 
 **Parameters:**
 

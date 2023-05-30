@@ -38,7 +38,7 @@ BIP39 Mnemonic code for generating deterministic keys.
 
 \+ **new Mnemonic**(): *[Mnemonic](utils_mnemonic.mnemonic.md)*
 
-*Defined in [src/utils/mnemonic.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L17)*
+*Defined in [src/utils/mnemonic.ts:26](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L26)*
 
 **Returns:** *[Mnemonic](utils_mnemonic.mnemonic.md)*
 
@@ -46,9 +46,13 @@ BIP39 Mnemonic code for generating deterministic keys.
 
 ### `Protected` wordlists
 
-• **wordlists**: *string[]* = bip39.wordlists
+• **wordlists**: *object* = bip39_wordlists
 
-*Defined in [src/utils/mnemonic.ts:19](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L19)*
+*Defined in [src/utils/mnemonic.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L28)*
+
+#### Type declaration:
+
+* \[ **index**: *string*\]: string[]
 
 ___
 
@@ -56,7 +60,7 @@ ___
 
 ▪ **instance**: *[Mnemonic](utils_mnemonic.mnemonic.md)*
 
-*Defined in [src/utils/mnemonic.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L17)*
+*Defined in [src/utils/mnemonic.ts:26](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L26)*
 
 ## Methods
 
@@ -64,7 +68,7 @@ ___
 
 ▸ **entropyToMnemonic**(`entropy`: Buffer | string, `wordlist?`: string[]): *string*
 
-*Defined in [src/utils/mnemonic.ts:95](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L95)*
+*Defined in [src/utils/mnemonic.ts:104](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L104)*
 
 Takes mnemonic and wordlist and returns buffer
 
@@ -85,7 +89,7 @@ ___
 
 ▸ **generateMnemonic**(`strength?`: number, `rng?`: function, `wordlist?`: string[]): *string*
 
-*Defined in [src/utils/mnemonic.ts:138](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L138)*
+*Defined in [src/utils/mnemonic.ts:149](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L149)*
 
 Generate a random mnemonic (uses crypto.randomBytes under the hood), defaults to 256-bits of entropy
 
@@ -119,7 +123,7 @@ ___
 
 ▸ **getDefaultWordlist**(): *string*
 
-*Defined in [src/utils/mnemonic.ts:126](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L126)*
+*Defined in [src/utils/mnemonic.ts:137](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L137)*
 
 Returns the language of the default word list
 
@@ -131,9 +135,9 @@ ___
 
 ###  getWordlists
 
-▸ **getWordlists**(`language?`: string): *string[] | Wordlist*
+▸ **getWordlists**(`language?`: string): *string[]*
 
-*Defined in [src/utils/mnemonic.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L38)*
+*Defined in [src/utils/mnemonic.ts:47](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L47)*
 
 Return wordlists
 
@@ -143,7 +147,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `language?` | string | a string specifying the language  |
 
-**Returns:** *string[] | Wordlist*
+**Returns:** *string[]*
 
 A [[Wordlist]] object or array of strings
 
@@ -153,7 +157,7 @@ ___
 
 ▸ **mnemonicToEntropy**(`mnemonic`: string, `wordlist?`: string[]): *string*
 
-*Defined in [src/utils/mnemonic.ts:83](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L83)*
+*Defined in [src/utils/mnemonic.ts:92](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L92)*
 
 Takes mnemonic and wordlist and returns buffer
 
@@ -174,7 +178,7 @@ ___
 
 ▸ **mnemonicToSeed**(`mnemonic`: string, `password`: string): *Promise‹Buffer›*
 
-*Defined in [src/utils/mnemonic.ts:67](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L67)*
+*Defined in [src/utils/mnemonic.ts:76](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L76)*
 
 Asynchronously takes mnemonic and password and returns Promise [Buffer](https://github.com/feross/buffer)
 
@@ -195,7 +199,7 @@ ___
 
 ▸ **mnemonicToSeedSync**(`mnemonic`: string, `password`: string): *Buffer*
 
-*Defined in [src/utils/mnemonic.ts:54](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L54)*
+*Defined in [src/utils/mnemonic.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L63)*
 
 Synchronously takes mnemonic and password and returns [Buffer](https://github.com/feross/buffer)
 
@@ -216,7 +220,7 @@ ___
 
 ▸ **setDefaultWordlist**(`language`: string): *void*
 
-*Defined in [src/utils/mnemonic.ts:117](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L117)*
+*Defined in [src/utils/mnemonic.ts:128](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L128)*
 
 Sets the default word list
 
@@ -232,9 +236,9 @@ ___
 
 ###  validateMnemonic
 
-▸ **validateMnemonic**(`mnemonic`: string, `wordlist?`: string[]): *string*
+▸ **validateMnemonic**(`mnemonic`: string, `wordlist?`: string[]): *boolean*
 
-*Defined in [src/utils/mnemonic.ts:107](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L107)*
+*Defined in [src/utils/mnemonic.ts:118](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L118)*
 
 Validates a mnemonic
 11*
@@ -246,7 +250,7 @@ Name | Type | Description |
 `mnemonic` | string | the mnemonic as a string |
 `wordlist?` | string[] | Optional the wordlist as an array of strings  |
 
-**Returns:** *string*
+**Returns:** *boolean*
 
 A string
 
@@ -256,7 +260,7 @@ ___
 
 ▸ **getInstance**(): *[Mnemonic](utils_mnemonic.mnemonic.md)*
 
-*Defined in [src/utils/mnemonic.ts:24](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/mnemonic.ts#L24)*
+*Defined in [src/utils/mnemonic.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/mnemonic.ts#L33)*
 
 Retrieves the Mnemonic singleton.
 

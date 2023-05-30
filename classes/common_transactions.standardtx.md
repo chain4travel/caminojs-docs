@@ -6,9 +6,9 @@ Class representing a signed transaction.
 
 ## Type parameters
 
-▪ **KPClass**: *[StandardKeyPair](common_keychain.standardkeypair.md)*
+▪ **KPClass**: *[SignerKeyPair](common_keychain.signerkeypair.md)*
 
-▪ **KCClass**: *[StandardKeyChain](common_keychain.standardkeychain.md)‹KPClass›*
+▪ **KCClass**: *[SignerKeyChain](common_keychain.signerkeychain.md)*
 
 ▪ **SUBTx**: *[StandardUnsignedTx](common_transactions.standardunsignedtx.md)‹KPClass, KCClass, [StandardBaseTx](common_transactions.standardbasetx.md)‹KPClass, KCClass››*
 
@@ -58,7 +58,7 @@ Class representing a signed transaction.
 
 \+ **new StandardTx**(`unsignedTx`: SUBTx, `credentials`: [Credential](common_signature.credential.md)[]): *[StandardTx](common_transactions.standardtx.md)*
 
-*Defined in [src/common/tx.ts:468](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L468)*
+*Defined in [src/common/tx.ts:468](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L468)*
 
 Class representing a signed transaction.
 
@@ -79,7 +79,7 @@ Name | Type | Default | Description |
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[_typeID](utils_serialization.serializable.md#protected-_typeid)*
 
-*Defined in [src/common/tx.ts:385](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L385)*
+*Defined in [src/common/tx.ts:385](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L385)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[_typeName](utils_serialization.serializable.md#protected-_typename)*
 
-*Defined in [src/common/tx.ts:384](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L384)*
+*Defined in [src/common/tx.ts:384](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L384)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 • **credentials**: *[Credential](common_signature.credential.md)[]* = []
 
-*Defined in [src/common/tx.ts:397](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L397)*
+*Defined in [src/common/tx.ts:397](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L397)*
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 • **unsignedTx**: *SUBTx* = undefined
 
-*Defined in [src/common/tx.ts:396](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L396)*
+*Defined in [src/common/tx.ts:396](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L396)*
 
 ## Methods
 
@@ -125,7 +125,7 @@ ___
 
 *Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[deserialize](common_inputs.standardparseableinput.md#deserialize)*
 
-*Defined in [src/utils/serialization.ts:97](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L97)*
+*Defined in [src/utils/serialization.ts:99](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L99)*
 
 **Parameters:**
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **fromBuffer**(`bytes`: Buffer, `offset?`: number): *number*
 
-*Defined in [src/common/tx.ts:413](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L413)*
+*Defined in [src/common/tx.ts:413](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L413)*
 
 **Parameters:**
 
@@ -159,7 +159,7 @@ ___
 
 ▸ **fromString**(`serialized`: string): *number*
 
-*Defined in [src/common/tx.ts:452](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L452)*
+*Defined in [src/common/tx.ts:452](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L452)*
 
 Takes a base-58 string containing an [StandardTx](common_transactions.standardtx.md), parses it, populates the class, and returns the length of the Tx in bytes.
 
@@ -184,7 +184,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -196,7 +196,7 @@ ___
 
 ▸ **getCredentials**(): *[Credential](common_signature.credential.md)[]*
 
-*Defined in [src/common/tx.ts:402](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L402)*
+*Defined in [src/common/tx.ts:402](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L402)*
 
 Returns the [[Credential[]]]
 
@@ -210,7 +210,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -224,7 +224,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -236,7 +236,7 @@ ___
 
 ▸ **getUnsignedTx**(): *SUBTx*
 
-*Defined in [src/common/tx.ts:409](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L409)*
+*Defined in [src/common/tx.ts:409](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L409)*
 
 Returns the [StandardUnsignedTx](common_transactions.standardunsignedtx.md)
 
@@ -250,7 +250,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -270,7 +270,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[serialize](utils_serialization.serializable.md#serialize)*
 
-*Defined in [src/common/tx.ts:387](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L387)*
+*Defined in [src/common/tx.ts:387](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L387)*
 
 **Parameters:**
 
@@ -286,7 +286,7 @@ ___
 
 ▸ **toBuffer**(): *Buffer*
 
-*Defined in [src/common/tx.ts:418](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L418)*
+*Defined in [src/common/tx.ts:418](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L418)*
 
 Returns a [Buffer](https://github.com/feross/buffer) representation of the [StandardTx](common_transactions.standardtx.md).
 
@@ -298,7 +298,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [src/common/tx.ts:462](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L462)*
+*Defined in [src/common/tx.ts:462](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L462)*
 
 Returns a cb58 representation of the [StandardTx](common_transactions.standardtx.md).
 
@@ -313,6 +313,6 @@ ___
 
 ▸ **toStringHex**(): *string*
 
-*Defined in [src/common/tx.ts:466](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L466)*
+*Defined in [src/common/tx.ts:466](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L466)*
 
 **Returns:** *string*

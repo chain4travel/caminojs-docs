@@ -19,7 +19,7 @@
 
 • **staked**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:21](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L21)*
+*Defined in [src/apis/platformvm/interfaces.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L23)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **stakedOutputs**: *[TransferableOutput](../classes/api_platformvm_outputs.transferableoutput.md)[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:22](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L22)*
+*Defined in [src/apis/platformvm/interfaces.ts:24](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L24)*

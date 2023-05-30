@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:23](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/addsubnetvalidatortx.ts#L23)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/addsubnetvalidatortx.ts#L23)*

@@ -18,4 +18,4 @@
 
 • **nodeIDs**: *string[]*
 
-*Defined in [src/apis/info/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L17)*
+*Defined in [src/apis/info/interfaces.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L17)*

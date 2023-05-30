@@ -17,6 +17,7 @@
 * [decode](api_platformvm_locked.serializabletxid.md#decode)
 * [encode](api_platformvm_locked.serializabletxid.md#encode)
 * [fromBuffer](api_platformvm_locked.serializabletxid.md#frombuffer)
+* [isEmpty](api_platformvm_locked.serializabletxid.md#isempty)
 * [toBuffer](api_platformvm_locked.serializabletxid.md#tobuffer)
 
 ## Properties
@@ -25,7 +26,7 @@
 
 • **txid**: *Buffer* = Buffer.alloc(32)
 
-*Defined in [src/apis/platformvm/locked.ts:22](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L22)*
+*Defined in [src/apis/platformvm/locked.ts:22](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L22)*
 
 ## Methods
 
@@ -33,7 +34,7 @@
 
 ▸ **decode**(`value`: string, `encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *void*
 
-*Defined in [src/apis/platformvm/locked.ts:18](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L18)*
+*Defined in [src/apis/platformvm/locked.ts:18](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L18)*
 
 **Parameters:**
 
@@ -50,7 +51,7 @@ ___
 
 ▸ **encode**(`encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *string*
 
-*Defined in [src/apis/platformvm/locked.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L14)*
+*Defined in [src/apis/platformvm/locked.ts:14](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L14)*
 
 **Parameters:**
 
@@ -64,18 +65,28 @@ ___
 
 ###  fromBuffer
 
-▸ **fromBuffer**(`bytes`: Buffer, `offset?`: number): *number*
+▸ **fromBuffer**(`bytes`: Buffer, `offset`: number): *number*
 
-*Defined in [src/apis/platformvm/locked.ts:24](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L24)*
+*Defined in [src/apis/platformvm/locked.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L28)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`bytes` | Buffer |
-`offset?` | number |
+Name | Type | Default |
+------ | ------ | ------ |
+`bytes` | Buffer | - |
+`offset` | number | 0 |
 
 **Returns:** *number*
+
+___
+
+###  isEmpty
+
+▸ **isEmpty**(): *boolean*
+
+*Defined in [src/apis/platformvm/locked.ts:24](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L24)*
+
+**Returns:** *boolean*
 
 ___
 
@@ -83,6 +94,6 @@ ___
 
 ▸ **toBuffer**(): *Buffer*
 
-*Defined in [src/apis/platformvm/locked.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L29)*
+*Defined in [src/apis/platformvm/locked.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L33)*
 
 **Returns:** *Buffer*

@@ -21,6 +21,8 @@
 
 * [deserialize](api_platformvm_locked.lockedids.md#deserialize)
 * [fromBuffer](api_platformvm_locked.lockedids.md#frombuffer)
+* [getBondTxID](api_platformvm_locked.lockedids.md#getbondtxid)
+* [getDepositTxID](api_platformvm_locked.lockedids.md#getdeposittxid)
 * [serialize](api_platformvm_locked.lockedids.md#serialize)
 * [toBuffer](api_platformvm_locked.lockedids.md#tobuffer)
 
@@ -30,7 +32,7 @@
 
 \+ **new LockedIDs**(`depositTxID?`: Buffer, `bondTxID?`: Buffer): *[LockedIDs](api_platformvm_locked.lockedids.md)*
 
-*Defined in [src/apis/platformvm/locked.ts:62](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L62)*
+*Defined in [src/apis/platformvm/locked.ts:73](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L73)*
 
 Class representing an [LockedIDs](api_platformvm_locked.lockedids.md) for LockedIn and LockedOut types.
 
@@ -49,7 +51,7 @@ Name | Type | Description |
 
 • **bondTxID**: *[SerializableTxID](api_platformvm_locked.serializabletxid.md)* = new SerializableTxID()
 
-*Defined in [src/apis/platformvm/locked.ts:49](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L49)*
+*Defined in [src/apis/platformvm/locked.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L53)*
 
 ___
 
@@ -57,7 +59,7 @@ ___
 
 • **depositTxID**: *[SerializableTxID](api_platformvm_locked.serializabletxid.md)* = new SerializableTxID()
 
-*Defined in [src/apis/platformvm/locked.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L48)*
+*Defined in [src/apis/platformvm/locked.ts:52](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L52)*
 
 ## Methods
 
@@ -65,7 +67,7 @@ ___
 
 ▸ **deserialize**(`fields`: object, `encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *void*
 
-*Defined in [src/apis/platformvm/locked.ts:43](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L43)*
+*Defined in [src/apis/platformvm/locked.ts:47](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L47)*
 
 **Parameters:**
 
@@ -80,18 +82,38 @@ ___
 
 ###  fromBuffer
 
-▸ **fromBuffer**(`bytes`: Buffer, `offset?`: number): *number*
+▸ **fromBuffer**(`bytes`: Buffer, `offset`: number): *number*
 
-*Defined in [src/apis/platformvm/locked.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L51)*
+*Defined in [src/apis/platformvm/locked.ts:62](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L62)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`bytes` | Buffer |
-`offset?` | number |
+Name | Type | Default |
+------ | ------ | ------ |
+`bytes` | Buffer | - |
+`offset` | number | 0 |
 
 **Returns:** *number*
+
+___
+
+###  getBondTxID
+
+▸ **getBondTxID**(): *[SerializableTxID](api_platformvm_locked.serializabletxid.md)*
+
+*Defined in [src/apis/platformvm/locked.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L58)*
+
+**Returns:** *[SerializableTxID](api_platformvm_locked.serializabletxid.md)*
+
+___
+
+###  getDepositTxID
+
+▸ **getDepositTxID**(): *[SerializableTxID](api_platformvm_locked.serializabletxid.md)*
+
+*Defined in [src/apis/platformvm/locked.ts:55](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L55)*
+
+**Returns:** *[SerializableTxID](api_platformvm_locked.serializabletxid.md)*
 
 ___
 
@@ -99,7 +121,7 @@ ___
 
 ▸ **serialize**(`encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *object*
 
-*Defined in [src/apis/platformvm/locked.ts:35](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L35)*
+*Defined in [src/apis/platformvm/locked.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L39)*
 
 **Parameters:**
 
@@ -115,6 +137,6 @@ ___
 
 ▸ **toBuffer**(): *Buffer*
 
-*Defined in [src/apis/platformvm/locked.ts:57](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/locked.ts#L57)*
+*Defined in [src/apis/platformvm/locked.ts:68](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/locked.ts#L68)*
 
 **Returns:** *Buffer*

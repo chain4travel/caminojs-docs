@@ -20,4 +20,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/avm/utxos.ts:54](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/utxos.ts#L54)*
+*Defined in [src/apis/avm/utxos.ts:54](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/utxos.ts#L54)*

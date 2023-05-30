@@ -6,10 +6,6 @@
 
 * **BaseIndexParams**
 
-  ↳ [GetLastAcceptedParams](index_interfaces.getlastacceptedparams.md)
-
-  ↳ [GetLastVertexParams](index_interfaces.getlastvertexparams.md)
-
   ↳ [GetContainerByIndexParams](index_interfaces.getcontainerbyindexparams.md)
 
   ↳ [GetContainerByIDParams](index_interfaces.getcontainerbyidparams.md)
@@ -32,4 +28,4 @@
 
 • **encoding**: *string*
 
-*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/index/interfaces.ts#L7)*
+*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/interfaces.ts#L7)*

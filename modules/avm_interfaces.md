@@ -7,7 +7,6 @@
 ### Interfaces
 
 * [BuildGenesisParams](../interfaces/avm_interfaces.buildgenesisparams.md)
-* [CreateAddressParams](../interfaces/avm_interfaces.createaddressparams.md)
 * [CreateFixedCapAssetParams](../interfaces/avm_interfaces.createfixedcapassetparams.md)
 * [CreateNFTAssetParams](../interfaces/avm_interfaces.createnftassetparams.md)
 * [CreateVariableCapAssetParams](../interfaces/avm_interfaces.createvariablecapassetparams.md)
@@ -29,7 +28,6 @@
 * [IMinterSet](../interfaces/avm_interfaces.iminterset.md)
 * [ImportKeyParams](../interfaces/avm_interfaces.importkeyparams.md)
 * [ImportParams](../interfaces/avm_interfaces.importparams.md)
-* [ListAddressesParams](../interfaces/avm_interfaces.listaddressesparams.md)
 * [MintNFTParams](../interfaces/avm_interfaces.mintnftparams.md)
 * [MintParams](../interfaces/avm_interfaces.mintparams.md)
 * [SOutputsParams](../interfaces/avm_interfaces.soutputsparams.md)
@@ -40,3 +38,24 @@
 * [SendResponse](../interfaces/avm_interfaces.sendresponse.md)
 * [StartIndexInterface](../interfaces/avm_interfaces.startindexinterface.md)
 * [iUTXOID](../interfaces/avm_interfaces.iutxoid.md)
+
+### Type aliases
+
+* [CreateAddressParams](avm_interfaces.md#createaddressparams)
+* [ListAddressesParams](avm_interfaces.md#listaddressesparams)
+
+## Type aliases
+
+###  CreateAddressParams
+
+Ƭ **CreateAddressParams**: *[CredsInterface](../interfaces/common_interfaces.credsinterface.md)*
+
+*Defined in [src/apis/avm/interfaces.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L34)*
+
+___
+
+###  ListAddressesParams
+
+Ƭ **ListAddressesParams**: *[CredsInterface](../interfaces/common_interfaces.credsinterface.md)*
+
+*Defined in [src/apis/avm/interfaces.ts:76](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L76)*

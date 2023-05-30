@@ -52,4 +52,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/utils/payload.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/payload.ts#L16)*
+*Defined in [src/utils/payload.ts:16](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/payload.ts#L16)*

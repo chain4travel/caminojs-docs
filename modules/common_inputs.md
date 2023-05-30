@@ -29,7 +29,7 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/input.ts:19](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L19)*
+*Defined in [src/common/input.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L19)*
 
 ## Functions
 
@@ -37,7 +37,7 @@
 
 ▸ **BaseInputComparator**(): *function*
 
-*Defined in [src/common/input.ts:39](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L39)*
+*Defined in [src/common/input.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L39)*
 
 **Returns:** *function*
 

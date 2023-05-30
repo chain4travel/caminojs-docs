@@ -32,7 +32,7 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/output.ts:22](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L22)*
+*Defined in [src/common/output.ts:22](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L22)*
 
 ## Functions
 
@@ -40,7 +40,7 @@
 
 ▸ **BaseOutputComparator**(): *function*
 
-*Defined in [src/common/output.ts:42](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L42)*
+*Defined in [src/common/output.ts:42](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L42)*
 
 **Returns:** *function*
 

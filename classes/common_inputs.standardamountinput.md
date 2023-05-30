@@ -59,7 +59,7 @@ An [Input](common_inputs.input.md) class which specifies a token amount .
 
 \+ **new StandardAmountInput**(`amount`: BN): *[StandardAmountInput](common_inputs.standardamountinput.md)*
 
-*Defined in [src/common/input.ts:406](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L406)*
+*Defined in [src/common/input.ts:406](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L406)*
 
 An [AmountInput](api_evm_inputs.amountinput.md) class which issues a payment on an assetID.
 
@@ -79,7 +79,7 @@ Name | Type | Default | Description |
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 *Overrides [Input](common_inputs.input.md).[_typeID](common_inputs.input.md#protected-_typeid)*
 
-*Defined in [src/common/input.ts:353](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L353)*
+*Defined in [src/common/input.ts:353](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L353)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 *Overrides [Input](common_inputs.input.md).[_typeName](common_inputs.input.md#protected-_typename)*
 
-*Defined in [src/common/input.ts:352](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L352)*
+*Defined in [src/common/input.ts:352](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L352)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 • **amount**: *Buffer* = Buffer.alloc(8)
 
-*Defined in [src/common/input.ts:380](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L380)*
+*Defined in [src/common/input.ts:380](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L380)*
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 • **amountValue**: *BN* = new BN(0)
 
-*Defined in [src/common/input.ts:381](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L381)*
+*Defined in [src/common/input.ts:381](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L381)*
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[sigCount](common_inputs.input.md#protected-sigcount)*
 
-*Defined in [src/common/input.ts:82](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L82)*
+*Defined in [src/common/input.ts:82](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L82)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[sigIdxs](common_inputs.input.md#protected-sigidxs)*
 
-*Defined in [src/common/input.ts:83](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L83)*
+*Defined in [src/common/input.ts:83](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L83)*
 
 ## Methods
 
@@ -145,7 +145,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[addSignatureIdx](common_inputs.input.md#addsignatureidx)*
 
-*Defined in [src/common/input.ts:104](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L104)*
+*Defined in [src/common/input.ts:104](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L104)*
 
 Creates and adds a [SigIdx](common_signature.sigidx.md) to the [Input](common_inputs.input.md).
 
@@ -166,7 +166,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[clone](common_inputs.input.md#abstract-clone)*
 
-*Defined in [src/common/input.ts:148](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L148)*
+*Defined in [src/common/input.ts:148](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L148)*
 
 **Returns:** *this*
 
@@ -178,7 +178,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[create](common_inputs.input.md#abstract-create)*
 
-*Defined in [src/common/input.ts:150](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L150)*
+*Defined in [src/common/input.ts:150](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L150)*
 
 **Parameters:**
 
@@ -196,7 +196,7 @@ ___
 
 *Overrides [Input](common_inputs.input.md).[deserialize](common_inputs.input.md#deserialize)*
 
-*Defined in [src/common/input.ts:368](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L368)*
+*Defined in [src/common/input.ts:368](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L368)*
 
 **Parameters:**
 
@@ -215,7 +215,7 @@ ___
 
 *Overrides [Input](common_inputs.input.md).[fromBuffer](common_inputs.input.md#frombuffer)*
 
-*Defined in [src/common/input.ts:391](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L391)*
+*Defined in [src/common/input.ts:391](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L391)*
 
 Popuates the instance from a [Buffer](https://github.com/feross/buffer) representing the [AmountInput](api_evm_inputs.amountinput.md) and returns the size of the input.
 
@@ -234,7 +234,7 @@ ___
 
 ▸ **getAmount**(): *BN*
 
-*Defined in [src/common/input.ts:386](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L386)*
+*Defined in [src/common/input.ts:386](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L386)*
 
 Returns the amount as a [BN](https://github.com/indutny/bn.js/).
 
@@ -248,7 +248,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -262,7 +262,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[getCredentialID](common_inputs.input.md#abstract-getcredentialid)*
 
-*Defined in [src/common/input.ts:96](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L96)*
+*Defined in [src/common/input.ts:96](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L96)*
 
 **Returns:** *number*
 
@@ -274,7 +274,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[getInput](common_inputs.input.md#getinput)*
 
-*Defined in [src/common/input.ts:85](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L85)*
+*Defined in [src/common/input.ts:85](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L85)*
 
 **Returns:** *[BaseInput](../interfaces/common_inputs.baseinput.md)*
 
@@ -286,7 +286,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[getInputID](common_inputs.input.md#abstract-getinputid)*
 
-*Defined in [src/common/input.ts:89](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L89)*
+*Defined in [src/common/input.ts:89](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L89)*
 
 **Returns:** *number*
 
@@ -298,7 +298,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[getSigIdxs](common_inputs.input.md#getsigidxs)*
 
-*Defined in [src/common/input.ts:94](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L94)*
+*Defined in [src/common/input.ts:94](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L94)*
 
 Returns the array of [SigIdx](common_signature.sigidx.md) for this [Input](common_inputs.input.md)
 
@@ -312,7 +312,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -326,7 +326,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -340,7 +340,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -360,7 +360,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[select](common_inputs.input.md#abstract-select)*
 
-*Defined in [src/common/input.ts:152](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L152)*
+*Defined in [src/common/input.ts:152](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L152)*
 
 **Parameters:**
 
@@ -379,7 +379,7 @@ ___
 
 *Overrides [Input](common_inputs.input.md).[serialize](common_inputs.input.md#serialize)*
 
-*Defined in [src/common/input.ts:355](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L355)*
+*Defined in [src/common/input.ts:355](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L355)*
 
 **Parameters:**
 
@@ -397,7 +397,7 @@ ___
 
 *Overrides [Input](common_inputs.input.md).[toBuffer](common_inputs.input.md#tobuffer)*
 
-*Defined in [src/common/input.ts:401](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L401)*
+*Defined in [src/common/input.ts:401](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L401)*
 
 Returns the buffer representing the [AmountInput](api_evm_inputs.amountinput.md) instance.
 
@@ -411,7 +411,7 @@ ___
 
 *Inherited from [Input](common_inputs.input.md).[toString](common_inputs.input.md#tostring)*
 
-*Defined in [src/common/input.ts:144](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/input.ts#L144)*
+*Defined in [src/common/input.ts:144](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L144)*
 
 Returns a base-58 representation of the [Input](common_inputs.input.md).
 

@@ -20,7 +20,7 @@
 
 • **endIndex**: *[EndIndex](platformvm_interfaces.endindex.md)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:174](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L174)*
+*Defined in [src/apis/platformvm/interfaces.ts:199](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L199)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **numFetched**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:172](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L172)*
+*Defined in [src/apis/platformvm/interfaces.ts:197](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L197)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **utxos**: *[UTXOSet](../classes/api_platformvm_utxos.utxoset.md)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:173](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L173)*
+*Defined in [src/apis/platformvm/interfaces.ts:198](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L198)*

@@ -12,6 +12,7 @@
 
 * [ins](platformvm_interfaces.spendreply.md#ins)
 * [out](platformvm_interfaces.spendreply.md#out)
+* [owners](platformvm_interfaces.spendreply.md#owners)
 
 ## Properties
 
@@ -19,7 +20,7 @@
 
 • **ins**: *[TransferableInput](../classes/api_platformvm_inputs.transferableinput.md)[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:252](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L252)*
+*Defined in [src/apis/platformvm/interfaces.ts:342](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L342)*
 
 ___
 
@@ -27,4 +28,12 @@ ___
 
 • **out**: *[TransferableOutput](../classes/api_platformvm_outputs.transferableoutput.md)[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:253](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L253)*
+*Defined in [src/apis/platformvm/interfaces.ts:343](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L343)*
+
+___
+
+###  owners
+
+• **owners**: *[OutputOwners](../classes/common_output.outputowners.md)[]*
+
+*Defined in [src/apis/platformvm/interfaces.ts:344](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L344)*

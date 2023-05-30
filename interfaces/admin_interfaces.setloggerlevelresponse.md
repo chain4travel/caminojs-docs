@@ -18,4 +18,4 @@
 
 • **success**: *boolean*
 
-*Defined in [src/apis/admin/interfaces.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L56)*
+*Defined in [src/apis/admin/interfaces.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/admin/interfaces.ts#L56)*

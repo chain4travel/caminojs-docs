@@ -20,7 +20,7 @@
 
 • **amount**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:128](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L128)*
+*Defined in [src/apis/avm/interfaces.ts:128](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L128)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **assetID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:127](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L127)*
+*Defined in [src/apis/avm/interfaces.ts:127](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L127)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **to**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:129](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L129)*
+*Defined in [src/apis/avm/interfaces.ts:129](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L129)*

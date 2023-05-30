@@ -19,7 +19,7 @@
 
 • **rewardingStakePercentage**: *string*
 
-*Defined in [src/apis/info/interfaces.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L38)*
+*Defined in [src/apis/info/interfaces.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L38)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **weightedAveragePercentage**: *string*
 
-*Defined in [src/apis/info/interfaces.ts:39](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/info/interfaces.ts#L39)*
+*Defined in [src/apis/info/interfaces.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/info/interfaces.ts#L39)*

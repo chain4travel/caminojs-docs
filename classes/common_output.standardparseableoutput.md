@@ -48,7 +48,7 @@
 
 \+ **new StandardParseableOutput**(`output`: [BaseOutput](../interfaces/common_output.baseoutput.md)): *[StandardParseableOutput](common_output.standardparseableoutput.md)*
 
-*Defined in [src/common/output.ts:468](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L468)*
+*Defined in [src/common/output.ts:498](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L498)*
 
 Class representing an [ParseableOutput](api_platformvm_outputs.parseableoutput.md) for a transaction.
 
@@ -68,7 +68,7 @@ Name | Type | Default | Description |
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[_typeID](utils_serialization.serializable.md#protected-_typeid)*
 
-*Defined in [src/common/output.ts:417](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L417)*
+*Defined in [src/common/output.ts:447](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L447)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[_typeName](utils_serialization.serializable.md#protected-_typename)*
 
-*Defined in [src/common/output.ts:416](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L416)*
+*Defined in [src/common/output.ts:446](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L446)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 • **output**: *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
-*Defined in [src/common/output.ts:427](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L427)*
+*Defined in [src/common/output.ts:457](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L457)*
 
 ## Methods
 
@@ -106,7 +106,7 @@ ___
 
 *Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[deserialize](common_inputs.standardparseableinput.md#deserialize)*
 
-*Defined in [src/utils/serialization.ts:97](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L97)*
+*Defined in [src/utils/serialization.ts:99](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L99)*
 
 **Parameters:**
 
@@ -123,7 +123,7 @@ ___
 
 ▸ **fromBuffer**(`bytes`: Buffer, `offset?`: number): *number*
 
-*Defined in [src/common/output.ts:444](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L444)*
+*Defined in [src/common/output.ts:474](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L474)*
 
 **Parameters:**
 
@@ -140,7 +140,7 @@ ___
 
 ▸ **getAddresses**(): *Buffer[]*
 
-*Defined in [src/common/output.ts:460](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L460)*
+*Defined in [src/common/output.ts:490](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L490)*
 
 **Returns:** *Buffer[]*
 
@@ -152,7 +152,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -164,7 +164,7 @@ ___
 
 ▸ **getLocktime**(): *BN*
 
-*Defined in [src/common/output.ts:457](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L457)*
+*Defined in [src/common/output.ts:487](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L487)*
 
 **Returns:** *BN*
 
@@ -174,7 +174,7 @@ ___
 
 ▸ **getOutput**(): *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
-*Defined in [src/common/output.ts:468](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L468)*
+*Defined in [src/common/output.ts:498](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L498)*
 
 **Returns:** *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
@@ -184,7 +184,7 @@ ___
 
 ▸ **getThreshold**(): *number*
 
-*Defined in [src/common/output.ts:454](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L454)*
+*Defined in [src/common/output.ts:484](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L484)*
 
 **Returns:** *number*
 
@@ -196,7 +196,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -210,7 +210,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -222,7 +222,7 @@ ___
 
 ▸ **meetsThreshold**(`addrs`: Buffer[], `asOf`: BN): *boolean*
 
-*Defined in [src/common/output.ts:464](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L464)*
+*Defined in [src/common/output.ts:494](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L494)*
 
 **Parameters:**
 
@@ -241,7 +241,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -261,7 +261,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[serialize](utils_serialization.serializable.md#serialize)*
 
-*Defined in [src/common/output.ts:419](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L419)*
+*Defined in [src/common/output.ts:449](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L449)*
 
 **Parameters:**
 
@@ -277,7 +277,7 @@ ___
 
 ▸ **toBuffer**(): *Buffer*
 
-*Defined in [src/common/output.ts:446](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L446)*
+*Defined in [src/common/output.ts:476](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L476)*
 
 **Returns:** *Buffer*
 
@@ -287,7 +287,7 @@ ___
 
 ▸ **comparator**(): *function*
 
-*Defined in [src/common/output.ts:432](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/output.ts#L432)*
+*Defined in [src/common/output.ts:462](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L462)*
 
 Returns a function used to sort an array of [ParseableOutput](api_platformvm_outputs.parseableoutput.md)s
 

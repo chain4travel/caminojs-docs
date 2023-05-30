@@ -14,7 +14,10 @@
 
 ### Type aliases
 
+* [Auth](api_platformvm_builder.md#auth)
+* [FromSigner](api_platformvm_builder.md#fromsigner)
 * [LockMode](api_platformvm_builder.md#lockmode)
+* [NodeOwner](api_platformvm_builder.md#nodeowner)
 
 ### Variables
 
@@ -22,11 +25,55 @@
 
 ## Type aliases
 
+###  Auth
+
+Ƭ **Auth**: *object*
+
+*Defined in [src/apis/platformvm/builder.ts:76](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/builder.ts#L76)*
+
+#### Type declaration:
+
+* **addresses**: *Buffer[]*
+
+* **signer**: *[][]*
+
+* **threshold**: *number*
+
+___
+
+###  FromSigner
+
+Ƭ **FromSigner**: *object*
+
+*Defined in [src/apis/platformvm/builder.ts:66](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/builder.ts#L66)*
+
+#### Type declaration:
+
+* **from**: *Buffer[]*
+
+* **signer**: *Buffer[]*
+
+___
+
 ###  LockMode
 
 Ƭ **LockMode**: *"Unlocked" | "Bond" | "Deposit" | "Stake"*
 
-*Defined in [src/apis/platformvm/builder.ts:45](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/builder.ts#L45)*
+*Defined in [src/apis/platformvm/builder.ts:55](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/builder.ts#L55)*
+
+___
+
+###  NodeOwner
+
+Ƭ **NodeOwner**: *object*
+
+*Defined in [src/apis/platformvm/builder.ts:71](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/builder.ts#L71)*
+
+#### Type declaration:
+
+* **address**: *Buffer*
+
+* **auth**: *[][]*
 
 ## Variables
 
@@ -34,4 +81,4 @@
 
 • **zero**: *BN* = new BN(0)
 
-*Defined in [src/apis/platformvm/builder.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/builder.ts#L56)*
+*Defined in [src/apis/platformvm/builder.ts:82](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/builder.ts#L82)*

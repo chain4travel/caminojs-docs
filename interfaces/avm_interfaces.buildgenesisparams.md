@@ -18,4 +18,4 @@
 
 • **genesisData**: *object*
 
-*Defined in [src/apis/avm/interfaces.ts:161](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L161)*
+*Defined in [src/apis/avm/interfaces.ts:161](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L161)*

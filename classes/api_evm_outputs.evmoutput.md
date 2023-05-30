@@ -30,6 +30,7 @@
 * [getAddressString](api_evm_outputs.evmoutput.md#getaddressstring)
 * [getAmount](api_evm_outputs.evmoutput.md#getamount)
 * [getAssetID](api_evm_outputs.evmoutput.md#getassetid)
+* [serialize](api_evm_outputs.evmoutput.md#serialize)
 * [toBuffer](api_evm_outputs.evmoutput.md#tobuffer)
 * [toString](api_evm_outputs.evmoutput.md#tostring)
 * [comparator](api_evm_outputs.evmoutput.md#static-comparator)
@@ -40,7 +41,7 @@
 
 \+ **new EVMOutput**(`address`: Buffer | string, `amount`: BN | number, `assetID`: Buffer | string): *[EVMOutput](api_evm_outputs.evmoutput.md)*
 
-*Defined in [src/apis/evm/outputs.ts:190](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L190)*
+*Defined in [src/apis/evm/outputs.ts:204](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L204)*
 
 An [EVMOutput](api_evm_outputs.evmoutput.md) class which contains address, amount, and assetID.
 
@@ -60,7 +61,7 @@ Name | Type | Default | Description |
 
 • **address**: *Buffer* = Buffer.alloc(20)
 
-*Defined in [src/apis/evm/outputs.ts:109](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L109)*
+*Defined in [src/apis/evm/outputs.ts:110](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L110)*
 
 ___
 
@@ -68,7 +69,7 @@ ___
 
 • **amount**: *Buffer* = Buffer.alloc(8)
 
-*Defined in [src/apis/evm/outputs.ts:110](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L110)*
+*Defined in [src/apis/evm/outputs.ts:111](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L111)*
 
 ___
 
@@ -76,7 +77,7 @@ ___
 
 • **amountValue**: *BN* = new BN(0)
 
-*Defined in [src/apis/evm/outputs.ts:111](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L111)*
+*Defined in [src/apis/evm/outputs.ts:112](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L112)*
 
 ___
 
@@ -84,7 +85,7 @@ ___
 
 • **assetID**: *Buffer* = Buffer.alloc(32)
 
-*Defined in [src/apis/evm/outputs.ts:112](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L112)*
+*Defined in [src/apis/evm/outputs.ts:113](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L113)*
 
 ## Methods
 
@@ -92,7 +93,7 @@ ___
 
 ▸ **clone**(): *this*
 
-*Defined in [src/apis/evm/outputs.ts:186](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L186)*
+*Defined in [src/apis/evm/outputs.ts:200](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L200)*
 
 **Returns:** *this*
 
@@ -102,7 +103,7 @@ ___
 
 ▸ **create**(...`args`: any[]): *this*
 
-*Defined in [src/apis/evm/outputs.ts:182](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L182)*
+*Defined in [src/apis/evm/outputs.ts:196](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L196)*
 
 **Parameters:**
 
@@ -118,7 +119,7 @@ ___
 
 ▸ **fromBuffer**(`bytes`: Buffer, `offset`: number): *number*
 
-*Defined in [src/apis/evm/outputs.ts:165](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L165)*
+*Defined in [src/apis/evm/outputs.ts:179](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L179)*
 
 Decodes the [EVMOutput](api_evm_outputs.evmoutput.md) as a [Buffer](https://github.com/feross/buffer) and returns the size.
 
@@ -137,7 +138,7 @@ ___
 
 ▸ **getAddress**(): *Buffer*
 
-*Defined in [src/apis/evm/outputs.ts:134](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L134)*
+*Defined in [src/apis/evm/outputs.ts:148](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L148)*
 
 Returns the address of the input as [Buffer](https://github.com/feross/buffer)
 
@@ -149,7 +150,7 @@ ___
 
 ▸ **getAddressString**(): *string*
 
-*Defined in [src/apis/evm/outputs.ts:139](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L139)*
+*Defined in [src/apis/evm/outputs.ts:153](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L153)*
 
 Returns the address as a bech32 encoded string.
 
@@ -161,7 +162,7 @@ ___
 
 ▸ **getAmount**(): *BN*
 
-*Defined in [src/apis/evm/outputs.ts:144](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L144)*
+*Defined in [src/apis/evm/outputs.ts:158](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L158)*
 
 Returns the amount as a [BN](https://github.com/indutny/bn.js/).
 
@@ -173,7 +174,7 @@ ___
 
 ▸ **getAssetID**(): *Buffer*
 
-*Defined in [src/apis/evm/outputs.ts:149](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L149)*
+*Defined in [src/apis/evm/outputs.ts:163](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L163)*
 
 Returns the assetID of the input as [Buffer](https://github.com/feross/buffer)
 
@@ -181,11 +182,27 @@ Returns the assetID of the input as [Buffer](https://github.com/feross/buffer)
 
 ___
 
+###  serialize
+
+▸ **serialize**(`encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *object*
+
+*Defined in [src/apis/evm/outputs.ts:115](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L115)*
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`encoding` | [SerializedEncoding](../modules/utils_serialization.md#serializedencoding) | "hex" |
+
+**Returns:** *object*
+
+___
+
 ###  toBuffer
 
 ▸ **toBuffer**(): *Buffer*
 
-*Defined in [src/apis/evm/outputs.ts:154](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L154)*
+*Defined in [src/apis/evm/outputs.ts:168](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L168)*
 
 Returns a [Buffer](https://github.com/feross/buffer) representation of the [EVMOutput](api_evm_outputs.evmoutput.md).
 
@@ -197,7 +214,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [src/apis/evm/outputs.ts:178](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L178)*
+*Defined in [src/apis/evm/outputs.ts:192](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L192)*
 
 Returns a base-58 representation of the [EVMOutput](api_evm_outputs.evmoutput.md).
 
@@ -209,7 +226,7 @@ ___
 
 ▸ **comparator**(): *function*
 
-*Defined in [src/apis/evm/outputs.ts:117](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/evm/outputs.ts#L117)*
+*Defined in [src/apis/evm/outputs.ts:131](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L131)*
 
 Returns a function used to sort an array of [EVMOutput](api_evm_outputs.evmoutput.md)s
 

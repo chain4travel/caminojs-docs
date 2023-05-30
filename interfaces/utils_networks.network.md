@@ -14,6 +14,7 @@
 * [P](utils_networks.network.md#p)
 * [X](utils_networks.network.md#x)
 * [hrp](utils_networks.network.md#hrp)
+* [preDefined](utils_networks.network.md#optional-predefined)
 
 ## Properties
 
@@ -21,7 +22,7 @@
 
 • **C**: *[C](utils_networks.c.md)*
 
-*Defined in [src/utils/networks.ts:76](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L76)*
+*Defined in [src/utils/networks.ts:78](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L78)*
 
 ___
 
@@ -29,7 +30,7 @@ ___
 
 • **P**: *[P](utils_networks.p.md)*
 
-*Defined in [src/utils/networks.ts:78](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L78)*
+*Defined in [src/utils/networks.ts:80](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L80)*
 
 ___
 
@@ -37,7 +38,7 @@ ___
 
 • **X**: *[X](utils_networks.x.md)*
 
-*Defined in [src/utils/networks.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L77)*
+*Defined in [src/utils/networks.ts:79](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L79)*
 
 ___
 
@@ -45,4 +46,12 @@ ___
 
 • **hrp**: *string*
 
-*Defined in [src/utils/networks.ts:75](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L75)*
+*Defined in [src/utils/networks.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L77)*
+
+___
+
+### `Optional` preDefined
+
+• **preDefined**? : *boolean*
+
+*Defined in [src/utils/networks.ts:76](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L76)*

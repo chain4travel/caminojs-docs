@@ -29,7 +29,7 @@
 
 • **bintools**: *[BinTools](../classes/utils_bintools.bintools.md)* = BinTools.getInstance()
 
-*Defined in [src/apis/platformvm/outputs.ts:20](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L20)*
+*Defined in [src/apis/platformvm/outputs.ts:20](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L20)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/outputs.ts:21](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L21)*
+*Defined in [src/apis/platformvm/outputs.ts:21](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L21)*
 
 ## Functions
 
@@ -45,7 +45,7 @@ ___
 
 ▸ **SelectOutputClass**(`outputid`: number, ...`args`: any[]): *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
-*Defined in [src/apis/platformvm/outputs.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/outputs.ts#L30)*
+*Defined in [src/apis/platformvm/outputs.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L30)*
 
 Takes a buffer representing the output and returns the proper Output instance.
 

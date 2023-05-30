@@ -20,7 +20,7 @@
 
 ▸ **SelectInputClass**(`inputid`: number, ...`args`: any[]): *[Input](../classes/common_inputs.input.md)*
 
-*Defined in [src/apis/avm/inputs.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/inputs.ts#L28)*
+*Defined in [src/apis/avm/inputs.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/inputs.ts#L28)*
 
 Takes a buffer representing the output and returns the proper [Input](../classes/common_inputs.input.md) instance.
 

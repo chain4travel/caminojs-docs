@@ -55,7 +55,7 @@
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[constructor](common_assetamount.standardassetamountdestination.md#constructor)*
 
-*Defined in [src/common/assetamount.ts:200](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L200)*
+*Defined in [src/common/assetamount.ts:200](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L200)*
 
 **Parameters:**
 
@@ -77,7 +77,7 @@ Name | Type |
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[amountkey](common_assetamount.standardassetamountdestination.md#protected-amountkey)*
 
-*Defined in [src/common/assetamount.ts:120](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L120)*
+*Defined in [src/common/assetamount.ts:120](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L120)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[amounts](common_assetamount.standardassetamountdestination.md#protected-amounts)*
 
-*Defined in [src/common/assetamount.ts:114](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L114)*
+*Defined in [src/common/assetamount.ts:114](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L114)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[change](common_assetamount.standardassetamountdestination.md#protected-change)*
 
-*Defined in [src/common/assetamount.ts:123](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L123)*
+*Defined in [src/common/assetamount.ts:123](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L123)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[changeAddresses](common_assetamount.standardassetamountdestination.md#protected-changeaddresses)*
 
-*Defined in [src/common/assetamount.ts:118](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L118)*
+*Defined in [src/common/assetamount.ts:118](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L118)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[changeAddressesThreshold](common_assetamount.standardassetamountdestination.md#protected-changeaddressesthreshold)*
 
-*Defined in [src/common/assetamount.ts:119](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L119)*
+*Defined in [src/common/assetamount.ts:119](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L119)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[destinations](common_assetamount.standardassetamountdestination.md#protected-destinations)*
 
-*Defined in [src/common/assetamount.ts:115](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L115)*
+*Defined in [src/common/assetamount.ts:115](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L115)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[destinationsThreshold](common_assetamount.standardassetamountdestination.md#protected-destinationsthreshold)*
 
-*Defined in [src/common/assetamount.ts:116](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L116)*
+*Defined in [src/common/assetamount.ts:116](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L116)*
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[inputs](common_assetamount.standardassetamountdestination.md#protected-inputs)*
 
-*Defined in [src/common/assetamount.ts:121](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L121)*
+*Defined in [src/common/assetamount.ts:121](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L121)*
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[outputs](common_assetamount.standardassetamountdestination.md#protected-outputs)*
 
-*Defined in [src/common/assetamount.ts:122](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L122)*
+*Defined in [src/common/assetamount.ts:122](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L122)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[senders](common_assetamount.standardassetamountdestination.md#protected-senders)*
 
-*Defined in [src/common/assetamount.ts:117](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L117)*
+*Defined in [src/common/assetamount.ts:117](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L117)*
 
 ## Methods
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[addAssetAmount](common_assetamount.standardassetamountdestination.md#addassetamount)*
 
-*Defined in [src/common/assetamount.ts:127](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L127)*
+*Defined in [src/common/assetamount.ts:127](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L127)*
 
 **Parameters:**
 
@@ -197,7 +197,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[addChange](common_assetamount.standardassetamountdestination.md#addchange)*
 
-*Defined in [src/common/assetamount.ts:141](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L141)*
+*Defined in [src/common/assetamount.ts:141](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L141)*
 
 **Parameters:**
 
@@ -215,7 +215,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[addInput](common_assetamount.standardassetamountdestination.md#addinput)*
 
-*Defined in [src/common/assetamount.ts:133](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L133)*
+*Defined in [src/common/assetamount.ts:133](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L133)*
 
 **Parameters:**
 
@@ -233,7 +233,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[addOutput](common_assetamount.standardassetamountdestination.md#addoutput)*
 
-*Defined in [src/common/assetamount.ts:137](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L137)*
+*Defined in [src/common/assetamount.ts:137](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L137)*
 
 **Parameters:**
 
@@ -251,7 +251,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[assetExists](common_assetamount.standardassetamountdestination.md#assetexists)*
 
-*Defined in [src/common/assetamount.ts:173](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L173)*
+*Defined in [src/common/assetamount.ts:173](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L173)*
 
 **Parameters:**
 
@@ -269,7 +269,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[canComplete](common_assetamount.standardassetamountdestination.md#cancomplete)*
 
-*Defined in [src/common/assetamount.ts:193](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L193)*
+*Defined in [src/common/assetamount.ts:193](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L193)*
 
 **Returns:** *boolean*
 
@@ -281,7 +281,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getAllOutputs](common_assetamount.standardassetamountdestination.md#getalloutputs)*
 
-*Defined in [src/common/assetamount.ts:189](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L189)*
+*Defined in [src/common/assetamount.ts:189](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L189)*
 
 **Returns:** *[TransferableOutput](api_avm_outputs.transferableoutput.md)[]*
 
@@ -293,7 +293,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getAmounts](common_assetamount.standardassetamountdestination.md#getamounts)*
 
-*Defined in [src/common/assetamount.ts:145](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L145)*
+*Defined in [src/common/assetamount.ts:145](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L145)*
 
 **Returns:** *[AssetAmount](common_assetamount.assetamount.md)[]*
 
@@ -305,7 +305,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getAssetAmount](common_assetamount.standardassetamountdestination.md#getassetamount)*
 
-*Defined in [src/common/assetamount.ts:169](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L169)*
+*Defined in [src/common/assetamount.ts:169](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L169)*
 
 **Parameters:**
 
@@ -323,7 +323,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getChangeAddresses](common_assetamount.standardassetamountdestination.md#getchangeaddresses)*
 
-*Defined in [src/common/assetamount.ts:161](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L161)*
+*Defined in [src/common/assetamount.ts:161](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L161)*
 
 **Returns:** *Buffer[]*
 
@@ -335,7 +335,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getChangeAddressesThreshold](common_assetamount.standardassetamountdestination.md#getchangeaddressesthreshold)*
 
-*Defined in [src/common/assetamount.ts:165](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L165)*
+*Defined in [src/common/assetamount.ts:165](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L165)*
 
 **Returns:** *number*
 
@@ -347,7 +347,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getChangeOutputs](common_assetamount.standardassetamountdestination.md#getchangeoutputs)*
 
-*Defined in [src/common/assetamount.ts:185](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L185)*
+*Defined in [src/common/assetamount.ts:185](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L185)*
 
 **Returns:** *[TransferableOutput](api_avm_outputs.transferableoutput.md)[]*
 
@@ -359,7 +359,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getDestinations](common_assetamount.standardassetamountdestination.md#getdestinations)*
 
-*Defined in [src/common/assetamount.ts:149](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L149)*
+*Defined in [src/common/assetamount.ts:149](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L149)*
 
 **Returns:** *Buffer[]*
 
@@ -371,7 +371,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getDestinationsThreshold](common_assetamount.standardassetamountdestination.md#getdestinationsthreshold)*
 
-*Defined in [src/common/assetamount.ts:153](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L153)*
+*Defined in [src/common/assetamount.ts:153](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L153)*
 
 **Returns:** *number*
 
@@ -383,7 +383,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getInputs](common_assetamount.standardassetamountdestination.md#getinputs)*
 
-*Defined in [src/common/assetamount.ts:177](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L177)*
+*Defined in [src/common/assetamount.ts:177](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L177)*
 
 **Returns:** *[TransferableInput](api_avm_inputs.transferableinput.md)[]*
 
@@ -395,7 +395,7 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getOutputs](common_assetamount.standardassetamountdestination.md#getoutputs)*
 
-*Defined in [src/common/assetamount.ts:181](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L181)*
+*Defined in [src/common/assetamount.ts:181](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L181)*
 
 **Returns:** *[TransferableOutput](api_avm_outputs.transferableoutput.md)[]*
 
@@ -407,6 +407,6 @@ ___
 
 *Inherited from [StandardAssetAmountDestination](common_assetamount.standardassetamountdestination.md).[getSenders](common_assetamount.standardassetamountdestination.md#getsenders)*
 
-*Defined in [src/common/assetamount.ts:157](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/assetamount.ts#L157)*
+*Defined in [src/common/assetamount.ts:157](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/assetamount.ts#L157)*
 
 **Returns:** *Buffer[]*

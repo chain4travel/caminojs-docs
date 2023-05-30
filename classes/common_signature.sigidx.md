@@ -32,6 +32,7 @@ Type representing a [Signature](common_signature.signature.md) index used in [In
 * [deserialize](common_signature.sigidx.md#deserialize)
 * [fromBuffer](common_signature.sigidx.md#frombuffer)
 * [fromString](common_signature.sigidx.md#fromstring)
+* [getBytes](common_signature.sigidx.md#getbytes)
 * [getCodecID](common_signature.sigidx.md#getcodecid)
 * [getSize](common_signature.sigidx.md#getsize)
 * [getSource](common_signature.sigidx.md#getsource)
@@ -47,11 +48,18 @@ Type representing a [Signature](common_signature.signature.md) index used in [In
 
 ###  constructor
 
-\+ **new SigIdx**(): *[SigIdx](common_signature.sigidx.md)*
+\+ **new SigIdx**(`addressIdx?`: number, `address?`: Buffer): *[SigIdx](common_signature.sigidx.md)*
 
-*Defined in [src/common/credentials.ts:68](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L68)*
+*Defined in [src/common/credentials.ts:73](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L73)*
 
 Type representing a [Signature](common_signature.signature.md) index used in [Input](common_inputs.input.md)
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`addressIdx?` | number |
+`address?` | Buffer |
 
 **Returns:** *[SigIdx](common_signature.sigidx.md)*
 
@@ -63,7 +71,7 @@ Type representing a [Signature](common_signature.signature.md) index used in [In
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -73,7 +81,7 @@ ___
 
 *Overrides [NBytes](common_nbytes.nbytes.md).[_typeID](common_nbytes.nbytes.md#protected-_typeid)*
 
-*Defined in [src/common/credentials.ts:25](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L25)*
+*Defined in [src/common/credentials.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L25)*
 
 ___
 
@@ -83,7 +91,7 @@ ___
 
 *Overrides [NBytes](common_nbytes.nbytes.md).[_typeName](common_nbytes.nbytes.md#protected-_typename)*
 
-*Defined in [src/common/credentials.ts:24](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L24)*
+*Defined in [src/common/credentials.ts:24](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L24)*
 
 ___
 
@@ -93,7 +101,7 @@ ___
 
 *Overrides [NBytes](common_nbytes.nbytes.md).[bsize](common_nbytes.nbytes.md#protected-bsize)*
 
-*Defined in [src/common/credentials.ts:46](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L46)*
+*Defined in [src/common/credentials.ts:46](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L46)*
 
 ___
 
@@ -103,7 +111,7 @@ ___
 
 *Overrides [NBytes](common_nbytes.nbytes.md).[bytes](common_nbytes.nbytes.md#protected-bytes)*
 
-*Defined in [src/common/credentials.ts:45](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L45)*
+*Defined in [src/common/credentials.ts:45](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L45)*
 
 ___
 
@@ -111,7 +119,7 @@ ___
 
 • **source**: *Buffer* = Buffer.alloc(20)
 
-*Defined in [src/common/credentials.ts:44](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L44)*
+*Defined in [src/common/credentials.ts:44](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L44)*
 
 ## Methods
 
@@ -121,7 +129,7 @@ ___
 
 *Overrides [NBytes](common_nbytes.nbytes.md).[clone](common_nbytes.nbytes.md#abstract-clone)*
 
-*Defined in [src/common/credentials.ts:60](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L60)*
+*Defined in [src/common/credentials.ts:65](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L65)*
 
 **Returns:** *this*
 
@@ -129,17 +137,11 @@ ___
 
 ###  create
 
-▸ **create**(...`args`: any[]): *this*
+▸ **create**(): *this*
 
 *Overrides [NBytes](common_nbytes.nbytes.md).[create](common_nbytes.nbytes.md#abstract-create)*
 
-*Defined in [src/common/credentials.ts:66](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L66)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`...args` | any[] |
+*Defined in [src/common/credentials.ts:71](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L71)*
 
 **Returns:** *this*
 
@@ -151,7 +153,7 @@ ___
 
 *Overrides [Signature](common_signature.signature.md).[deserialize](common_signature.signature.md#deserialize)*
 
-*Defined in [src/common/credentials.ts:34](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L34)*
+*Defined in [src/common/credentials.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L34)*
 
 **Parameters:**
 
@@ -170,7 +172,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[fromBuffer](common_signature.sigidx.md#frombuffer)*
 
-*Defined in [src/common/nbytes.ts:102](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/nbytes.ts#L102)*
+*Defined in [src/common/nbytes.ts:102](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/nbytes.ts#L102)*
 
 Takes a [[Buffer]], verifies its length, and stores it.
 
@@ -193,7 +195,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[fromString](common_signature.sigidx.md#fromstring)*
 
-*Defined in [src/common/nbytes.ts:85](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/nbytes.ts#L85)*
+*Defined in [src/common/nbytes.ts:85](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/nbytes.ts#L85)*
 
 Takes a base-58 encoded string, verifies its length, and stores it.
 
@@ -209,13 +211,25 @@ The size of the [Buffer](https://github.com/feross/buffer)
 
 ___
 
+###  getBytes
+
+▸ **getBytes**(): *Buffer*
+
+*Defined in [src/common/credentials.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L63)*
+
+Retrieves the index buffer for the signature
+
+**Returns:** *Buffer*
+
+___
+
 ###  getCodecID
 
 ▸ **getCodecID**(): *number*
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -229,7 +243,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getSize](common_signature.sigidx.md#getsize)*
 
-*Defined in [src/common/nbytes.ts:78](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/nbytes.ts#L78)*
+*Defined in [src/common/nbytes.ts:78](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/nbytes.ts#L78)*
 
 Returns the length of the [Buffer](https://github.com/feross/buffer).
 
@@ -243,7 +257,7 @@ ___
 
 ▸ **getSource**(): *Buffer*
 
-*Defined in [src/common/credentials.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L58)*
+*Defined in [src/common/credentials.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L58)*
 
 Retrieves the source address for the signature
 
@@ -257,7 +271,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -271,7 +285,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -285,7 +299,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -305,7 +319,7 @@ ___
 
 *Overrides [Signature](common_signature.signature.md).[serialize](common_signature.signature.md#serialize)*
 
-*Defined in [src/common/credentials.ts:27](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L27)*
+*Defined in [src/common/credentials.ts:27](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L27)*
 
 **Parameters:**
 
@@ -321,7 +335,7 @@ ___
 
 ▸ **setSource**(`address`: Buffer): *void*
 
-*Defined in [src/common/credentials.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/credentials.ts#L51)*
+*Defined in [src/common/credentials.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/credentials.ts#L51)*
 
 Sets the source address for the signature
 
@@ -341,7 +355,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[toBuffer](common_signature.sigidx.md#tobuffer)*
 
-*Defined in [src/common/nbytes.ts:124](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/nbytes.ts#L124)*
+*Defined in [src/common/nbytes.ts:124](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/nbytes.ts#L124)*
 
 **Returns:** *Buffer*
 
@@ -355,7 +369,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[toString](common_signature.sigidx.md#tostring)*
 
-*Defined in [src/common/nbytes.ts:131](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/nbytes.ts#L131)*
+*Defined in [src/common/nbytes.ts:131](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/nbytes.ts#L131)*
 
 **Returns:** *string*
 

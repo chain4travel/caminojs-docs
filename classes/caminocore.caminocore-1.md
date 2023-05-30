@@ -44,6 +44,7 @@ let camino = new CaminoCore("127.0.0.1", 9650, "https")
 * [delete](caminocore.caminocore-1.md#delete)
 * [get](caminocore.caminocore-1.md#get)
 * [getBaseEndpoint](caminocore.caminocore-1.md#getbaseendpoint)
+* [getChains](caminocore.caminocore-1.md#getchains)
 * [getHRP](caminocore.caminocore-1.md#gethrp)
 * [getHeaders](caminocore.caminocore-1.md#getheaders)
 * [getHost](caminocore.caminocore-1.md#gethost)
@@ -73,7 +74,7 @@ let camino = new CaminoCore("127.0.0.1", 9650, "https")
 
 \+ **new CaminoCore**(`host`: string, `port`: number, `protocol`: string, `networkID`: number): *[CaminoCore](caminocore.caminocore-1.md)*
 
-*Defined in [src/camino.ts:471](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L471)*
+*Defined in [src/camino.ts:479](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L479)*
 
 Creates a new Camino instance. Sets the address and port of the main Camino Client.
 
@@ -94,7 +95,7 @@ Name | Type | Description |
 
 • **apis**: *object*
 
-*Defined in [src/camino.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L38)*
+*Defined in [src/camino.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L38)*
 
 #### Type declaration:
 
@@ -106,7 +107,7 @@ ___
 
 • **auth**: *string* = undefined
 
-*Defined in [src/camino.ts:35](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L35)*
+*Defined in [src/camino.ts:35](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L35)*
 
 ___
 
@@ -114,7 +115,7 @@ ___
 
 • **baseEndpoint**: *string*
 
-*Defined in [src/camino.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L33)*
+*Defined in [src/camino.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L33)*
 
 ___
 
@@ -122,7 +123,7 @@ ___
 
 • **headers**: *object*
 
-*Defined in [src/camino.ts:36](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L36)*
+*Defined in [src/camino.ts:36](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L36)*
 
 #### Type declaration:
 
@@ -134,7 +135,7 @@ ___
 
 • **host**: *string*
 
-*Defined in [src/camino.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L31)*
+*Defined in [src/camino.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L31)*
 
 ___
 
@@ -142,7 +143,7 @@ ___
 
 • **ip**: *string*
 
-*Defined in [src/camino.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L30)*
+*Defined in [src/camino.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L30)*
 
 ___
 
@@ -150,7 +151,7 @@ ___
 
 • **network**: *[Network](../interfaces/utils_networks.network.md)* = undefined
 
-*Defined in [src/camino.ts:39](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L39)*
+*Defined in [src/camino.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L39)*
 
 ___
 
@@ -158,7 +159,7 @@ ___
 
 • **networkID**: *number* = 0
 
-*Defined in [src/camino.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L28)*
+*Defined in [src/camino.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L28)*
 
 ___
 
@@ -166,7 +167,7 @@ ___
 
 • **port**: *number*
 
-*Defined in [src/camino.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L32)*
+*Defined in [src/camino.ts:32](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L32)*
 
 ___
 
@@ -174,7 +175,7 @@ ___
 
 • **protocol**: *string*
 
-*Defined in [src/camino.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L29)*
+*Defined in [src/camino.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L29)*
 
 ___
 
@@ -182,7 +183,7 @@ ___
 
 • **requestConfig**: *AxiosRequestConfig*
 
-*Defined in [src/camino.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L37)*
+*Defined in [src/camino.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L37)*
 
 ___
 
@@ -190,7 +191,7 @@ ___
 
 • **url**: *string*
 
-*Defined in [src/camino.ts:34](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L34)*
+*Defined in [src/camino.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L34)*
 
 ## Methods
 
@@ -198,7 +199,7 @@ ___
 
 ▸ **_setHeaders**(`headers`: any): *AxiosRequestHeaders*
 
-*Defined in [src/camino.ts:227](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L227)*
+*Defined in [src/camino.ts:235](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L235)*
 
 **Parameters:**
 
@@ -214,7 +215,7 @@ ___
 
 ▸ **addAPI**‹**GA**›(`apiName`: string, `ConstructorFN`: object, `baseurl`: string, ...`args`: any[]): *void*
 
-*Defined in [src/camino.ts:266](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L266)*
+*Defined in [src/camino.ts:274](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L274)*
 
 Adds an API to the middleware. The API resolves to a registered blockchain's RPC.
 
@@ -251,7 +252,7 @@ ___
 
 ▸ **api**‹**GA**›(`apiName`: string): *GA*
 
-*Defined in [src/camino.ts:288](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L288)*
+*Defined in [src/camino.ts:296](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L296)*
 
 Retrieves a reference to an API by its apiName label.
 
@@ -273,7 +274,7 @@ ___
 
 ▸ **delete**(`baseurl`: string, `getdata`: object, `headers`: object, `axiosConfig`: AxiosRequestConfig): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Defined in [src/camino.ts:373](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L373)*
+*Defined in [src/camino.ts:381](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L381)*
 
 Makes a DELETE call to an API.
 
@@ -296,7 +297,7 @@ ___
 
 ▸ **get**(`baseurl`: string, `getdata`: object, `headers`: object, `axiosConfig`: AxiosRequestConfig): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Defined in [src/camino.ts:347](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L347)*
+*Defined in [src/camino.ts:355](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L355)*
 
 Makes a GET call to an API.
 
@@ -319,7 +320,7 @@ ___
 
 ▸ **getBaseEndpoint**(): *string*
 
-*Defined in [src/camino.ts:129](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L129)*
+*Defined in [src/camino.ts:137](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L137)*
 
 Returns the base endpoint for the Camino node.
 
@@ -327,11 +328,23 @@ Returns the base endpoint for the Camino node.
 
 ___
 
+###  getChains
+
+▸ **getChains**(): *[Chain](../interfaces/utils_networks.chain.md)[]*
+
+*Defined in [src/camino.ts:105](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L105)*
+
+Returns the network chains.
+
+**Returns:** *[Chain](../interfaces/utils_networks.chain.md)[]*
+
+___
+
 ###  getHRP
 
 ▸ **getHRP**(): *string*
 
-*Defined in [src/camino.ts:156](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L156)*
+*Defined in [src/camino.ts:164](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L164)*
 
 Returns the Human-Readable-Part of the network associated with this key.
 
@@ -345,7 +358,7 @@ ___
 
 ▸ **getHeaders**(): *object*
 
-*Defined in [src/camino.ts:139](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L139)*
+*Defined in [src/camino.ts:147](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L147)*
 
 Returns the custom headers
 
@@ -357,7 +370,7 @@ ___
 
 ▸ **getHost**(): *string*
 
-*Defined in [src/camino.ts:114](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L114)*
+*Defined in [src/camino.ts:122](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L122)*
 
 Returns the host for the Camino node.
 
@@ -369,7 +382,7 @@ ___
 
 ▸ **getIP**(): *string*
 
-*Defined in [src/camino.ts:119](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L119)*
+*Defined in [src/camino.ts:127](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L127)*
 
 Returns the IP for the Camino node.
 
@@ -381,7 +394,7 @@ ___
 
 ▸ **getNetwork**(): *[Network](../interfaces/utils_networks.network.md)*
 
-*Defined in [src/camino.ts:104](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L104)*
+*Defined in [src/camino.ts:100](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L100)*
 
 Returns the network configuration.
 
@@ -393,7 +406,7 @@ ___
 
 ▸ **getNetworkID**(): *number*
 
-*Defined in [src/camino.ts:149](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L149)*
+*Defined in [src/camino.ts:157](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L157)*
 
 Returns the networkID
 
@@ -405,7 +418,7 @@ ___
 
 ▸ **getPort**(): *number*
 
-*Defined in [src/camino.ts:124](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L124)*
+*Defined in [src/camino.ts:132](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L132)*
 
 Returns the port for the Camino node.
 
@@ -417,7 +430,7 @@ ___
 
 ▸ **getPrimaryAssetAlias**(): *string*
 
-*Defined in [src/camino.ts:243](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L243)*
+*Defined in [src/camino.ts:251](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L251)*
 
 Returns the primary asset alias.
 
@@ -429,7 +442,7 @@ ___
 
 ▸ **getProtocol**(): *string*
 
-*Defined in [src/camino.ts:109](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L109)*
+*Defined in [src/camino.ts:117](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L117)*
 
 Returns the protocol such as "http", "https", "git", "ws", etc.
 
@@ -441,7 +454,7 @@ ___
 
 ▸ **getRequestConfig**(): *AxiosRequestConfig*
 
-*Defined in [src/camino.ts:144](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L144)*
+*Defined in [src/camino.ts:152](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L152)*
 
 Returns the custom request config
 
@@ -453,7 +466,7 @@ ___
 
 ▸ **getURL**(): *string*
 
-*Defined in [src/camino.ts:134](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L134)*
+*Defined in [src/camino.ts:142](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L142)*
 
 Returns the URL of the Camino node (ip + port)
 
@@ -465,7 +478,7 @@ ___
 
 ▸ **patch**(`baseurl`: string, `getdata`: object, `postdata`: string | object | ArrayBuffer | ArrayBufferView, `headers`: object, `axiosConfig`: AxiosRequestConfig): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Defined in [src/camino.ts:457](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L457)*
+*Defined in [src/camino.ts:465](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L465)*
 
 Makes a PATCH call to an API.
 
@@ -489,7 +502,7 @@ ___
 
 ▸ **post**(`baseurl`: string, `getdata`: object, `postdata`: string | object | ArrayBuffer | ArrayBufferView, `headers`: object, `axiosConfig`: AxiosRequestConfig): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Defined in [src/camino.ts:400](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L400)*
+*Defined in [src/camino.ts:408](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L408)*
 
 Makes a POST call to an API.
 
@@ -513,7 +526,7 @@ ___
 
 ▸ **put**(`baseurl`: string, `getdata`: object, `postdata`: string | object | ArrayBuffer | ArrayBufferView, `headers`: object, `axiosConfig`: AxiosRequestConfig): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Defined in [src/camino.ts:428](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L428)*
+*Defined in [src/camino.ts:436](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L436)*
 
 Makes a PUT call to an API.
 
@@ -537,7 +550,7 @@ ___
 
 ▸ **removeAllHeaders**(): *void*
 
-*Defined in [src/camino.ts:180](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L180)*
+*Defined in [src/camino.ts:188](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L188)*
 
 Removes all headers.
 
@@ -549,7 +562,7 @@ ___
 
 ▸ **removeAllRequestConfigs**(): *void*
 
-*Defined in [src/camino.ts:210](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L210)*
+*Defined in [src/camino.ts:218](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L218)*
 
 Removes all request configs.
 
@@ -561,7 +574,7 @@ ___
 
 ▸ **removeHeader**(`key`: string): *void*
 
-*Defined in [src/camino.ts:173](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L173)*
+*Defined in [src/camino.ts:181](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L181)*
 
 Removes a previously added custom header.
 
@@ -579,7 +592,7 @@ ___
 
 ▸ **removeRequestConfig**(`key`: string): *void*
 
-*Defined in [src/camino.ts:203](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L203)*
+*Defined in [src/camino.ts:211](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L211)*
 
 Removes a previously added request config.
 
@@ -597,7 +610,7 @@ ___
 
 ▸ **setAuthToken**(`auth`: string): *void*
 
-*Defined in [src/camino.ts:223](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L223)*
+*Defined in [src/camino.ts:231](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L231)*
 
 Sets the temporary auth token used for communicating with the node.
 
@@ -615,7 +628,7 @@ ___
 
 ▸ **setHeader**(`key`: string, `value`: string): *void*
 
-*Defined in [src/camino.ts:164](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L164)*
+*Defined in [src/camino.ts:172](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L172)*
 
 Adds a new custom header to be included with all requests.
 
@@ -634,7 +647,7 @@ ___
 
 ▸ **setNetwork**(`host`: string, `port`: number, `protocol`: string, `networkID`: number, `baseEndpoint`: string): *void*
 
-*Defined in [src/camino.ts:53](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L53)*
+*Defined in [src/camino.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L53)*
 
 Sets the address and port of the main Camino Client.
 
@@ -656,7 +669,7 @@ ___
 
 ▸ **setRequestConfig**(`key`: string, `value`: string | boolean): *void*
 
-*Defined in [src/camino.ts:194](https://github.com/chain4travel/caminojs/blob/8077d740/src/camino.ts#L194)*
+*Defined in [src/camino.ts:202](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/camino.ts#L202)*
 
 Adds a new custom config value to be included with all requests.
 

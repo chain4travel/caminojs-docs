@@ -21,6 +21,7 @@ A class for storing predefined / fetched networks
 ### Methods
 
 * [getNetwork](utils_networks.networks.md#getnetwork)
+* [isPredefined](utils_networks.networks.md#ispredefined)
 * [registerNetwork](utils_networks.networks.md#registernetwork)
 
 ## Constructors
@@ -29,7 +30,7 @@ A class for storing predefined / fetched networks
 
 \+ **new Networks**(): *[Networks](utils_networks.networks.md)*
 
-*Defined in [src/utils/networks.ts:178](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L178)*
+*Defined in [src/utils/networks.ts:187](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L187)*
 
 **Returns:** *[Networks](utils_networks.networks.md)*
 
@@ -39,7 +40,7 @@ A class for storing predefined / fetched networks
 
 • **registry**: *Map‹string, [Network](../interfaces/utils_networks.network.md)›* = new Map()
 
-*Defined in [src/utils/networks.ts:178](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L178)*
+*Defined in [src/utils/networks.ts:187](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L187)*
 
 ## Methods
 
@@ -47,7 +48,7 @@ A class for storing predefined / fetched networks
 
 ▸ **getNetwork**(`networkID`: number): *[Network](../interfaces/utils_networks.network.md)*
 
-*Defined in [src/utils/networks.ts:189](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L189)*
+*Defined in [src/utils/networks.ts:198](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L198)*
 
 **Parameters:**
 
@@ -59,11 +60,27 @@ Name | Type |
 
 ___
 
+###  isPredefined
+
+▸ **isPredefined**(`networkID`: number): *boolean*
+
+*Defined in [src/utils/networks.ts:202](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L202)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`networkID` | number |
+
+**Returns:** *boolean*
+
+___
+
 ###  registerNetwork
 
 ▸ **registerNetwork**(`networkID`: number, `network`: [Network](../interfaces/utils_networks.network.md)): *void*
 
-*Defined in [src/utils/networks.ts:185](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L185)*
+*Defined in [src/utils/networks.ts:194](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L194)*
 
 **Parameters:**
 

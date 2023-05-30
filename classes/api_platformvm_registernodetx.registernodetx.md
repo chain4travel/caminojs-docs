@@ -19,6 +19,7 @@ Class representing an unsigned DepositTx transaction.
 ### Properties
 
 * [_codecID](api_platformvm_registernodetx.registernodetx.md#protected-_codecid)
+* [_outputOwners](api_platformvm_registernodetx.registernodetx.md#protected-_outputowners)
 * [_typeID](api_platformvm_registernodetx.registernodetx.md#protected-_typeid)
 * [_typeName](api_platformvm_registernodetx.registernodetx.md#protected-_typename)
 * [blockchainID](api_platformvm_registernodetx.registernodetx.md#protected-blockchainid)
@@ -44,11 +45,15 @@ Class representing an unsigned DepositTx transaction.
 * [fromBuffer](api_platformvm_registernodetx.registernodetx.md#frombuffer)
 * [getBlockchainID](api_platformvm_registernodetx.registernodetx.md#getblockchainid)
 * [getCodecID](api_platformvm_registernodetx.registernodetx.md#getcodecid)
+* [getConsortiumMemberAddress](api_platformvm_registernodetx.registernodetx.md#getconsortiummemberaddress)
 * [getConsortiumMemberAuth](api_platformvm_registernodetx.registernodetx.md#getconsortiummemberauth)
 * [getCredentialID](api_platformvm_registernodetx.registernodetx.md#getcredentialid)
 * [getIns](api_platformvm_registernodetx.registernodetx.md#getins)
 * [getMemo](api_platformvm_registernodetx.registernodetx.md#getmemo)
 * [getNetworkID](api_platformvm_registernodetx.registernodetx.md#getnetworkid)
+* [getNewNodeID](api_platformvm_registernodetx.registernodetx.md#getnewnodeid)
+* [getOldNodeID](api_platformvm_registernodetx.registernodetx.md#getoldnodeid)
+* [getOutputOwners](api_platformvm_registernodetx.registernodetx.md#getoutputowners)
 * [getOuts](api_platformvm_registernodetx.registernodetx.md#getouts)
 * [getSigIdxs](api_platformvm_registernodetx.registernodetx.md#getsigidxs)
 * [getTotalOuts](api_platformvm_registernodetx.registernodetx.md#gettotalouts)
@@ -58,6 +63,7 @@ Class representing an unsigned DepositTx transaction.
 * [sanitizeObject](api_platformvm_registernodetx.registernodetx.md#sanitizeobject)
 * [select](api_platformvm_registernodetx.registernodetx.md#select)
 * [serialize](api_platformvm_registernodetx.registernodetx.md#serialize)
+* [setOutputOwners](api_platformvm_registernodetx.registernodetx.md#setoutputowners)
 * [sign](api_platformvm_registernodetx.registernodetx.md#sign)
 * [toBuffer](api_platformvm_registernodetx.registernodetx.md#tobuffer)
 * [toString](api_platformvm_registernodetx.registernodetx.md#tostring)
@@ -67,11 +73,11 @@ Class representing an unsigned DepositTx transaction.
 
 ###  constructor
 
-\+ **new RegisterNodeTx**(`networkID`: number, `blockchainID`: Buffer, `outs`: [TransferableOutput](api_platformvm_outputs.transferableoutput.md)[], `ins`: [TransferableInput](api_platformvm_inputs.transferableinput.md)[], `memo`: Buffer, `oldNodeID`: string | Buffer, `newNodeID`: string | Buffer, `address`: Buffer): *[RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md)*
+\+ **new RegisterNodeTx**(`networkID`: number, `blockchainID`: Buffer, `outs`: [TransferableOutput](api_platformvm_outputs.transferableoutput.md)[], `ins`: [TransferableInput](api_platformvm_inputs.transferableinput.md)[], `memo`: Buffer, `oldNodeID`: Buffer, `newNodeID`: Buffer, `address`: Buffer): *[RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md)*
 
-*Overrides [BaseTx](api_platformvm_basetx.basetx.md).[constructor](api_platformvm_basetx.basetx.md#constructor)*
+*Overrides [UnlockDepositTx](api_platformvm_unlockdeposittx.unlockdeposittx.md).[constructor](api_platformvm_unlockdeposittx.unlockdeposittx.md#constructor)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:211](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L211)*
+*Defined in [src/apis/platformvm/registernodetx.ts:222](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L222)*
 
 Class representing an unsigned RegisterNode transaction.
 
@@ -84,8 +90,8 @@ Name | Type | Default | Description |
 `outs` | [TransferableOutput](api_platformvm_outputs.transferableoutput.md)[] | undefined | Optional array of the [TransferableOutput](api_evm_outputs.transferableoutput.md)s |
 `ins` | [TransferableInput](api_platformvm_inputs.transferableinput.md)[] | undefined | Optional array of the [TransferableInput](api_evm_inputs.transferableinput.md)s |
 `memo` | Buffer | undefined | Optional [Buffer](https://github.com/feross/buffer) for the memo field |
-`oldNodeID` | string &#124; Buffer | undefined | Optional ID of the existing NodeID to replace or remove. |
-`newNodeID` | string &#124; Buffer | undefined | Optional ID of the newNodID to register address. |
+`oldNodeID` | Buffer | undefined | Optional ID of the existing NodeID to replace or remove. |
+`newNodeID` | Buffer | undefined | Optional ID of the newNodID to register address. |
 `address` | Buffer | undefined | The consortiumMemberAddress, single or multi-sig.  |
 
 **Returns:** *[RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md)*
@@ -98,7 +104,17 @@ Name | Type | Default | Description |
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
+
+___
+
+### `Protected` _outputOwners
+
+• **_outputOwners**: *[OutputOwners](common_output.outputowners.md)[]* = undefined
+
+*Inherited from [ImportTx](api_platformvm_importtx.importtx.md).[_outputOwners](api_platformvm_importtx.importtx.md#protected-_outputowners)*
+
+*Defined in [src/apis/platformvm/basetx.ts:36](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/basetx.ts#L36)*
 
 ___
 
@@ -108,7 +124,7 @@ ___
 
 *Overrides [BaseTx](api_platformvm_basetx.basetx.md).[_typeID](api_platformvm_basetx.basetx.md#protected-_typeid)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L32)*
+*Defined in [src/apis/platformvm/registernodetx.ts:32](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L32)*
 
 ___
 
@@ -118,7 +134,7 @@ ___
 
 *Overrides [BaseTx](api_platformvm_basetx.basetx.md).[_typeName](api_platformvm_basetx.basetx.md#protected-_typename)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L31)*
+*Defined in [src/apis/platformvm/registernodetx.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L31)*
 
 ___
 
@@ -128,7 +144,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[blockchainID](common_transactions.standardbasetx.md#protected-blockchainid)*
 
-*Defined in [src/common/tx.ts:86](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L86)*
+*Defined in [src/common/tx.ts:86](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L86)*
 
 ___
 
@@ -136,7 +152,7 @@ ___
 
 • **consortiumMemberAddress**: *Buffer* = Buffer.alloc(20)
 
-*Defined in [src/apis/platformvm/registernodetx.ts:69](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L69)*
+*Defined in [src/apis/platformvm/registernodetx.ts:69](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L69)*
 
 ___
 
@@ -144,7 +160,7 @@ ___
 
 • **consortiumMemberAuth**: *[SubnetAuth](api_platformvm_subnetauth.subnetauth.md)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:67](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L67)*
+*Defined in [src/apis/platformvm/registernodetx.ts:67](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L67)*
 
 ___
 
@@ -154,7 +170,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[ins](common_transactions.standardbasetx.md#protected-ins)*
 
-*Defined in [src/common/tx.ts:90](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L90)*
+*Defined in [src/common/tx.ts:90](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L90)*
 
 ___
 
@@ -164,7 +180,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[memo](common_transactions.standardbasetx.md#protected-memo)*
 
-*Defined in [src/common/tx.ts:91](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L91)*
+*Defined in [src/common/tx.ts:91](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L91)*
 
 ___
 
@@ -174,7 +190,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[networkID](common_transactions.standardbasetx.md#protected-networkid)*
 
-*Defined in [src/common/tx.ts:85](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L85)*
+*Defined in [src/common/tx.ts:85](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L85)*
 
 ___
 
@@ -182,7 +198,7 @@ ___
 
 • **newNodeID**: *Buffer* = Buffer.alloc(20)
 
-*Defined in [src/apis/platformvm/registernodetx.ts:64](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L64)*
+*Defined in [src/apis/platformvm/registernodetx.ts:64](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L64)*
 
 ___
 
@@ -192,7 +208,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[numins](common_transactions.standardbasetx.md#protected-numins)*
 
-*Defined in [src/common/tx.ts:89](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L89)*
+*Defined in [src/common/tx.ts:89](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L89)*
 
 ___
 
@@ -202,7 +218,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[numouts](common_transactions.standardbasetx.md#protected-numouts)*
 
-*Defined in [src/common/tx.ts:87](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L87)*
+*Defined in [src/common/tx.ts:87](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L87)*
 
 ___
 
@@ -210,7 +226,7 @@ ___
 
 • **oldNodeID**: *Buffer* = Buffer.alloc(20)
 
-*Defined in [src/apis/platformvm/registernodetx.ts:62](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L62)*
+*Defined in [src/apis/platformvm/registernodetx.ts:62](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L62)*
 
 ___
 
@@ -220,7 +236,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[outs](common_transactions.standardbasetx.md#protected-outs)*
 
-*Defined in [src/common/tx.ts:88](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L88)*
+*Defined in [src/common/tx.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L88)*
 
 ___
 
@@ -228,7 +244,7 @@ ___
 
 • **sigCount**: *Buffer* = Buffer.alloc(4)
 
-*Defined in [src/apis/platformvm/registernodetx.ts:71](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L71)*
+*Defined in [src/apis/platformvm/registernodetx.ts:71](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L71)*
 
 ___
 
@@ -236,7 +252,7 @@ ___
 
 • **sigIdxs**: *[SigIdx](common_signature.sigidx.md)[]* = []
 
-*Defined in [src/apis/platformvm/registernodetx.ts:72](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L72)*
+*Defined in [src/apis/platformvm/registernodetx.ts:72](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L72)*
 
 ## Methods
 
@@ -244,7 +260,7 @@ ___
 
 ▸ **addSignatureIdx**(`addressIdx`: number, `address`: Buffer): *void*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:151](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L151)*
+*Defined in [src/apis/platformvm/registernodetx.ts:162](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L162)*
 
 Creates and adds a [SigIdx](common_signature.sigidx.md) to the [[AddRegisterNodeTx]].
 
@@ -263,9 +279,9 @@ ___
 
 ▸ **clone**(): *this*
 
-*Overrides [ValidatorTx](api_platformvm_validationtx.validatortx.md).[clone](api_platformvm_validationtx.validatortx.md#clone)*
+*Overrides [CreateSubnetTx](api_platformvm_createsubnettx.createsubnettx.md).[clone](api_platformvm_createsubnettx.createsubnettx.md#clone)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:135](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L135)*
+*Defined in [src/apis/platformvm/registernodetx.ts:146](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L146)*
 
 **Returns:** *this*
 
@@ -275,9 +291,9 @@ ___
 
 ▸ **create**(...`args`: any[]): *this*
 
-*Overrides [ValidatorTx](api_platformvm_validationtx.validatortx.md).[create](api_platformvm_validationtx.validatortx.md#create)*
+*Overrides [CreateSubnetTx](api_platformvm_createsubnettx.createsubnettx.md).[create](api_platformvm_createsubnettx.createsubnettx.md#create)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:141](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L141)*
+*Defined in [src/apis/platformvm/registernodetx.ts:152](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L152)*
 
 **Parameters:**
 
@@ -293,9 +309,9 @@ ___
 
 ▸ **deserialize**(`fields`: object, `encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *void*
 
-*Overrides [BaseTx](api_platformvm_basetx.basetx.md).[deserialize](api_platformvm_basetx.basetx.md#deserialize)*
+*Overrides [UnlockDepositTx](api_platformvm_unlockdeposittx.unlockdeposittx.md).[deserialize](api_platformvm_unlockdeposittx.unlockdeposittx.md#deserialize)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L48)*
+*Defined in [src/apis/platformvm/registernodetx.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L48)*
 
 **Parameters:**
 
@@ -312,9 +328,9 @@ ___
 
 ▸ **fromBuffer**(`bytes`: Buffer, `offset`: number): *number*
 
-*Overrides [BaseTx](api_platformvm_basetx.basetx.md).[fromBuffer](api_platformvm_basetx.basetx.md#frombuffer)*
+*Overrides [UnlockDepositTx](api_platformvm_unlockdeposittx.unlockdeposittx.md).[fromBuffer](api_platformvm_unlockdeposittx.unlockdeposittx.md#frombuffer)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:97](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L97)*
+*Defined in [src/apis/platformvm/registernodetx.ts:108](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L108)*
 
 Takes a [Buffer](https://github.com/feross/buffer) containing a [RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md), parses it, populates the class, and returns the length of the [RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md) in bytes.
 
@@ -339,7 +355,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[getBlockchainID](common_transactions.standardbasetx.md#getblockchainid)*
 
-*Defined in [src/common/tx.ts:108](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L108)*
+*Defined in [src/common/tx.ts:108](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L108)*
 
 Returns the Buffer representation of the BlockchainID
 
@@ -353,7 +369,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -361,11 +377,21 @@ Used in serialization. Optional. TypeID is a number for the typeID of object bei
 
 ___
 
+###  getConsortiumMemberAddress
+
+▸ **getConsortiumMemberAddress**(): *Buffer*
+
+*Defined in [src/apis/platformvm/registernodetx.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L88)*
+
+**Returns:** *Buffer*
+
+___
+
 ###  getConsortiumMemberAuth
 
 ▸ **getConsortiumMemberAuth**(): *[SubnetAuth](api_platformvm_subnetauth.subnetauth.md)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:84](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L84)*
+*Defined in [src/apis/platformvm/registernodetx.ts:95](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L95)*
 
 Returns the subnetAuth
 
@@ -377,7 +403,7 @@ ___
 
 ▸ **getCredentialID**(): *number*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:172](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L172)*
+*Defined in [src/apis/platformvm/registernodetx.ts:183](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L183)*
 
 **Returns:** *number*
 
@@ -391,7 +417,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[getIns](common_transactions.standardbasetx.md#abstract-getins)*
 
-*Defined in [src/apis/platformvm/basetx.ts:52](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/basetx.ts#L52)*
+*Defined in [src/apis/platformvm/basetx.ts:60](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/basetx.ts#L60)*
 
 **Returns:** *[TransferableInput](api_platformvm_inputs.transferableinput.md)[]*
 
@@ -403,7 +429,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[getMemo](common_transactions.standardbasetx.md#getmemo)*
 
-*Defined in [src/common/tx.ts:130](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L130)*
+*Defined in [src/common/tx.ts:130](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L130)*
 
 Returns the [Buffer](https://github.com/feross/buffer) representation of the memo
 
@@ -417,11 +443,45 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[getNetworkID](common_transactions.standardbasetx.md#getnetworkid)*
 
-*Defined in [src/common/tx.ts:101](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L101)*
+*Defined in [src/common/tx.ts:101](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L101)*
 
 Returns the NetworkID as a number
 
 **Returns:** *number*
+
+___
+
+###  getNewNodeID
+
+▸ **getNewNodeID**(): *Buffer*
+
+*Defined in [src/apis/platformvm/registernodetx.ts:85](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L85)*
+
+**Returns:** *Buffer*
+
+___
+
+###  getOldNodeID
+
+▸ **getOldNodeID**(): *Buffer*
+
+*Defined in [src/apis/platformvm/registernodetx.ts:81](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L81)*
+
+**Returns:** *Buffer*
+
+___
+
+###  getOutputOwners
+
+▸ **getOutputOwners**(): *[OutputOwners](common_output.outputowners.md)[]*
+
+*Inherited from [ImportTx](api_platformvm_importtx.importtx.md).[getOutputOwners](api_platformvm_importtx.importtx.md#getoutputowners)*
+
+*Defined in [src/apis/platformvm/basetx.ts:78](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/basetx.ts#L78)*
+
+**Returns:** *[OutputOwners](common_output.outputowners.md)[]*
+
+The outputOwners of inputs, one per input
 
 ___
 
@@ -433,7 +493,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[getOuts](common_transactions.standardbasetx.md#abstract-getouts)*
 
-*Defined in [src/apis/platformvm/basetx.ts:48](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/basetx.ts#L48)*
+*Defined in [src/apis/platformvm/basetx.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/basetx.ts#L56)*
 
 **Returns:** *[TransferableOutput](api_platformvm_outputs.transferableoutput.md)[]*
 
@@ -443,9 +503,9 @@ ___
 
 ▸ **getSigIdxs**(): *[SigIdx](common_signature.sigidx.md)[]*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:168](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L168)*
+*Defined in [src/apis/platformvm/registernodetx.ts:179](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L179)*
 
-Returns the array of [SigIdx](common_signature.sigidx.md) for this [Input](common_inputs.input.md)
+Returns the array of [SigIdx](common_signature.sigidx.md) for this [[TX]]
 
 **Returns:** *[SigIdx](common_signature.sigidx.md)[]*
 
@@ -459,7 +519,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[getTotalOuts](common_transactions.standardbasetx.md#abstract-gettotalouts)*
 
-*Defined in [src/apis/platformvm/basetx.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/basetx.ts#L56)*
+*Defined in [src/apis/platformvm/basetx.ts:64](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/basetx.ts#L64)*
 
 **Returns:** *[TransferableOutput](api_platformvm_outputs.transferableoutput.md)[]*
 
@@ -471,7 +531,7 @@ ___
 
 *Overrides [ValidatorTx](api_platformvm_validationtx.validatortx.md).[getTxType](api_platformvm_validationtx.validatortx.md#gettxtype)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L77)*
+*Defined in [src/apis/platformvm/registernodetx.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L77)*
 
 Returns the id of the [RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md)
 
@@ -485,7 +545,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -499,7 +559,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -513,7 +573,7 @@ ___
 
 *Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -535,7 +595,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[select](common_transactions.standardbasetx.md#abstract-select)*
 
-*Defined in [src/apis/platformvm/basetx.ts:146](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/basetx.ts#L146)*
+*Defined in [src/apis/platformvm/basetx.ts:171](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/basetx.ts#L171)*
 
 **Parameters:**
 
@@ -554,7 +614,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[serialize](common_transactions.standardbasetx.md#serialize)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:34](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L34)*
+*Defined in [src/apis/platformvm/registernodetx.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L34)*
 
 **Parameters:**
 
@@ -566,13 +626,33 @@ Name | Type | Default |
 
 ___
 
+###  setOutputOwners
+
+▸ **setOutputOwners**(`owners`: [OutputOwners](common_output.outputowners.md)[]): *void*
+
+*Inherited from [ImportTx](api_platformvm_importtx.importtx.md).[setOutputOwners](api_platformvm_importtx.importtx.md#setoutputowners)*
+
+*Defined in [src/apis/platformvm/basetx.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/basetx.ts#L88)*
+
+**`params`** The outputOwners of inputs, one per input
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`owners` | [OutputOwners](common_output.outputowners.md)[] |
+
+**Returns:** *void*
+
+___
+
 ###  sign
 
 ▸ **sign**(`msg`: Buffer, `kc`: [KeyChain](api_platformvm_keychain.keychain.md)): *[Credential](common_signature.credential.md)[]*
 
-*Overrides [ExportTx](api_platformvm_exporttx.exporttx.md).[sign](api_platformvm_exporttx.exporttx.md#sign)*
+*Overrides [CreateSubnetTx](api_platformvm_createsubnettx.createsubnettx.md).[sign](api_platformvm_createsubnettx.createsubnettx.md#sign)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:184](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L184)*
+*Defined in [src/apis/platformvm/registernodetx.ts:195](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L195)*
 
 Takes the bytes of an [UnsignedTx](api_evm_transactions.unsignedtx.md) and returns an array of [Credential](common_signature.credential.md)s
 
@@ -595,7 +675,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[toBuffer](common_transactions.standardbasetx.md#tobuffer)*
 
-*Defined in [src/apis/platformvm/registernodetx.ts:118](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/registernodetx.ts#L118)*
+*Defined in [src/apis/platformvm/registernodetx.ts:129](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/registernodetx.ts#L129)*
 
 Returns a [Buffer](https://github.com/feross/buffer) representation of the [RegisterNodeTx](api_platformvm_registernodetx.registernodetx.md).
 
@@ -609,7 +689,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[toString](common_transactions.standardbasetx.md#tostring)*
 
-*Defined in [src/common/tx.ts:170](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L170)*
+*Defined in [src/common/tx.ts:170](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L170)*
 
 Returns a base-58 representation of the [StandardBaseTx](common_transactions.standardbasetx.md).
 
@@ -623,6 +703,6 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[toStringHex](common_transactions.standardbasetx.md#tostringhex)*
 
-*Defined in [src/common/tx.ts:174](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/tx.ts#L174)*
+*Defined in [src/common/tx.ts:174](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/tx.ts#L174)*
 
 **Returns:** *string*

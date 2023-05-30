@@ -19,7 +19,7 @@
 
 • **height**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L37)*
+*Defined in [src/apis/platformvm/interfaces.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L39)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **subnetID**? : *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:38](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L38)*
+*Defined in [src/apis/platformvm/interfaces.ts:40](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L40)*

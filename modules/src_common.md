@@ -24,6 +24,8 @@
 * [Input](src_common.md#input)
 * [IssueTxParams](src_common.md#issuetxparams)
 * [JRPCAPI](src_common.md#jrpcapi)
+* [MultisigKeyChain](src_common.md#multisigkeychain)
+* [MultisigKeyPair](src_common.md#multisigkeypair)
 * [NBytes](src_common.md#nbytes)
 * [Output](src_common.md#output)
 * [OutputOwners](src_common.md#outputowners)
@@ -31,9 +33,13 @@
 * [RequestResponseData](src_common.md#requestresponsedata)
 * [SECP256k1KeyChain](src_common.md#secp256k1keychain)
 * [SECP256k1KeyPair](src_common.md#secp256k1keypair)
+* [SECPMultisigCredential](src_common.md#secpmultisigcredential)
 * [Serialized](src_common.md#serialized)
 * [SigIdx](src_common.md#sigidx)
 * [Signature](src_common.md#signature)
+* [SignatureError](src_common.md#signatureerror)
+* [SignerKeyChain](src_common.md#signerkeychain)
+* [SignerKeyPair](src_common.md#signerkeypair)
 * [StakedOuts](src_common.md#stakedouts)
 * [StandardAmountInput](src_common.md#standardamountinput)
 * [StandardAmountOutput](src_common.md#standardamountoutput)
@@ -51,6 +57,11 @@
 * [StandardUnsignedTx](src_common.md#standardunsignedtx)
 * [UTXOResponse](src_common.md#utxoresponse)
 * [WordLists](src_common.md#wordlists)
+* [ZeroBN](src_common.md#zerobn)
+
+### Variables
+
+* [ZeroBN](src_common.md#const-zerobn)
 
 ## References
 
@@ -162,6 +173,18 @@ ___
 
 ___
 
+###  MultisigKeyChain
+
+• **MultisigKeyChain**:
+
+___
+
+###  MultisigKeyPair
+
+• **MultisigKeyPair**:
+
+___
+
 ###  NBytes
 
 • **NBytes**:
@@ -204,6 +227,12 @@ ___
 
 ___
 
+###  SECPMultisigCredential
+
+• **SECPMultisigCredential**:
+
+___
+
 ###  Serialized
 
 • **Serialized**:
@@ -219,6 +248,24 @@ ___
 ###  Signature
 
 • **Signature**:
+
+___
+
+###  SignatureError
+
+• **SignatureError**:
+
+___
+
+###  SignerKeyChain
+
+• **SignerKeyChain**:
+
+___
+
+###  SignerKeyPair
+
+• **SignerKeyPair**:
 
 ___
 
@@ -321,3 +368,17 @@ ___
 ###  WordLists
 
 • **WordLists**:
+
+___
+
+###  ZeroBN
+
+• **ZeroBN**:
+
+## Variables
+
+### `Const` ZeroBN
+
+• **ZeroBN**: *BN‹›* = new BN(0)
+
+*Defined in [src/common/utils.ts:3](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/utils.ts#L3)*

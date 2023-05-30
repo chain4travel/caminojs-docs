@@ -19,7 +19,7 @@
 
 • **displayLevel**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L26)*
+*Defined in [src/apis/admin/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/admin/interfaces.ts#L26)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **logLevel**: *string*
 
-*Defined in [src/apis/admin/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/admin/interfaces.ts#L25)*
+*Defined in [src/apis/admin/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/admin/interfaces.ts#L25)*

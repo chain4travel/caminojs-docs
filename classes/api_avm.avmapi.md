@@ -97,7 +97,7 @@ Class for interacting with a node endpoint that is using the AVM.
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
-*Defined in [src/apis/avm/api.ts:2056](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L2056)*
+*Defined in [src/apis/avm/api.ts:2056](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L2056)*
 
 This class should not be instantiated directly. Instead use the [[Camino.addAP`${I}`]] method.
 
@@ -117,7 +117,7 @@ Name | Type | Default | Description |
 
 • **AVAXAssetID**: *Buffer* = undefined
 
-*Defined in [src/apis/avm/api.ts:89](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L89)*
+*Defined in [src/apis/avm/api.ts:89](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L89)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[baseURL](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L29)*
+*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L29)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 • **blockchainAlias**: *string* = undefined
 
-*Defined in [src/apis/avm/api.ts:87](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L87)*
+*Defined in [src/apis/avm/api.ts:87](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L87)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 • **blockchainID**: *string* = undefined
 
-*Defined in [src/apis/avm/api.ts:88](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L88)*
+*Defined in [src/apis/avm/api.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L88)*
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L28)*
+*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L28)*
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 • **creationTxFee**: *BN* = undefined
 
-*Defined in [src/apis/avm/api.ts:91](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L91)*
+*Defined in [src/apis/avm/api.ts:91](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L91)*
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[db](common_apibase.apibase.md#protected-db)*
 
-*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L30)*
+*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L30)*
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 *Inherited from [EVMAPI](api_evm.evmapi.md).[jrpcVersion](api_evm.evmapi.md#protected-jrpcversion)*
 
-*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L13)*
+*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L12)*
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 • **mintTxFee**: *BN* = undefined
 
-*Defined in [src/apis/avm/api.ts:92](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L92)*
+*Defined in [src/apis/avm/api.ts:92](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L92)*
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 *Inherited from [EVMAPI](api_evm.evmapi.md).[rpcID](api_evm.evmapi.md#protected-rpcid)*
 
-*Defined in [src/common/jrpcapi.ts:14](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L14)*
+*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L13)*
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 • **txFee**: *BN* = undefined
 
-*Defined in [src/apis/avm/api.ts:90](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L90)*
+*Defined in [src/apis/avm/api.ts:90](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L90)*
 
 ## Methods
 
@@ -215,7 +215,7 @@ ___
 
 ▸ **addressFromBuffer**(`address`: Buffer): *string*
 
-*Defined in [src/apis/avm/api.ts:129](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L129)*
+*Defined in [src/apis/avm/api.ts:129](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L129)*
 
 **Parameters:**
 
@@ -231,7 +231,7 @@ ___
 
 ▸ **buildBaseTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `amount`: BN, `assetID`: Buffer | string, `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `toThreshold`: number, `changeThreshold`: number): *Promise‹[UnsignedTx](api_avm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/avm/api.ts:1028](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1028)*
+*Defined in [src/apis/avm/api.ts:1028](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1028)*
 
 Helper function which creates an unsigned transaction. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -265,7 +265,7 @@ ___
 
 ▸ **buildCreateAssetTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `initialStates`: [InitialStates](api_avm_initialstates.initialstates.md), `name`: string, `symbol`: string, `denomination`: number, `mintOutputs`: [SECPMintOutput](api_avm_outputs.secpmintoutput.md)[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `changeThreshold`: number): *Promise‹[UnsignedTx](api_avm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/avm/api.ts:1419](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1419)*
+*Defined in [src/apis/avm/api.ts:1419](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1419)*
 
 Creates an unsigned transaction. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -296,7 +296,7 @@ ___
 
 ▸ **buildCreateNFTAssetTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `fromAddresses`: string[], `changeAddresses`: string[], `minterSets`: [MinterSet](api_avm_minterset.minterset.md)[], `name`: string, `symbol`: string, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN): *Promise‹[UnsignedTx](api_avm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/avm/api.ts:1594](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1594)*
+*Defined in [src/apis/avm/api.ts:1594](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1594)*
 
 Creates an unsigned transaction. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -325,7 +325,7 @@ ___
 
 ▸ **buildCreateNFTMintTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `owners`: [OutputOwners](common_output.outputowners.md)[] | [OutputOwners](common_output.outputowners.md), `fromAddresses`: string[], `changeAddresses`: string[], `utxoid`: string | string[], `groupID`: number, `payload`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN): *Promise‹any›*
 
-*Defined in [src/apis/avm/api.ts:1677](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1677)*
+*Defined in [src/apis/avm/api.ts:1677](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1677)*
 
 Creates an unsigned transaction. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -354,7 +354,7 @@ ___
 
 ▸ **buildExportTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `amount`: BN, `destinationChain`: Buffer | string, `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `toThreshold`: number, `changeThreshold`: number, `assetID`: string): *Promise‹[UnsignedTx](api_avm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/avm/api.ts:1302](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1302)*
+*Defined in [src/apis/avm/api.ts:1302](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1302)*
 
 Helper function which creates an unsigned Export Tx. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -386,7 +386,7 @@ ___
 
 ▸ **buildGenesis**(`genesisData`: object): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:2007](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L2007)*
+*Defined in [src/apis/avm/api.ts:2007](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L2007)*
 
 Given a JSON representation of this Virtual Machine’s genesis state, create the byte representation of that state.
 
@@ -406,7 +406,7 @@ ___
 
 ▸ **buildImportTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `ownerAddresses`: string[], `sourceChain`: Buffer | string, `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `toThreshold`: number, `changeThreshold`: number): *Promise‹[UnsignedTx](api_avm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/avm/api.ts:1195](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1195)*
+*Defined in [src/apis/avm/api.ts:1195](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1195)*
 
 Helper function which creates an unsigned Import Tx. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -440,7 +440,7 @@ ___
 
 ▸ **buildNFTTransferTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `toAddresses`: string[], `fromAddresses`: string[], `changeAddresses`: string[], `utxoid`: string | string[], `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `locktime`: BN, `toThreshold`: number, `changeThreshold`: number): *Promise‹[UnsignedTx](api_avm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/avm/api.ts:1112](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1112)*
+*Defined in [src/apis/avm/api.ts:1112](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1112)*
 
 Helper function which creates an unsigned NFT Transfer. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -473,7 +473,7 @@ ___
 
 ▸ **buildSECPMintTx**(`utxoset`: [UTXOSet](api_avm_utxos.utxoset.md), `mintOwner`: [SECPMintOutput](api_avm_outputs.secpmintoutput.md), `transferOwner`: [SECPTransferOutput](api_avm_outputs.secptransferoutput.md), `fromAddresses`: string[], `changeAddresses`: string[], `mintUTXOID`: string, `memo`: [PayloadBase](utils_payload.payloadbase.md) | Buffer, `asOf`: BN, `changeThreshold`: number): *Promise‹any›*
 
-*Defined in [src/apis/avm/api.ts:1505](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1505)*
+*Defined in [src/apis/avm/api.ts:1505](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1505)*
 
 Creates an unsigned Secp mint transaction. For more granular control, you may create your own
 [OperationTx](api_avm_operationtx.operationtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s, and [[TransferOperation]]s).
@@ -504,7 +504,7 @@ ___
 
 *Inherited from [EVMAPI](api_evm.evmapi.md).[callMethod](api_evm.evmapi.md#callmethod)*
 
-*Defined in [src/common/jrpcapi.ts:16](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L16)*
+*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L15)*
 
 **Parameters:**
 
@@ -523,7 +523,7 @@ ___
 
 ▸ **checkGooseEgg**(`utx`: [UnsignedTx](api_avm_transactions.unsignedtx.md), `outTotal`: BN): *Promise‹boolean›*
 
-*Defined in [src/apis/avm/api.ts:290](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L290)*
+*Defined in [src/apis/avm/api.ts:290](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L290)*
 
 Helper function which determines if a tx is a goose egg transaction.
 
@@ -547,7 +547,7 @@ ___
 
 ▸ **createAddress**(`username`: string, `password`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:346](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L346)*
+*Defined in [src/apis/avm/api.ts:346](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L346)*
 
 Creates an address (and associated private keys) on a user on a blockchain.
 
@@ -568,7 +568,7 @@ ___
 
 ▸ **createFixedCapAsset**(`username`: string, `password`: string, `name`: string, `symbol`: string, `denomination`: number, `initialHolders`: object[]): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:387](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L387)*
+*Defined in [src/apis/avm/api.ts:387](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L387)*
 
 Create a new fixed-cap, fungible asset. A quantity of it is created at initialization and there no more is ever created.
 
@@ -593,7 +593,7 @@ ___
 
 ▸ **createNFTAsset**(`username`: string, `password`: string, `from`: string[] | Buffer[], `changeAddr`: string, `name`: string, `symbol`: string, `minterSet`: [IMinterSet](../interfaces/avm_interfaces.iminterset.md)): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:478](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L478)*
+*Defined in [src/apis/avm/api.ts:478](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L478)*
 
 Creates a family of NFT Asset. No units of the asset exist at initialization. Minters can mint units of this asset using createMintTx, signMintTx and sendMintTx.
 
@@ -619,7 +619,7 @@ ___
 
 ▸ **createVariableCapAsset**(`username`: string, `password`: string, `name`: string, `symbol`: string, `denomination`: number, `minterSets`: object[]): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:442](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L442)*
+*Defined in [src/apis/avm/api.ts:442](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L442)*
 
 Create a new variable-cap, fungible asset. No units of the asset exist at initialization. Minters can mint units of this asset using createMintTx, signMintTx and sendMintTx.
 
@@ -644,7 +644,7 @@ ___
 
 ▸ **export**(`username`: string, `password`: string, `to`: string, `amount`: BN, `assetID`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:762](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L762)*
+*Defined in [src/apis/avm/api.ts:762](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L762)*
 
 Send ANT (Camino Native Token) assets including AVAX from the X-Chain to an account on the P-Chain or C-Chain.
 
@@ -670,7 +670,7 @@ ___
 
 ▸ **exportKey**(`username`: string, `password`: string, `address`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:702](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L702)*
+*Defined in [src/apis/avm/api.ts:702](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L702)*
 
 Exports the private key for an address.
 
@@ -692,7 +692,7 @@ ___
 
 ▸ **getAVAXAssetID**(`refresh`: boolean): *Promise‹Buffer›*
 
-*Defined in [src/apis/avm/api.ts:145](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L145)*
+*Defined in [src/apis/avm/api.ts:145](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L145)*
 
 Fetches the AVAX AssetID and returns it in a Promise.
 
@@ -712,7 +712,7 @@ ___
 
 ▸ **getAddressTxs**(`address`: string, `cursor`: number, `pageSize`: number | undefined, `assetID`: string | Buffer): *Promise‹[GetAddressTxsResponse](../interfaces/avm_interfaces.getaddresstxsresponse.md)›*
 
-*Defined in [src/apis/avm/api.ts:1794](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1794)*
+*Defined in [src/apis/avm/api.ts:1794](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1794)*
 
 Calls the node's getAddressTxs method from the API and returns transactions corresponding to the provided address and assetID
 
@@ -735,7 +735,7 @@ ___
 
 ▸ **getAllBalances**(`address`: string): *Promise‹object[]›*
 
-*Defined in [src/apis/avm/api.ts:845](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L845)*
+*Defined in [src/apis/avm/api.ts:845](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L845)*
 
 Retrieves all assets for an address on a server and their associated balances.
 
@@ -755,7 +755,7 @@ ___
 
 ▸ **getAssetDescription**(`assetID`: Buffer | string): *Promise‹[GetAssetDescriptionResponse](../interfaces/avm_interfaces.getassetdescriptionresponse.md)›*
 
-*Defined in [src/apis/avm/api.ts:869](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L869)*
+*Defined in [src/apis/avm/api.ts:869](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L869)*
 
 Retrieves an assets name and symbol.
 
@@ -775,7 +775,7 @@ ___
 
 ▸ **getBalance**(`address`: string, `assetID`: string, `includePartial`: boolean): *Promise‹[GetBalanceResponse](../interfaces/avm_interfaces.getbalanceresponse.md)›*
 
-*Defined in [src/apis/avm/api.ts:315](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L315)*
+*Defined in [src/apis/avm/api.ts:315](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L315)*
 
 Gets the balance of a particular asset on a blockchain.
 
@@ -799,7 +799,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L53)*
+*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L53)*
 
 Returns the baseURL's path.
 
@@ -811,7 +811,7 @@ ___
 
 ▸ **getBlockchainAlias**(): *string*
 
-*Defined in [src/apis/avm/api.ts:99](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L99)*
+*Defined in [src/apis/avm/api.ts:99](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L99)*
 
 Gets the alias for the blockchainID if it exists, otherwise returns `undefined`.
 
@@ -825,7 +825,7 @@ ___
 
 ▸ **getBlockchainID**(): *string*
 
-*Defined in [src/apis/avm/api.ts:111](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L111)*
+*Defined in [src/apis/avm/api.ts:111](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L111)*
 
 Gets the blockchainID and returns it.
 
@@ -839,7 +839,7 @@ ___
 
 ▸ **getCreationTxFee**(): *BN*
 
-*Defined in [src/apis/avm/api.ts:234](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L234)*
+*Defined in [src/apis/avm/api.ts:234](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L234)*
 
 Gets the creation fee for this chain.
 
@@ -855,7 +855,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L58)*
+*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L58)*
 
 Returns the baseURL's database.
 
@@ -867,7 +867,7 @@ ___
 
 ▸ **getDefaultCreationTxFee**(): *BN*
 
-*Defined in [src/apis/avm/api.ts:204](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L204)*
+*Defined in [src/apis/avm/api.ts:204](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L204)*
 
 Gets the default creation fee for this chain.
 
@@ -881,7 +881,7 @@ ___
 
 ▸ **getDefaultMintTxFee**(): *BN*
 
-*Defined in [src/apis/avm/api.ts:213](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L213)*
+*Defined in [src/apis/avm/api.ts:213](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L213)*
 
 Gets the default mint fee for this chain.
 
@@ -895,7 +895,7 @@ ___
 
 ▸ **getDefaultTxFee**(): *BN*
 
-*Defined in [src/apis/avm/api.ts:174](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L174)*
+*Defined in [src/apis/avm/api.ts:174](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L174)*
 
 Gets the default tx fee for this chain.
 
@@ -909,7 +909,7 @@ ___
 
 ▸ **getMintTxFee**(): *BN*
 
-*Defined in [src/apis/avm/api.ts:222](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L222)*
+*Defined in [src/apis/avm/api.ts:222](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L222)*
 
 Gets the mint fee for this chain.
 
@@ -925,7 +925,7 @@ ___
 
 *Inherited from [EVMAPI](api_evm.evmapi.md).[getRPCID](api_evm.evmapi.md#getrpcid)*
 
-*Defined in [src/common/jrpcapi.ts:79](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/jrpcapi.ts#L79)*
+*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L77)*
 
 Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
 request ID that will be sent.
@@ -938,7 +938,7 @@ ___
 
 ▸ **getTx**(`txID`: string, `encoding`: string): *Promise‹string | object›*
 
-*Defined in [src/apis/avm/api.ts:901](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L901)*
+*Defined in [src/apis/avm/api.ts:901](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L901)*
 
 Returns the transaction data of a provided transaction ID by calling the node's `getTx` method.
 
@@ -959,7 +959,7 @@ ___
 
 ▸ **getTxFee**(): *BN*
 
-*Defined in [src/apis/avm/api.ts:183](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L183)*
+*Defined in [src/apis/avm/api.ts:183](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L183)*
 
 Gets the tx fee for this chain.
 
@@ -973,7 +973,7 @@ ___
 
 ▸ **getTxStatus**(`txID`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:923](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L923)*
+*Defined in [src/apis/avm/api.ts:923](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L923)*
 
 Returns the status of a provided transaction ID by calling the node's `getTxStatus` method.
 
@@ -993,7 +993,7 @@ ___
 
 ▸ **getUTXOs**(`addresses`: string[] | string, `sourceChain`: string, `limit`: number, `startIndex`: object, `persistOpts`: [PersistanceOptions](utils_persistanceoptions.persistanceoptions.md), `encoding`: string): *Promise‹[GetUTXOsResponse](../interfaces/avm_interfaces.getutxosresponse.md)›*
 
-*Defined in [src/apis/avm/api.ts:949](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L949)*
+*Defined in [src/apis/avm/api.ts:949](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L949)*
 
 Retrieves the UTXOs related to the addresses provided from the node's `getUTXOs` method.
 
@@ -1039,7 +1039,7 @@ ___
 
 ▸ **import**(`username`: string, `password`: string, `to`: string, `sourceChain`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:796](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L796)*
+*Defined in [src/apis/avm/api.ts:796](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L796)*
 
 Send ANT (Camino Native Token) assets including AVAX from an account on the P-Chain or C-Chain to an address on the X-Chain. This transaction
 must be signed with the key of the account that the asset is sent from and which pays
@@ -1065,7 +1065,7 @@ ___
 
 ▸ **importKey**(`username`: string, `password`: string, `privateKey`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:732](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L732)*
+*Defined in [src/apis/avm/api.ts:732](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L732)*
 
 Imports a private key into the node's keystore under an user and for a blockchain.
 
@@ -1087,7 +1087,7 @@ ___
 
 ▸ **issueTx**(`tx`: string | Buffer | [Tx](api_avm_transactions.tx.md)): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:1757](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1757)*
+*Defined in [src/apis/avm/api.ts:1757](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1757)*
 
 Calls the node's issueTx method from the API and returns the resulting transaction ID as a string.
 
@@ -1107,7 +1107,7 @@ ___
 
 ▸ **keyChain**(): *[KeyChain](api_avm_keychain.keychain.md)*
 
-*Defined in [src/apis/avm/api.ts:264](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L264)*
+*Defined in [src/apis/avm/api.ts:264](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L264)*
 
 Gets a reference to the keychain for this class.
 
@@ -1121,7 +1121,7 @@ ___
 
 ▸ **listAddresses**(`username`: string, `password`: string): *Promise‹string[]›*
 
-*Defined in [src/apis/avm/api.ts:823](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L823)*
+*Defined in [src/apis/avm/api.ts:823](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L823)*
 
 Lists all the addresses under a user.
 
@@ -1142,7 +1142,7 @@ ___
 
 ▸ **mint**(`username`: string, `password`: string, `amount`: number | BN, `assetID`: Buffer | string, `to`: string, `minters`: string[]): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:528](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L528)*
+*Defined in [src/apis/avm/api.ts:528](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L528)*
 
 Create an unsigned transaction to mint more of an asset.
 
@@ -1167,7 +1167,7 @@ ___
 
 ▸ **mintNFT**(`username`: string, `password`: string, `from`: string[] | Buffer[], `changeAddr`: string, `payload`: string, `assetID`: string | Buffer, `to`: string, `encoding`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:576](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L576)*
+*Defined in [src/apis/avm/api.ts:576](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L576)*
 
 Mint non-fungible tokens which were created with AVMAPI.createNFTAsset
 
@@ -1194,7 +1194,7 @@ ___
 
 ▸ **parseAddress**(`addr`: string): *Buffer*
 
-*Defined in [src/apis/avm/api.ts:118](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L118)*
+*Defined in [src/apis/avm/api.ts:118](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L118)*
 
 Takes an address string and returns its [Buffer](https://github.com/feross/buffer) representation if valid.
 
@@ -1214,7 +1214,7 @@ ___
 
 ▸ **send**(`username`: string, `password`: string, `assetID`: string | Buffer, `amount`: number | BN, `to`: string, `from`: string[] | Buffer[], `changeAddr`: string, `memo`: string | Buffer): *Promise‹[SendResponse](../interfaces/avm_interfaces.sendresponse.md)›*
 
-*Defined in [src/apis/avm/api.ts:1843](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1843)*
+*Defined in [src/apis/avm/api.ts:1843](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1843)*
 
 Sends an amount of assetID to the specified address from a list of owned of addresses.
 
@@ -1241,7 +1241,7 @@ ___
 
 ▸ **sendMultiple**(`username`: string, `password`: string, `sendOutputs`: object[], `from`: string[] | Buffer[], `changeAddr`: string, `memo`: string | Buffer): *Promise‹[SendMultipleResponse](../interfaces/avm_interfaces.sendmultipleresponse.md)›*
 
-*Defined in [src/apis/avm/api.ts:1920](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1920)*
+*Defined in [src/apis/avm/api.ts:1920](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1920)*
 
 Sends an amount of assetID to an array of specified addresses from a list of owned of addresses.
 
@@ -1266,7 +1266,7 @@ ___
 
 ▸ **sendNFT**(`username`: string, `password`: string, `from`: string[] | Buffer[], `changeAddr`: string, `assetID`: string | Buffer, `groupID`: number, `to`: string): *Promise‹string›*
 
-*Defined in [src/apis/avm/api.ts:642](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L642)*
+*Defined in [src/apis/avm/api.ts:642](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L642)*
 
 Send NFT from one account to another on X-Chain
 
@@ -1292,7 +1292,7 @@ ___
 
 ▸ **setAVAXAssetID**(`avaxAssetID`: string | Buffer): *void*
 
-*Defined in [src/apis/avm/api.ts:162](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L162)*
+*Defined in [src/apis/avm/api.ts:162](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L162)*
 
 Overrides the defaults and sets the cache to a specific AVAX AssetID
 
@@ -1314,7 +1314,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[setBaseURL](common_apibase.apibase.md#setbaseurl)*
 
-*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/8077d740/src/common/apibase.ts#L37)*
+*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L37)*
 
 Sets the path of the APIs baseURL.
 
@@ -1332,7 +1332,7 @@ ___
 
 ▸ **setCreationTxFee**(`fee`: BN): *void*
 
-*Defined in [src/apis/avm/api.ts:255](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L255)*
+*Defined in [src/apis/avm/api.ts:255](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L255)*
 
 Sets the creation fee for this chain.
 
@@ -1350,7 +1350,7 @@ ___
 
 ▸ **setMintTxFee**(`fee`: BN): *void*
 
-*Defined in [src/apis/avm/api.ts:246](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L246)*
+*Defined in [src/apis/avm/api.ts:246](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L246)*
 
 Sets the mint fee for this chain.
 
@@ -1368,7 +1368,7 @@ ___
 
 ▸ **setTxFee**(`fee`: BN): *void*
 
-*Defined in [src/apis/avm/api.ts:195](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L195)*
+*Defined in [src/apis/avm/api.ts:195](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L195)*
 
 Sets the tx fee for this chain.
 
@@ -1386,7 +1386,7 @@ ___
 
 ▸ **signTx**(`utx`: [UnsignedTx](api_avm_transactions.unsignedtx.md)): *[Tx](api_avm_transactions.tx.md)*
 
-*Defined in [src/apis/avm/api.ts:1748](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/api.ts#L1748)*
+*Defined in [src/apis/avm/api.ts:1748](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/api.ts#L1748)*
 
 Helper function which takes an unsigned transaction and signs it, returning the resulting [Tx](api_evm_transactions.tx.md).
 

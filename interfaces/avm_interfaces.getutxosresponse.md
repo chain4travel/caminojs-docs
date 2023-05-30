@@ -20,7 +20,7 @@
 
 • **endIndex**: *[EndIndex](avm_interfaces.endindex.md)*
 
-*Defined in [src/apis/avm/interfaces.ts:123](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L123)*
+*Defined in [src/apis/avm/interfaces.ts:123](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L123)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **numFetched**: *number*
 
-*Defined in [src/apis/avm/interfaces.ts:121](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L121)*
+*Defined in [src/apis/avm/interfaces.ts:121](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L121)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **utxos**: *[UTXOSet](../classes/api_avm_utxos.utxoset.md)*
 
-*Defined in [src/apis/avm/interfaces.ts:122](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/interfaces.ts#L122)*
+*Defined in [src/apis/avm/interfaces.ts:122](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L122)*

@@ -36,7 +36,7 @@
 
 • **alias**: *string*
 
-*Defined in [src/utils/networks.ts:55](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L55)*
+*Defined in [src/utils/networks.ts:55](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L55)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **blockchainID**: *string*
 
-*Defined in [src/utils/networks.ts:54](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L54)*
+*Defined in [src/utils/networks.ts:54](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L54)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **createChainTx**: *BN | number*
 
-*Defined in [src/utils/networks.ts:59](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L59)*
+*Defined in [src/utils/networks.ts:59](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L59)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **createSubnetTx**: *BN | number*
 
-*Defined in [src/utils/networks.ts:58](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L58)*
+*Defined in [src/utils/networks.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L58)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **creationTxFee**: *BN | number*
 
-*Defined in [src/utils/networks.ts:57](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L57)*
+*Defined in [src/utils/networks.ts:57](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L57)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **fee**? : *BN*
 
-*Defined in [src/utils/networks.ts:70](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L70)*
+*Defined in [src/utils/networks.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L70)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **lockModeBondDeposit**: *boolean*
 
-*Defined in [src/utils/networks.ts:72](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L72)*
+*Defined in [src/utils/networks.ts:72](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L72)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 • **maxConsumption**: *number*
 
-*Defined in [src/utils/networks.ts:61](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L61)*
+*Defined in [src/utils/networks.ts:61](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L61)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 • **maxStakeDuration**: *number*
 
-*Defined in [src/utils/networks.ts:66](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L66)*
+*Defined in [src/utils/networks.ts:66](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L66)*
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 • **maxStakingDuration**: *BN*
 
-*Defined in [src/utils/networks.ts:62](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L62)*
+*Defined in [src/utils/networks.ts:62](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L62)*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 • **maxSupply**: *BN*
 
-*Defined in [src/utils/networks.ts:63](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L63)*
+*Defined in [src/utils/networks.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L63)*
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 • **minConsumption**: *number*
 
-*Defined in [src/utils/networks.ts:60](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L60)*
+*Defined in [src/utils/networks.ts:60](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L60)*
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 • **minDelegationFee**: *BN*
 
-*Defined in [src/utils/networks.ts:68](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L68)*
+*Defined in [src/utils/networks.ts:68](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L68)*
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 • **minDelegationStake**: *BN*
 
-*Defined in [src/utils/networks.ts:67](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L67)*
+*Defined in [src/utils/networks.ts:67](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L67)*
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 • **minStake**: *BN*
 
-*Defined in [src/utils/networks.ts:64](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L64)*
+*Defined in [src/utils/networks.ts:64](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L64)*
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 • **minStakeDuration**: *number*
 
-*Defined in [src/utils/networks.ts:65](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L65)*
+*Defined in [src/utils/networks.ts:65](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L65)*
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 • **txFee**? : *BN | number*
 
-*Defined in [src/utils/networks.ts:69](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L69)*
+*Defined in [src/utils/networks.ts:69](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L69)*
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 • **verifyNodeSignature**: *boolean*
 
-*Defined in [src/utils/networks.ts:71](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L71)*
+*Defined in [src/utils/networks.ts:71](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L71)*
 
 ___
 
@@ -180,4 +180,4 @@ ___
 
 • **vm**: *string*
 
-*Defined in [src/utils/networks.ts:56](https://github.com/chain4travel/caminojs/blob/8077d740/src/utils/networks.ts#L56)*
+*Defined in [src/utils/networks.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/networks.ts#L56)*

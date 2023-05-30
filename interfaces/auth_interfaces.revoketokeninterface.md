@@ -19,7 +19,7 @@
 
 • **password**: *string*
 
-*Defined in [src/apis/auth/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/interfaces.ts#L12)*
+*Defined in [src/apis/auth/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/auth/interfaces.ts#L12)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **token**: *string*
 
-*Defined in [src/apis/auth/interfaces.ts:13](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/auth/interfaces.ts#L13)*
+*Defined in [src/apis/auth/interfaces.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/auth/interfaces.ts#L13)*

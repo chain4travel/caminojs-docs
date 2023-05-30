@@ -18,4 +18,4 @@
 
 • **validators**: *object*
 
-*Defined in [src/apis/platformvm/interfaces.ts:42](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L42)*
+*Defined in [src/apis/platformvm/interfaces.ts:44](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L44)*

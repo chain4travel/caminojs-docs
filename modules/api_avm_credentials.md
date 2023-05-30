@@ -19,7 +19,7 @@
 
 ▸ **SelectCredentialClass**(`credid`: number, ...`args`: any[]): *[Credential](../classes/common_signature.credential.md)*
 
-*Defined in [src/apis/avm/credentials.ts:17](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/avm/credentials.ts#L17)*
+*Defined in [src/apis/avm/credentials.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/credentials.ts#L17)*
 
 Takes a buffer representing the credential and returns the proper [Credential](../classes/common_signature.credential.md) instance.
 

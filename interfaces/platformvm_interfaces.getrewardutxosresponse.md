@@ -20,7 +20,7 @@
 
 • **encoding**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L33)*
+*Defined in [src/apis/platformvm/interfaces.ts:35](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L35)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **numFetched**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:31](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L31)*
+*Defined in [src/apis/platformvm/interfaces.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L33)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **utxos**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:32](https://github.com/chain4travel/caminojs/blob/8077d740/src/apis/platformvm/interfaces.ts#L32)*
+*Defined in [src/apis/platformvm/interfaces.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L34)*
