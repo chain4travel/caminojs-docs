@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-Constants](../modules/api_platformvm_constants.md) › [PlatformVMConstants](api_platformvm_constants.platformvmconstants.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Constants](../modules/api_platformvm_constants.md) › [PlatformVMConstants](api_platformvm_constants.platformvmconstants.md)
 
 # Class: PlatformVMConstants
 
@@ -12,6 +12,7 @@
 
 * [ADDDELEGATORTX](api_platformvm_constants.platformvmconstants.md#static-adddelegatortx)
 * [ADDRESSLENGTH](api_platformvm_constants.platformvmconstants.md#static-addresslength)
+* [ADDRESSSTATETX](api_platformvm_constants.platformvmconstants.md#static-addressstatetx)
 * [ADDSUBNETVALIDATORTX](api_platformvm_constants.platformvmconstants.md#static-addsubnetvalidatortx)
 * [ADDVALIDATORTX](api_platformvm_constants.platformvmconstants.md#static-addvalidatortx)
 * [ADVANCETIMETX](api_platformvm_constants.platformvmconstants.md#static-advancetimetx)
@@ -19,16 +20,26 @@
 * [ASSETNAMELEN](api_platformvm_constants.platformvmconstants.md#static-assetnamelen)
 * [BASETX](api_platformvm_constants.platformvmconstants.md#static-basetx)
 * [BLOCKCHAINIDLEN](api_platformvm_constants.platformvmconstants.md#static-blockchainidlen)
+* [CAMINOADDVALIDATORTX](api_platformvm_constants.platformvmconstants.md#static-caminoaddvalidatortx)
+* [CAMINOREWARDVALIDATORTX](api_platformvm_constants.platformvmconstants.md#static-caminorewardvalidatortx)
+* [CLAIMTX](api_platformvm_constants.platformvmconstants.md#static-claimtx)
 * [CREATECHAINTX](api_platformvm_constants.platformvmconstants.md#static-createchaintx)
 * [CREATESUBNETTX](api_platformvm_constants.platformvmconstants.md#static-createsubnettx)
+* [CUSTOM_TYPE_ID](api_platformvm_constants.platformvmconstants.md#static-custom_type_id)
+* [DEPOSITTX](api_platformvm_constants.platformvmconstants.md#static-deposittx)
 * [EXPORTTX](api_platformvm_constants.platformvmconstants.md#static-exporttx)
 * [IMPORTTX](api_platformvm_constants.platformvmconstants.md#static-importtx)
 * [LATESTCODEC](api_platformvm_constants.platformvmconstants.md#static-latestcodec)
-* [LOCKEDSTAKEABLES](api_platformvm_constants.platformvmconstants.md#static-lockedstakeables)
+* [LOCKEDINID](api_platformvm_constants.platformvmconstants.md#static-lockedinid)
+* [LOCKEDOUTID](api_platformvm_constants.platformvmconstants.md#static-lockedoutid)
+* [MULTISIGALIASTX](api_platformvm_constants.platformvmconstants.md#static-multisigaliastx)
+* [REGISTERNODETX](api_platformvm_constants.platformvmconstants.md#static-registernodetx)
+* [REWARDSIMPORTTX](api_platformvm_constants.platformvmconstants.md#static-rewardsimporttx)
 * [REWARDVALIDATORTX](api_platformvm_constants.platformvmconstants.md#static-rewardvalidatortx)
 * [SECPCREDENTIAL](api_platformvm_constants.platformvmconstants.md#static-secpcredential)
 * [SECPFXID](api_platformvm_constants.platformvmconstants.md#static-secpfxid)
 * [SECPINPUTID](api_platformvm_constants.platformvmconstants.md#static-secpinputid)
+* [SECPMULTISIGCREDENTIAL](api_platformvm_constants.platformvmconstants.md#static-secpmultisigcredential)
 * [SECPOWNEROUTPUTID](api_platformvm_constants.platformvmconstants.md#static-secpowneroutputid)
 * [SECPXFEROUTPUTID](api_platformvm_constants.platformvmconstants.md#static-secpxferoutputid)
 * [STAKEABLELOCKINID](api_platformvm_constants.platformvmconstants.md#static-stakeablelockinid)
@@ -36,6 +47,7 @@
 * [SUBNETAUTH](api_platformvm_constants.platformvmconstants.md#static-subnetauth)
 * [SUBNETAUTHID](api_platformvm_constants.platformvmconstants.md#static-subnetauthid)
 * [SYMBOLMAXLEN](api_platformvm_constants.platformvmconstants.md#static-symbolmaxlen)
+* [UNLOCKDEPOSITTX](api_platformvm_constants.platformvmconstants.md#static-unlockdeposittx)
 
 ## Properties
 
@@ -43,7 +55,7 @@
 
 ▪ **ADDDELEGATORTX**: *number* = 14
 
-*Defined in [src/apis/platformvm/constants.ts:36](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L36)*
+*Defined in [src/apis/platformvm/constants.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L29)*
 
 ___
 
@@ -51,7 +63,15 @@ ___
 
 ▪ **ADDRESSLENGTH**: *number* = 20
 
-*Defined in [src/apis/platformvm/constants.ts:60](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L60)*
+*Defined in [src/apis/platformvm/constants.ts:72](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L72)*
+
+___
+
+### `Static` ADDRESSSTATETX
+
+▪ **ADDRESSSTATETX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 4
+
+*Defined in [src/apis/platformvm/constants.ts:52](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L52)*
 
 ___
 
@@ -59,7 +79,7 @@ ___
 
 ▪ **ADDSUBNETVALIDATORTX**: *number* = 13
 
-*Defined in [src/apis/platformvm/constants.ts:34](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L34)*
+*Defined in [src/apis/platformvm/constants.ts:27](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L27)*
 
 ___
 
@@ -67,7 +87,7 @@ ___
 
 ▪ **ADDVALIDATORTX**: *number* = 12
 
-*Defined in [src/apis/platformvm/constants.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L32)*
+*Defined in [src/apis/platformvm/constants.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L25)*
 
 ___
 
@@ -75,7 +95,7 @@ ___
 
 ▪ **ADVANCETIMETX**: *number* = 19
 
-*Defined in [src/apis/platformvm/constants.ts:46](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L46)*
+*Defined in [src/apis/platformvm/constants.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L39)*
 
 ___
 
@@ -83,7 +103,7 @@ ___
 
 ▪ **ASSETIDLEN**: *number* = 32
 
-*Defined in [src/apis/platformvm/constants.ts:52](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L52)*
+*Defined in [src/apis/platformvm/constants.ts:64](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L64)*
 
 ___
 
@@ -91,15 +111,15 @@ ___
 
 ▪ **ASSETNAMELEN**: *number* = 128
 
-*Defined in [src/apis/platformvm/constants.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L58)*
+*Defined in [src/apis/platformvm/constants.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L70)*
 
 ___
 
 ### `Static` BASETX
 
-▪ **BASETX**: *number* = 0
+▪ **BASETX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 8
 
-*Defined in [src/apis/platformvm/constants.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L28)*
+*Defined in [src/apis/platformvm/constants.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L56)*
 
 ___
 
@@ -107,7 +127,31 @@ ___
 
 ▪ **BLOCKCHAINIDLEN**: *number* = 32
 
-*Defined in [src/apis/platformvm/constants.ts:54](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L54)*
+*Defined in [src/apis/platformvm/constants.ts:66](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L66)*
+
+___
+
+### `Static` CAMINOADDVALIDATORTX
+
+▪ **CAMINOADDVALIDATORTX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 2
+
+*Defined in [src/apis/platformvm/constants.ts:49](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L49)*
+
+___
+
+### `Static` CAMINOREWARDVALIDATORTX
+
+▪ **CAMINOREWARDVALIDATORTX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 3
+
+*Defined in [src/apis/platformvm/constants.ts:50](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L50)*
+
+___
+
+### `Static` CLAIMTX
+
+▪ **CLAIMTX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 10
+
+*Defined in [src/apis/platformvm/constants.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L58)*
 
 ___
 
@@ -115,7 +159,7 @@ ___
 
 ▪ **CREATECHAINTX**: *number* = 15
 
-*Defined in [src/apis/platformvm/constants.ts:38](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L38)*
+*Defined in [src/apis/platformvm/constants.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L31)*
 
 ___
 
@@ -123,7 +167,23 @@ ___
 
 ▪ **CREATESUBNETTX**: *number* = 16
 
-*Defined in [src/apis/platformvm/constants.ts:40](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L40)*
+*Defined in [src/apis/platformvm/constants.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L33)*
+
+___
+
+### `Static` CUSTOM_TYPE_ID
+
+▪ **CUSTOM_TYPE_ID**: *number* = 8192
+
+*Defined in [src/apis/platformvm/constants.ts:46](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L46)*
+
+___
+
+### `Static` DEPOSITTX
+
+▪ **DEPOSITTX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 5
+
+*Defined in [src/apis/platformvm/constants.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L53)*
 
 ___
 
@@ -131,7 +191,7 @@ ___
 
 ▪ **EXPORTTX**: *number* = 18
 
-*Defined in [src/apis/platformvm/constants.ts:44](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L44)*
+*Defined in [src/apis/platformvm/constants.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L37)*
 
 ___
 
@@ -139,7 +199,7 @@ ___
 
 ▪ **IMPORTTX**: *number* = 17
 
-*Defined in [src/apis/platformvm/constants.ts:42](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L42)*
+*Defined in [src/apis/platformvm/constants.ts:35](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L35)*
 
 ___
 
@@ -147,18 +207,47 @@ ___
 
 ▪ **LATESTCODEC**: *number* = 0
 
-*Defined in [src/apis/platformvm/constants.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L7)*
+*Defined in [src/apis/platformvm/constants.ts:7](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L7)*
 
 ___
 
-### `Static` LOCKEDSTAKEABLES
+### `Static` LOCKEDINID
 
-▪ **LOCKEDSTAKEABLES**: *number[]* = [
-    PlatformVMConstants.STAKEABLELOCKINID,
-    PlatformVMConstants.STAKEABLELOCKOUTID
-  ]
+▪ **LOCKEDINID**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 0
 
-*Defined in [src/apis/platformvm/constants.ts:23](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L23)*
+*Defined in [src/apis/platformvm/constants.ts:47](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L47)*
+
+___
+
+### `Static` LOCKEDOUTID
+
+▪ **LOCKEDOUTID**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 1
+
+*Defined in [src/apis/platformvm/constants.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L48)*
+
+___
+
+### `Static` MULTISIGALIASTX
+
+▪ **MULTISIGALIASTX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 9
+
+*Defined in [src/apis/platformvm/constants.ts:57](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L57)*
+
+___
+
+### `Static` REGISTERNODETX
+
+▪ **REGISTERNODETX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 7
+
+*Defined in [src/apis/platformvm/constants.ts:55](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L55)*
+
+___
+
+### `Static` REWARDSIMPORTTX
+
+▪ **REWARDSIMPORTTX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 11
+
+*Defined in [src/apis/platformvm/constants.ts:59](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L59)*
 
 ___
 
@@ -166,7 +255,7 @@ ___
 
 ▪ **REWARDVALIDATORTX**: *number* = 20
 
-*Defined in [src/apis/platformvm/constants.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L48)*
+*Defined in [src/apis/platformvm/constants.ts:41](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L41)*
 
 ___
 
@@ -174,7 +263,7 @@ ___
 
 ▪ **SECPCREDENTIAL**: *number* = 9
 
-*Defined in [src/apis/platformvm/constants.ts:50](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L50)*
+*Defined in [src/apis/platformvm/constants.ts:43](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L43)*
 
 ___
 
@@ -182,7 +271,7 @@ ___
 
 ▪ **SECPFXID**: *number* = 0
 
-*Defined in [src/apis/platformvm/constants.ts:9](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L9)*
+*Defined in [src/apis/platformvm/constants.ts:9](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L9)*
 
 ___
 
@@ -190,7 +279,15 @@ ___
 
 ▪ **SECPINPUTID**: *number* = 5
 
-*Defined in [src/apis/platformvm/constants.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L19)*
+*Defined in [src/apis/platformvm/constants.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L19)*
+
+___
+
+### `Static` SECPMULTISIGCREDENTIAL
+
+▪ **SECPMULTISIGCREDENTIAL**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 12
+
+*Defined in [src/apis/platformvm/constants.ts:60](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L60)*
 
 ___
 
@@ -198,7 +295,7 @@ ___
 
 ▪ **SECPOWNEROUTPUTID**: *number* = 11
 
-*Defined in [src/apis/platformvm/constants.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L15)*
+*Defined in [src/apis/platformvm/constants.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L15)*
 
 ___
 
@@ -206,7 +303,7 @@ ___
 
 ▪ **SECPXFEROUTPUTID**: *number* = 7
 
-*Defined in [src/apis/platformvm/constants.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L11)*
+*Defined in [src/apis/platformvm/constants.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L11)*
 
 ___
 
@@ -214,7 +311,7 @@ ___
 
 ▪ **STAKEABLELOCKINID**: *number* = 21
 
-*Defined in [src/apis/platformvm/constants.ts:21](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L21)*
+*Defined in [src/apis/platformvm/constants.ts:21](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L21)*
 
 ___
 
@@ -222,7 +319,7 @@ ___
 
 ▪ **STAKEABLELOCKOUTID**: *number* = 22
 
-*Defined in [src/apis/platformvm/constants.ts:17](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L17)*
+*Defined in [src/apis/platformvm/constants.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L17)*
 
 ___
 
@@ -230,7 +327,7 @@ ___
 
 ▪ **SUBNETAUTH**: *number* = 10
 
-*Defined in [src/apis/platformvm/constants.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L30)*
+*Defined in [src/apis/platformvm/constants.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L23)*
 
 ___
 
@@ -238,7 +335,7 @@ ___
 
 ▪ **SUBNETAUTHID**: *number* = 10
 
-*Defined in [src/apis/platformvm/constants.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L13)*
+*Defined in [src/apis/platformvm/constants.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L13)*
 
 ___
 
@@ -246,4 +343,12 @@ ___
 
 ▪ **SYMBOLMAXLEN**: *number* = 4
 
-*Defined in [src/apis/platformvm/constants.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/constants.ts#L56)*
+*Defined in [src/apis/platformvm/constants.ts:68](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L68)*
+
+___
+
+### `Static` UNLOCKDEPOSITTX
+
+▪ **UNLOCKDEPOSITTX**: *number* = PlatformVMConstants.CUSTOM_TYPE_ID + 6
+
+*Defined in [src/apis/platformvm/constants.ts:54](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/constants.ts#L54)*

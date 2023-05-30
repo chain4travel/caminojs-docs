@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-EVM](../modules/api_evm.md) › [EVMAPI](api_evm.evmapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM](../modules/api_evm.md) › [EVMAPI](api_evm.evmapi.md)
 
 # Class: EVMAPI
 
@@ -61,10 +61,8 @@ Class for interacting with a node's EVMAPI
 * [keyChain](api_evm.evmapi.md#keychain)
 * [newKeyChain](api_evm.evmapi.md#newkeychain)
 * [parseAddress](api_evm.evmapi.md#parseaddress)
-* [refreshBlockchainID](api_evm.evmapi.md#refreshblockchainid)
 * [setAVAXAssetID](api_evm.evmapi.md#setavaxassetid)
 * [setBaseURL](api_evm.evmapi.md#setbaseurl)
-* [setBlockchainAlias](api_evm.evmapi.md#setblockchainalias)
 
 ## Constructors
 
@@ -74,7 +72,7 @@ Class for interacting with a node's EVMAPI
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
-*Defined in [src/apis/evm/api.ts:860](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L860)*
+*Defined in [src/apis/evm/api.ts:814](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L814)*
 
 This class should not be instantiated directly.
 Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
@@ -95,7 +93,7 @@ Name | Type | Default | Description |
 
 • **AVAXAssetID**: *Buffer* = undefined
 
-*Defined in [src/apis/evm/api.ts:66](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L66)*
+*Defined in [src/apis/evm/api.ts:65](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L65)*
 
 ___
 
@@ -105,7 +103,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[baseURL](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L29)*
+*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L29)*
 
 ___
 
@@ -113,7 +111,7 @@ ___
 
 • **blockchainAlias**: *string* = undefined
 
-*Defined in [src/apis/evm/api.ts:65](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L65)*
+*Defined in [src/apis/evm/api.ts:64](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L64)*
 
 ___
 
@@ -121,7 +119,7 @@ ___
 
 • **blockchainID**: *string* = ""
 
-*Defined in [src/apis/evm/api.ts:64](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L64)*
+*Defined in [src/apis/evm/api.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L63)*
 
 ___
 
@@ -131,7 +129,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L28)*
+*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L28)*
 
 ___
 
@@ -141,7 +139,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[db](common_apibase.apibase.md#protected-db)*
 
-*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L30)*
+*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L30)*
 
 ___
 
@@ -149,9 +147,9 @@ ___
 
 • **jrpcVersion**: *string* = "2.0"
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[jrpcVersion](common_jrpcapi.jrpcapi.md#protected-jrpcversion)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[jrpcVersion](api_evm.evmapi.md#protected-jrpcversion)*
 
-*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L12)*
+*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L12)*
 
 ___
 
@@ -159,9 +157,9 @@ ___
 
 • **rpcID**: *number* = 1
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[rpcID](common_jrpcapi.jrpcapi.md#protected-rpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[rpcID](api_evm.evmapi.md#protected-rpcid)*
 
-*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L13)*
+*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L13)*
 
 ___
 
@@ -169,7 +167,7 @@ ___
 
 • **txFee**: *BN* = undefined
 
-*Defined in [src/apis/evm/api.ts:67](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L67)*
+*Defined in [src/apis/evm/api.ts:66](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L66)*
 
 ## Methods
 
@@ -177,7 +175,7 @@ ___
 
 ▸ **addressFromBuffer**(`address`: Buffer): *string*
 
-*Defined in [src/apis/evm/api.ts:152](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L152)*
+*Defined in [src/apis/evm/api.ts:103](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L103)*
 
 **Parameters:**
 
@@ -191,9 +189,9 @@ ___
 
 ###  buildExportTx
 
-▸ **buildExportTx**(`amount`: BN, `assetID`: Buffer | string, `destinationChain`: Buffer | string, `fromAddressHex`: string, `fromAddressBech`: string, `toAddresses`: string[], `nonce`: number, `locktime`: BN, `threshold`: number, `fee`: BN): *Promise‹[UnsignedTx](api_evm_transactions.unsignedtx.md)›*
+▸ **buildExportTx**(`amount`: BN, `assetID`: Buffer | string, `destinationChain`: Buffer | string, `fromAddressHex`: string, `fromAddressBech`: string, `toAddresses`: string[], `nonce`: number, `locktime`: BN, `toThreshold`: number, `fee`: BN): *Promise‹[UnsignedTx](api_evm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/evm/api.ts:699](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L699)*
+*Defined in [src/apis/evm/api.ts:651](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L651)*
 
 Helper function which creates an unsigned Export Tx. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s).
@@ -207,11 +205,11 @@ Name | Type | Default | Description |
 `destinationChain` | Buffer &#124; string | - | The chainid for where the assets will be sent. |
 `fromAddressHex` | string | - | - |
 `fromAddressBech` | string | - | - |
-`toAddresses` | string[] | - | The addresses to send the funds |
-`nonce` | number | 0 | - |
+`toAddresses` | string[] | - | An array of addresses as [Buffer](https://github.com/feross/buffer) who recieves the AVAX |
+`nonce` | number | 0 | Optional. The nonce to be used |
 `locktime` | BN | new BN(0) | Optional. The locktime field created in the resulting outputs |
-`threshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO  |
-`fee` | BN | new BN(0) | - |
+`toThreshold` | number | 1 | Optional. The number of signatures required to spend the funds in the resultant UTXO |
+`fee` | BN | new BN(0) | Optional. The the fee for this transaction  |
 
 **Returns:** *Promise‹[UnsignedTx](api_evm_transactions.unsignedtx.md)›*
 
@@ -221,9 +219,9 @@ ___
 
 ###  buildImportTx
 
-▸ **buildImportTx**(`utxoset`: [UTXOSet](api_evm_utxos.utxoset.md), `toAddress`: string, `ownerAddresses`: string[], `sourceChain`: Buffer | string, `fromAddresses`: string[], `fee`: BN): *Promise‹[UnsignedTx](api_evm_transactions.unsignedtx.md)›*
+▸ **buildImportTx**(`utxoset`: [UTXOSet](api_evm_utxos.utxoset.md) | undefined, `toAddress`: string, `ownerAddresses`: string[], `sourceChain`: Buffer | string, `fee`: BN): *Promise‹[UnsignedTx](api_evm_transactions.unsignedtx.md)›*
 
-*Defined in [src/apis/evm/api.ts:624](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L624)*
+*Defined in [src/apis/evm/api.ts:575](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L575)*
 
 Helper function which creates an unsigned Import Tx. For more granular control, you may create your own
 [UnsignedTx](api_evm_transactions.unsignedtx.md) manually (with their corresponding [TransferableInput](api_evm_inputs.transferableinput.md)s, [TransferableOutput](api_evm_outputs.transferableoutput.md)s).
@@ -235,11 +233,10 @@ This helper exists because the endpoint API should be the primary point of entry
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`utxoset` | [UTXOSet](api_evm_utxos.utxoset.md) | - | A set of UTXOs that the transaction is built on |
+`utxoset` | [UTXOSet](api_evm_utxos.utxoset.md) &#124; undefined | - | A set of UTXOs that the transaction is built on |
 `toAddress` | string | - | The address to send the funds |
 `ownerAddresses` | string[] | - | The addresses being used to import |
 `sourceChain` | Buffer &#124; string | - | The chainid for where the import is coming from |
-`fromAddresses` | string[] | - | The addresses being used to send the funds from the UTXOs provided  |
 `fee` | BN | new BN(0) | - |
 
 **Returns:** *Promise‹[UnsignedTx](api_evm_transactions.unsignedtx.md)›*
@@ -252,9 +249,9 @@ ___
 
 ▸ **callMethod**(`method`: string, `params?`: object[] | object, `baseURL?`: string, `headers?`: object): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[callMethod](common_jrpcapi.jrpcapi.md#callmethod)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[callMethod](api_evm.evmapi.md#callmethod)*
 
-*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L15)*
+*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L15)*
 
 **Parameters:**
 
@@ -273,9 +270,9 @@ ___
 
 ▸ **export**(`username`: string, `password`: string, `to`: string, `amount`: BN, `assetID`: string): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:335](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L335)*
+*Defined in [src/apis/evm/api.ts:286](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L286)*
 
-Send ANT (Avalanche Native Token) assets including AVAX from the C-Chain to an account on the X-Chain.
+Send ANT (Camino Native Token) assets including AVAX from the C-Chain to an account on the X-Chain.
 
 After calling this method, you must call the X-Chain’s import method to complete the transfer.
 
@@ -299,7 +296,7 @@ ___
 
 ▸ **exportAVAX**(`username`: string, `password`: string, `to`: string, `amount`: BN): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:370](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L370)*
+*Defined in [src/apis/evm/api.ts:321](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L321)*
 
 Send AVAX from the C-Chain to an account on the X-Chain.
 
@@ -324,7 +321,7 @@ ___
 
 ▸ **exportKey**(`username`: string, `password`: string, `address`: string): *Promise‹object›*
 
-*Defined in [src/apis/evm/api.ts:592](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L592)*
+*Defined in [src/apis/evm/api.ts:543](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L543)*
 
 Exports the private key for an address.
 
@@ -346,7 +343,7 @@ ___
 
 ▸ **getAVAXAssetID**(`refresh`: boolean): *Promise‹Buffer›*
 
-*Defined in [src/apis/evm/api.ts:210](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L210)*
+*Defined in [src/apis/evm/api.ts:161](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L161)*
 
 Fetches the AVAX AssetID and returns it in a Promise.
 
@@ -366,7 +363,7 @@ ___
 
 ▸ **getAssetBalance**(`hexAddress`: string, `blockHeight`: string, `assetID`: string): *Promise‹object›*
 
-*Defined in [src/apis/evm/api.ts:253](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L253)*
+*Defined in [src/apis/evm/api.ts:204](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L204)*
 
 returns the amount of [assetID] for the given address in the state of the given block number.
 "latest", "pending", and "accepted" meta block numbers are also allowed.
@@ -389,7 +386,7 @@ ___
 
 ▸ **getAssetDescription**(`assetID`: Buffer | string): *Promise‹any›*
 
-*Defined in [src/apis/evm/api.ts:172](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L172)*
+*Defined in [src/apis/evm/api.ts:123](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L123)*
 
 Retrieves an assets name and symbol.
 
@@ -409,7 +406,7 @@ ___
 
 ▸ **getAtomicTx**(`txID`: string): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:298](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L298)*
+*Defined in [src/apis/evm/api.ts:249](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L249)*
 
 Returns the transaction data of a provided transaction ID by calling the node's `getAtomicTx` method.
 
@@ -429,7 +426,7 @@ ___
 
 ▸ **getAtomicTxStatus**(`txID`: string): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:277](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L277)*
+*Defined in [src/apis/evm/api.ts:228](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L228)*
 
 Returns the status of a provided atomic transaction ID by calling the node's `getAtomicTxStatus` method.
 
@@ -449,7 +446,7 @@ ___
 
 ▸ **getBaseFee**(): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:893](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L893)*
+*Defined in [src/apis/evm/api.ts:846](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L846)*
 
 **Returns:** *Promise‹string›*
 
@@ -463,7 +460,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L53)*
+*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L53)*
 
 Returns the baseURL's path.
 
@@ -475,7 +472,7 @@ ___
 
 ▸ **getBlockchainAlias**(): *string*
 
-*Defined in [src/apis/evm/api.ts:74](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L74)*
+*Defined in [src/apis/evm/api.ts:73](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L73)*
 
 Gets the alias for the blockchainID if it exists, otherwise returns `undefined`.
 
@@ -489,7 +486,7 @@ ___
 
 ▸ **getBlockchainID**(): *string*
 
-*Defined in [src/apis/evm/api.ts:109](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L109)*
+*Defined in [src/apis/evm/api.ts:85](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L85)*
 
 Gets the blockchainID and returns it.
 
@@ -505,7 +502,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L58)*
+*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L58)*
 
 Returns the baseURL's database.
 
@@ -517,7 +514,7 @@ ___
 
 ▸ **getDefaultTxFee**(): *BN*
 
-*Defined in [src/apis/evm/api.ts:237](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L237)*
+*Defined in [src/apis/evm/api.ts:190](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L190)*
 
 Gets the default tx fee for this chain.
 
@@ -531,7 +528,7 @@ ___
 
 ▸ **getMaxPriorityFeePerGas**(): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:910](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L910)*
+*Defined in [src/apis/evm/api.ts:863](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L863)*
 
 returns the priority fee needed to be included in a block.
 
@@ -545,9 +542,9 @@ ___
 
 ▸ **getRPCID**(): *number*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[getRPCID](common_jrpcapi.jrpcapi.md#getrpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[getRPCID](api_evm.evmapi.md#getrpcid)*
 
-*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L77)*
+*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L77)*
 
 Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
 request ID that will be sent.
@@ -560,7 +557,7 @@ ___
 
 ▸ **getTxFee**(): *BN*
 
-*Defined in [src/apis/evm/api.ts:315](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L315)*
+*Defined in [src/apis/evm/api.ts:266](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L266)*
 
 Gets the tx fee for this chain.
 
@@ -574,7 +571,7 @@ ___
 
 ▸ **getUTXOs**(`addresses`: string[] | string, `sourceChain`: string, `limit`: number, `startIndex`: [Index](../interfaces/common_interfaces.index.md), `encoding`: string): *Promise‹object›*
 
-*Defined in [src/apis/evm/api.ts:402](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L402)*
+*Defined in [src/apis/evm/api.ts:353](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L353)*
 
 Retrieves the UTXOs related to the addresses provided from the node's `getUTXOs` method.
 
@@ -596,9 +593,9 @@ ___
 
 ▸ **import**(`username`: string, `password`: string, `to`: string, `sourceChain`: string): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:463](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L463)*
+*Defined in [src/apis/evm/api.ts:414](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L414)*
 
-Send ANT (Avalanche Native Token) assets including AVAX from an account on the X-Chain to an address on the C-Chain. This transaction
+Send ANT (Camino Native Token) assets including AVAX from an account on the X-Chain to an address on the C-Chain. This transaction
 must be signed with the key of the account that the asset is sent from and which pays
 the transaction fee.
 
@@ -622,7 +619,7 @@ ___
 
 ▸ **importAVAX**(`username`: string, `password`: string, `to`: string, `sourceChain`: string): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:498](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L498)*
+*Defined in [src/apis/evm/api.ts:449](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L449)*
 
 Send AVAX from an account on the X-Chain to an address on the C-Chain. This transaction
 must be signed with the key of the account that the AVAX is sent from and which pays
@@ -648,7 +645,7 @@ ___
 
 ▸ **importKey**(`username`: string, `password`: string, `privateKey`: string): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:528](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L528)*
+*Defined in [src/apis/evm/api.ts:479](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L479)*
 
 Give a user control over an address by providing the private key that controls the address.
 
@@ -670,7 +667,7 @@ ___
 
 ▸ **issueTx**(`tx`: string | Buffer | [Tx](api_evm_transactions.tx.md)): *Promise‹string›*
 
-*Defined in [src/apis/evm/api.ts:554](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L554)*
+*Defined in [src/apis/evm/api.ts:505](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L505)*
 
 Calls the node's issueTx method from the API and returns the resulting transaction ID as a string.
 
@@ -690,7 +687,7 @@ ___
 
 ▸ **keyChain**(): *[KeyChain](api_evm_keychain.keychain.md)*
 
-*Defined in [src/apis/evm/api.ts:810](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L810)*
+*Defined in [src/apis/evm/api.ts:764](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L764)*
 
 Gets a reference to the keychain for this class.
 
@@ -704,7 +701,7 @@ ___
 
 ▸ **newKeyChain**(): *[KeyChain](api_evm_keychain.keychain.md)*
 
-*Defined in [src/apis/evm/api.ts:816](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L816)*
+*Defined in [src/apis/evm/api.ts:770](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L770)*
 
 **Returns:** *[KeyChain](api_evm_keychain.keychain.md)*
 
@@ -716,7 +713,7 @@ ___
 
 ▸ **parseAddress**(`addr`: string): *Buffer*
 
-*Defined in [src/apis/evm/api.ts:141](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L141)*
+*Defined in [src/apis/evm/api.ts:92](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L92)*
 
 Takes an address string and returns its [Buffer](https://github.com/feross/buffer) representation if valid.
 
@@ -732,31 +729,11 @@ A [Buffer](https://github.com/feross/buffer) for the address if valid, undefined
 
 ___
 
-###  refreshBlockchainID
-
-▸ **refreshBlockchainID**(`blockchainID`: string): *boolean*
-
-*Defined in [src/apis/evm/api.ts:118](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L118)*
-
-Refresh blockchainID, and if a blockchainID is passed in, use that.
-
-**Parameters:**
-
-Name | Type | Default |
------- | ------ | ------ |
-`blockchainID` | string | undefined |
-
-**Returns:** *boolean*
-
-A boolean if the blockchainID was successfully refreshed.
-
-___
-
 ###  setAVAXAssetID
 
 ▸ **setAVAXAssetID**(`avaxAssetID`: string | Buffer): *void*
 
-*Defined in [src/apis/evm/api.ts:225](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L225)*
+*Defined in [src/apis/evm/api.ts:178](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/api.ts#L178)*
 
 Overrides the defaults and sets the cache to a specific AVAX AssetID
 
@@ -778,7 +755,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[setBaseURL](common_apibase.apibase.md#setbaseurl)*
 
-*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L37)*
+*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L37)*
 
 Sets the path of the APIs baseURL.
 
@@ -789,21 +766,3 @@ Name | Type | Description |
 `baseURL` | string | Path of the APIs baseURL - ex: "/ext/bc/X"  |
 
 **Returns:** *void*
-
-___
-
-###  setBlockchainAlias
-
-▸ **setBlockchainAlias**(`alias`: string): *string*
-
-*Defined in [src/apis/evm/api.ts:98](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/api.ts#L98)*
-
-Sets the alias for the blockchainID.
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`alias` | string | The alias for the blockchainID.   |
-
-**Returns:** *string*

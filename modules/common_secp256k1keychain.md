@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-SECP256k1KeyChain](common_secp256k1keychain.md)
+[@c4tplatform/caminojs](../api.md) › [Common-SECP256k1KeyChain](common_secp256k1keychain.md)
 
 # Module: Common-SECP256k1KeyChain
 
@@ -19,4 +19,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/secp256k1.ts:38](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/secp256k1.ts#L38)*
+*Defined in [src/common/secp256k1.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/secp256k1.ts#L38)*

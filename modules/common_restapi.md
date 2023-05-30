@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-RESTAPI](common_restapi.md)
+[@c4tplatform/caminojs](../api.md) › [Common-RESTAPI](common_restapi.md)
 
 # Module: Common-RESTAPI
 

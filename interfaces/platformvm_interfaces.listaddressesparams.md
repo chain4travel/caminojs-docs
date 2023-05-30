@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ListAddressesParams](platformvm_interfaces.listaddressesparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [ListAddressesParams](platformvm_interfaces.listaddressesparams.md)
 
 # Interface: ListAddressesParams
 
@@ -19,7 +19,7 @@
 
 • **password**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:126](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L126)*
+*Defined in [src/apis/platformvm/interfaces.ts:174](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L174)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:125](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L125)*
+*Defined in [src/apis/platformvm/interfaces.ts:173](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L173)*

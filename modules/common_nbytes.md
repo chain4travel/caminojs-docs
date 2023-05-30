@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-NBytes](common_nbytes.md)
+[@c4tplatform/caminojs](../api.md) › [Common-NBytes](common_nbytes.md)
 
 # Module: Common-NBytes
 
@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/common/nbytes.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/nbytes.ts#L19)*
+*Defined in [src/common/nbytes.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/nbytes.ts#L19)*

@@ -1,12 +1,13 @@
-[camino](../README.md) › [API-PlatformVM-Inputs](../modules/api_platformvm_inputs.md) › [StakeableLockIn](api_platformvm_inputs.stakeablelockin.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Inputs](../modules/api_platformvm_inputs.md) › [StakeableLockIn](api_platformvm_inputs.stakeablelockin.md)
 
 # Class: StakeableLockIn
 
-An [Input](common_inputs.input.md) class which specifies an input that has a locktime which can also enable staking of the value held, preventing transfers but not validation.
+An [Input](common_inputs.input.md) class which specifies an input that has a locktime which can also
+enable staking of the value held, preventing transfers but not validation.
 
 ## Hierarchy
 
-  ↳ [AmountInput](api_platformvm_inputs.amountinput.md)
+  ↳ [ParseableInput](api_platformvm_inputs.parseableinput.md)
 
   ↳ **StakeableLockIn**
 
@@ -21,12 +22,8 @@ An [Input](common_inputs.input.md) class which specifies an input that has a loc
 * [_codecID](api_platformvm_inputs.stakeablelockin.md#protected-_codecid)
 * [_typeID](api_platformvm_inputs.stakeablelockin.md#protected-_typeid)
 * [_typeName](api_platformvm_inputs.stakeablelockin.md#protected-_typename)
-* [amount](api_platformvm_inputs.stakeablelockin.md#protected-amount)
-* [amountValue](api_platformvm_inputs.stakeablelockin.md#protected-amountvalue)
-* [sigCount](api_platformvm_inputs.stakeablelockin.md#protected-sigcount)
-* [sigIdxs](api_platformvm_inputs.stakeablelockin.md#protected-sigidxs)
+* [input](api_platformvm_inputs.stakeablelockin.md#protected-input)
 * [stakeableLocktime](api_platformvm_inputs.stakeablelockin.md#protected-stakeablelocktime)
-* [transferableInput](api_platformvm_inputs.stakeablelockin.md#protected-transferableinput)
 
 ### Methods
 
@@ -38,18 +35,16 @@ An [Input](common_inputs.input.md) class which specifies an input that has a loc
 * [getAmount](api_platformvm_inputs.stakeablelockin.md#getamount)
 * [getCodecID](api_platformvm_inputs.stakeablelockin.md#getcodecid)
 * [getCredentialID](api_platformvm_inputs.stakeablelockin.md#getcredentialid)
+* [getInput](api_platformvm_inputs.stakeablelockin.md#getinput)
 * [getInputID](api_platformvm_inputs.stakeablelockin.md#getinputid)
 * [getSigIdxs](api_platformvm_inputs.stakeablelockin.md#getsigidxs)
 * [getStakeableLocktime](api_platformvm_inputs.stakeablelockin.md#getstakeablelocktime)
-* [getTransferablInput](api_platformvm_inputs.stakeablelockin.md#gettransferablinput)
+* [getTransferableInput](api_platformvm_inputs.stakeablelockin.md#gettransferableinput)
 * [getTypeID](api_platformvm_inputs.stakeablelockin.md#gettypeid)
 * [getTypeName](api_platformvm_inputs.stakeablelockin.md#gettypename)
 * [sanitizeObject](api_platformvm_inputs.stakeablelockin.md#sanitizeobject)
-* [select](api_platformvm_inputs.stakeablelockin.md#select)
 * [serialize](api_platformvm_inputs.stakeablelockin.md#serialize)
-* [synchronize](api_platformvm_inputs.stakeablelockin.md#private-synchronize)
 * [toBuffer](api_platformvm_inputs.stakeablelockin.md#tobuffer)
-* [toString](api_platformvm_inputs.stakeablelockin.md#tostring)
 * [comparator](api_platformvm_inputs.stakeablelockin.md#static-comparator)
 
 ## Constructors
@@ -58,11 +53,12 @@ An [Input](common_inputs.input.md) class which specifies an input that has a loc
 
 \+ **new StakeableLockIn**(`amount`: BN, `stakeableLocktime`: BN, `transferableInput`: [ParseableInput](api_platformvm_inputs.parseableinput.md)): *[StakeableLockIn](api_platformvm_inputs.stakeablelockin.md)*
 
-*Overrides [StandardAmountInput](common_inputs.standardamountinput.md).[constructor](common_inputs.standardamountinput.md#constructor)*
+*Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[constructor](common_inputs.standardparseableinput.md#constructor)*
 
-*Defined in [src/apis/platformvm/inputs.ts:245](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L245)*
+*Defined in [src/apis/platformvm/inputs.ts:248](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L248)*
 
-A [Output](common_output.output.md) class which specifies an [Input](common_inputs.input.md) that has a locktime which can also enable staking of the value held, preventing transfers but not validation.
+A [Input](common_inputs.input.md) class which specifies an [Input](common_inputs.input.md) that has a locktime which can also
+enable staking of the value held, preventing transfers but not validation.
 
 **Parameters:**
 
@@ -80,19 +76,19 @@ Name | Type | Default | Description |
 
 • **_codecID**: *number* = undefined
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[_codecID](common_nbytes.nbytes.md#protected-_codecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
 ### `Protected` _typeID
 
-• **_typeID**: *number* = PlatformVMConstants.STAKEABLELOCKINID
+• **_typeID**: *number* = PlatformVMConstants.STAKEABLELOCKOUTID
 
-*Overrides [AmountInput](api_platformvm_inputs.amountinput.md).[_typeID](api_platformvm_inputs.amountinput.md#protected-_typeid)*
+*Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[_typeID](api_platformvm_inputs.parseableinput.md#protected-_typeid)*
 
-*Defined in [src/apis/platformvm/inputs.ts:144](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L144)*
+*Defined in [src/apis/platformvm/inputs.ts:162](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L162)*
 
 ___
 
@@ -100,49 +96,19 @@ ___
 
 • **_typeName**: *string* = "StakeableLockIn"
 
-*Overrides [AmountInput](api_platformvm_inputs.amountinput.md).[_typeName](api_platformvm_inputs.amountinput.md#protected-_typename)*
+*Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[_typeName](api_platformvm_inputs.parseableinput.md#protected-_typename)*
 
-*Defined in [src/apis/platformvm/inputs.ts:143](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L143)*
-
-___
-
-### `Protected` amount
-
-• **amount**: *Buffer* = Buffer.alloc(8)
-
-*Inherited from [StandardAmountInput](common_inputs.standardamountinput.md).[amount](common_inputs.standardamountinput.md#protected-amount)*
-
-*Defined in [src/common/input.ts:352](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L352)*
+*Defined in [src/apis/platformvm/inputs.ts:161](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L161)*
 
 ___
 
-### `Protected` amountValue
+### `Protected` input
 
-• **amountValue**: *BN* = new BN(0)
+• **input**: *[BaseInput](../interfaces/common_inputs.baseinput.md)*
 
-*Inherited from [StandardAmountInput](common_inputs.standardamountinput.md).[amountValue](common_inputs.standardamountinput.md#protected-amountvalue)*
+*Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[input](common_inputs.standardparseableinput.md#protected-input)*
 
-*Defined in [src/common/input.ts:353](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L353)*
-
-___
-
-### `Protected` sigCount
-
-• **sigCount**: *Buffer* = Buffer.alloc(4)
-
-*Inherited from [Input](common_inputs.input.md).[sigCount](common_inputs.input.md#protected-sigcount)*
-
-*Defined in [src/common/input.ts:42](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L42)*
-
-___
-
-### `Protected` sigIdxs
-
-• **sigIdxs**: *[SigIdx](common_signature.sigidx.md)[]* = []
-
-*Inherited from [Input](common_inputs.input.md).[sigIdxs](common_inputs.input.md#protected-sigidxs)*
-
-*Defined in [src/common/input.ts:43](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L43)*
+*Defined in [src/common/input.ts:167](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L167)*
 
 ___
 
@@ -150,15 +116,7 @@ ___
 
 • **stakeableLocktime**: *Buffer*
 
-*Defined in [src/apis/platformvm/inputs.ts:183](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L183)*
-
-___
-
-### `Protected` transferableInput
-
-• **transferableInput**: *[ParseableInput](api_platformvm_inputs.parseableinput.md)*
-
-*Defined in [src/apis/platformvm/inputs.ts:184](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L184)*
+*Defined in [src/apis/platformvm/inputs.ts:190](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L190)*
 
 ## Methods
 
@@ -166,18 +124,16 @@ ___
 
 ▸ **addSignatureIdx**(`addressIdx`: number, `address`: Buffer): *void*
 
-*Inherited from [Input](common_inputs.input.md).[addSignatureIdx](common_inputs.input.md#addsignatureidx)*
+*Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[addSignatureIdx](common_inputs.standardparseableinput.md#addsignatureidx)*
 
-*Defined in [src/common/input.ts:82](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L82)*
-
-Creates and adds a [SigIdx](common_signature.sigidx.md) to the [Input](common_inputs.input.md).
+*Defined in [src/common/input.ts:185](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L185)*
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`addressIdx` | number | The index of the address to reference in the signatures |
-`address` | Buffer | The address of the source of the signature  |
+Name | Type |
+------ | ------ |
+`addressIdx` | number |
+`address` | Buffer |
 
 **Returns:** *void*
 
@@ -187,9 +143,7 @@ ___
 
 ▸ **clone**(): *this*
 
-*Overrides [Input](common_inputs.input.md).[clone](common_inputs.input.md#abstract-clone)*
-
-*Defined in [src/apis/platformvm/inputs.ts:237](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L237)*
+*Defined in [src/apis/platformvm/inputs.ts:230](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L230)*
 
 **Returns:** *this*
 
@@ -199,9 +153,7 @@ ___
 
 ▸ **create**(...`args`: any[]): *this*
 
-*Overrides [Input](common_inputs.input.md).[create](common_inputs.input.md#abstract-create)*
-
-*Defined in [src/apis/platformvm/inputs.ts:233](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L233)*
+*Defined in [src/apis/platformvm/inputs.ts:226](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L226)*
 
 **Parameters:**
 
@@ -217,9 +169,9 @@ ___
 
 ▸ **deserialize**(`fields`: object, `encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *void*
 
-*Overrides [StandardAmountInput](common_inputs.standardamountinput.md).[deserialize](common_inputs.standardamountinput.md#deserialize)*
+*Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[deserialize](api_platformvm_inputs.parseableinput.md#deserialize)*
 
-*Defined in [src/apis/platformvm/inputs.ts:166](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L166)*
+*Defined in [src/apis/platformvm/inputs.ts:179](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L179)*
 
 **Parameters:**
 
@@ -234,19 +186,19 @@ ___
 
 ###  fromBuffer
 
-▸ **fromBuffer**(`bytes`: Buffer, `offset`: number): *number*
+▸ **fromBuffer**(`outbuff`: Buffer, `offset`: number): *number*
 
-*Overrides [StandardAmountInput](common_inputs.standardamountinput.md).[fromBuffer](common_inputs.standardamountinput.md#frombuffer)*
+*Overrides [ParseableInput](api_platformvm_inputs.parseableinput.md).[fromBuffer](api_platformvm_inputs.parseableinput.md#frombuffer)*
 
-*Defined in [src/apis/platformvm/inputs.ts:214](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L214)*
+*Defined in [src/apis/platformvm/inputs.ts:199](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L199)*
 
-Popuates the instance from a [Buffer](https://github.com/feross/buffer) representing the [StakeableLockIn](api_platformvm_inputs.stakeablelockin.md) and returns the size of the output.
+Popuates the instance from a [Buffer](https://github.com/feross/buffer) representing the [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md) and returns the size of the output.
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`bytes` | Buffer | - |
+`outbuff` | Buffer | - |
 `offset` | number | 0 |
 
 **Returns:** *number*
@@ -257,11 +209,9 @@ ___
 
 ▸ **getAmount**(): *BN*
 
-*Inherited from [StandardAmountInput](common_inputs.standardamountinput.md).[getAmount](common_inputs.standardamountinput.md#getamount)*
+*Defined in [src/apis/platformvm/inputs.ts:239](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L239)*
 
-*Defined in [src/common/input.ts:358](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L358)*
-
-Returns the amount as a [BN](https://github.com/indutny/bn.js/).
+Returns the amount from the underlying input
 
 **Returns:** *BN*
 
@@ -271,9 +221,9 @@ ___
 
 ▸ **getCodecID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getCodecID](common_nbytes.nbytes.md#getcodecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -285,11 +235,21 @@ ___
 
 ▸ **getCredentialID**(): *number*
 
-*Overrides [Input](common_inputs.input.md).[getCredentialID](common_inputs.input.md#abstract-getcredentialid)*
-
-*Defined in [src/apis/platformvm/inputs.ts:209](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L209)*
+*Defined in [src/apis/platformvm/inputs.ts:224](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L224)*
 
 **Returns:** *number*
+
+___
+
+###  getInput
+
+▸ **getInput**(): *[BaseInput](../interfaces/common_inputs.baseinput.md)*
+
+*Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[getInput](common_inputs.standardparseableinput.md#getinput)*
+
+*Defined in [src/common/input.ts:183](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L183)*
+
+**Returns:** *[BaseInput](../interfaces/common_inputs.baseinput.md)*
 
 ___
 
@@ -297,9 +257,7 @@ ___
 
 ▸ **getInputID**(): *number*
 
-*Overrides [Input](common_inputs.input.md).[getInputID](common_inputs.input.md#abstract-getinputid)*
-
-*Defined in [src/apis/platformvm/inputs.ts:205](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L205)*
+*Defined in [src/apis/platformvm/inputs.ts:220](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L220)*
 
 Returns the inputID for this input
 
@@ -311,11 +269,9 @@ ___
 
 ▸ **getSigIdxs**(): *[SigIdx](common_signature.sigidx.md)[]*
 
-*Inherited from [Input](common_inputs.input.md).[getSigIdxs](common_inputs.input.md#getsigidxs)*
+*Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[getSigIdxs](common_inputs.standardparseableinput.md#getsigidxs)*
 
-*Defined in [src/common/input.ts:72](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L72)*
-
-Returns the array of [SigIdx](common_signature.sigidx.md) for this [Input](common_inputs.input.md)
+*Defined in [src/common/input.ts:189](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L189)*
 
 **Returns:** *[SigIdx](common_signature.sigidx.md)[]*
 
@@ -325,17 +281,19 @@ ___
 
 ▸ **getStakeableLocktime**(): *BN*
 
-*Defined in [src/apis/platformvm/inputs.ts:195](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L195)*
+*Defined in [src/apis/platformvm/inputs.ts:192](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L192)*
 
 **Returns:** *BN*
 
 ___
 
-###  getTransferablInput
+###  getTransferableInput
 
-▸ **getTransferablInput**(): *[ParseableInput](api_platformvm_inputs.parseableinput.md)*
+▸ **getTransferableInput**(): *[ParseableInput](api_platformvm_inputs.parseableinput.md)*
 
-*Defined in [src/apis/platformvm/inputs.ts:199](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L199)*
+*Defined in [src/apis/platformvm/inputs.ts:246](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L246)*
+
+Backwards compatibility
 
 **Returns:** *[ParseableInput](api_platformvm_inputs.parseableinput.md)*
 
@@ -345,9 +303,9 @@ ___
 
 ▸ **getTypeID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeID](common_nbytes.nbytes.md#gettypeid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -359,9 +317,9 @@ ___
 
 ▸ **getTypeName**(): *string*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeName](common_nbytes.nbytes.md#gettypename)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -373,9 +331,9 @@ ___
 
 ▸ **sanitizeObject**(`obj`: object): *object*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[sanitizeObject](common_nbytes.nbytes.md#sanitizeobject)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -389,32 +347,13 @@ Name | Type |
 
 ___
 
-###  select
-
-▸ **select**(`id`: number, ...`args`: any[]): *[Input](common_inputs.input.md)*
-
-*Overrides [AmountInput](api_platformvm_inputs.amountinput.md).[select](api_platformvm_inputs.amountinput.md#select)*
-
-*Defined in [src/apis/platformvm/inputs.ts:243](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L243)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`id` | number |
-`...args` | any[] |
-
-**Returns:** *[Input](common_inputs.input.md)*
-
-___
-
 ###  serialize
 
 ▸ **serialize**(`encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *object*
 
-*Overrides [StandardAmountInput](common_inputs.standardamountinput.md).[serialize](common_inputs.standardamountinput.md#serialize)*
+*Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[serialize](common_inputs.standardparseableinput.md#serialize)*
 
-*Defined in [src/apis/platformvm/inputs.ts:148](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L148)*
+*Defined in [src/apis/platformvm/inputs.ts:165](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L165)*
 
 **Parameters:**
 
@@ -426,41 +365,17 @@ Name | Type | Default |
 
 ___
 
-### `Private` synchronize
-
-▸ **synchronize**(): *void*
-
-*Defined in [src/apis/platformvm/inputs.ts:186](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L186)*
-
-**Returns:** *void*
-
-___
-
 ###  toBuffer
 
 ▸ **toBuffer**(): *Buffer*
 
-*Overrides [StandardAmountInput](common_inputs.standardamountinput.md).[toBuffer](common_inputs.standardamountinput.md#tobuffer)*
+*Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[toBuffer](common_inputs.standardparseableinput.md#tobuffer)*
 
-*Defined in [src/apis/platformvm/inputs.ts:226](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/inputs.ts#L226)*
+*Defined in [src/apis/platformvm/inputs.ts:209](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/inputs.ts#L209)*
 
-Returns the buffer representing the [StakeableLockIn](api_platformvm_inputs.stakeablelockin.md) instance.
+Returns the buffer representing the [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md) instance.
 
 **Returns:** *Buffer*
-
-___
-
-###  toString
-
-▸ **toString**(): *string*
-
-*Inherited from [Input](common_inputs.input.md).[toString](common_inputs.input.md#tostring)*
-
-*Defined in [src/common/input.ts:122](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L122)*
-
-Returns a base-58 representation of the [Input](common_inputs.input.md).
-
-**Returns:** *string*
 
 ___
 
@@ -468,17 +383,19 @@ ___
 
 ▸ **comparator**(): *function*
 
-*Inherited from [Input](common_inputs.input.md).[comparator](common_inputs.input.md#static-comparator)*
+*Inherited from [StandardParseableInput](common_inputs.standardparseableinput.md).[comparator](common_inputs.standardparseableinput.md#static-comparator)*
 
-*Defined in [src/common/input.ts:45](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/input.ts#L45)*
+*Defined in [src/common/input.ts:172](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/input.ts#L172)*
+
+Returns a function used to sort an array of [StandardParseableInput](common_inputs.standardparseableinput.md)s
 
 **Returns:** *function*
 
-▸ (`a`: [Input](common_inputs.input.md), `b`: [Input](common_inputs.input.md)): *1 | -1 | 0*
+▸ (`a`: [StandardParseableInput](common_inputs.standardparseableinput.md), `b`: [StandardParseableInput](common_inputs.standardparseableinput.md)): *1 | -1 | 0*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`a` | [Input](common_inputs.input.md) |
-`b` | [Input](common_inputs.input.md) |
+`a` | [StandardParseableInput](common_inputs.standardparseableinput.md) |
+`b` | [StandardParseableInput](common_inputs.standardparseableinput.md) |

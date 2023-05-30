@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-Auth](api_auth.md)
+[@c4tplatform/caminojs](../api.md) › [API-Auth](api_auth.md)
 
 # Module: API-Auth
 

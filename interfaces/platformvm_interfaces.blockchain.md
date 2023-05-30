@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Blockchain](platformvm_interfaces.blockchain.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [Blockchain](platformvm_interfaces.blockchain.md)
 
 # Interface: Blockchain
 
@@ -21,7 +21,7 @@
 
 • **id**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:178](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L178)*
+*Defined in [src/apis/platformvm/interfaces.ts:226](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L226)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:179](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L179)*
+*Defined in [src/apis/platformvm/interfaces.ts:227](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L227)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **subnetID**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:180](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L180)*
+*Defined in [src/apis/platformvm/interfaces.ts:228](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L228)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **vmID**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:181](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L181)*
+*Defined in [src/apis/platformvm/interfaces.ts:229](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L229)*

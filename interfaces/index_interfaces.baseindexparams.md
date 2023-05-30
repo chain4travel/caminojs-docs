@@ -1,14 +1,10 @@
-[camino](../README.md) › [Index-Interfaces](../modules/index_interfaces.md) › [BaseIndexParams](index_interfaces.baseindexparams.md)
+[@c4tplatform/caminojs](../api.md) › [Index-Interfaces](../modules/index_interfaces.md) › [BaseIndexParams](index_interfaces.baseindexparams.md)
 
 # Interface: BaseIndexParams
 
 ## Hierarchy
 
 * **BaseIndexParams**
-
-  ↳ [GetLastAcceptedParams](index_interfaces.getlastacceptedparams.md)
-
-  ↳ [GetLastVertexParams](index_interfaces.getlastvertexparams.md)
 
   ↳ [GetContainerByIndexParams](index_interfaces.getcontainerbyindexparams.md)
 
@@ -32,4 +28,4 @@
 
 • **encoding**: *string*
 
-*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/interfaces.ts#L7)*
+*Defined in [src/apis/index/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/interfaces.ts#L7)*

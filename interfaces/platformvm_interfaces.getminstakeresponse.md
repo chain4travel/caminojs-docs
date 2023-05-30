@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMinStakeResponse](platformvm_interfaces.getminstakeresponse.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetMinStakeResponse](platformvm_interfaces.getminstakeresponse.md)
 
 # Interface: GetMinStakeResponse
 
@@ -19,7 +19,7 @@
 
 • **minDelegatorStake**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:196](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L196)*
+*Defined in [src/apis/platformvm/interfaces.ts:244](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L244)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **minValidatorStake**: *BN*
 
-*Defined in [src/apis/platformvm/interfaces.ts:195](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L195)*
+*Defined in [src/apis/platformvm/interfaces.ts:243](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L243)*

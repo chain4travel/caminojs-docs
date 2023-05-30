@@ -1,4 +1,4 @@
-[camino](../README.md) › [Utils-Base58](utils_base58.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-Base58](utils_base58.md)
 
 # Module: Utils-Base58
 

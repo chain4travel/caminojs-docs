@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-CreateChainTx](api_platformvm_createchaintx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-CreateChainTx](api_platformvm_createchaintx.md)
 
 # Module: API-PlatformVM-CreateChainTx
 
@@ -18,4 +18,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/createchaintx.ts:22](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/createchaintx.ts#L22)*
+*Defined in [src/apis/platformvm/createchaintx.ts:22](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/createchaintx.ts#L22)*

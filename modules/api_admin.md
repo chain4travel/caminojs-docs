@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-Admin](api_admin.md)
+[@c4tplatform/caminojs](../api.md) › [API-Admin](api_admin.md)
 
 # Module: API-Admin
 

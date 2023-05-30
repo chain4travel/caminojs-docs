@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [StartIndex](platformvm_interfaces.startindex.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [StartIndex](platformvm_interfaces.startindex.md)
 
 # Interface: StartIndex
 
@@ -19,7 +19,7 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:130](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L130)*
+*Defined in [src/apis/platformvm/interfaces.ts:178](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L178)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **utxo**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:131](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L131)*
+*Defined in [src/apis/platformvm/interfaces.ts:179](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L179)*

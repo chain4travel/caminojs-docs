@@ -1,4 +1,4 @@
-[camino](../README.md) › [EVM-Interfaces](evm_interfaces.md)
+[@c4tplatform/caminojs](../api.md) › [EVM-Interfaces](evm_interfaces.md)
 
 # Module: EVM-Interfaces
 
@@ -16,4 +16,15 @@
 * [GetUTXOsParams](../interfaces/evm_interfaces.getutxosparams.md)
 * [ImportAVAXParams](../interfaces/evm_interfaces.importavaxparams.md)
 * [ImportKeyParams](../interfaces/evm_interfaces.importkeyparams.md)
-* [ImportParams](../interfaces/evm_interfaces.importparams.md)
+
+### Type aliases
+
+* [ImportParams](evm_interfaces.md#importparams)
+
+## Type aliases
+
+###  ImportParams
+
+Ƭ **ImportParams**: *[ImportAVAXParams](../interfaces/evm_interfaces.importavaxparams.md)*
+
+*Defined in [src/apis/evm/interfaces.ts:43](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/interfaces.ts#L43)*

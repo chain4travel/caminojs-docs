@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetBalanceResponse](avm_interfaces.getbalanceresponse.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetBalanceResponse](avm_interfaces.getbalanceresponse.md)
 
 # Interface: GetBalanceResponse
 
@@ -19,7 +19,7 @@
 
 • **balance**: *number | BN*
 
-*Defined in [src/apis/avm/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L25)*
+*Defined in [src/apis/avm/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L25)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **utxoIDs**: *[iUTXOID](avm_interfaces.iutxoid.md)[]*
 
-*Defined in [src/apis/avm/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L26)*
+*Defined in [src/apis/avm/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L26)*

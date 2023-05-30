@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAVAXAssetIDParams](avm_interfaces.getavaxassetidparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetAVAXAssetIDParams](avm_interfaces.getavaxassetidparams.md)
 
 # Interface: GetAVAXAssetIDParams
 
@@ -21,7 +21,7 @@
 
 • **assetID**: *Buffer*
 
-*Defined in [src/apis/avm/interfaces.ts:14](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L14)*
+*Defined in [src/apis/avm/interfaces.ts:14](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L14)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **denomination**: *number*
 
-*Defined in [src/apis/avm/interfaces.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L15)*
+*Defined in [src/apis/avm/interfaces.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L15)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L12)*
+*Defined in [src/apis/avm/interfaces.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L12)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **symbol**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L13)*
+*Defined in [src/apis/avm/interfaces.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L13)*

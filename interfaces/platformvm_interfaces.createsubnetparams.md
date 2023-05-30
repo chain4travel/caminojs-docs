@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateSubnetParams](platformvm_interfaces.createsubnetparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateSubnetParams](platformvm_interfaces.createsubnetparams.md)
 
 # Interface: CreateSubnetParams
 
@@ -21,7 +21,7 @@
 
 • **controlKeys**: *string[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:157](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L157)*
+*Defined in [src/apis/platformvm/interfaces.ts:205](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L205)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **password**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:156](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L156)*
+*Defined in [src/apis/platformvm/interfaces.ts:204](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L204)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **threshold**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:158](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L158)*
+*Defined in [src/apis/platformvm/interfaces.ts:206](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L206)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:155](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L155)*
+*Defined in [src/apis/platformvm/interfaces.ts:203](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L203)*

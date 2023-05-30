@@ -1,4 +1,4 @@
-[camino](../README.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [NewTokenInterface](auth_interfaces.newtokeninterface.md)
+[@c4tplatform/caminojs](../api.md) › [Auth-Interfaces](../modules/auth_interfaces.md) › [NewTokenInterface](auth_interfaces.newtokeninterface.md)
 
 # Interface: NewTokenInterface
 
@@ -19,7 +19,7 @@
 
 • **endpoints**: *string[]*
 
-*Defined in [src/apis/auth/interfaces.ts:8](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/auth/interfaces.ts#L8)*
+*Defined in [src/apis/auth/interfaces.ts:8](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/auth/interfaces.ts#L8)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **password**: *string*
 
-*Defined in [src/apis/auth/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/auth/interfaces.ts#L7)*
+*Defined in [src/apis/auth/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/auth/interfaces.ts#L7)*

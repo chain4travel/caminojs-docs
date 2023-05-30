@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-EVM-ImportTx](../modules/api_evm_importtx.md) › [ImportTx](api_evm_importtx.importtx.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-ImportTx](../modules/api_evm_importtx.md) › [ImportTx](api_evm_importtx.importtx.md)
 
 # Class: ImportTx
 
@@ -19,6 +19,7 @@ Class representing an unsigned Import transaction.
 ### Properties
 
 * [_codecID](api_evm_importtx.importtx.md#protected-_codecid)
+* [_outputOwners](api_evm_importtx.importtx.md#protected-_outputowners)
 * [_typeID](api_evm_importtx.importtx.md#protected-_typeid)
 * [_typeName](api_evm_importtx.importtx.md#protected-_typename)
 * [blockchainID](api_evm_importtx.importtx.md#protected-blockchainid)
@@ -39,6 +40,7 @@ Class representing an unsigned Import transaction.
 * [getCodecID](api_evm_importtx.importtx.md#getcodecid)
 * [getImportInputs](api_evm_importtx.importtx.md#getimportinputs)
 * [getNetworkID](api_evm_importtx.importtx.md#getnetworkid)
+* [getOutputOwners](api_evm_importtx.importtx.md#getoutputowners)
 * [getOuts](api_evm_importtx.importtx.md#getouts)
 * [getSourceChain](api_evm_importtx.importtx.md#getsourcechain)
 * [getTxType](api_evm_importtx.importtx.md#gettxtype)
@@ -47,6 +49,7 @@ Class representing an unsigned Import transaction.
 * [sanitizeObject](api_evm_importtx.importtx.md#sanitizeobject)
 * [select](api_evm_importtx.importtx.md#select)
 * [serialize](api_evm_importtx.importtx.md#serialize)
+* [setOutputOwners](api_evm_importtx.importtx.md#setoutputowners)
 * [sign](api_evm_importtx.importtx.md#sign)
 * [toBuffer](api_evm_importtx.importtx.md#tobuffer)
 * [toString](api_evm_importtx.importtx.md#tostring)
@@ -60,7 +63,7 @@ Class representing an unsigned Import transaction.
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[constructor](api_evm_basetx.evmbasetx.md#constructor)*
 
-*Defined in [src/apis/evm/importtx.ts:201](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L201)*
+*Defined in [src/apis/evm/importtx.ts:203](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L203)*
 
 Class representing an unsigned Import transaction.
 
@@ -83,9 +86,19 @@ Name | Type | Default | Description |
 
 • **_codecID**: *number* = undefined
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[_codecID](common_nbytes.nbytes.md#protected-_codecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
+
+___
+
+### `Protected` _outputOwners
+
+• **_outputOwners**: *[OutputOwners](common_output.outputowners.md)[]* = undefined
+
+*Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[_outputOwners](common_transactions.evmstandardbasetx.md#protected-_outputowners)*
+
+*Defined in [src/common/evmtx.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L39)*
 
 ___
 
@@ -95,7 +108,7 @@ ___
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[_typeID](api_evm_basetx.evmbasetx.md#protected-_typeid)*
 
-*Defined in [src/apis/evm/importtx.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L37)*
+*Defined in [src/apis/evm/importtx.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L38)*
 
 ___
 
@@ -105,7 +118,7 @@ ___
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[_typeName](api_evm_basetx.evmbasetx.md#protected-_typename)*
 
-*Defined in [src/apis/evm/importtx.ts:36](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L36)*
+*Defined in [src/apis/evm/importtx.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L37)*
 
 ___
 
@@ -115,7 +128,7 @@ ___
 
 *Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[blockchainID](common_transactions.evmstandardbasetx.md#protected-blockchainid)*
 
-*Defined in [src/common/evmtx.ts:74](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L74)*
+*Defined in [src/common/evmtx.ts:79](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L79)*
 
 ___
 
@@ -123,7 +136,7 @@ ___
 
 • **importIns**: *[TransferableInput](api_evm_inputs.transferableinput.md)[]* = []
 
-*Defined in [src/apis/evm/importtx.ts:72](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L72)*
+*Defined in [src/apis/evm/importtx.ts:74](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L74)*
 
 ___
 
@@ -133,7 +146,7 @@ ___
 
 *Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[networkID](common_transactions.evmstandardbasetx.md#protected-networkid)*
 
-*Defined in [src/common/evmtx.ts:73](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L73)*
+*Defined in [src/common/evmtx.ts:78](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L78)*
 
 ___
 
@@ -141,7 +154,7 @@ ___
 
 • **numIns**: *Buffer* = Buffer.alloc(4)
 
-*Defined in [src/apis/evm/importtx.ts:71](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L71)*
+*Defined in [src/apis/evm/importtx.ts:73](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L73)*
 
 ___
 
@@ -149,7 +162,7 @@ ___
 
 • **numOuts**: *Buffer* = Buffer.alloc(4)
 
-*Defined in [src/apis/evm/importtx.ts:73](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L73)*
+*Defined in [src/apis/evm/importtx.ts:75](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L75)*
 
 ___
 
@@ -157,7 +170,7 @@ ___
 
 • **outs**: *[EVMOutput](api_evm_outputs.evmoutput.md)[]* = []
 
-*Defined in [src/apis/evm/importtx.ts:74](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L74)*
+*Defined in [src/apis/evm/importtx.ts:76](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L76)*
 
 ___
 
@@ -165,7 +178,7 @@ ___
 
 • **sourceChain**: *Buffer* = Buffer.alloc(32)
 
-*Defined in [src/apis/evm/importtx.ts:70](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L70)*
+*Defined in [src/apis/evm/importtx.ts:72](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L72)*
 
 ## Methods
 
@@ -175,7 +188,7 @@ ___
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[clone](api_evm_basetx.evmbasetx.md#clone)*
 
-*Defined in [src/apis/evm/importtx.ts:166](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L166)*
+*Defined in [src/apis/evm/importtx.ts:168](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L168)*
 
 **Returns:** *this*
 
@@ -187,7 +200,7 @@ ___
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[create](api_evm_basetx.evmbasetx.md#create)*
 
-*Defined in [src/apis/evm/importtx.ts:172](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L172)*
+*Defined in [src/apis/evm/importtx.ts:174](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L174)*
 
 **Parameters:**
 
@@ -205,7 +218,7 @@ ___
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[deserialize](api_evm_basetx.evmbasetx.md#deserialize)*
 
-*Defined in [src/apis/evm/importtx.ts:52](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L52)*
+*Defined in [src/apis/evm/importtx.ts:54](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L54)*
 
 **Parameters:**
 
@@ -224,7 +237,7 @@ ___
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[fromBuffer](api_evm_basetx.evmbasetx.md#frombuffer)*
 
-*Defined in [src/apis/evm/importtx.ts:101](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L101)*
+*Defined in [src/apis/evm/importtx.ts:103](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L103)*
 
 Takes a [Buffer](https://github.com/feross/buffer) containing an [ImportTx](api_evm_importtx.importtx.md), parses it,
 populates the class, and returns the length of the [ImportTx](api_evm_importtx.importtx.md) in bytes.
@@ -250,7 +263,7 @@ ___
 
 *Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[getBlockchainID](common_transactions.evmstandardbasetx.md#getblockchainid)*
 
-*Defined in [src/common/evmtx.ts:91](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L91)*
+*Defined in [src/common/evmtx.ts:113](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L113)*
 
 Returns the Buffer representation of the BlockchainID
 
@@ -262,9 +275,9 @@ ___
 
 ▸ **getCodecID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getCodecID](common_nbytes.nbytes.md#getcodecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -276,7 +289,7 @@ ___
 
 ▸ **getImportInputs**(): *[TransferableInput](api_evm_inputs.transferableinput.md)[]*
 
-*Defined in [src/apis/evm/importtx.ts:155](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L155)*
+*Defined in [src/apis/evm/importtx.ts:157](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L157)*
 
 Returns an array of [TransferableInput](api_evm_inputs.transferableinput.md)s in this transaction.
 
@@ -290,7 +303,7 @@ ___
 
 *Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[getNetworkID](common_transactions.evmstandardbasetx.md#getnetworkid)*
 
-*Defined in [src/common/evmtx.ts:84](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L84)*
+*Defined in [src/common/evmtx.ts:106](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L106)*
 
 Returns the NetworkID as a number
 
@@ -298,11 +311,25 @@ Returns the NetworkID as a number
 
 ___
 
+###  getOutputOwners
+
+▸ **getOutputOwners**(): *[OutputOwners](common_output.outputowners.md)[]*
+
+*Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[getOutputOwners](common_transactions.evmstandardbasetx.md#getoutputowners)*
+
+*Defined in [src/common/evmtx.ts:89](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L89)*
+
+**Returns:** *[OutputOwners](common_output.outputowners.md)[]*
+
+The outputOwners of inputs, one per input
+
+___
+
 ###  getOuts
 
 ▸ **getOuts**(): *[EVMOutput](api_evm_outputs.evmoutput.md)[]*
 
-*Defined in [src/apis/evm/importtx.ts:162](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L162)*
+*Defined in [src/apis/evm/importtx.ts:164](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L164)*
 
 Returns an array of [EVMOutput](api_evm_outputs.evmoutput.md)s in this transaction.
 
@@ -314,7 +341,7 @@ ___
 
 ▸ **getSourceChain**(): *Buffer*
 
-*Defined in [src/apis/evm/importtx.ts:86](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L86)*
+*Defined in [src/apis/evm/importtx.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L88)*
 
 Returns a [Buffer](https://github.com/feross/buffer) for the source chainid.
 
@@ -328,7 +355,7 @@ ___
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[getTxType](api_evm_basetx.evmbasetx.md#gettxtype)*
 
-*Defined in [src/apis/evm/importtx.ts:79](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L79)*
+*Defined in [src/apis/evm/importtx.ts:81](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L81)*
 
 Returns the id of the [ImportTx](api_evm_importtx.importtx.md)
 
@@ -340,9 +367,9 @@ ___
 
 ▸ **getTypeID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeID](common_nbytes.nbytes.md#gettypeid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -354,9 +381,9 @@ ___
 
 ▸ **getTypeName**(): *string*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeName](common_nbytes.nbytes.md#gettypename)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -368,9 +395,9 @@ ___
 
 ▸ **sanitizeObject**(`obj`: object): *object*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[sanitizeObject](common_nbytes.nbytes.md#sanitizeobject)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -392,7 +419,7 @@ ___
 
 *Overrides [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[select](common_transactions.evmstandardbasetx.md#abstract-select)*
 
-*Defined in [src/apis/evm/basetx.ts:80](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/basetx.ts#L80)*
+*Defined in [src/apis/evm/basetx.ts:84](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/basetx.ts#L84)*
 
 **Parameters:**
 
@@ -411,7 +438,7 @@ ___
 
 *Overrides [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[serialize](common_transactions.evmstandardbasetx.md#serialize)*
 
-*Defined in [src/apis/evm/importtx.ts:39](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L39)*
+*Defined in [src/apis/evm/importtx.ts:40](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L40)*
 
 **Parameters:**
 
@@ -423,13 +450,33 @@ Name | Type | Default |
 
 ___
 
+###  setOutputOwners
+
+▸ **setOutputOwners**(`owners`: [OutputOwners](common_output.outputowners.md)[]): *void*
+
+*Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[setOutputOwners](common_transactions.evmstandardbasetx.md#setoutputowners)*
+
+*Defined in [src/common/evmtx.ts:99](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L99)*
+
+**`params`** The outputOwners of inputs, one per input
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`owners` | [OutputOwners](common_output.outputowners.md)[] |
+
+**Returns:** *void*
+
+___
+
 ###  sign
 
-▸ **sign**(`msg`: Buffer, `kc`: [KeyChain](api_evm_keychain.keychain.md)): *[Credential](common_signature.credential.md)[]*
+▸ **sign**(`msg`: Buffer, `kc`: [SignerKeyChain](common_keychain.signerkeychain.md)): *[Credential](common_signature.credential.md)[]*
 
 *Overrides [EVMBaseTx](api_evm_basetx.evmbasetx.md).[sign](api_evm_basetx.evmbasetx.md#sign)*
 
-*Defined in [src/apis/evm/importtx.ts:184](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L184)*
+*Defined in [src/apis/evm/importtx.ts:186](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L186)*
 
 Takes the bytes of an [UnsignedTx](api_evm_transactions.unsignedtx.md) and returns an array of [Credential](common_signature.credential.md)s
 
@@ -438,7 +485,7 @@ Takes the bytes of an [UnsignedTx](api_evm_transactions.unsignedtx.md) and retur
 Name | Type | Description |
 ------ | ------ | ------ |
 `msg` | Buffer | A Buffer for the [UnsignedTx](api_evm_transactions.unsignedtx.md) |
-`kc` | [KeyChain](api_evm_keychain.keychain.md) | An [KeyChain](api_evm_keychain.keychain.md) used in signing  |
+`kc` | [SignerKeyChain](common_keychain.signerkeychain.md) | An [KeyChain](api_evm_keychain.keychain.md) used in signing  |
 
 **Returns:** *[Credential](common_signature.credential.md)[]*
 
@@ -452,7 +499,7 @@ ___
 
 *Overrides [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[toBuffer](common_transactions.evmstandardbasetx.md#tobuffer)*
 
-*Defined in [src/apis/evm/importtx.ts:127](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L127)*
+*Defined in [src/apis/evm/importtx.ts:129](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L129)*
 
 Returns a [Buffer](https://github.com/feross/buffer) representation of the [ImportTx](api_evm_importtx.importtx.md).
 
@@ -466,7 +513,7 @@ ___
 
 *Inherited from [EVMStandardBaseTx](common_transactions.evmstandardbasetx.md).[toString](common_transactions.evmstandardbasetx.md#tostring)*
 
-*Defined in [src/common/evmtx.ts:108](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L108)*
+*Defined in [src/common/evmtx.ts:130](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L130)*
 
 Returns a base-58 representation of the [StandardBaseTx](common_transactions.standardbasetx.md).
 
@@ -478,7 +525,7 @@ ___
 
 ▸ **validateOuts**(`fee`: BN): *void*
 
-*Defined in [src/apis/evm/importtx.ts:259](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/importtx.ts#L259)*
+*Defined in [src/apis/evm/importtx.ts:261](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/importtx.ts#L261)*
 
 **Parameters:**
 

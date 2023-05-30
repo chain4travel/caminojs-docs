@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-Index](../modules/api_index.md) › [IndexAPI](api_index.indexapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Index](../modules/api_index.md) › [IndexAPI](api_index.indexapi.md)
 
 # Class: IndexAPI
 
@@ -48,7 +48,7 @@ Class for interacting with a node's IndexAPI.
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
-*Defined in [src/apis/index/api.ts:214](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/api.ts#L214)*
+*Defined in [src/apis/index/api.ts:214](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/api.ts#L214)*
 
 This class should not be instantiated directly. Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
 
@@ -56,7 +56,7 @@ This class should not be instantiated directly. Instead use the [Camino.addAPI](
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Avalanche class |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class |
 `baseURL` | string | "/ext/index/X/tx" | Defaults to the string "/ext/index/X/tx" as the path to rpc's baseURL  |
 
 **Returns:** *[IndexAPI](api_index.indexapi.md)*
@@ -69,7 +69,7 @@ Name | Type | Default | Description |
 
 *Inherited from [APIBase](common_apibase.apibase.md).[baseURL](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L29)*
+*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L29)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L28)*
+*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L28)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[db](common_apibase.apibase.md#protected-db)*
 
-*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L30)*
+*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L30)*
 
 ___
 
@@ -97,9 +97,9 @@ ___
 
 • **jrpcVersion**: *string* = "2.0"
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[jrpcVersion](common_jrpcapi.jrpcapi.md#protected-jrpcversion)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[jrpcVersion](api_evm.evmapi.md#protected-jrpcversion)*
 
-*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L12)*
+*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L12)*
 
 ___
 
@@ -107,9 +107,9 @@ ___
 
 • **rpcID**: *number* = 1
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[rpcID](common_jrpcapi.jrpcapi.md#protected-rpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[rpcID](api_evm.evmapi.md#protected-rpcid)*
 
-*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L13)*
+*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L13)*
 
 ## Methods
 
@@ -117,9 +117,9 @@ ___
 
 ▸ **callMethod**(`method`: string, `params?`: object[] | object, `baseURL?`: string, `headers?`: object): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[callMethod](common_jrpcapi.jrpcapi.md#callmethod)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[callMethod](api_evm.evmapi.md#callmethod)*
 
-*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L15)*
+*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L15)*
 
 **Parameters:**
 
@@ -140,7 +140,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L53)*
+*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L53)*
 
 Returns the baseURL's path.
 
@@ -150,9 +150,9 @@ ___
 
 ###  getContainerByID
 
-▸ **getContainerByID**(`id`: string, `encoding`: string, `baseURL`: string): *Promise‹[GetContainerByIDResponse](../interfaces/index_interfaces.getcontainerbyidresponse.md)›*
+▸ **getContainerByID**(`id`: string, `encoding`: string, `baseURL`: string): *Promise‹[GetContainerByIDResponse](../modules/index_interfaces.md#getcontainerbyidresponse)›*
 
-*Defined in [src/apis/index/api.ts:98](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/api.ts#L98)*
+*Defined in [src/apis/index/api.ts:98](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/api.ts#L98)*
 
 Get contrainer by ID
 
@@ -164,7 +164,7 @@ Name | Type | Default | Description |
 `encoding` | string | "hex" | - |
 `baseURL` | string | this.getBaseURL() |   |
 
-**Returns:** *Promise‹[GetContainerByIDResponse](../interfaces/index_interfaces.getcontainerbyidresponse.md)›*
+**Returns:** *Promise‹[GetContainerByIDResponse](../modules/index_interfaces.md#getcontainerbyidresponse)›*
 
 Returns a Promise GetContainerByIDResponse.
 
@@ -172,9 +172,9 @@ ___
 
 ###  getContainerByIndex
 
-▸ **getContainerByIndex**(`index`: string, `encoding`: string, `baseURL`: string): *Promise‹[GetContainerByIndexResponse](../interfaces/index_interfaces.getcontainerbyindexresponse.md)›*
+▸ **getContainerByIndex**(`index`: string, `encoding`: string, `baseURL`: string): *Promise‹[GetContainerByIndexResponse](../modules/index_interfaces.md#getcontainerbyindexresponse)›*
 
-*Defined in [src/apis/index/api.ts:67](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/api.ts#L67)*
+*Defined in [src/apis/index/api.ts:67](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/api.ts#L67)*
 
 Get container by index
 
@@ -186,7 +186,7 @@ Name | Type | Default | Description |
 `encoding` | string | "hex" | - |
 `baseURL` | string | this.getBaseURL() |   |
 
-**Returns:** *Promise‹[GetContainerByIndexResponse](../interfaces/index_interfaces.getcontainerbyindexresponse.md)›*
+**Returns:** *Promise‹[GetContainerByIndexResponse](../modules/index_interfaces.md#getcontainerbyindexresponse)›*
 
 Returns a Promise GetContainerByIndexResponse.
 
@@ -196,7 +196,7 @@ ___
 
 ▸ **getContainerRange**(`startIndex`: number, `numToFetch`: number, `encoding`: string, `baseURL`: string): *Promise‹[GetContainerRangeResponse](../interfaces/index_interfaces.getcontainerrangeresponse.md)[]›*
 
-*Defined in [src/apis/index/api.ts:130](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/api.ts#L130)*
+*Defined in [src/apis/index/api.ts:130](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/api.ts#L130)*
 
 Get container range
 
@@ -221,7 +221,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L58)*
+*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L58)*
 
 Returns the baseURL's database.
 
@@ -233,7 +233,7 @@ ___
 
 ▸ **getIndex**(`id`: string, `encoding`: string, `baseURL`: string): *Promise‹string›*
 
-*Defined in [src/apis/index/api.ts:163](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/api.ts#L163)*
+*Defined in [src/apis/index/api.ts:163](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/api.ts#L163)*
 
 Get index by containerID
 
@@ -253,9 +253,9 @@ ___
 
 ###  getLastAccepted
 
-▸ **getLastAccepted**(`encoding`: string, `baseURL`: string): *Promise‹[GetLastAcceptedResponse](../interfaces/index_interfaces.getlastacceptedresponse.md)›*
+▸ **getLastAccepted**(`encoding`: string, `baseURL`: string): *Promise‹[GetLastAcceptedResponse](../modules/index_interfaces.md#getlastacceptedresponse)›*
 
-*Defined in [src/apis/index/api.ts:38](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/api.ts#L38)*
+*Defined in [src/apis/index/api.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/api.ts#L38)*
 
 Get last accepted tx, vtx or block
 
@@ -266,7 +266,7 @@ Name | Type | Default | Description |
 `encoding` | string | "hex" | - |
 `baseURL` | string | this.getBaseURL() |   |
 
-**Returns:** *Promise‹[GetLastAcceptedResponse](../interfaces/index_interfaces.getlastacceptedresponse.md)›*
+**Returns:** *Promise‹[GetLastAcceptedResponse](../modules/index_interfaces.md#getlastacceptedresponse)›*
 
 Returns a Promise GetLastAcceptedResponse.
 
@@ -276,9 +276,9 @@ ___
 
 ▸ **getRPCID**(): *number*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[getRPCID](common_jrpcapi.jrpcapi.md#getrpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[getRPCID](api_evm.evmapi.md#getrpcid)*
 
-*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L77)*
+*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L77)*
 
 Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
 request ID that will be sent.
@@ -291,7 +291,7 @@ ___
 
 ▸ **isAccepted**(`id`: string, `encoding`: string, `baseURL`: string): *Promise‹[IsAcceptedResponse](../interfaces/index_interfaces.isacceptedresponse.md)›*
 
-*Defined in [src/apis/index/api.ts:194](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/index/api.ts#L194)*
+*Defined in [src/apis/index/api.ts:194](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/index/api.ts#L194)*
 
 Check if container is accepted
 
@@ -315,7 +315,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[setBaseURL](common_apibase.apibase.md#setbaseurl)*
 
-*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L37)*
+*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L37)*
 
 Sets the path of the APIs baseURL.
 

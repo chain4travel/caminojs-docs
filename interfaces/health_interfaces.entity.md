@@ -1,4 +1,4 @@
-[camino](../README.md) › [Health-Interfaces](../modules/health_interfaces.md) › [Entity](health_interfaces.entity.md)
+[@c4tplatform/caminojs](../api.md) › [Health-Interfaces](../modules/health_interfaces.md) › [Entity](health_interfaces.entity.md)
 
 # Interface: Entity
 
@@ -22,7 +22,7 @@
 
 • **contiguousFailures**? : *number*
 
-*Defined in [src/apis/health/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/interfaces.ts#L10)*
+*Defined in [src/apis/health/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/health/interfaces.ts#L10)*
 
 ___
 
@@ -30,15 +30,15 @@ ___
 
 • **duration**: *number*
 
-*Defined in [src/apis/health/interfaces.ts:9](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/interfaces.ts#L9)*
+*Defined in [src/apis/health/interfaces.ts:9](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/health/interfaces.ts#L9)*
 
 ___
 
 ### `Optional` message
 
-• **message**? : *Object[]*
+• **message**? : *any[]*
 
-*Defined in [src/apis/health/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/interfaces.ts#L7)*
+*Defined in [src/apis/health/interfaces.ts:7](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/health/interfaces.ts#L7)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **timeOfFirstFailure**? : *string*
 
-*Defined in [src/apis/health/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/interfaces.ts#L11)*
+*Defined in [src/apis/health/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/health/interfaces.ts#L11)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **timestamp**: *string*
 
-*Defined in [src/apis/health/interfaces.ts:8](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/interfaces.ts#L8)*
+*Defined in [src/apis/health/interfaces.ts:8](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/health/interfaces.ts#L8)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SendMultipleParams](avm_interfaces.sendmultipleparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SendMultipleParams](avm_interfaces.sendmultipleparams.md)
 
 # Interface: SendMultipleParams
 
@@ -25,7 +25,7 @@
 
 • **changeAddr**? : *string*
 
-*Defined in [src/apis/avm/interfaces.ts:151](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L151)*
+*Defined in [src/apis/avm/interfaces.ts:151](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L151)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **from**? : *string[] | Buffer[]*
 
-*Defined in [src/apis/avm/interfaces.ts:150](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L150)*
+*Defined in [src/apis/avm/interfaces.ts:150](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L150)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **memo**? : *string | Buffer*
 
-*Defined in [src/apis/avm/interfaces.ts:152](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L152)*
+*Defined in [src/apis/avm/interfaces.ts:152](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L152)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **outputs**: *[SOutputsParams](avm_interfaces.soutputsparams.md)[]*
 
-*Defined in [src/apis/avm/interfaces.ts:149](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L149)*
+*Defined in [src/apis/avm/interfaces.ts:149](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L149)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[password](common_interfaces.credsinterface.md#password)*
 
-*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L11)*
+*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L11)*
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[username](common_interfaces.credsinterface.md#username)*
 
-*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L10)*
+*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L10)*

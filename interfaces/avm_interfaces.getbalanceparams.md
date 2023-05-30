@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetBalanceParams](avm_interfaces.getbalanceparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [GetBalanceParams](avm_interfaces.getbalanceparams.md)
 
 # Interface: GetBalanceParams
 
@@ -20,7 +20,7 @@
 
 • **address**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L19)*
+*Defined in [src/apis/avm/interfaces.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L19)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **assetID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:20](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L20)*
+*Defined in [src/apis/avm/interfaces.ts:20](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L20)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **includePartial**: *boolean*
 
-*Defined in [src/apis/avm/interfaces.ts:21](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L21)*
+*Defined in [src/apis/avm/interfaces.ts:21](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L21)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-EVM-UTXOs](api_evm_utxos.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-UTXOs](api_evm_utxos.md)
 
 # Module: API-EVM-UTXOs
 
@@ -20,4 +20,4 @@
 
 • **serializer**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/evm/utxos.ts:40](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/utxos.ts#L40)*
+*Defined in [src/apis/evm/utxos.ts:40](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/utxos.ts#L40)*

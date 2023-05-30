@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateBlockchainParams](platformvm_interfaces.createblockchainparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [CreateBlockchainParams](platformvm_interfaces.createblockchainparams.md)
 
 # Interface: CreateBlockchainParams
 
@@ -24,7 +24,7 @@
 
 • **fxIDs**: *number[]*
 
-*Defined in [src/apis/platformvm/interfaces.ts:172](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L172)*
+*Defined in [src/apis/platformvm/interfaces.ts:220](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L220)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **genesisData**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:174](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L174)*
+*Defined in [src/apis/platformvm/interfaces.ts:222](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L222)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:173](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L173)*
+*Defined in [src/apis/platformvm/interfaces.ts:221](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L221)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **password**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:169](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L169)*
+*Defined in [src/apis/platformvm/interfaces.ts:217](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L217)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **subnetID**? : *Buffer | string | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:170](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L170)*
+*Defined in [src/apis/platformvm/interfaces.ts:218](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L218)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:168](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L168)*
+*Defined in [src/apis/platformvm/interfaces.ts:216](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L216)*
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 • **vmID**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:171](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L171)*
+*Defined in [src/apis/platformvm/interfaces.ts:219](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L219)*

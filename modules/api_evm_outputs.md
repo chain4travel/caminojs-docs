@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-EVM-Outputs](api_evm_outputs.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-Outputs](api_evm_outputs.md)
 
 # Module: API-EVM-Outputs
 
@@ -14,6 +14,7 @@
 ### Variables
 
 * [bintools](api_evm_outputs.md#const-bintools)
+* [serializer](api_evm_outputs.md#const-serializer)
 
 ### Functions
 
@@ -25,7 +26,15 @@
 
 • **bintools**: *[BinTools](../classes/utils_bintools.bintools.md)* = BinTools.getInstance()
 
-*Defined in [src/apis/evm/outputs.ts:18](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/outputs.ts#L18)*
+*Defined in [src/apis/evm/outputs.ts:18](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L18)*
+
+___
+
+### `Const` serializer
+
+• **serializer**: *[Serialization](../classes/utils_serialization.serialization.md)‹›* = Serialization.getInstance()
+
+*Defined in [src/apis/evm/outputs.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L19)*
 
 ## Functions
 
@@ -33,7 +42,7 @@
 
 ▸ **SelectOutputClass**(`outputID`: number, ...`args`: any[]): *[Output](../classes/common_output.output.md)*
 
-*Defined in [src/apis/evm/outputs.ts:27](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/outputs.ts#L27)*
+*Defined in [src/apis/evm/outputs.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/outputs.ts#L28)*
 
 Takes a buffer representing the output and returns the proper Output instance.
 
@@ -46,4 +55,4 @@ Name | Type | Description |
 
 **Returns:** *[Output](../classes/common_output.output.md)*
 
-An instance of an [Output](../classes/common_output.output.md)-extended class.
+An instance of an [Output](src_common.md#output)-extended class.

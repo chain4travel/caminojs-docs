@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SOutputsParams](avm_interfaces.soutputsparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SOutputsParams](avm_interfaces.soutputsparams.md)
 
 # Interface: SOutputsParams
 
@@ -20,7 +20,7 @@
 
 • **amount**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:128](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L128)*
+*Defined in [src/apis/avm/interfaces.ts:128](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L128)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **assetID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:127](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L127)*
+*Defined in [src/apis/avm/interfaces.ts:127](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L127)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **to**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:129](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L129)*
+*Defined in [src/apis/avm/interfaces.ts:129](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L129)*

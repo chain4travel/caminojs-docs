@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-SubnetAuth](../modules/api_platformvm_subnetauth.md) › [SubnetAuth](api_platformvm_subnetauth.subnetauth.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-SubnetAuth](../modules/api_platformvm_subnetauth.md) › [SubnetAuth](api_platformvm_subnetauth.subnetauth.md)
 
 # Class: SubnetAuth
 
@@ -30,6 +30,7 @@
 * [getTypeName](api_platformvm_subnetauth.subnetauth.md#gettypename)
 * [sanitizeObject](api_platformvm_subnetauth.subnetauth.md#sanitizeobject)
 * [serialize](api_platformvm_subnetauth.subnetauth.md#serialize)
+* [setAddressIndices](api_platformvm_subnetauth.subnetauth.md#setaddressindices)
 * [toBuffer](api_platformvm_subnetauth.subnetauth.md#tobuffer)
 
 ## Properties
@@ -38,9 +39,9 @@
 
 • **_codecID**: *number* = undefined
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[_codecID](common_nbytes.nbytes.md#protected-_codecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -50,7 +51,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[_typeID](utils_serialization.serializable.md#protected-_typeid)*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:17](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L17)*
+*Defined in [src/apis/platformvm/subnetauth.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L17)*
 
 ___
 
@@ -60,7 +61,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[_typeName](utils_serialization.serializable.md#protected-_typename)*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:16](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L16)*
+*Defined in [src/apis/platformvm/subnetauth.ts:16](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L16)*
 
 ___
 
@@ -68,7 +69,7 @@ ___
 
 • **addressIndices**: *Buffer[]* = []
 
-*Defined in [src/apis/platformvm/subnetauth.ts:54](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L54)*
+*Defined in [src/apis/platformvm/subnetauth.ts:61](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L61)*
 
 ___
 
@@ -76,7 +77,7 @@ ___
 
 • **numAddressIndices**: *Buffer* = Buffer.alloc(4)
 
-*Defined in [src/apis/platformvm/subnetauth.ts:55](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L55)*
+*Defined in [src/apis/platformvm/subnetauth.ts:62](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L62)*
 
 ## Methods
 
@@ -84,7 +85,7 @@ ___
 
 ▸ **addAddressIndex**(`index`: Buffer): *void*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:34](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L34)*
+*Defined in [src/apis/platformvm/subnetauth.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L34)*
 
 Add an address index for Subnet Auth signing
 
@@ -102,9 +103,9 @@ ___
 
 ▸ **deserialize**(`fields`: object, `encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *void*
 
-*Overrides [StandardParseableOutput](common_output.standardparseableoutput.md).[deserialize](common_output.standardparseableoutput.md#deserialize)*
+*Overrides [StandardParseableInput](common_inputs.standardparseableinput.md).[deserialize](common_inputs.standardparseableinput.md#deserialize)*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L25)*
+*Defined in [src/apis/platformvm/subnetauth.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L25)*
 
 **Parameters:**
 
@@ -121,7 +122,7 @@ ___
 
 ▸ **fromBuffer**(`bytes`: Buffer, `offset`: number): *number*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:57](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L57)*
+*Defined in [src/apis/platformvm/subnetauth.ts:64](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L64)*
 
 **Parameters:**
 
@@ -138,7 +139,7 @@ ___
 
 ▸ **getAddressIndices**(): *Buffer[]*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:50](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L50)*
+*Defined in [src/apis/platformvm/subnetauth.ts:49](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L49)*
 
 Returns an array of AddressIndices as Buffers
 
@@ -150,9 +151,9 @@ ___
 
 ▸ **getCodecID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getCodecID](common_nbytes.nbytes.md#getcodecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -164,7 +165,7 @@ ___
 
 ▸ **getNumAddressIndices**(): *number*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:43](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L43)*
+*Defined in [src/apis/platformvm/subnetauth.ts:42](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L42)*
 
 Returns the number of address indices as a number
 
@@ -176,9 +177,9 @@ ___
 
 ▸ **getTypeID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeID](common_nbytes.nbytes.md#gettypeid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -190,9 +191,9 @@ ___
 
 ▸ **getTypeName**(): *string*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeName](common_nbytes.nbytes.md#gettypename)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -204,9 +205,9 @@ ___
 
 ▸ **sanitizeObject**(`obj`: object): *object*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[sanitizeObject](common_nbytes.nbytes.md#sanitizeobject)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -226,7 +227,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[serialize](utils_serialization.serializable.md#serialize)*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L19)*
+*Defined in [src/apis/platformvm/subnetauth.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L19)*
 
 **Parameters:**
 
@@ -238,11 +239,29 @@ Name | Type | Default |
 
 ___
 
+###  setAddressIndices
+
+▸ **setAddressIndices**(`addressIndices`: Buffer[]): *void*
+
+*Defined in [src/apis/platformvm/subnetauth.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L56)*
+
+Set an array of AddressIndices as Buffers
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`addressIndices` | Buffer[] |
+
+**Returns:** *void*
+
+___
+
 ###  toBuffer
 
 ▸ **toBuffer**(): *Buffer*
 
-*Defined in [src/apis/platformvm/subnetauth.ts:72](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/subnetauth.ts#L72)*
+*Defined in [src/apis/platformvm/subnetauth.ts:80](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/subnetauth.ts#L80)*
 
 Returns a [Buffer](https://github.com/feross/buffer) representation of the [SubnetAuth](api_platformvm_subnetauth.subnetauth.md).
 

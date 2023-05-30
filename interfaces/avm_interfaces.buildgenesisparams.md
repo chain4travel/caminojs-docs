@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [BuildGenesisParams](avm_interfaces.buildgenesisparams.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [BuildGenesisParams](avm_interfaces.buildgenesisparams.md)
 
 # Interface: BuildGenesisParams
 
@@ -18,4 +18,4 @@
 
 • **genesisData**: *object*
 
-*Defined in [src/apis/avm/interfaces.ts:161](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L161)*
+*Defined in [src/apis/avm/interfaces.ts:161](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L161)*

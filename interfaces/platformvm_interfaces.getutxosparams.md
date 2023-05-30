@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetUTXOsParams](platformvm_interfaces.getutxosparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetUTXOsParams](platformvm_interfaces.getutxosparams.md)
 
 # Interface: GetUTXOsParams
 
@@ -23,7 +23,7 @@
 
 • **addresses**: *string[] | string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:135](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L135)*
+*Defined in [src/apis/platformvm/interfaces.ts:183](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L183)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **encoding**? : *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:140](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L140)*
+*Defined in [src/apis/platformvm/interfaces.ts:188](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L188)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **limit**: *number | 0*
 
-*Defined in [src/apis/platformvm/interfaces.ts:137](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L137)*
+*Defined in [src/apis/platformvm/interfaces.ts:185](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L185)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **persistOpts**? : *[PersistanceOptions](../classes/utils_persistanceoptions.persistanceoptions.md) | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:139](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L139)*
+*Defined in [src/apis/platformvm/interfaces.ts:187](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L187)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **sourceChain**? : *string | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:136](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L136)*
+*Defined in [src/apis/platformvm/interfaces.ts:184](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L184)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **startIndex**? : *[StartIndex](platformvm_interfaces.startindex.md) | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:138](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L138)*
+*Defined in [src/apis/platformvm/interfaces.ts:186](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L186)*

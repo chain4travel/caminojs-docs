@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-Socket](../modules/api_socket.md) › [Socket](api_socket.socket.md)
+[@c4tplatform/caminojs](../api.md) › [API-Socket](../modules/api_socket.md) › [Socket](api_socket.socket.md)
 
 # Class: Socket
 
@@ -30,18 +30,18 @@
 
 ###  constructor
 
-\+ **new Socket**(`url`: string | URL, `options?`: WebSocket.ClientOptions | ClientRequestArgs): *[Socket](api_socket.socket.md)*
+\+ **new Socket**(`url`: string, `options?`: WebSocket.ClientOptions | ClientRequestArgs): *[Socket](api_socket.socket.md)*
 
-*Defined in [src/apis/socket/socket.ts:36](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/socket/socket.ts#L36)*
+*Defined in [src/apis/socket/socket.ts:35](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L35)*
 
 Provides the API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
 
 **Parameters:**
 
-Name | Type | Default | Description |
------- | ------ | ------ | ------ |
-`url` | string &#124; URL | `wss://${MainnetAPI}:443/ext/bc/X/events` | Defaults to [MainnetAPI](../modules/utils_constants.md#const-mainnetapi) |
-`options?` | WebSocket.ClientOptions &#124; ClientRequestArgs | - | Optional  |
+Name | Type | Description |
+------ | ------ | ------ |
+`url` | string | Defaults to [[MainnetAPI]] |
+`options?` | WebSocket.ClientOptions &#124; ClientRequestArgs | Optional  |
 
 **Returns:** *[Socket](api_socket.socket.md)*
 
@@ -51,7 +51,7 @@ Name | Type | Default | Description |
 
 • **onclose**: *any*
 
-*Defined in [src/apis/socket/socket.ts:14](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/socket/socket.ts#L14)*
+*Defined in [src/apis/socket/socket.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L13)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **onerror**: *any*
 
-*Defined in [src/apis/socket/socket.ts:16](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/socket/socket.ts#L16)*
+*Defined in [src/apis/socket/socket.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L15)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **onmessage**: *any*
 
-*Defined in [src/apis/socket/socket.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/socket/socket.ts#L12)*
+*Defined in [src/apis/socket/socket.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L11)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **onopen**: *any*
 
-*Defined in [src/apis/socket/socket.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/socket/socket.ts#L10)*
+*Defined in [src/apis/socket/socket.ts:9](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L9)*
 
 ## Methods
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **close**(`mcode?`: number, `data?`: string): *void*
 
-*Defined in [src/apis/socket/socket.ts:34](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/socket/socket.ts#L34)*
+*Defined in [src/apis/socket/socket.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L33)*
 
 Terminates the connection completely
 
@@ -102,7 +102,7 @@ ___
 
 ▸ **send**(`data`: any, `cb?`: any): *void*
 
-*Defined in [src/apis/socket/socket.ts:24](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/socket/socket.ts#L24)*
+*Defined in [src/apis/socket/socket.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/socket/socket.ts#L23)*
 
 Send a message to the server
 

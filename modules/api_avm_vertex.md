@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-AVM-Vertex](api_avm_vertex.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Vertex](api_avm_vertex.md)
 
 # Module: API-AVM-Vertex
 

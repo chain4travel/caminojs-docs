@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-Index](api_index.md)
+[@c4tplatform/caminojs](../api.md) › [API-Index](api_index.md)
 
 # Module: API-Index
 

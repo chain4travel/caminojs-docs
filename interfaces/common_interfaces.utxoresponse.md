@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [UTXOResponse](common_interfaces.utxoresponse.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Interfaces](../modules/common_interfaces.md) › [UTXOResponse](common_interfaces.utxoresponse.md)
 
 # Interface: UTXOResponse
 
@@ -20,7 +20,7 @@
 
 • **endIndex**: *[Index](common_interfaces.index.md)*
 
-*Defined in [src/common/interfaces.ts:27](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L27)*
+*Defined in [src/common/interfaces.ts:27](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L27)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **numFetched**: *number*
 
-*Defined in [src/common/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L25)*
+*Defined in [src/common/interfaces.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L25)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **utxos**: *any*
 
-*Defined in [src/common/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L26)*
+*Defined in [src/common/interfaces.ts:26](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L26)*

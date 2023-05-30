@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-Health](../modules/api_health.md) › [HealthAPI](api_health.healthapi.md)
+[@c4tplatform/caminojs](../api.md) › [API-Health](../modules/api_health.md) › [HealthAPI](api_health.healthapi.md)
 
 # Class: HealthAPI
 
@@ -43,16 +43,16 @@ Class for interacting with a node API that is using the node's HealthApi.
 
 *Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
 
-*Defined in [src/apis/health/api.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/api.ts#L25)*
+*Defined in [src/apis/health/api.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/health/api.ts#L25)*
 
 This class should not be instantiated directly. Instead use the [Camino.addAPI](camino.camino-1.md#addapi) method.
 
 **Parameters:**
 
-Name | Type | Default | Description                                                       |
------- | ------ | ------ |-------------------------------------------------------------------|
-`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class                                   |
-`baseURL` | string | "/ext/health" | Defaults to the string "/ext/health" as the path to rpc's baseURL |
+Name | Type | Default | Description |
+------ | ------ | ------ | ------ |
+`core` | [CaminoCore](caminocore.caminocore-1.md) | - | A reference to the Camino class |
+`baseURL` | string | "/ext/health" | Defaults to the string "/ext/health" as the path to rpc's baseURL  |
 
 **Returns:** *[HealthAPI](api_health.healthapi.md)*
 
@@ -64,7 +64,7 @@ Name | Type | Default | Description                                             
 
 *Inherited from [APIBase](common_apibase.apibase.md).[baseURL](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L29)*
+*Defined in [src/common/apibase.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L29)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L28)*
+*Defined in [src/common/apibase.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L28)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[db](common_apibase.apibase.md#protected-db)*
 
-*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L30)*
+*Defined in [src/common/apibase.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L30)*
 
 ___
 
@@ -92,9 +92,9 @@ ___
 
 • **jrpcVersion**: *string* = "2.0"
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[jrpcVersion](common_jrpcapi.jrpcapi.md#protected-jrpcversion)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[jrpcVersion](api_evm.evmapi.md#protected-jrpcversion)*
 
-*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L12)*
+*Defined in [src/common/jrpcapi.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L12)*
 
 ___
 
@@ -102,9 +102,9 @@ ___
 
 • **rpcID**: *number* = 1
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[rpcID](common_jrpcapi.jrpcapi.md#protected-rpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[rpcID](api_evm.evmapi.md#protected-rpcid)*
 
-*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L13)*
+*Defined in [src/common/jrpcapi.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L13)*
 
 ## Methods
 
@@ -112,9 +112,9 @@ ___
 
 ▸ **callMethod**(`method`: string, `params?`: object[] | object, `baseURL?`: string, `headers?`: object): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[callMethod](common_jrpcapi.jrpcapi.md#callmethod)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[callMethod](api_evm.evmapi.md#callmethod)*
 
-*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L15)*
+*Defined in [src/common/jrpcapi.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L15)*
 
 **Parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L53)*
+*Defined in [src/common/apibase.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L53)*
 
 Returns the baseURL's path.
 
@@ -149,7 +149,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L58)*
+*Defined in [src/common/apibase.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L58)*
 
 Returns the baseURL's database.
 
@@ -161,9 +161,9 @@ ___
 
 ▸ **getRPCID**(): *number*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[getRPCID](common_jrpcapi.jrpcapi.md#getrpcid)*
+*Inherited from [EVMAPI](api_evm.evmapi.md).[getRPCID](api_evm.evmapi.md#getrpcid)*
 
-*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/jrpcapi.ts#L77)*
+*Defined in [src/common/jrpcapi.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/jrpcapi.ts#L77)*
 
 Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
 request ID that will be sent.
@@ -176,7 +176,7 @@ ___
 
 ▸ **health**(): *Promise‹[HealthResponse](../interfaces/health_interfaces.healthresponse.md)›*
 
-*Defined in [src/apis/health/api.ts:22](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/health/api.ts#L22)*
+*Defined in [src/apis/health/api.ts:22](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/health/api.ts#L22)*
 
 **Returns:** *Promise‹[HealthResponse](../interfaces/health_interfaces.healthresponse.md)›*
 
@@ -190,7 +190,7 @@ ___
 
 *Inherited from [APIBase](common_apibase.apibase.md).[setBaseURL](common_apibase.apibase.md#setbaseurl)*
 
-*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/apibase.ts#L37)*
+*Defined in [src/common/apibase.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/apibase.ts#L37)*
 
 Sets the path of the APIs baseURL.
 

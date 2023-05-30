@@ -1,4 +1,4 @@
-[camino](../README.md) › [Keystore-Interfaces](../modules/keystore_interfaces.md) › [ImportUserParams](keystore_interfaces.importuserparams.md)
+[@c4tplatform/caminojs](../api.md) › [Keystore-Interfaces](../modules/keystore_interfaces.md) › [ImportUserParams](keystore_interfaces.importuserparams.md)
 
 # Interface: ImportUserParams
 
@@ -24,7 +24,7 @@
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[password](common_interfaces.credsinterface.md#password)*
 
-*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L11)*
+*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L11)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **user**: *string*
 
-*Defined in [src/apis/keystore/interfaces.ts:9](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/keystore/interfaces.ts#L9)*
+*Defined in [src/apis/keystore/interfaces.ts:9](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/keystore/interfaces.ts#L9)*
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 *Inherited from [CredsInterface](common_interfaces.credsinterface.md).[username](common_interfaces.credsinterface.md#username)*
 
-*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L10)*
+*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L10)*

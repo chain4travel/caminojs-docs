@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [AddValidatorParams](platformvm_interfaces.addvalidatorparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [AddValidatorParams](platformvm_interfaces.addvalidatorparams.md)
 
 # Interface: AddValidatorParams
 
@@ -25,7 +25,7 @@
 
 • **delegationFeeRate**? : *string | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:64](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L64)*
+*Defined in [src/apis/platformvm/interfaces.ts:93](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L93)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **endTime**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:61](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L61)*
+*Defined in [src/apis/platformvm/interfaces.ts:90](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L90)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **nodeID**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:59](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L59)*
+*Defined in [src/apis/platformvm/interfaces.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L88)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **password**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L58)*
+*Defined in [src/apis/platformvm/interfaces.ts:87](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L87)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **rewardAddress**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:63](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L63)*
+*Defined in [src/apis/platformvm/interfaces.ts:92](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L92)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **stakeAmount**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:62](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L62)*
+*Defined in [src/apis/platformvm/interfaces.ts:91](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L91)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • **startTime**: *number*
 
-*Defined in [src/apis/platformvm/interfaces.ts:60](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L60)*
+*Defined in [src/apis/platformvm/interfaces.ts:89](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L89)*
 
 ___
 
@@ -81,4 +81,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:57](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L57)*
+*Defined in [src/apis/platformvm/interfaces.ts:86](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L86)*

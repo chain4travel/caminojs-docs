@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [SampleValidatorsParams](platformvm_interfaces.samplevalidatorsparams.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [SampleValidatorsParams](platformvm_interfaces.samplevalidatorsparams.md)
 
 # Interface: SampleValidatorsParams
 
@@ -19,9 +19,9 @@
 
 • **size**: *number | string*
 
-*Defined in [src/apis/platformvm/interfaces.ts:47](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L47)*
+*Defined in [src/apis/platformvm/interfaces.ts:76](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L76)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:52](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L52)*
+*Defined in [src/apis/platformvm/interfaces.ts:81](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L81)*
 
 ___
 
@@ -29,6 +29,6 @@ ___
 
 • **subnetID**? : *Buffer | string | undefined*
 
-*Defined in [src/apis/platformvm/interfaces.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L48)*
+*Defined in [src/apis/platformvm/interfaces.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L77)*
 
-*Defined in [src/apis/platformvm/interfaces.ts:53](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L53)*
+*Defined in [src/apis/platformvm/interfaces.ts:82](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L82)*

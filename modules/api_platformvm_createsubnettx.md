@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-PlatformVM-CreateSubnetTx](api_platformvm_createsubnettx.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-CreateSubnetTx](api_platformvm_createsubnettx.md)
 
 # Module: API-PlatformVM-CreateSubnetTx
 

@@ -1,4 +1,4 @@
-[camino](../README.md) › [Common-Interfaces](../modules/common_interfaces.md) › [CredsInterface](common_interfaces.credsinterface.md)
+[@c4tplatform/caminojs](../api.md) › [Common-Interfaces](../modules/common_interfaces.md) › [CredsInterface](common_interfaces.credsinterface.md)
 
 # Interface: CredsInterface
 
@@ -14,8 +14,6 @@
 
   ↳ [ExportKeyParams](evm_interfaces.exportkeyparams.md)
 
-  ↳ [CreateAddressParams](avm_interfaces.createaddressparams.md)
-
   ↳ [CreateFixedCapAssetParams](avm_interfaces.createfixedcapassetparams.md)
 
   ↳ [CreateVariableCapAssetParams](avm_interfaces.createvariablecapassetparams.md)
@@ -29,8 +27,6 @@
   ↳ [ExportParams](avm_interfaces.exportparams.md)
 
   ↳ [ImportParams](avm_interfaces.importparams.md)
-
-  ↳ [ListAddressesParams](avm_interfaces.listaddressesparams.md)
 
   ↳ [SendMultipleParams](avm_interfaces.sendmultipleparams.md)
 
@@ -49,7 +45,7 @@
 
 • **password**: *string*
 
-*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L11)*
+*Defined in [src/common/interfaces.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L11)*
 
 ___
 
@@ -57,4 +53,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/interfaces.ts#L10)*
+*Defined in [src/common/interfaces.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/interfaces.ts#L10)*

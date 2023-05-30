@@ -1,4 +1,4 @@
-[camino](../README.md) › [Auth-Interfaces](auth_interfaces.md)
+[@c4tplatform/caminojs](../api.md) › [Auth-Interfaces](auth_interfaces.md)
 
 # Module: Auth-Interfaces
 

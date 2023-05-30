@@ -1,10 +1,10 @@
-[camino](../README.md) › [API-EVM-Transactions](../modules/api_evm_transactions.md) › [UnsignedTx](api_evm_transactions.unsignedtx.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-Transactions](../modules/api_evm_transactions.md) › [UnsignedTx](api_evm_transactions.unsignedtx.md)
 
 # Class: UnsignedTx
 
 ## Hierarchy
 
-  ↳ [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md)‹[KeyPair](api_evm_keychain.keypair.md), [KeyChain](api_evm_keychain.keychain.md), [EVMBaseTx](api_evm_basetx.evmbasetx.md)›
+  ↳ [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md)‹[SignerKeyPair](common_keychain.signerkeypair.md), [SignerKeyChain](common_keychain.signerkeychain.md), [EVMBaseTx](api_evm_basetx.evmbasetx.md)›
 
   ↳ **UnsignedTx**
 
@@ -47,7 +47,7 @@
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[constructor](common_transactions.evmstandardunsignedtx.md#constructor)*
 
-*Defined in [src/common/evmtx.ts:271](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L271)*
+*Defined in [src/common/evmtx.ts:293](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L293)*
 
 **Parameters:**
 
@@ -64,9 +64,9 @@ Name | Type | Default |
 
 • **_codecID**: *number* = undefined
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[_codecID](common_nbytes.nbytes.md#protected-_codecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 *Overrides [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[_typeID](common_transactions.evmstandardunsignedtx.md#protected-_typeid)*
 
-*Defined in [src/apis/evm/tx.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/tx.ts#L48)*
+*Defined in [src/apis/evm/tx.ts:52](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/tx.ts#L52)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Overrides [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[_typeName](common_transactions.evmstandardunsignedtx.md#protected-_typename)*
 
-*Defined in [src/apis/evm/tx.ts:47](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/tx.ts#L47)*
+*Defined in [src/apis/evm/tx.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/tx.ts#L51)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[codecID](common_transactions.evmstandardunsignedtx.md#protected-codecid)*
 
-*Defined in [src/common/evmtx.ts:172](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L172)*
+*Defined in [src/common/evmtx.ts:194](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L194)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[transaction](common_transactions.evmstandardunsignedtx.md#protected-transaction)*
 
-*Defined in [src/common/evmtx.ts:173](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L173)*
+*Defined in [src/common/evmtx.ts:195](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L195)*
 
 ## Methods
 
@@ -116,7 +116,7 @@ ___
 
 *Overrides [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[deserialize](common_transactions.evmstandardunsignedtx.md#deserialize)*
 
-*Defined in [src/apis/evm/tx.ts:52](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/tx.ts#L52)*
+*Defined in [src/apis/evm/tx.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/tx.ts#L56)*
 
 **Parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 *Overrides [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[fromBuffer](common_transactions.evmstandardunsignedtx.md#abstract-frombuffer)*
 
-*Defined in [src/apis/evm/tx.ts:62](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/tx.ts#L62)*
+*Defined in [src/apis/evm/tx.ts:66](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/tx.ts#L66)*
 
 **Parameters:**
 
@@ -154,7 +154,7 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[getBurn](common_transactions.evmstandardunsignedtx.md#getburn)*
 
-*Defined in [src/common/evmtx.ts:236](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L236)*
+*Defined in [src/common/evmtx.ts:258](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L258)*
 
 Returns the number of burned tokens as a BN
 
@@ -174,9 +174,9 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[getCodecID](common_transactions.evmstandardunsignedtx.md#getcodecid)*
 
-*Overrides [NBytes](common_nbytes.nbytes.md).[getCodecID](common_nbytes.nbytes.md#getcodecid)*
+*Overrides [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/common/evmtx.ts:178](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L178)*
+*Defined in [src/common/evmtx.ts:200](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L200)*
 
 Returns the CodecID as a number
 
@@ -190,7 +190,7 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[getCodecIDBuffer](common_transactions.evmstandardunsignedtx.md#getcodecidbuffer)*
 
-*Defined in [src/common/evmtx.ts:185](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L185)*
+*Defined in [src/common/evmtx.ts:207](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L207)*
 
 Returns the [Buffer](https://github.com/feross/buffer) representation of the CodecID
 
@@ -204,7 +204,7 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[getInputTotal](common_transactions.evmstandardunsignedtx.md#getinputtotal)*
 
-*Defined in [src/common/evmtx.ts:194](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L194)*
+*Defined in [src/common/evmtx.ts:216](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L216)*
 
 Returns the inputTotal as a BN
 
@@ -224,7 +224,7 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[getOutputTotal](common_transactions.evmstandardunsignedtx.md#getoutputtotal)*
 
-*Defined in [src/common/evmtx.ts:214](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L214)*
+*Defined in [src/common/evmtx.ts:236](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L236)*
 
 Returns the outputTotal as a BN
 
@@ -244,7 +244,7 @@ ___
 
 *Overrides [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[getTransaction](common_transactions.evmstandardunsignedtx.md#abstract-gettransaction)*
 
-*Defined in [src/apis/evm/tx.ts:58](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/tx.ts#L58)*
+*Defined in [src/apis/evm/tx.ts:62](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/tx.ts#L62)*
 
 **Returns:** *[EVMBaseTx](api_evm_basetx.evmbasetx.md)*
 
@@ -254,9 +254,9 @@ ___
 
 ▸ **getTypeID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeID](common_nbytes.nbytes.md#gettypeid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -268,9 +268,9 @@ ___
 
 ▸ **getTypeName**(): *string*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeName](common_nbytes.nbytes.md#gettypename)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -282,9 +282,9 @@ ___
 
 ▸ **sanitizeObject**(`obj`: object): *object*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[sanitizeObject](common_nbytes.nbytes.md#sanitizeobject)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -306,7 +306,7 @@ ___
 
 *Overrides [Serializable](utils_serialization.serializable.md).[serialize](utils_serialization.serializable.md#serialize)*
 
-*Defined in [src/common/evmtx.ts:147](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L147)*
+*Defined in [src/common/evmtx.ts:169](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L169)*
 
 **Parameters:**
 
@@ -320,11 +320,11 @@ ___
 
 ###  sign
 
-▸ **sign**(`kc`: [KeyChain](api_evm_keychain.keychain.md)): *[Tx](api_evm_transactions.tx.md)*
+▸ **sign**(`kc`: [SignerKeyChain](common_keychain.signerkeychain.md)): *[Tx](api_evm_transactions.tx.md)*
 
 *Overrides [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[sign](common_transactions.evmstandardunsignedtx.md#abstract-sign)*
 
-*Defined in [src/apis/evm/tx.ts:80](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/tx.ts#L80)*
+*Defined in [src/apis/evm/tx.ts:84](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/tx.ts#L84)*
 
 Signs this [UnsignedTx](api_evm_transactions.unsignedtx.md) and returns signed [StandardTx](common_transactions.standardtx.md)
 
@@ -332,7 +332,7 @@ Signs this [UnsignedTx](api_evm_transactions.unsignedtx.md) and returns signed [
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`kc` | [KeyChain](api_evm_keychain.keychain.md) | An [KeyChain](api_evm_keychain.keychain.md) used in signing  |
+`kc` | [SignerKeyChain](common_keychain.signerkeychain.md) | An [KeyChain](api_evm_keychain.keychain.md) used in signing  |
 
 **Returns:** *[Tx](api_evm_transactions.tx.md)*
 
@@ -346,6 +346,6 @@ ___
 
 *Inherited from [EVMStandardUnsignedTx](common_transactions.evmstandardunsignedtx.md).[toBuffer](common_transactions.evmstandardunsignedtx.md#tobuffer)*
 
-*Defined in [src/common/evmtx.ts:247](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/evmtx.ts#L247)*
+*Defined in [src/common/evmtx.ts:269](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/evmtx.ts#L269)*
 
 **Returns:** *Buffer*

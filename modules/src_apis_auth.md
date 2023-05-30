@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/apis/auth](src_apis_auth.md)
+[@c4tplatform/caminojs](../api.md) › [src/apis/auth](src_apis_auth.md)
 
 # Module: src/apis/auth
 

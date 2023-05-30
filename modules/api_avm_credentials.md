@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-AVM-Credentials](api_avm_credentials.md)
+[@c4tplatform/caminojs](../api.md) › [API-AVM-Credentials](api_avm_credentials.md)
 
 # Module: API-AVM-Credentials
 
@@ -19,7 +19,7 @@
 
 ▸ **SelectCredentialClass**(`credid`: number, ...`args`: any[]): *[Credential](../classes/common_signature.credential.md)*
 
-*Defined in [src/apis/avm/credentials.ts:17](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/credentials.ts#L17)*
+*Defined in [src/apis/avm/credentials.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/credentials.ts#L17)*
 
 Takes a buffer representing the credential and returns the proper [Credential](../classes/common_signature.credential.md) instance.
 

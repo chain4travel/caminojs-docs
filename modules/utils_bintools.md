@@ -1,4 +1,4 @@
-[camino](../README.md) › [Utils-BinTools](utils_bintools.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-BinTools](utils_bintools.md)
 
 # Module: Utils-BinTools
 

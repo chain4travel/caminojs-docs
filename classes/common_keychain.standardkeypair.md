@@ -1,15 +1,19 @@
-[camino](../README.md) › [Common-KeyChain](../modules/common_keychain.md) › [StandardKeyPair](common_keychain.standardkeypair.md)
+[@c4tplatform/caminojs](../api.md) › [Common-KeyChain](../modules/common_keychain.md) › [StandardKeyPair](common_keychain.standardkeypair.md)
 
 # Class: StandardKeyPair
 
-Class for representing a private and public keypair in Avalanche.
+Class for representing a private and public keypair in Camino.
 All APIs that need key pairs should extend on this class.
 
 ## Hierarchy
 
-* **StandardKeyPair**
+* [SignerKeyPair](common_keychain.signerkeypair.md)
+
+  ↳ **StandardKeyPair**
 
   ↳ [SECP256k1KeyPair](common_secp256k1keychain.secp256k1keypair.md)
+
+  ↳ [MultisigKeyPair](common_multisigkeychain.multisigkeypair.md)
 
 ## Index
 
@@ -40,7 +44,9 @@ All APIs that need key pairs should extend on this class.
 
 • **privk**: *Buffer*
 
-*Defined in [src/common/keychain.ts:14](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L14)*
+*Overrides [SignerKeyPair](common_keychain.signerkeypair.md).[privk](common_keychain.signerkeypair.md#protected-privk)*
+
+*Defined in [src/common/keychain.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L31)*
 
 ___
 
@@ -48,7 +54,9 @@ ___
 
 • **pubk**: *Buffer*
 
-*Defined in [src/common/keychain.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L13)*
+*Overrides [SignerKeyPair](common_keychain.signerkeypair.md).[pubk](common_keychain.signerkeypair.md#protected-pubk)*
+
+*Defined in [src/common/keychain.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L30)*
 
 ## Methods
 
@@ -56,7 +64,7 @@ ___
 
 ▸ **clone**(): *this*
 
-*Defined in [src/common/keychain.ts:112](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L112)*
+*Defined in [src/common/keychain.ts:120](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L120)*
 
 **Returns:** *this*
 
@@ -66,7 +74,7 @@ ___
 
 ▸ **create**(...`args`: any[]): *this*
 
-*Defined in [src/common/keychain.ts:110](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L110)*
+*Defined in [src/common/keychain.ts:118](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L118)*
 
 **Parameters:**
 
@@ -82,7 +90,7 @@ ___
 
 ▸ **generateKey**(`entropy?`: Buffer): *void*
 
-*Defined in [src/common/keychain.ts:21](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L21)*
+*Defined in [src/common/keychain.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L38)*
 
 Generates a new keypair.
 
@@ -100,7 +108,7 @@ ___
 
 ▸ **getAddress**(): *Buffer*
 
-*Defined in [src/common/keychain.ts:101](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L101)*
+*Defined in [src/common/keychain.ts:109](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L109)*
 
 Returns the address.
 
@@ -114,7 +122,7 @@ ___
 
 ▸ **getAddressString**(): *string*
 
-*Defined in [src/common/keychain.ts:108](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L108)*
+*Defined in [src/common/keychain.ts:116](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L116)*
 
 Returns the address's string representation.
 
@@ -128,7 +136,7 @@ ___
 
 ▸ **getPrivateKey**(): *Buffer*
 
-*Defined in [src/common/keychain.ts:69](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L69)*
+*Defined in [src/common/keychain.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L77)*
 
 Returns a reference to the private key.
 
@@ -142,7 +150,7 @@ ___
 
 ▸ **getPrivateKeyString**(): *string*
 
-*Defined in [src/common/keychain.ts:87](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L87)*
+*Defined in [src/common/keychain.ts:95](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L95)*
 
 Returns a string representation of the private key.
 
@@ -156,7 +164,7 @@ ___
 
 ▸ **getPublicKey**(): *Buffer*
 
-*Defined in [src/common/keychain.ts:78](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L78)*
+*Defined in [src/common/keychain.ts:86](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L86)*
 
 Returns a reference to the public key.
 
@@ -170,7 +178,7 @@ ___
 
 ▸ **getPublicKeyString**(): *string*
 
-*Defined in [src/common/keychain.ts:94](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L94)*
+*Defined in [src/common/keychain.ts:102](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L102)*
 
 Returns the public key.
 
@@ -184,7 +192,7 @@ ___
 
 ▸ **importKey**(`privk`: Buffer): *boolean*
 
-*Defined in [src/common/keychain.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L30)*
+*Defined in [src/common/keychain.ts:47](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L47)*
 
 Imports a private key and generates the appropriate public key.
 
@@ -204,7 +212,7 @@ ___
 
 ▸ **recover**(`msg`: Buffer, `sig`: Buffer): *Buffer*
 
-*Defined in [src/common/keychain.ts:50](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L50)*
+*Defined in [src/common/keychain.ts:58](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L58)*
 
 Recovers the public key of a message signer from a message and its associated signature.
 
@@ -226,7 +234,9 @@ ___
 
 ▸ **sign**(`msg`: Buffer): *Buffer*
 
-*Defined in [src/common/keychain.ts:39](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L39)*
+*Inherited from [SignerKeyPair](common_keychain.signerkeypair.md).[sign](common_keychain.signerkeypair.md#abstract-sign)*
+
+*Defined in [src/common/keychain.ts:22](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L22)*
 
 Takes a message, signs it, and returns the signature.
 
@@ -246,7 +256,7 @@ ___
 
 ▸ **verify**(`msg`: Buffer, `sig`: Buffer, `pubk`: Buffer): *boolean*
 
-*Defined in [src/common/keychain.ts:62](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L62)*
+*Defined in [src/common/keychain.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L70)*
 
 Verifies that the private key associated with the provided public key produces the
 signature associated with the given message.

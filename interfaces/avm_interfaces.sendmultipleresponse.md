@@ -1,4 +1,4 @@
-[camino](../README.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SendMultipleResponse](avm_interfaces.sendmultipleresponse.md)
+[@c4tplatform/caminojs](../api.md) › [AVM-Interfaces](../modules/avm_interfaces.md) › [SendMultipleResponse](avm_interfaces.sendmultipleresponse.md)
 
 # Interface: SendMultipleResponse
 
@@ -19,7 +19,7 @@
 
 • **changeAddr**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:157](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L157)*
+*Defined in [src/apis/avm/interfaces.ts:157](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L157)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **txID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:156](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/avm/interfaces.ts#L156)*
+*Defined in [src/apis/avm/interfaces.ts:156](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/avm/interfaces.ts#L156)*

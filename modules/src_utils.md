@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/utils](src_utils.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](src_utils.md)
 
 # Module: src/utils
 
@@ -11,7 +11,7 @@
 * [AVAXSTAKECAP](src_utils.md#avaxstakecap)
 * [AddressError](src_utils.md#addresserror)
 * [AddressIndexError](src_utils.md#addressindexerror)
-* [CaminoError](src_utils.md#avalancheerror)
+* [CaminoError](src_utils.md#caminoerror)
 * [B58STRPayload](src_utils.md#b58strpayload)
 * [B64STRPayload](src_utils.md#b64strpayload)
 * [BIGNUMPayload](src_utils.md#bignumpayload)
@@ -21,7 +21,6 @@
 * [Base58Error](src_utils.md#base58error)
 * [Bech32Error](src_utils.md#bech32error)
 * [BufferSizeError](src_utils.md#buffersizeerror)
-* [C](src_utils.md#c)
 * [CCHAINADDRPayload](src_utils.md#cchainaddrpayload)
 * [CChainAlias](src_utils.md#cchainalias)
 * [CChainVMName](src_utils.md#cchainvmname)
@@ -37,23 +36,21 @@
 * [DefaultEVMLocalGenesisAddress](src_utils.md#defaultevmlocalgenesisaddress)
 * [DefaultEVMLocalGenesisPrivateKey](src_utils.md#defaultevmlocalgenesisprivatekey)
 * [DefaultLocalGenesisPrivateKey](src_utils.md#defaultlocalgenesisprivatekey)
+* [DefaultLocalGenesisPrivateKey2](src_utils.md#defaultlocalgenesisprivatekey2)
 * [DefaultNetworkID](src_utils.md#defaultnetworkid)
-* [Defaults](src_utils.md#defaults)
+* [DefaultPlatformChainID](src_utils.md#defaultplatformchainid)
 * [DelegationFeeError](src_utils.md#delegationfeeerror)
+* [DummyBlockchainID](src_utils.md#dummyblockchainid)
+* [DummyPlatformChainID](src_utils.md#dummyplatformchainid)
 * [EMAILPayload](src_utils.md#emailpayload)
 * [EVMFeeError](src_utils.md#evmfeeerror)
 * [EVMInputError](src_utils.md#evminputerror)
 * [EVMOutputError](src_utils.md#evmoutputerror)
 * [ErrorResponseObject](src_utils.md#errorresponseobject)
-* [FallbackEVMChainID](src_utils.md#fallbackevmchainid)
-* [FallbackHRP](src_utils.md#fallbackhrp)
-* [FallbackNetworkName](src_utils.md#fallbacknetworkname)
 * [FeeAssetError](src_utils.md#feeasseterror)
-* [FujiAPI](src_utils.md#fujiapi)
 * [GWEI](src_utils.md#gwei)
 * [GooseEggCheckError](src_utils.md#gooseeggcheckerror)
 * [HEXSTRPayload](src_utils.md#hexstrpayload)
-* [HRPToNetworkID](src_utils.md#hrptonetworkid)
 * [HexError](src_utils.md#hexerror)
 * [ICOPayload](src_utils.md#icopayload)
 * [IPFSPayload](src_utils.md#ipfspayload)
@@ -66,7 +63,6 @@
 * [MAGNETPayload](src_utils.md#magnetpayload)
 * [MICROAVAX](src_utils.md#microavax)
 * [MILLIAVAX](src_utils.md#milliavax)
-* [MainnetAPI](src_utils.md#mainnetapi)
 * [MaxWeightFormula](src_utils.md#maxweightformula)
 * [MergeRule](src_utils.md#mergerule)
 * [MergeRuleError](src_utils.md#mergeruleerror)
@@ -74,11 +70,6 @@
 * [NFTIDPayload](src_utils.md#nftidpayload)
 * [NODEIDPayload](src_utils.md#nodeidpayload)
 * [NameError](src_utils.md#nameerror)
-* [Network](src_utils.md#network)
-* [NetworkIDToHRP](src_utils.md#networkidtohrp)
-* [NetworkIDToNetworkNames](src_utils.md#networkidtonetworknames)
-* [NetworkNameToNetworkID](src_utils.md#networknametonetworkid)
-* [Networks](src_utils.md#networks)
 * [NoAtomicUTXOsError](src_utils.md#noatomicutxoserror)
 * [NodeIDPrefix](src_utils.md#nodeidprefix)
 * [NodeIDStringToBuffer](src_utils.md#nodeidstringtobuffer)
@@ -87,7 +78,6 @@
 * [ONIONPayload](src_utils.md#onionpayload)
 * [OperationError](src_utils.md#operationerror)
 * [OutputIdError](src_utils.md#outputiderror)
-* [P](src_utils.md#p)
 * [PCHAINADDRPayload](src_utils.md#pchainaddrpayload)
 * [PChainAlias](src_utils.md#pchainalias)
 * [PChainVMName](src_utils.md#pchainvmname)
@@ -95,9 +85,6 @@
 * [PayloadBase](src_utils.md#payloadbase)
 * [PayloadTypes](src_utils.md#payloadtypes)
 * [PersistanceOptions](src_utils.md#persistanceoptions)
-* [PlatformChainID](src_utils.md#platformchainid)
-* [PrimaryAssetAlias](src_utils.md#primaryassetalias)
-* [PrimaryNetworkID](src_utils.md#primarynetworkid)
 * [PrivateKeyError](src_utils.md#privatekeyerror)
 * [PrivateKeyPrefix](src_utils.md#privatekeyprefix)
 * [ProtocolError](src_utils.md#protocolerror)
@@ -119,6 +106,12 @@
 * [SubnetThresholdError](src_utils.md#subnetthresholderror)
 * [SymbolError](src_utils.md#symbolerror)
 * [TXIDPayload](src_utils.md#txidpayload)
+* [TestAvaxAssetID](src_utils.md#testavaxassetid)
+* [TestCBlockchainID](src_utils.md#testcblockchainid)
+* [TestCChainID](src_utils.md#testcchainid)
+* [TestHRP](src_utils.md#testhrp)
+* [TestNetworkID](src_utils.md#testnetworkid)
+* [TestXBlockchainID](src_utils.md#testxblockchainid)
 * [ThresholdError](src_utils.md#thresholderror)
 * [TimeError](src_utils.md#timeerror)
 * [TransactionError](src_utils.md#transactionerror)
@@ -133,7 +126,6 @@
 * [UnixNow](src_utils.md#unixnow)
 * [UnknownTypeError](src_utils.md#unknowntypeerror)
 * [WEI](src_utils.md#wei)
-* [X](src_utils.md#x)
 * [XCHAINADDRPayload](src_utils.md#xchainaddrpayload)
 * [XChainAlias](src_utils.md#xchainalias)
 * [XChainVMName](src_utils.md#xchainvmname)
@@ -145,7 +137,6 @@
 * [costExportTx](src_utils.md#costexporttx)
 * [costImportTx](src_utils.md#costimporttx)
 * [fetchAdapter](src_utils.md#fetchadapter)
-* [getPreferredHRP](src_utils.md#getpreferredhrp)
 * [mnemonic](src_utils.md#mnemonic)
 * [privateKeyStringToBuffer](src_utils.md#privatekeystringtobuffer)
 
@@ -289,9 +280,9 @@ ___
 
 ___
 
-###  AvalancheError
+###  CaminoError
 
-• **AvalancheError**:
+• **CaminoError**:
 
 ___
 
@@ -346,12 +337,6 @@ ___
 ###  BufferSizeError
 
 • **BufferSizeError**:
-
-___
-
-###  C
-
-• **C**:
 
 ___
 
@@ -445,21 +430,39 @@ ___
 
 ___
 
+###  DefaultLocalGenesisPrivateKey2
+
+• **DefaultLocalGenesisPrivateKey2**:
+
+___
+
 ###  DefaultNetworkID
 
 • **DefaultNetworkID**:
 
 ___
 
-###  Defaults
+###  DefaultPlatformChainID
 
-• **Defaults**:
+• **DefaultPlatformChainID**:
 
 ___
 
 ###  DelegationFeeError
 
 • **DelegationFeeError**:
+
+___
+
+###  DummyBlockchainID
+
+• **DummyBlockchainID**:
+
+___
+
+###  DummyPlatformChainID
+
+• **DummyPlatformChainID**:
 
 ___
 
@@ -493,33 +496,9 @@ ___
 
 ___
 
-###  FallbackEVMChainID
-
-• **FallbackEVMChainID**:
-
-___
-
-###  FallbackHRP
-
-• **FallbackHRP**:
-
-___
-
-###  FallbackNetworkName
-
-• **FallbackNetworkName**:
-
-___
-
 ###  FeeAssetError
 
 • **FeeAssetError**:
-
-___
-
-###  FujiAPI
-
-• **FujiAPI**:
 
 ___
 
@@ -538,12 +517,6 @@ ___
 ###  HEXSTRPayload
 
 • **HEXSTRPayload**:
-
-___
-
-###  HRPToNetworkID
-
-• **HRPToNetworkID**:
 
 ___
 
@@ -619,12 +592,6 @@ ___
 
 ___
 
-###  MainnetAPI
-
-• **MainnetAPI**:
-
-___
-
 ###  MaxWeightFormula
 
 • **MaxWeightFormula**:
@@ -664,36 +631,6 @@ ___
 ###  NameError
 
 • **NameError**:
-
-___
-
-###  Network
-
-• **Network**:
-
-___
-
-###  NetworkIDToHRP
-
-• **NetworkIDToHRP**:
-
-___
-
-###  NetworkIDToNetworkNames
-
-• **NetworkIDToNetworkNames**:
-
-___
-
-###  NetworkNameToNetworkID
-
-• **NetworkNameToNetworkID**:
-
-___
-
-###  Networks
-
-• **Networks**:
 
 ___
 
@@ -745,12 +682,6 @@ ___
 
 ___
 
-###  P
-
-• **P**:
-
-___
-
 ###  PCHAINADDRPayload
 
 • **PCHAINADDRPayload**:
@@ -790,24 +721,6 @@ ___
 ###  PersistanceOptions
 
 • **PersistanceOptions**:
-
-___
-
-###  PlatformChainID
-
-• **PlatformChainID**:
-
-___
-
-###  PrimaryAssetAlias
-
-• **PrimaryAssetAlias**:
-
-___
-
-###  PrimaryNetworkID
-
-• **PrimaryNetworkID**:
 
 ___
 
@@ -937,6 +850,42 @@ ___
 
 ___
 
+###  TestAvaxAssetID
+
+• **TestAvaxAssetID**:
+
+___
+
+###  TestCBlockchainID
+
+• **TestCBlockchainID**:
+
+___
+
+###  TestCChainID
+
+• **TestCChainID**:
+
+___
+
+###  TestHRP
+
+• **TestHRP**:
+
+___
+
+###  TestNetworkID
+
+• **TestNetworkID**:
+
+___
+
+###  TestXBlockchainID
+
+• **TestXBlockchainID**:
+
+___
+
 ###  ThresholdError
 
 • **ThresholdError**:
@@ -1021,12 +970,6 @@ ___
 
 ___
 
-###  X
-
-• **X**:
-
-___
-
 ###  XCHAINADDRPayload
 
 • **XCHAINADDRPayload**:
@@ -1093,12 +1036,6 @@ ___
 
 ___
 
-###  getPreferredHRP
-
-• **getPreferredHRP**:
-
-___
-
 ###  mnemonic
 
 • **mnemonic**:
@@ -1115,7 +1052,7 @@ ___
 
 • **ADDRESS_ERROR_CODE**: *string* = "1000"
 
-*Defined in [src/utils/errors.ts:1](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L1)*
+*Defined in [src/utils/errors.ts:1](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L1)*
 
 ___
 
@@ -1123,7 +1060,7 @@ ___
 
 • **ADDRESS_INDEX_ERROR_CODE**: *string* = "1028"
 
-*Defined in [src/utils/errors.ts:29](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L29)*
+*Defined in [src/utils/errors.ts:29](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L29)*
 
 ___
 
@@ -1131,7 +1068,7 @@ ___
 
 • **BASE58_ERROR_CODE**: *string* = "1031"
 
-*Defined in [src/utils/errors.ts:32](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L32)*
+*Defined in [src/utils/errors.ts:32](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L32)*
 
 ___
 
@@ -1139,7 +1076,7 @@ ___
 
 • **BECH32_ERROR_CODE**: *string* = "1037"
 
-*Defined in [src/utils/errors.ts:38](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L38)*
+*Defined in [src/utils/errors.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L38)*
 
 ___
 
@@ -1147,7 +1084,7 @@ ___
 
 • **BUFFER_SIZE_ERROR_CODE**: *string* = "1027"
 
-*Defined in [src/utils/errors.ts:28](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L28)*
+*Defined in [src/utils/errors.ts:28](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L28)*
 
 ___
 
@@ -1155,7 +1092,7 @@ ___
 
 • **CHAIN_ID_ERROR_CODE**: *string* = "1002"
 
-*Defined in [src/utils/errors.ts:3](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L3)*
+*Defined in [src/utils/errors.ts:3](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L3)*
 
 ___
 
@@ -1163,7 +1100,7 @@ ___
 
 • **CHECKSUM_ERROR_CODE**: *string* = "1014"
 
-*Defined in [src/utils/errors.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L15)*
+*Defined in [src/utils/errors.ts:15](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L15)*
 
 ___
 
@@ -1171,7 +1108,7 @@ ___
 
 • **CODEC_ID_ERROR_CODE**: *string* = "1007"
 
-*Defined in [src/utils/errors.ts:8](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L8)*
+*Defined in [src/utils/errors.ts:8](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L8)*
 
 ___
 
@@ -1179,7 +1116,7 @@ ___
 
 • **CRED_ID_ERROR_CODE**: *string* = "1008"
 
-*Defined in [src/utils/errors.ts:9](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L9)*
+*Defined in [src/utils/errors.ts:9](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L9)*
 
 ___
 
@@ -1187,7 +1124,7 @@ ___
 
 • **DELEGATION_FEE_ERROR_CODE**: *string* = "1025"
 
-*Defined in [src/utils/errors.ts:26](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L26)*
+*Defined in [src/utils/errors.ts:26](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L26)*
 
 ___
 
@@ -1195,7 +1132,7 @@ ___
 
 • **EVM_FEE_ERROR_CODE**: *string* = "1038"
 
-*Defined in [src/utils/errors.ts:39](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L39)*
+*Defined in [src/utils/errors.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L39)*
 
 ___
 
@@ -1203,7 +1140,7 @@ ___
 
 • **EVM_INPUT_ERROR_CODE**: *string* = "1020"
 
-*Defined in [src/utils/errors.ts:21](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L21)*
+*Defined in [src/utils/errors.ts:21](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L21)*
 
 ___
 
@@ -1211,7 +1148,7 @@ ___
 
 • **EVM_OUTPUT_ERROR_CODE**: *string* = "1021"
 
-*Defined in [src/utils/errors.ts:22](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L22)*
+*Defined in [src/utils/errors.ts:22](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L22)*
 
 ___
 
@@ -1219,7 +1156,7 @@ ___
 
 • **FEE_ASSET_ERROR_CODE**: *string* = "1022"
 
-*Defined in [src/utils/errors.ts:23](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L23)*
+*Defined in [src/utils/errors.ts:23](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L23)*
 
 ___
 
@@ -1227,7 +1164,7 @@ ___
 
 • **GOOSE_EGG_CHECK_ERROR_CODE**: *string* = "1001"
 
-*Defined in [src/utils/errors.ts:2](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L2)*
+*Defined in [src/utils/errors.ts:2](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L2)*
 
 ___
 
@@ -1235,7 +1172,7 @@ ___
 
 • **HEX_ERROR_CODE**: *string* = "1034"
 
-*Defined in [src/utils/errors.ts:35](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L35)*
+*Defined in [src/utils/errors.ts:35](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L35)*
 
 ___
 
@@ -1243,7 +1180,7 @@ ___
 
 • **INPUT_ID_ERROR_CODE**: *string* = "1011"
 
-*Defined in [src/utils/errors.ts:12](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L12)*
+*Defined in [src/utils/errors.ts:12](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L12)*
 
 ___
 
@@ -1251,7 +1188,7 @@ ___
 
 • **INSUFFICIENT_FUNDS_ERROR_CODE**: *string* = "1017"
 
-*Defined in [src/utils/errors.ts:18](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L18)*
+*Defined in [src/utils/errors.ts:18](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L18)*
 
 ___
 
@@ -1259,7 +1196,7 @@ ___
 
 • **INVALID_ENTROPY**: *string* = "1039"
 
-*Defined in [src/utils/errors.ts:40](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L40)*
+*Defined in [src/utils/errors.ts:40](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L40)*
 
 ___
 
@@ -1267,7 +1204,7 @@ ___
 
 • **INVALID_OPERATION_ID_CODE**: *string* = "1013"
 
-*Defined in [src/utils/errors.ts:14](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L14)*
+*Defined in [src/utils/errors.ts:14](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L14)*
 
 ___
 
@@ -1275,7 +1212,7 @@ ___
 
 • **MERGE_RULE_ERROR_CODE**: *string* = "1030"
 
-*Defined in [src/utils/errors.ts:31](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L31)*
+*Defined in [src/utils/errors.ts:31](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L31)*
 
 ___
 
@@ -1283,7 +1220,7 @@ ___
 
 • **NAME_ERROR_CODE**: *string* = "1005"
 
-*Defined in [src/utils/errors.ts:6](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L6)*
+*Defined in [src/utils/errors.ts:6](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L6)*
 
 ___
 
@@ -1291,7 +1228,7 @@ ___
 
 • **NODE_ID_ERROR_CODE**: *string* = "1033"
 
-*Defined in [src/utils/errors.ts:34](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L34)*
+*Defined in [src/utils/errors.ts:34](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L34)*
 
 ___
 
@@ -1299,7 +1236,7 @@ ___
 
 • **NO_ATOMIX_UTXOS_ERROR_CODE**: *string* = "1003"
 
-*Defined in [src/utils/errors.ts:4](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L4)*
+*Defined in [src/utils/errors.ts:4](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L4)*
 
 ___
 
@@ -1307,7 +1244,7 @@ ___
 
 • **OPERATION_ERROR_CODE**: *string* = "1012"
 
-*Defined in [src/utils/errors.ts:13](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L13)*
+*Defined in [src/utils/errors.ts:13](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L13)*
 
 ___
 
@@ -1315,7 +1252,7 @@ ___
 
 • **OUTPUT_ID_ERROR_CODE**: *string* = "1015"
 
-*Defined in [src/utils/errors.ts:16](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L16)*
+*Defined in [src/utils/errors.ts:16](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L16)*
 
 ___
 
@@ -1323,7 +1260,7 @@ ___
 
 • **PRIVATE_KEY_ERROR_CODE**: *string* = "1032"
 
-*Defined in [src/utils/errors.ts:33](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L33)*
+*Defined in [src/utils/errors.ts:33](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L33)*
 
 ___
 
@@ -1331,7 +1268,7 @@ ___
 
 • **PROTOCOL_ERROR_CODE**: *string* = "1040"
 
-*Defined in [src/utils/errors.ts:41](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L41)*
+*Defined in [src/utils/errors.ts:41](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L41)*
 
 ___
 
@@ -1339,7 +1276,7 @@ ___
 
 • **PUBLIC_KEY_ERROR_CODE**: *string* = "1029"
 
-*Defined in [src/utils/errors.ts:30](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L30)*
+*Defined in [src/utils/errors.ts:30](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L30)*
 
 ___
 
@@ -1347,7 +1284,7 @@ ___
 
 • **SECP_MINT_OUTPUT_ERROR_CODE**: *string* = "1019"
 
-*Defined in [src/utils/errors.ts:20](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L20)*
+*Defined in [src/utils/errors.ts:20](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L20)*
 
 ___
 
@@ -1355,7 +1292,7 @@ ___
 
 • **STAKE_ERROR_CODE**: *string* = "1023"
 
-*Defined in [src/utils/errors.ts:24](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L24)*
+*Defined in [src/utils/errors.ts:24](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L24)*
 
 ___
 
@@ -1363,7 +1300,7 @@ ___
 
 • **SUBNET_ADDRESS_ERROR_CODE**: *string* = "1044"
 
-*Defined in [src/utils/errors.ts:45](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L45)*
+*Defined in [src/utils/errors.ts:45](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L45)*
 
 ___
 
@@ -1371,7 +1308,7 @@ ___
 
 • **SUBNET_ID_ERROR_CODE**: *string* = "1041"
 
-*Defined in [src/utils/errors.ts:42](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L42)*
+*Defined in [src/utils/errors.ts:42](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L42)*
 
 ___
 
@@ -1379,7 +1316,7 @@ ___
 
 • **SUBNET_OWNER_ERROR_CODE**: *string* = "1026"
 
-*Defined in [src/utils/errors.ts:27](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L27)*
+*Defined in [src/utils/errors.ts:27](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L27)*
 
 ___
 
@@ -1387,7 +1324,7 @@ ___
 
 • **SUBNET_THRESHOLD_ERROR_CODE**: *string* = "1043"
 
-*Defined in [src/utils/errors.ts:44](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L44)*
+*Defined in [src/utils/errors.ts:44](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L44)*
 
 ___
 
@@ -1395,7 +1332,7 @@ ___
 
 • **SYMBOL_ERROR_CODE**: *string* = "1004"
 
-*Defined in [src/utils/errors.ts:5](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L5)*
+*Defined in [src/utils/errors.ts:5](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L5)*
 
 ___
 
@@ -1403,7 +1340,7 @@ ___
 
 • **THRESHOLD_ERROR_CODE**: *string* = "1018"
 
-*Defined in [src/utils/errors.ts:19](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L19)*
+*Defined in [src/utils/errors.ts:19](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L19)*
 
 ___
 
@@ -1411,7 +1348,7 @@ ___
 
 • **TIME_ERROR_CODE**: *string* = "1024"
 
-*Defined in [src/utils/errors.ts:25](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L25)*
+*Defined in [src/utils/errors.ts:25](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L25)*
 
 ___
 
@@ -1419,7 +1356,7 @@ ___
 
 • **TRANSACTION_ERROR_CODE**: *string* = "1006"
 
-*Defined in [src/utils/errors.ts:7](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L7)*
+*Defined in [src/utils/errors.ts:7](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L7)*
 
 ___
 
@@ -1427,7 +1364,7 @@ ___
 
 • **TRANSFERABLE_INPUT_ERROR_CODE**: *string* = "1010"
 
-*Defined in [src/utils/errors.ts:11](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L11)*
+*Defined in [src/utils/errors.ts:11](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L11)*
 
 ___
 
@@ -1435,7 +1372,7 @@ ___
 
 • **TRANSFERABLE_OUTPUT_ERROR_CODE**: *string* = "1009"
 
-*Defined in [src/utils/errors.ts:10](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L10)*
+*Defined in [src/utils/errors.ts:10](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L10)*
 
 ___
 
@@ -1443,7 +1380,7 @@ ___
 
 • **TYPE_ID_ERROR_CODE**: *string* = "1035"
 
-*Defined in [src/utils/errors.ts:36](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L36)*
+*Defined in [src/utils/errors.ts:36](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L36)*
 
 ___
 
@@ -1451,7 +1388,7 @@ ___
 
 • **TYPE_NAME_ERROR_CODE**: *string* = "1042"
 
-*Defined in [src/utils/errors.ts:43](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L43)*
+*Defined in [src/utils/errors.ts:43](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L43)*
 
 ___
 
@@ -1459,7 +1396,7 @@ ___
 
 • **UNKNOWN_TYPE_ERROR_CODE**: *string* = "1036"
 
-*Defined in [src/utils/errors.ts:37](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L37)*
+*Defined in [src/utils/errors.ts:37](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L37)*
 
 ___
 
@@ -1467,7 +1404,7 @@ ___
 
 • **UTXO_ERROR_CODE**: *string* = "1016"
 
-*Defined in [src/utils/errors.ts:17](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L17)*
+*Defined in [src/utils/errors.ts:17](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L17)*
 
 ## Functions
 
@@ -1475,7 +1412,7 @@ ___
 
 ▸ **createRequest**(`config`: AxiosRequestConfig): *Request*
 
-*Defined in [src/utils/fetchadapter.ts:3](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/fetchadapter.ts#L3)*
+*Defined in [src/utils/fetchadapter.ts:3](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/fetchadapter.ts#L3)*
 
 **Parameters:**
 
@@ -1491,7 +1428,7 @@ ___
 
 ▸ **fetchAdapter**(`config`: AxiosRequestConfig): *Promise‹AxiosResponse›*
 
-*Defined in [src/utils/fetchadapter.ts:85](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/fetchadapter.ts#L85)*
+*Defined in [src/utils/fetchadapter.ts:85](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/fetchadapter.ts#L85)*
 
 **Parameters:**
 
@@ -1507,7 +1444,7 @@ ___
 
 ▸ **getResponse**(`request`: any, `config`: any): *Promise‹AxiosResponse›*
 
-*Defined in [src/utils/fetchadapter.ts:38](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/fetchadapter.ts#L38)*
+*Defined in [src/utils/fetchadapter.ts:38](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/fetchadapter.ts#L38)*
 
 **Parameters:**
 

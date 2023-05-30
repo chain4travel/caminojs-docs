@@ -1,4 +1,4 @@
-[camino](../README.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetValidatorsAtResponse](platformvm_interfaces.getvalidatorsatresponse.md)
+[@c4tplatform/caminojs](../api.md) › [PlatformVM-Interfaces](../modules/platformvm_interfaces.md) › [GetValidatorsAtResponse](platformvm_interfaces.getvalidatorsatresponse.md)
 
 # Interface: GetValidatorsAtResponse
 
@@ -18,4 +18,4 @@
 
 • **validators**: *object*
 
-*Defined in [src/apis/platformvm/interfaces.ts:38](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/interfaces.ts#L38)*
+*Defined in [src/apis/platformvm/interfaces.ts:44](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/interfaces.ts#L44)*

@@ -1,4 +1,4 @@
-[camino](../README.md) › [Utils-HDNode](utils_hdnode.md)
+[@c4tplatform/caminojs](../api.md) › [Utils-HDNode](utils_hdnode.md)
 
 # Module: Utils-HDNode
 
@@ -18,4 +18,4 @@
 
 • **bintools**: *[BinTools](../classes/utils_bintools.bintools.md)* = BinTools.getInstance()
 
-*Defined in [src/utils/hdnode.ts:9](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/hdnode.ts#L9)*
+*Defined in [src/utils/hdnode.ts:9](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/hdnode.ts#L9)*

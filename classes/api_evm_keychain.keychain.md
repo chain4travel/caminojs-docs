@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-EVM-KeyChain](../modules/api_evm_keychain.md) › [KeyChain](api_evm_keychain.keychain.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-KeyChain](../modules/api_evm_keychain.md) › [KeyChain](api_evm_keychain.keychain.md)
 
 # Class: KeyChain
 
@@ -32,6 +32,7 @@ Class for representing a key chain in Camino.
 * [getAddressStrings](api_evm_keychain.keychain.md#getaddressstrings)
 * [getAddresses](api_evm_keychain.keychain.md#getaddresses)
 * [getKey](api_evm_keychain.keychain.md#getkey)
+* [getKeys](api_evm_keychain.keychain.md#getkeys)
 * [hasKey](api_evm_keychain.keychain.md#haskey)
 * [importKey](api_evm_keychain.keychain.md#importkey)
 * [makeKey](api_evm_keychain.keychain.md#makekey)
@@ -44,7 +45,7 @@ Class for representing a key chain in Camino.
 
 \+ **new KeyChain**(`hrp`: string, `chainID`: string): *[KeyChain](api_evm_keychain.keychain.md)*
 
-*Defined in [src/apis/evm/keychain.ts:104](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L104)*
+*Defined in [src/apis/evm/keychain.ts:102](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L102)*
 
 Returns instance of KeyChain.
 
@@ -63,7 +64,7 @@ Name | Type |
 
 • **chainID**: *string* = ""
 
-*Defined in [src/apis/evm/keychain.ts:42](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L42)*
+*Defined in [src/apis/evm/keychain.ts:40](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L40)*
 
 ___
 
@@ -71,7 +72,7 @@ ___
 
 • **hrp**: *string* = ""
 
-*Defined in [src/apis/evm/keychain.ts:41](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L41)*
+*Defined in [src/apis/evm/keychain.ts:39](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L39)*
 
 ___
 
@@ -81,7 +82,7 @@ ___
 
 *Inherited from [StandardKeyChain](common_keychain.standardkeychain.md).[keys](common_keychain.standardkeychain.md#protected-keys)*
 
-*Defined in [src/common/keychain.ts:122](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L122)*
+*Defined in [src/common/keychain.ts:142](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L142)*
 
 #### Type declaration:
 
@@ -95,7 +96,7 @@ ___
 
 *Overrides [SECP256k1KeyChain](common_secp256k1keychain.secp256k1keychain.md).[addKey](common_secp256k1keychain.secp256k1keychain.md#addkey)*
 
-*Defined in [src/apis/evm/keychain.ts:55](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L55)*
+*Defined in [src/apis/evm/keychain.ts:53](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L53)*
 
 **Parameters:**
 
@@ -113,7 +114,7 @@ ___
 
 *Overrides [StandardKeyChain](common_keychain.standardkeychain.md).[clone](common_keychain.standardkeychain.md#abstract-clone)*
 
-*Defined in [src/apis/evm/keychain.ts:90](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L90)*
+*Defined in [src/apis/evm/keychain.ts:88](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L88)*
 
 **Returns:** *this*
 
@@ -125,7 +126,7 @@ ___
 
 *Overrides [StandardKeyChain](common_keychain.standardkeychain.md).[create](common_keychain.standardkeychain.md#abstract-create)*
 
-*Defined in [src/apis/evm/keychain.ts:83](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L83)*
+*Defined in [src/apis/evm/keychain.ts:81](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L81)*
 
 **Parameters:**
 
@@ -143,7 +144,7 @@ ___
 
 *Inherited from [StandardKeyChain](common_keychain.standardkeychain.md).[getAddressStrings](common_keychain.standardkeychain.md#getaddressstrings)*
 
-*Defined in [src/common/keychain.ts:154](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L154)*
+*Defined in [src/common/keychain.ts:174](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L174)*
 
 Gets an array of addresses stored in the [StandardKeyChain](common_keychain.standardkeychain.md).
 
@@ -159,7 +160,7 @@ ___
 
 *Inherited from [StandardKeyChain](common_keychain.standardkeychain.md).[getAddresses](common_keychain.standardkeychain.md#getaddresses)*
 
-*Defined in [src/common/keychain.ts:146](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L146)*
+*Defined in [src/common/keychain.ts:166](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L166)*
 
 Gets an array of addresses stored in the [StandardKeyChain](common_keychain.standardkeychain.md).
 
@@ -176,7 +177,7 @@ ___
 
 *Inherited from [StandardKeyChain](common_keychain.standardkeychain.md).[getKey](common_keychain.standardkeychain.md#getkey)*
 
-*Defined in [src/common/keychain.ts:205](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L205)*
+*Defined in [src/common/keychain.ts:225](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L225)*
 
 Returns the [StandardKeyPair](common_keychain.standardkeypair.md) listed under the provided address
 
@@ -192,13 +193,35 @@ A reference to the [StandardKeyPair](common_keychain.standardkeypair.md) in the 
 
 ___
 
+###  getKeys
+
+▸ **getKeys**(`address`: Buffer): *[KeyPair](api_evm_keychain.keypair.md)[]*
+
+*Inherited from [StandardKeyChain](common_keychain.standardkeychain.md).[getKeys](common_keychain.standardkeychain.md#getkeys)*
+
+*Defined in [src/common/keychain.ts:235](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L235)*
+
+Returns the [StandardKeyPair](common_keychain.standardkeypair.md)'s listed under the provided address
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`address` | Buffer | The [Buffer](https://github.com/feross/buffer) of the address to retrieve from the keys database  |
+
+**Returns:** *[KeyPair](api_evm_keychain.keypair.md)[]*
+
+A reference to the [StandardKeyPair](common_keychain.standardkeypair.md)'s in the keys database
+
+___
+
 ###  hasKey
 
 ▸ **hasKey**(`address`: Buffer): *boolean*
 
 *Inherited from [StandardKeyChain](common_keychain.standardkeychain.md).[hasKey](common_keychain.standardkeychain.md#haskey)*
 
-*Defined in [src/common/keychain.ts:195](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L195)*
+*Defined in [src/common/keychain.ts:215](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L215)*
 
 Checks if there is a key associated with the provided address.
 
@@ -220,7 +243,7 @@ ___
 
 *Overrides [SECP256k1KeyChain](common_secp256k1keychain.secp256k1keychain.md).[importKey](common_secp256k1keychain.secp256k1keychain.md#importkey)*
 
-*Defined in [src/apis/evm/keychain.ts:68](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L68)*
+*Defined in [src/apis/evm/keychain.ts:66](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L66)*
 
 Given a private key, makes a new key pair, returns the address.
 
@@ -242,7 +265,7 @@ ___
 
 *Overrides [SECP256k1KeyChain](common_secp256k1keychain.secp256k1keychain.md).[makeKey](common_secp256k1keychain.secp256k1keychain.md#makekey)*
 
-*Defined in [src/apis/evm/keychain.ts:49](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L49)*
+*Defined in [src/apis/evm/keychain.ts:47](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L47)*
 
 Makes a new key pair, returns the address.
 
@@ -258,7 +281,7 @@ ___
 
 *Inherited from [StandardKeyChain](common_keychain.standardkeychain.md).[removeKey](common_keychain.standardkeychain.md#removekey)*
 
-*Defined in [src/common/keychain.ts:174](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/keychain.ts#L174)*
+*Defined in [src/common/keychain.ts:194](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/keychain.ts#L194)*
 
 Removes the key pair from the list of they keys managed in the [StandardKeyChain](common_keychain.standardkeychain.md).
 
@@ -280,7 +303,7 @@ ___
 
 *Overrides [StandardKeyChain](common_keychain.standardkeychain.md).[union](common_keychain.standardkeychain.md#abstract-union)*
 
-*Defined in [src/apis/evm/keychain.ts:98](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L98)*
+*Defined in [src/apis/evm/keychain.ts:96](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/evm/keychain.ts#L96)*
 
 **Parameters:**
 

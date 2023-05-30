@@ -1,4 +1,4 @@
-[camino](../README.md) › [Admin-Interfaces](admin_interfaces.md)
+[@c4tplatform/caminojs](../api.md) › [Admin-Interfaces](admin_interfaces.md)
 
 # Module: Admin-Interfaces
 

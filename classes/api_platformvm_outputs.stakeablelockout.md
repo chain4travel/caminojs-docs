@@ -1,12 +1,13 @@
-[camino](../README.md) › [API-PlatformVM-Outputs](../modules/api_platformvm_outputs.md) › [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md)
+[@c4tplatform/caminojs](../api.md) › [API-PlatformVM-Outputs](../modules/api_platformvm_outputs.md) › [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md)
 
 # Class: StakeableLockOut
 
-An [Output](common_output.output.md) class which specifies an input that has a locktime which can also enable staking of the value held, preventing transfers but not validation.
+An [Output](../modules/src_common.md#output) class which specifies an output that has a locktime which can also enable
+staking of the value held, preventing transfers but not validation.
 
 ## Hierarchy
 
-  ↳ [AmountOutput](api_platformvm_outputs.amountoutput.md)
+  ↳ [ParseableOutput](api_platformvm_outputs.parseableoutput.md)
 
   ↳ **StakeableLockOut**
 
@@ -21,14 +22,8 @@ An [Output](common_output.output.md) class which specifies an input that has a l
 * [_codecID](api_platformvm_outputs.stakeablelockout.md#protected-_codecid)
 * [_typeID](api_platformvm_outputs.stakeablelockout.md#protected-_typeid)
 * [_typeName](api_platformvm_outputs.stakeablelockout.md#protected-_typename)
-* [addresses](api_platformvm_outputs.stakeablelockout.md#protected-addresses)
-* [amount](api_platformvm_outputs.stakeablelockout.md#protected-amount)
-* [amountValue](api_platformvm_outputs.stakeablelockout.md#protected-amountvalue)
-* [locktime](api_platformvm_outputs.stakeablelockout.md#protected-locktime)
-* [numaddrs](api_platformvm_outputs.stakeablelockout.md#protected-numaddrs)
+* [output](api_platformvm_outputs.stakeablelockout.md#protected-output)
 * [stakeableLocktime](api_platformvm_outputs.stakeablelockout.md#protected-stakeablelocktime)
-* [threshold](api_platformvm_outputs.stakeablelockout.md#protected-threshold)
-* [transferableOutput](api_platformvm_outputs.stakeablelockout.md#protected-transferableoutput)
 
 ### Methods
 
@@ -36,14 +31,12 @@ An [Output](common_output.output.md) class which specifies an input that has a l
 * [create](api_platformvm_outputs.stakeablelockout.md#create)
 * [deserialize](api_platformvm_outputs.stakeablelockout.md#deserialize)
 * [fromBuffer](api_platformvm_outputs.stakeablelockout.md#frombuffer)
-* [getAddress](api_platformvm_outputs.stakeablelockout.md#getaddress)
-* [getAddressIdx](api_platformvm_outputs.stakeablelockout.md#getaddressidx)
 * [getAddresses](api_platformvm_outputs.stakeablelockout.md#getaddresses)
 * [getAmount](api_platformvm_outputs.stakeablelockout.md#getamount)
 * [getCodecID](api_platformvm_outputs.stakeablelockout.md#getcodecid)
 * [getLocktime](api_platformvm_outputs.stakeablelockout.md#getlocktime)
+* [getOutput](api_platformvm_outputs.stakeablelockout.md#getoutput)
 * [getOutputID](api_platformvm_outputs.stakeablelockout.md#getoutputid)
-* [getSpenders](api_platformvm_outputs.stakeablelockout.md#getspenders)
 * [getStakeableLocktime](api_platformvm_outputs.stakeablelockout.md#getstakeablelocktime)
 * [getThreshold](api_platformvm_outputs.stakeablelockout.md#getthreshold)
 * [getTransferableOutput](api_platformvm_outputs.stakeablelockout.md#gettransferableoutput)
@@ -52,24 +45,22 @@ An [Output](common_output.output.md) class which specifies an input that has a l
 * [makeTransferable](api_platformvm_outputs.stakeablelockout.md#maketransferable)
 * [meetsThreshold](api_platformvm_outputs.stakeablelockout.md#meetsthreshold)
 * [sanitizeObject](api_platformvm_outputs.stakeablelockout.md#sanitizeobject)
-* [select](api_platformvm_outputs.stakeablelockout.md#select)
 * [serialize](api_platformvm_outputs.stakeablelockout.md#serialize)
-* [synchronize](api_platformvm_outputs.stakeablelockout.md#private-synchronize)
 * [toBuffer](api_platformvm_outputs.stakeablelockout.md#tobuffer)
-* [toString](api_platformvm_outputs.stakeablelockout.md#tostring)
 * [comparator](api_platformvm_outputs.stakeablelockout.md#static-comparator)
 
 ## Constructors
 
 ###  constructor
 
-\+ **new StakeableLockOut**(`amount`: BN, `addresses`: Buffer[], `locktime`: BN, `threshold`: number, `stakeableLocktime`: BN, `transferableOutput`: [ParseableOutput](api_platformvm_outputs.parseableoutput.md)): *[StakeableLockOut](api_platformvm_outputs.stakeablelockout.md)*
+\+ **new StakeableLockOut**(`amount`: BN, `addresses`: Buffer[], `locktime`: BN, `threshold`: number, `stakeableLocktime`: BN, `output`: [ParseableOutput](api_platformvm_outputs.parseableoutput.md)): *[StakeableLockOut](api_platformvm_outputs.stakeablelockout.md)*
 
-*Overrides [StandardAmountOutput](common_output.standardamountoutput.md).[constructor](common_output.standardamountoutput.md#constructor)*
+*Overrides [StandardParseableOutput](common_output.standardparseableoutput.md).[constructor](common_output.standardparseableoutput.md#constructor)*
 
-*Defined in [src/apis/platformvm/outputs.ts:260](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L260)*
+*Defined in [src/apis/platformvm/outputs.ts:248](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L248)*
 
-A [Output](common_output.output.md) class which specifies a [ParseableOutput](api_platformvm_outputs.parseableoutput.md) that has a locktime which can also enable staking of the value held, preventing transfers but not validation.
+A [Output](../modules/src_common.md#output) class which specifies a [ParseableOutput](api_platformvm_outputs.parseableoutput.md) that has a locktime which can also
+enable staking of the value held, preventing transfers but not validation.
 
 **Parameters:**
 
@@ -80,7 +71,7 @@ Name | Type | Default | Description |
 `locktime` | BN | undefined | A [BN](https://github.com/indutny/bn.js/) representing the locktime |
 `threshold` | number | undefined | A number representing the the threshold number of signers required to sign the transaction |
 `stakeableLocktime` | BN | undefined | A [BN](https://github.com/indutny/bn.js/) representing the stakeable locktime |
-`transferableOutput` | [ParseableOutput](api_platformvm_outputs.parseableoutput.md) | undefined | A [ParseableOutput](api_platformvm_outputs.parseableoutput.md) which is embedded into this output.  |
+`output` | [ParseableOutput](api_platformvm_outputs.parseableoutput.md) | undefined | A [BaseOutput](../modules/src_common.md#baseoutput) which is embedded into this output.  |
 
 **Returns:** *[StakeableLockOut](api_platformvm_outputs.stakeablelockout.md)*
 
@@ -90,9 +81,9 @@ Name | Type | Default | Description |
 
 • **_codecID**: *number* = undefined
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[_codecID](common_nbytes.nbytes.md#protected-_codecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[_codecID](common_signature.sigidx.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -100,9 +91,9 @@ ___
 
 • **_typeID**: *number* = PlatformVMConstants.STAKEABLELOCKOUTID
 
-*Overrides [AmountOutput](api_platformvm_outputs.amountoutput.md).[_typeID](api_platformvm_outputs.amountoutput.md#protected-_typeid)*
+*Overrides [ParseableOutput](api_platformvm_outputs.parseableoutput.md).[_typeID](api_platformvm_outputs.parseableoutput.md#protected-_typeid)*
 
-*Defined in [src/apis/platformvm/outputs.ts:142](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L142)*
+*Defined in [src/apis/platformvm/outputs.ts:157](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L157)*
 
 ___
 
@@ -110,59 +101,19 @@ ___
 
 • **_typeName**: *string* = "StakeableLockOut"
 
-*Overrides [AmountOutput](api_platformvm_outputs.amountoutput.md).[_typeName](api_platformvm_outputs.amountoutput.md#protected-_typename)*
+*Overrides [ParseableOutput](api_platformvm_outputs.parseableoutput.md).[_typeName](api_platformvm_outputs.parseableoutput.md#protected-_typename)*
 
-*Defined in [src/apis/platformvm/outputs.ts:141](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L141)*
-
-___
-
-### `Protected` addresses
-
-• **addresses**: *[Address](common_output.address.md)[]* = []
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[addresses](common_output.outputowners.md#protected-addresses)*
-
-*Defined in [src/common/output.ts:158](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L158)*
+*Defined in [src/apis/platformvm/outputs.ts:156](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L156)*
 
 ___
 
-### `Protected` amount
+### `Protected` output
 
-• **amount**: *Buffer* = Buffer.alloc(8)
+• **output**: *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
-*Inherited from [StandardAmountOutput](common_output.standardamountoutput.md).[amount](common_output.standardamountoutput.md#protected-amount)*
+*Inherited from [StandardParseableOutput](common_output.standardparseableoutput.md).[output](common_output.standardparseableoutput.md#protected-output)*
 
-*Defined in [src/common/output.ts:534](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L534)*
-
-___
-
-### `Protected` amountValue
-
-• **amountValue**: *BN* = new BN(0)
-
-*Inherited from [StandardAmountOutput](common_output.standardamountoutput.md).[amountValue](common_output.standardamountoutput.md#protected-amountvalue)*
-
-*Defined in [src/common/output.ts:535](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L535)*
-
-___
-
-### `Protected` locktime
-
-• **locktime**: *Buffer* = Buffer.alloc(8)
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[locktime](common_output.outputowners.md#protected-locktime)*
-
-*Defined in [src/common/output.ts:155](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L155)*
-
-___
-
-### `Protected` numaddrs
-
-• **numaddrs**: *Buffer* = Buffer.alloc(4)
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[numaddrs](common_output.outputowners.md#protected-numaddrs)*
-
-*Defined in [src/common/output.ts:157](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L157)*
+*Defined in [src/common/output.ts:457](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L457)*
 
 ___
 
@@ -170,25 +121,7 @@ ___
 
 • **stakeableLocktime**: *Buffer*
 
-*Defined in [src/apis/platformvm/outputs.ts:183](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L183)*
-
-___
-
-### `Protected` threshold
-
-• **threshold**: *Buffer* = Buffer.alloc(4)
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[threshold](common_output.outputowners.md#protected-threshold)*
-
-*Defined in [src/common/output.ts:156](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L156)*
-
-___
-
-### `Protected` transferableOutput
-
-• **transferableOutput**: *[ParseableOutput](api_platformvm_outputs.parseableoutput.md)*
-
-*Defined in [src/apis/platformvm/outputs.ts:184](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L184)*
+*Defined in [src/apis/platformvm/outputs.ts:185](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L185)*
 
 ## Methods
 
@@ -196,9 +129,7 @@ ___
 
 ▸ **clone**(): *this*
 
-*Overrides [Output](common_output.output.md).[clone](common_output.output.md#abstract-clone)*
-
-*Defined in [src/apis/platformvm/outputs.ts:256](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L256)*
+*Defined in [src/apis/platformvm/outputs.ts:230](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L230)*
 
 **Returns:** *this*
 
@@ -208,9 +139,7 @@ ___
 
 ▸ **create**(...`args`: any[]): *this*
 
-*Overrides [Output](common_output.output.md).[create](common_output.output.md#abstract-create)*
-
-*Defined in [src/apis/platformvm/outputs.ts:252](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L252)*
+*Defined in [src/apis/platformvm/outputs.ts:226](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L226)*
 
 **Parameters:**
 
@@ -226,9 +155,9 @@ ___
 
 ▸ **deserialize**(`fields`: object, `encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *void*
 
-*Overrides [StandardAmountOutput](common_output.standardamountoutput.md).[deserialize](common_output.standardamountoutput.md#deserialize)*
+*Overrides [ParseableOutput](api_platformvm_outputs.parseableoutput.md).[deserialize](api_platformvm_outputs.parseableoutput.md#deserialize)*
 
-*Defined in [src/apis/platformvm/outputs.ts:165](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L165)*
+*Defined in [src/apis/platformvm/outputs.ts:174](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L174)*
 
 **Parameters:**
 
@@ -245,9 +174,9 @@ ___
 
 ▸ **fromBuffer**(`outbuff`: Buffer, `offset`: number): *number*
 
-*Overrides [StandardAmountOutput](common_output.standardamountoutput.md).[fromBuffer](common_output.standardamountoutput.md#frombuffer)*
+*Overrides [ParseableOutput](api_platformvm_outputs.parseableoutput.md).[fromBuffer](api_platformvm_outputs.parseableoutput.md#frombuffer)*
 
-*Defined in [src/apis/platformvm/outputs.ts:226](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L226)*
+*Defined in [src/apis/platformvm/outputs.ts:201](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L201)*
 
 Popuates the instance from a [Buffer](https://github.com/feross/buffer) representing the [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md) and returns the size of the output.
 
@@ -262,59 +191,13 @@ Name | Type | Default |
 
 ___
 
-###  getAddress
-
-▸ **getAddress**(`idx`: number): *Buffer*
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[getAddress](common_output.outputowners.md#getaddress)*
-
-*Defined in [src/common/output.ts:208](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L208)*
-
-Returns the address from the index provided.
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`idx` | number | The index of the address.  |
-
-**Returns:** *Buffer*
-
-Returns the string representing the address.
-
-___
-
-###  getAddressIdx
-
-▸ **getAddressIdx**(`address`: Buffer): *number*
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[getAddressIdx](common_output.outputowners.md#getaddressidx)*
-
-*Defined in [src/common/output.ts:188](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L188)*
-
-Returns the index of the address.
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`address` | Buffer | A [Buffer](https://github.com/feross/buffer) of the address to look up to return its index.  |
-
-**Returns:** *number*
-
-The index of the address.
-
-___
-
 ###  getAddresses
 
 ▸ **getAddresses**(): *Buffer[]*
 
-*Inherited from [OutputOwners](common_output.outputowners.md).[getAddresses](common_output.outputowners.md#getaddresses)*
+*Inherited from [StandardParseableOutput](common_output.standardparseableoutput.md).[getAddresses](common_output.standardparseableoutput.md#getaddresses)*
 
-*Defined in [src/common/output.ts:173](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L173)*
-
-Returns an array of [Buffer](https://github.com/feross/buffer)s for the addresses.
+*Defined in [src/common/output.ts:490](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L490)*
 
 **Returns:** *Buffer[]*
 
@@ -324,11 +207,9 @@ ___
 
 ▸ **getAmount**(): *BN*
 
-*Inherited from [StandardAmountOutput](common_output.standardamountoutput.md).[getAmount](common_output.standardamountoutput.md#getamount)*
+*Defined in [src/apis/platformvm/outputs.ts:239](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L239)*
 
-*Defined in [src/common/output.ts:540](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L540)*
-
-Returns the amount as a [BN](https://github.com/indutny/bn.js/).
+Returns the amount from the underlying output
 
 **Returns:** *BN*
 
@@ -338,9 +219,9 @@ ___
 
 ▸ **getCodecID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getCodecID](common_nbytes.nbytes.md#getcodecid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getCodecID](common_signature.sigidx.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -352,13 +233,23 @@ ___
 
 ▸ **getLocktime**(): *BN*
 
-*Inherited from [OutputOwners](common_output.outputowners.md).[getLocktime](common_output.outputowners.md#getlocktime)*
+*Inherited from [StandardParseableOutput](common_output.standardparseableoutput.md).[getLocktime](common_output.standardparseableoutput.md#getlocktime)*
 
-*Defined in [src/common/output.ts:168](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L168)*
-
-Returns the a [BN](https://github.com/indutny/bn.js/) repersenting the UNIX Timestamp when the lock is made available.
+*Defined in [src/common/output.ts:487](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L487)*
 
 **Returns:** *BN*
+
+___
+
+###  getOutput
+
+▸ **getOutput**(): *[BaseOutput](../interfaces/common_output.baseoutput.md)*
+
+*Inherited from [StandardParseableOutput](common_output.standardparseableoutput.md).[getOutput](common_output.standardparseableoutput.md#getoutput)*
+
+*Defined in [src/common/output.ts:498](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L498)*
+
+**Returns:** *[BaseOutput](../interfaces/common_output.baseoutput.md)*
 
 ___
 
@@ -366,9 +257,7 @@ ___
 
 ▸ **getOutputID**(): *number*
 
-*Overrides [Output](common_output.output.md).[getOutputID](common_output.output.md#abstract-getoutputid)*
-
-*Defined in [src/apis/platformvm/outputs.ts:248](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L248)*
+*Defined in [src/apis/platformvm/outputs.ts:222](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L222)*
 
 Returns the outputID for this output
 
@@ -376,32 +265,11 @@ Returns the outputID for this output
 
 ___
 
-###  getSpenders
-
-▸ **getSpenders**(`addresses`: Buffer[], `asOf`: BN): *Buffer[]*
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[getSpenders](common_output.outputowners.md#getspenders)*
-
-*Defined in [src/common/output.ts:237](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L237)*
-
-Given an array of addresses and an optional timestamp, select an array of address [Buffer](https://github.com/feross/buffer)s of qualified spenders for the output.
-
-**Parameters:**
-
-Name | Type | Default |
------- | ------ | ------ |
-`addresses` | Buffer[] | - |
-`asOf` | BN | undefined |
-
-**Returns:** *Buffer[]*
-
-___
-
 ###  getStakeableLocktime
 
 ▸ **getStakeableLocktime**(): *BN*
 
-*Defined in [src/apis/platformvm/outputs.ts:204](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L204)*
+*Defined in [src/apis/platformvm/outputs.ts:187](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L187)*
 
 **Returns:** *BN*
 
@@ -411,11 +279,9 @@ ___
 
 ▸ **getThreshold**(): *number*
 
-*Inherited from [OutputOwners](common_output.outputowners.md).[getThreshold](common_output.outputowners.md#getthreshold)*
+*Inherited from [StandardParseableOutput](common_output.standardparseableoutput.md).[getThreshold](common_output.standardparseableoutput.md#getthreshold)*
 
-*Defined in [src/common/output.ts:163](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L163)*
-
-Returns the threshold of signers required to spend this output.
+*Defined in [src/common/output.ts:484](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L484)*
 
 **Returns:** *number*
 
@@ -425,7 +291,9 @@ ___
 
 ▸ **getTransferableOutput**(): *[ParseableOutput](api_platformvm_outputs.parseableoutput.md)*
 
-*Defined in [src/apis/platformvm/outputs.ts:208](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L208)*
+*Defined in [src/apis/platformvm/outputs.ts:246](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L246)*
+
+Backwards compatibility
 
 **Returns:** *[ParseableOutput](api_platformvm_outputs.parseableoutput.md)*
 
@@ -435,9 +303,9 @@ ___
 
 ▸ **getTypeID**(): *number*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeID](common_nbytes.nbytes.md#gettypeid)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeID](common_signature.sigidx.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -449,9 +317,9 @@ ___
 
 ▸ **getTypeName**(): *string*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeName](common_nbytes.nbytes.md#gettypename)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[getTypeName](common_signature.sigidx.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -463,9 +331,7 @@ ___
 
 ▸ **makeTransferable**(`assetID`: Buffer): *[TransferableOutput](api_platformvm_outputs.transferableoutput.md)*
 
-*Overrides [AmountOutput](api_platformvm_outputs.amountoutput.md).[makeTransferable](api_platformvm_outputs.amountoutput.md#maketransferable)*
-
-*Defined in [src/apis/platformvm/outputs.ts:215](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L215)*
+*Defined in [src/apis/platformvm/outputs.ts:194](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L194)*
 
 **Parameters:**
 
@@ -479,20 +345,18 @@ ___
 
 ###  meetsThreshold
 
-▸ **meetsThreshold**(`addresses`: Buffer[], `asOf`: BN): *boolean*
+▸ **meetsThreshold**(`addrs`: Buffer[], `asOf`: BN): *boolean*
 
-*Inherited from [OutputOwners](common_output.outputowners.md).[meetsThreshold](common_output.outputowners.md#meetsthreshold)*
+*Inherited from [StandardParseableOutput](common_output.standardparseableoutput.md).[meetsThreshold](common_output.standardparseableoutput.md#meetsthreshold)*
 
-*Defined in [src/common/output.ts:218](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L218)*
-
-Given an array of address [Buffer](https://github.com/feross/buffer)s and an optional timestamp, returns true if the addresses meet the threshold required to spend the output.
+*Defined in [src/common/output.ts:494](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L494)*
 
 **Parameters:**
 
-Name | Type | Default |
------- | ------ | ------ |
-`addresses` | Buffer[] | - |
-`asOf` | BN | undefined |
+Name | Type |
+------ | ------ |
+`addrs` | Buffer[] |
+`asOf` | BN |
 
 **Returns:** *boolean*
 
@@ -502,9 +366,9 @@ ___
 
 ▸ **sanitizeObject**(`obj`: object): *object*
 
-*Inherited from [NBytes](common_nbytes.nbytes.md).[sanitizeObject](common_nbytes.nbytes.md#sanitizeobject)*
+*Inherited from [SigIdx](common_signature.sigidx.md).[sanitizeObject](common_signature.sigidx.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -518,32 +382,13 @@ Name | Type |
 
 ___
 
-###  select
-
-▸ **select**(`id`: number, ...`args`: any[]): *[Output](common_output.output.md)*
-
-*Overrides [AmountOutput](api_platformvm_outputs.amountoutput.md).[select](api_platformvm_outputs.amountoutput.md#select)*
-
-*Defined in [src/apis/platformvm/outputs.ts:219](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L219)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`id` | number |
-`...args` | any[] |
-
-**Returns:** *[Output](common_output.output.md)*
-
-___
-
 ###  serialize
 
 ▸ **serialize**(`encoding`: [SerializedEncoding](../modules/utils_serialization.md#serializedencoding)): *object*
 
-*Overrides [StandardAmountOutput](common_output.standardamountoutput.md).[serialize](common_output.standardamountoutput.md#serialize)*
+*Overrides [StandardParseableOutput](common_output.standardparseableoutput.md).[serialize](common_output.standardparseableoutput.md#serialize)*
 
-*Defined in [src/apis/platformvm/outputs.ts:146](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L146)*
+*Defined in [src/apis/platformvm/outputs.ts:160](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L160)*
 
 **Parameters:**
 
@@ -555,23 +400,13 @@ Name | Type | Default |
 
 ___
 
-### `Private` synchronize
-
-▸ **synchronize**(): *void*
-
-*Defined in [src/apis/platformvm/outputs.ts:187](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L187)*
-
-**Returns:** *void*
-
-___
-
 ###  toBuffer
 
 ▸ **toBuffer**(): *Buffer*
 
-*Overrides [StandardAmountOutput](common_output.standardamountoutput.md).[toBuffer](common_output.standardamountoutput.md#tobuffer)*
+*Overrides [StandardParseableOutput](common_output.standardparseableoutput.md).[toBuffer](common_output.standardparseableoutput.md#tobuffer)*
 
-*Defined in [src/apis/platformvm/outputs.ts:238](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/platformvm/outputs.ts#L238)*
+*Defined in [src/apis/platformvm/outputs.ts:211](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/apis/platformvm/outputs.ts#L211)*
 
 Returns the buffer representing the [StakeableLockOut](api_platformvm_outputs.stakeablelockout.md) instance.
 
@@ -579,35 +414,23 @@ Returns the buffer representing the [StakeableLockOut](api_platformvm_outputs.st
 
 ___
 
-###  toString
-
-▸ **toString**(): *string*
-
-*Inherited from [OutputOwners](common_output.outputowners.md).[toString](common_output.outputowners.md#tostring)*
-
-*Defined in [src/common/output.ts:315](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L315)*
-
-Returns a base-58 string representing the [Output](common_output.output.md).
-
-**Returns:** *string*
-
-___
-
 ### `Static` comparator
 
 ▸ **comparator**(): *function*
 
-*Inherited from [OutputOwners](common_output.outputowners.md).[comparator](common_output.outputowners.md#static-comparator)*
+*Inherited from [StandardParseableOutput](common_output.standardparseableoutput.md).[comparator](common_output.standardparseableoutput.md#static-comparator)*
 
-*Defined in [src/common/output.ts:319](https://github.com/chain4travel/caminojs/blob/ca67b81/src/common/output.ts#L319)*
+*Defined in [src/common/output.ts:462](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/common/output.ts#L462)*
+
+Returns a function used to sort an array of [ParseableOutput](api_platformvm_outputs.parseableoutput.md)s
 
 **Returns:** *function*
 
-▸ (`a`: [Output](common_output.output.md), `b`: [Output](common_output.output.md)): *1 | -1 | 0*
+▸ (`a`: [StandardParseableOutput](common_output.standardparseableoutput.md), `b`: [StandardParseableOutput](common_output.standardparseableoutput.md)): *1 | -1 | 0*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`a` | [Output](common_output.output.md) |
-`b` | [Output](common_output.output.md) |
+`a` | [StandardParseableOutput](common_output.standardparseableoutput.md) |
+`b` | [StandardParseableOutput](common_output.standardparseableoutput.md) |

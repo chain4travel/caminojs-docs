@@ -1,4 +1,4 @@
-[camino](../README.md) › [src/utils](../modules/src_utils.md) › [Base58Error](src_utils.base58error.md)
+[@c4tplatform/caminojs](../api.md) › [src/utils](../modules/src_utils.md) › [Base58Error](src_utils.base58error.md)
 
 # Class: Base58Error
 
@@ -33,7 +33,7 @@
 
 *Overrides [CaminoError](src_utils.caminoerror.md).[constructor](src_utils.caminoerror.md#constructor)*
 
-*Defined in [src/utils/errors.ts:277](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L277)*
+*Defined in [src/utils/errors.ts:277](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L277)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ Name | Type |
 
 *Inherited from [CaminoError](src_utils.caminoerror.md).[errorCode](src_utils.caminoerror.md#errorcode)*
 
-*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L48)*
+*Defined in [src/utils/errors.ts:48](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L48)*
 
 ___
 
@@ -91,6 +91,6 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:1030
 
 *Inherited from [CaminoError](src_utils.caminoerror.md).[getCode](src_utils.caminoerror.md#getcode)*
 
-*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/ca67b81/src/utils/errors.ts#L55)*
+*Defined in [src/utils/errors.ts:55](https://github.com/chain4travel/caminojs/blob/ac57b5af/src/utils/errors.ts#L55)*
 
 **Returns:** *string*

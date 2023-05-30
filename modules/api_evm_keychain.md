@@ -1,4 +1,4 @@
-[camino](../README.md) › [API-EVM-KeyChain](api_evm_keychain.md)
+[@c4tplatform/caminojs](../api.md) › [API-EVM-KeyChain](api_evm_keychain.md)
 
 # Module: API-EVM-KeyChain
 
@@ -8,15 +8,3 @@
 
 * [KeyChain](../classes/api_evm_keychain.keychain.md)
 * [KeyPair](../classes/api_evm_keychain.keypair.md)
-
-### Variables
-
-* [serialization](api_evm_keychain.md#const-serialization)
-
-## Variables
-
-### `Const` serialization
-
-• **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
-
-*Defined in [src/apis/evm/keychain.ts:15](https://github.com/chain4travel/caminojs/blob/ca67b81/src/apis/evm/keychain.ts#L15)*
